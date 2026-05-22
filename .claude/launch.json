@@ -2,9 +2,9 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "pdf-merger",
-      "runtimeExecutable": "node",
-      "runtimeArgs": ["server.js"],
+      "name": "edital-tracker-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
       "port": 3000,
       "autoPort": true
     }

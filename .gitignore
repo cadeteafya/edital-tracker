@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Claude Code local session config (permissions, tool allowlists)
+.claude/settings.local.json
+
+# scraper cache and temp files
+scraper/.cache/
+*.html
