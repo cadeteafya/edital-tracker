@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(app-builder)",
+      "Skill(app-builder:*)",
+      "mcp__Claude_Preview__preview_start",
+      "PowerShell(Stop-Process -Id 11004 -Force)",
+      "Bash(npm --version)",
+      "Bash(npx --version)",
+      "Bash(npx --yes create-next-app@latest . --typescript --tailwind --app --src-dir --turbopack --use-npm --eslint --import-alias \"@/*\" --no-git --yes)"
+    ]
+  }
+}
