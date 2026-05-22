@@ -105,16 +105,7 @@ export default async function Home({ searchParams }: Props) {
       <footer className="border-t border-[var(--border)]/70 bg-[var(--surface)]/40">
         <div className="mx-auto max-w-6xl px-6 py-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 text-xs text-[var(--muted)]">
           <p>
-            Dados extraídos de{" "}
-            <a
-              href="https://med.estrategia.com/portal/?s=edital"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline underline-offset-4 hover:text-[var(--foreground)]"
-            >
-              med.estrategia.com
-            </a>
-            . Apenas para acompanhamento; consulte o site oficial de cada
+            Apenas para acompanhamento; consulte o site oficial de cada
             processo.
           </p>
           <p className="font-mono">edital-tracker · v0.3</p>
@@ -135,7 +126,7 @@ function EmptyState() {
         <code className="font-mono bg-[var(--surface-muted)] px-1.5 py-0.5 rounded">
           python -m scraper
         </code>{" "}
-        para popular o JSON com as últimas notícias do portal Estratégia MED.
+        para popular o JSON com as últimas notícias.
       </p>
     </div>
   );
