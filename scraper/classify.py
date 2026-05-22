@@ -44,6 +44,19 @@ UPDATE_REFERS_TO_EXISTING = [
     r"edital\s+retificad",
 ]
 
+# Concursos públicos municipais/estaduais para cargos médicos — NÃO são residência nem título
+CONCURSO_PUBLICO_PATTERNS = [
+    r"concurso\s+p[uú]blico",
+    r"\d+\s+vagas?\s+para\s+m[eé]dico",
+    r"vagas?\s+(?:de\s+|para\s+)?m[eé]dico(?:s)?\b",
+    r"abre\s+(?:processo\s+seletivo|concurso)\s+(?:com\s+)?\d+\s+vagas",
+    r"inscri[çc][õo]es?\s+para\s+concurso\s+na\s+[áa]rea\s+m[eé]dica",
+    r"prefeitura\s+de\s+\w+.{0,40}\bvagas?\b",
+    r"\bperito\s+m[eé]dico\b",
+    r"\bauditor\s+m[eé]dico\b",
+    r"cargo\s+(?:de\s+)?m[eé]dico",
+]
+
 
 def _normalize(text: str) -> str:
     return re.sub(r"\s+", " ", text or "").strip().lower()
@@ -56,10 +69,19 @@ def classify(
     categories: list[str] | None = None,
 ) -> Classification:
     categories = categories or []
-    if "category-concursos" in categories and "category-noticias" not in categories:
-        return Classification("concurso", "categoria concursos sem notícia")
+
+    # Descarta qualquer artigo de concurso público — independente de categoria
+    # (artigos de concurso às vezes têm category-noticias também)
+    if "category-concursos" in categories:
+        return Classification("concurso", "categoria concursos")
 
     blob = _normalize(f"{title} {excerpt}")
+
+    # Bloco explícito de concurso público por conteúdo — roda ANTES dos launch patterns
+    # para não deixar "confira o edital" do concurso vazar como edital_launch
+    for pat in CONCURSO_PUBLICO_PATTERNS:
+        if re.search(pat, blob):
+            return Classification("concurso", f"concurso público detectado: {pat}")
 
     for pat in UPDATE_REFERS_TO_EXISTING:
         if re.search(pat, blob):

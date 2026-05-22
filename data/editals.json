@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-05-22T20:09:06+00:00",
+  "lastSyncedAt": "2026-05-22T20:26:54+00:00",
   "editals": [
     {
       "id": "santa-casa-aracatuba-edital-residencia-medica-2-semestre-2026",
@@ -494,25 +494,6 @@
       "warningNote": "Atenção! É essencial que o candidato acompanhe atentamente a página oficial da banca organizadora para verificar possíveis retificações ou atualizações do edital. Alterações podem ocorrer a qualquer momento, sendo necessário estar ciente de eventuais mudanças em prazos, requisitos ou outras informações relevantes para não comprometer sua participação no processo.",
       "revisions": [],
       "scrapedAt": "2026-05-22T20:09:06+00:00"
-    },
-    {
-      "id": "prefeitura-de-ipatinga-mg-abre-concurso-com-43-vagas-para-medicos-confira-o-edital",
-      "source": {
-        "name": "Prefeitura",
-        "shortName": "Prefeitura",
-        "accentColor": "#dc2626"
-      },
-      "originalTitle": "Prefeitura de Ipatinga/MG abre concurso com 43 vagas para médicos; confira o edital",
-      "rewrittenTitle": "Prefeitura de Ipatinga/MG abre concurso com 43 vagas para médicos",
-      "examYear": 2026,
-      "originalUrl": "https://med.estrategia.com/portal/noticias/prefeitura-de-ipatinga-mg-abre-concurso-com-43-vagas-para-medicos-confira-o-edital/",
-      "officialUrl": "https://imam.org.br/sitenoticia/processo_seletivo_detalhes.aspx?id=7EAE72885521FE7D",
-      "scrapedAt": "2026-05-22T20:09:06+00:00",
-      "publishedAt": "2026-04-13",
-      "updatedAt": "2026-04-13",
-      "timeline": [],
-      "warningNote": null,
-      "revisions": []
     }
   ]
 }

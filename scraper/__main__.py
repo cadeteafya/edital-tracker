@@ -20,6 +20,22 @@ def run(*, no_cache: bool = False, limit: int | None = None) -> int:
     db = store.load()
     print(f"[store] {len(db)} editais já no banco")
 
+    # Purga retroativa: remove registros que o classificador agora rejeita
+    purged = 0
+    for rec_id in list(db.keys()):
+        rec = db[rec_id]
+        check = classify.classify(
+            title=rec.get("originalTitle", ""),
+            excerpt="",
+            categories=[],
+        )
+        if check.kind == "concurso":
+            del db[rec_id]
+            purged += 1
+            print(f"  [purge] {rec.get('originalTitle', rec_id)[:70]} — {check.reason}")
+    if purged:
+        print(f"  [purge] {purged} registro(s) removido(s) do banco")
+
     accepted = 0
     skipped = 0
     revisions = 0
