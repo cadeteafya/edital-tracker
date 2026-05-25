@@ -17,6 +17,9 @@ on:
     - cron: "0 2 * * 1"             # Domingo 23:00 BRT (= seg 02:00 UTC)
   workflow_dispatch:                 # Disparo manual pelo GitHub Actions UI
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true   # evita deprecation warning de Node.js 20
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
