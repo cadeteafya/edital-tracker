@@ -1,0 +1,51 @@
+name: Scrape editals
+
+# Todos os horários em UTC (Brasil/Brasília = UTC-3, sem horário de verão)
+#
+#  Seg–Sex  07:00–18:30 BRT a cada 30min  →  */30 10-21 UTC  (1-5)
+#  Sábado   12:00 BRT                      →  15:00 UTC       (6)
+#  Domingo  23:00 BRT                      →  02:00 UTC seg   (1) *
+#
+#  * Domingo 23h BRT cruza a meia-noite UTC e cai na segunda às 02h UTC.
+#    O cron "0 2 * * 1" dispara toda segunda às 02h UTC = domingo 23h BRT.
+#    Não conflita com o bloco de segunda-feira (que começa às 10h UTC).
+
+on:
+  schedule:
+    - cron: "*/30 10-21 * * 1-5"   # Seg–Sex, 07:00–18:30 BRT
+    - cron: "0 15 * * 6"            # Sábado, 12:00 BRT
+    - cron: "0 2 * * 1"             # Domingo 23:00 BRT (= seg 02:00 UTC)
+  workflow_dispatch:                 # Disparo manual pelo GitHub Actions UI
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # necessário para o auto-commit
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: scraper/requirements.txt
+
+      - name: Instalar dependências
+        run: pip install -r scraper/requirements.txt
+
+      - name: Rodar scraper
+        run: python -m scraper --no-cache
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Commit e push (se data/editals.json mudou)
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(data): scrape editals"
+          file_pattern: data/editals.json
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
