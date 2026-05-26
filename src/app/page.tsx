@@ -32,11 +32,12 @@ export default async function Home({ searchParams }: Props) {
       )
     : editals;
 
-  // 2. Ordena por mais recente
-  const sorted = [...filtered].sort(
-    (a, b) =>
-      new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime(),
-  );
+  // 2. Ordena por data de captura (scrapedAt) — mais recente primeiro
+  const sorted = [...filtered].sort((a, b) => {
+    const aDate = a.scrapedAt ?? a.updatedAt;
+    const bDate = b.scrapedAt ?? b.updatedAt;
+    return new Date(bDate).getTime() - new Date(aDate).getTime();
+  });
 
   // 3. Pagina
   const totalPages = Math.max(1, Math.ceil(sorted.length / PAGE_SIZE));
