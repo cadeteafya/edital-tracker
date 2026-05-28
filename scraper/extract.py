@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import re
+import xml.etree.ElementTree as ET
 from dataclasses import dataclass, field
 from datetime import datetime
 from typing import Iterable
@@ -291,3 +292,54 @@ def parse_article(html: str, url: str) -> ArticleData:
         official_url=official_url,
         warning_note=warning_note,
     )
+
+
+# ---------------------------------------------------------------------------
+# RSS feed parser — fonte suplementar sem cache de busca
+# ---------------------------------------------------------------------------
+
+def _rss_categories(item: ET.Element) -> list[str]:
+    """Converte tags <category> do RSS nos slugs CSS usados pelo HTML listing."""
+    cats: list[str] = []
+    for cat_el in item.findall("category"):
+        name = (cat_el.text or "").lower()
+        if "concurs" in name:
+            cats.append("category-concursos")
+        elif "prova" in name or "título" in name or "titulo" in name:
+            cats.append("category-provas-de-titulo-noticias")
+        else:
+            cats.append("category-noticias")
+    return cats or ["category-noticias"]
+
+
+def parse_rss_listing(xml: str) -> list[ListingItem]:
+    """Parseia o feed RSS do portal e retorna ListingItems compatíveis com parse_listing."""
+    try:
+        root = ET.fromstring(xml)
+    except ET.ParseError:
+        return []
+
+    channel = root.find("channel")
+    if channel is None:
+        return []
+
+    items: list[ListingItem] = []
+    for item in channel.findall("item"):
+        title = (item.findtext("title") or "").strip()
+        link = (item.findtext("link") or "").strip()
+        if not title or not link:
+            continue
+        desc_raw = item.findtext("description") or ""
+        excerpt = BeautifulSoup(desc_raw, "html.parser").get_text(" ", strip=True)[:400]
+        categories = _rss_categories(item)
+        items.append(
+            ListingItem(
+                title=title,
+                url=link,
+                excerpt=excerpt,
+                image_url=None,
+                published_label="",
+                categories=categories,
+            )
+        )
+    return items

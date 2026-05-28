@@ -4,18 +4,39 @@ import argparse
 import sys
 
 from . import classify, fetch, store
-from .extract import parse_article, parse_listing
+from .extract import parse_article, parse_listing, parse_rss_listing
 from .identify import detect_exam_year, detect_source
 from .rewrite import rewrite_title
 
 LISTING_URL = "https://med.estrategia.com/portal/?s=edital"
+RSS_URL = "https://med.estrategia.com/portal/category/noticias/feed/"
 
 
 def run(*, no_cache: bool = False, limit: int | None = None) -> int:
+    # Fonte 1 — busca HTML (cobertura ampla, mas sujeita a cache de horas no servidor)
     print(f"[fetch] listagem: {LISTING_URL}")
     listing_html = fetch.fetch(LISTING_URL, use_cache=not no_cache)
-    items = parse_listing(listing_html)
-    print(f"[fetch] {len(items)} cards encontrados")
+    items_search = parse_listing(listing_html)
+
+    # Fonte 2 — RSS feed (sem cache, detecta artigos recém-publicados imediatamente)
+    print(f"[fetch] feed RSS: {RSS_URL}")
+    try:
+        rss_xml = fetch.fetch(RSS_URL, use_cache=not no_cache)
+        items_rss = parse_rss_listing(rss_xml)
+    except Exception as exc:  # noqa: BLE001
+        print(f"    RSS fetch falhou: {exc!r} — continuando só com busca")
+        items_rss = []
+
+    # Mescla e deduplica por URL (busca tem precedência para preservar categories)
+    seen_urls: set[str] = {i.url for i in items_search}
+    items = list(items_search)
+    rss_only = 0
+    for rss_item in items_rss:
+        if rss_item.url not in seen_urls:
+            items.append(rss_item)
+            seen_urls.add(rss_item.url)
+            rss_only += 1
+    print(f"[fetch] {len(items_search)} da busca + {rss_only} exclusivos do RSS = {len(items)} únicos")
 
     db = store.load()
     print(f"[store] {len(db)} editais já no banco")
