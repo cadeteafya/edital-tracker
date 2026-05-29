@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-05-29T21:00:36+00:00",
+  "lastSyncedAt": "2026-05-29T21:23:34+00:00",
   "editals": [
     {
       "id": "enamed-2026-edital-divulgado",
@@ -281,8 +281,8 @@
       "originalUrl": "https://med.estrategia.com/portal/noticias/uel-edital-residencia-medica-2-semestre-2026/",
       "officialUrl": "https://sites.uel.br/proppg/residencias/",
       "scrapedAt": "2026-05-27T12:50:08+00:00",
-      "publishedAt": "2026-05-27",
-      "updatedAt": "2026-05-27",
+      "publishedAt": "2026-05-29",
+      "updatedAt": "2026-05-29",
       "timeline": [
         {
           "label": "Período de Inscrições",
@@ -321,8 +321,8 @@
       "originalUrl": "https://med.estrategia.com/portal/noticias/santa-casa-de-sao-carlos-edital-residencia-medica-2-semestre-2026/",
       "officialUrl": "https://sis.consesp.com.br/site/index.php?pg=concursos/info&codigo=4884",
       "scrapedAt": "2026-05-28T16:52:20+00:00",
-      "publishedAt": "2026-05-27",
-      "updatedAt": "2026-05-27",
+      "publishedAt": "2026-05-29",
+      "updatedAt": "2026-05-29",
       "timeline": [
         {
           "label": "Período de Inscrições",
@@ -352,6 +352,156 @@
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar a publicação de todos os atos referentes a esta seleção na página oficial da instituição .",
       "revisions": []
+    },
+    {
+      "id": "hdj-imas-edital-residencia-medica-2-semestre-2026",
+      "source": {
+        "name": "HDJ-IMAS",
+        "shortName": "HDJ-IMAS",
+        "accentColor": "#10b981"
+      },
+      "originalTitle": "HDJ-IMAS abre seleção para residência médica ainda em 2026; vaga é para Urologia",
+      "rewrittenTitle": "HDJ-IMAS abre seleção para residência médica ainda em 2026; vaga é para Urologia",
+      "examYear": 2026,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/hdj-imas-edital-residencia-medica-2-semestre-2026/",
+      "officialUrl": "https://www.grupoimas.com.br/vagas-editais/hospital-dom-joaquim?tab=residencia&page=1",
+      "scrapedAt": "2026-05-28T17:02:58+00:00",
+      "publishedAt": "2026-05-29",
+      "updatedAt": "2026-05-29",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "05/06 a 05/07/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "12/07/2026",
+          "isRange": false
+        },
+        {
+          "label": "Entrega do Currículo",
+          "date": "12/07/2026",
+          "isRange": false
+        },
+        {
+          "label": "Avaliação Curricular",
+          "date": "16/07/2026",
+          "isRange": false
+        },
+        {
+          "label": "Entrevista",
+          "date": "22 e 23/07/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "28/07/2026",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar as publicações, retificações e convocações oficiais referentes a horários e locais de prova por meio da página oficial de acompanhamento do Instituto Maria Schmitt (IMAS) .",
+      "revisions": []
+    },
+    {
+      "id": "santa-casa-aracatuba-edital-residencia-medica-2-semestre-2026",
+      "source": {
+        "name": "Santa Casa",
+        "shortName": "Santa Casa",
+        "accentColor": "#ef4444"
+      },
+      "originalTitle": "Santa Casa de Araçatuba 2026: edital para ingresso no 2º semestre é divulgado",
+      "rewrittenTitle": "Santa Casa de Araçatuba 2026: edital para ingresso no 2º semestre é divulgado",
+      "examYear": 2026,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/santa-casa-aracatuba-edital-residencia-medica-2-semestre-2026/",
+      "officialUrl": "https://sis.consesp.com.br/site/index.php?pg=concursos/info&codigo=4877",
+      "publishedAt": "2026-05-29",
+      "updatedAt": "2026-05-29",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "05/06 a 26/07/2026",
+          "isRange": true
+        },
+        {
+          "label": "Envio do Currículo",
+          "date": "05/06 a 26/07/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "06/08/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Preliminar",
+          "date": "21/08/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "26/08/2026",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar as atualizações, editais complementares e convocações diretamente na página oficial da seleção .",
+      "revisions": [],
+      "scrapedAt": "2026-05-22T20:08:59+00:00"
+    },
+    {
+      "id": "santa-casa-jahu-edital-residencia-medica-2-semestre-2026",
+      "source": {
+        "name": "Santa Casa",
+        "shortName": "Santa Casa",
+        "accentColor": "#ef4444"
+      },
+      "originalTitle": "Santa Casa de Jahu divulga edital de Residência Médica para o 2º semestre de 2026",
+      "rewrittenTitle": "Santa Casa de Jahu divulga edital de Residência Médica para o 2º semestre de 2026",
+      "examYear": 2026,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/santa-casa-jahu-edital-residencia-medica-2-semestre-2026/",
+      "officialUrl": "https://sis.consesp.com.br/site/index.php?pg=concursos/info&codigo=4875",
+      "publishedAt": "2026-05-29",
+      "updatedAt": "2026-05-29",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "04/06 a 12/07/2026",
+          "isRange": true
+        },
+        {
+          "label": "Período de Pré-Teste",
+          "date": "20 e 21/07/2026",
+          "isRange": false
+        },
+        {
+          "label": "Prova Objetiva (Virtual)",
+          "date": "22/07/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito Preliminar",
+          "date": "22/07/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito Final",
+          "date": "05/08/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "13/08/2026",
+          "isRange": false
+        },
+        {
+          "label": "Início do Programa",
+          "date": "01/09/2026",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar a publicação de todos os atos, editais, retificações e comunicados referentes a este processo seletivo, os quais serão disponibilizados na página oficial da CONSESP .",
+      "revisions": [],
+      "scrapedAt": "2026-05-22T20:09:00+00:00"
     },
     {
       "id": "cbc-divulga-edital-cotecig-2026-para-titulo-de-especialista-em-cirurgia-geral",
@@ -416,7 +566,7 @@
       "originalUrl": "https://med.estrategia.com/portal/noticias/hospital-de-amor-amazonia-edital-residencia-medica-2-semestre-2026/",
       "officialUrl": "https://sis.consesp.com.br/site/index.php?pg=concursos/info&codigo=4883",
       "scrapedAt": "2026-05-26T18:19:06+00:00",
-      "publishedAt": "2026-05-26",
+      "publishedAt": "2026-05-29",
       "updatedAt": "2026-05-22",
       "timeline": [
         {
@@ -742,158 +892,16 @@
           "title": "PSU-MG 2027: AREMG confirma data da prova e previsão de edital",
           "timeline": [],
           "warningNote": null
+        },
+        {
+          "capturedAt": "2026-05-22",
+          "source": "retificação",
+          "url": "https://med.estrategia.com/portal/noticias/psu-mg-2027-aremg-confirma-data-da-prova-e-previsao-de-edital/",
+          "title": "PSU-MG 2027: AREMG confirma data da prova e previsão de edital",
+          "timeline": [],
+          "warningNote": null
         }
       ]
-    },
-    {
-      "id": "hdj-imas-edital-residencia-medica-2-semestre-2026",
-      "source": {
-        "name": "HDJ-IMAS",
-        "shortName": "HDJ-IMAS",
-        "accentColor": "#10b981"
-      },
-      "originalTitle": "HDJ-IMAS abre seleção para residência médica ainda em 2026; vaga é para Urologia",
-      "rewrittenTitle": "HDJ-IMAS abre seleção para residência médica ainda em 2026; vaga é para Urologia",
-      "examYear": 2026,
-      "originalUrl": "https://med.estrategia.com/portal/noticias/hdj-imas-edital-residencia-medica-2-semestre-2026/",
-      "officialUrl": "https://www.grupoimas.com.br/vagas-editais/hospital-dom-joaquim?tab=residencia&page=1",
-      "scrapedAt": "2026-05-28T17:02:58+00:00",
-      "publishedAt": "2026-05-21",
-      "updatedAt": "2026-05-21",
-      "timeline": [
-        {
-          "label": "Período de Inscrições",
-          "date": "05/06 a 05/07/2026",
-          "isRange": true
-        },
-        {
-          "label": "Prova Objetiva",
-          "date": "12/07/2026",
-          "isRange": false
-        },
-        {
-          "label": "Entrega do Currículo",
-          "date": "12/07/2026",
-          "isRange": false
-        },
-        {
-          "label": "Avaliação Curricular",
-          "date": "16/07/2026",
-          "isRange": false
-        },
-        {
-          "label": "Entrevista",
-          "date": "22 e 23/07/2026",
-          "isRange": false
-        },
-        {
-          "label": "Resultado Final",
-          "date": "28/07/2026",
-          "isRange": false
-        }
-      ],
-      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar as publicações, retificações e convocações oficiais referentes a horários e locais de prova por meio da página oficial de acompanhamento do Instituto Maria Schmitt (IMAS) .",
-      "revisions": []
-    },
-    {
-      "id": "santa-casa-aracatuba-edital-residencia-medica-2-semestre-2026",
-      "source": {
-        "name": "Santa Casa",
-        "shortName": "Santa Casa",
-        "accentColor": "#ef4444"
-      },
-      "originalTitle": "Santa Casa de Araçatuba 2026: edital para ingresso no 2º semestre é divulgado",
-      "rewrittenTitle": "Santa Casa de Araçatuba 2026: edital para ingresso no 2º semestre é divulgado",
-      "examYear": 2026,
-      "originalUrl": "https://med.estrategia.com/portal/noticias/santa-casa-aracatuba-edital-residencia-medica-2-semestre-2026/",
-      "officialUrl": "https://sis.consesp.com.br/site/index.php?pg=concursos/info&codigo=4877",
-      "publishedAt": "2026-05-20",
-      "updatedAt": "2026-05-20",
-      "timeline": [
-        {
-          "label": "Período de Inscrições",
-          "date": "05/06 a 26/07/2026",
-          "isRange": true
-        },
-        {
-          "label": "Envio do Currículo",
-          "date": "05/06 a 26/07/2026",
-          "isRange": true
-        },
-        {
-          "label": "Prova Objetiva",
-          "date": "06/08/2026",
-          "isRange": false
-        },
-        {
-          "label": "Resultado Preliminar",
-          "date": "21/08/2026",
-          "isRange": false
-        },
-        {
-          "label": "Resultado Final",
-          "date": "26/08/2026",
-          "isRange": false
-        }
-      ],
-      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar as atualizações, editais complementares e convocações diretamente na página oficial da seleção .",
-      "revisions": [],
-      "scrapedAt": "2026-05-22T20:08:59+00:00"
-    },
-    {
-      "id": "santa-casa-jahu-edital-residencia-medica-2-semestre-2026",
-      "source": {
-        "name": "Santa Casa",
-        "shortName": "Santa Casa",
-        "accentColor": "#ef4444"
-      },
-      "originalTitle": "Santa Casa de Jahu divulga edital de Residência Médica para o 2º semestre de 2026",
-      "rewrittenTitle": "Santa Casa de Jahu divulga edital de Residência Médica para o 2º semestre de 2026",
-      "examYear": 2026,
-      "originalUrl": "https://med.estrategia.com/portal/noticias/santa-casa-jahu-edital-residencia-medica-2-semestre-2026/",
-      "officialUrl": "https://sis.consesp.com.br/site/index.php?pg=concursos/info&codigo=4875",
-      "publishedAt": "2026-05-19",
-      "updatedAt": "2026-05-19",
-      "timeline": [
-        {
-          "label": "Período de Inscrições",
-          "date": "04/06 a 12/07/2026",
-          "isRange": true
-        },
-        {
-          "label": "Período de Pré-Teste",
-          "date": "20 e 21/07/2026",
-          "isRange": false
-        },
-        {
-          "label": "Prova Objetiva (Virtual)",
-          "date": "22/07/2026",
-          "isRange": false
-        },
-        {
-          "label": "Gabarito Preliminar",
-          "date": "22/07/2026",
-          "isRange": false
-        },
-        {
-          "label": "Gabarito Final",
-          "date": "05/08/2026",
-          "isRange": false
-        },
-        {
-          "label": "Resultado Final",
-          "date": "13/08/2026",
-          "isRange": false
-        },
-        {
-          "label": "Início do Programa",
-          "date": "01/09/2026",
-          "isRange": false
-        }
-      ],
-      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar a publicação de todos os atos, editais, retificações e comunicados referentes a este processo seletivo, os quais serão disponibilizados na página oficial da CONSESP .",
-      "revisions": [],
-      "scrapedAt": "2026-05-22T20:09:00+00:00"
     },
     {
       "id": "febrasgo-divulga-edital-do-tpi-go-2026-confira-o-documento",
