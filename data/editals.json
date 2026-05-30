@@ -1,6 +1,76 @@
 {
-  "lastSyncedAt": "2026-05-29T23:30:27+00:00",
+  "lastSyncedAt": "2026-05-30T08:00:31+00:00",
   "editals": [
+    {
+      "id": "enare-edital-residencia-medica-2026-2027",
+      "source": {
+        "name": "ENARE",
+        "shortName": "ENARE",
+        "accentColor": "#0d9488"
+      },
+      "originalTitle": "ENARE 2026/2027 tem edital publicado e reaproveitamento de notas confirmado; confira detalhes",
+      "rewrittenTitle": "ENARE 2026/2027 tem edital publicado e reaproveitamento de notas confirmado",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/enare-edital-residencia-medica-2026-2027/",
+      "officialUrl": "https://enare2026.conhecimento.fgv.br/",
+      "scrapedAt": "2026-05-30T08:00:31+00:00",
+      "publishedAt": "2026-05-30",
+      "updatedAt": "2026-05-30",
+      "timeline": [
+        {
+          "label": "Período de Inscrições – Acesso Direto",
+          "date": "15 a 29/06/2026",
+          "isRange": true
+        },
+        {
+          "label": "Período de Inscrições – R+",
+          "date": "15/06 a 17/07/2026",
+          "isRange": true
+        },
+        {
+          "label": "Data da prova",
+          "date": "13/09/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito Preliminar -R+",
+          "date": "14/09/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito Preliminar – Acesso Direto",
+          "date": "15/09/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Definitivo da Prova – R+",
+          "date": "29/10/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Definitivo da Prova – Acesso Direto",
+          "date": "04/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Definitivo da Nota Final",
+          "date": "18/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Período da 1ª Escolha de Vagas",
+          "date": "11/01 e 12/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado da 1ª Escolha de Vagas",
+          "date": "15/01/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Candidatos aos programas de Acesso Direto devem se inscrever previamente, de forma gratuita, no ENAMED. ⚠️",
+      "revisions": []
+    },
     {
       "id": "enamed-2026-edital-divulgado",
       "source": {
@@ -566,8 +636,8 @@
       "originalUrl": "https://med.estrategia.com/portal/noticias/provas-de-titulo-noticias/cbc-divulga-edital-cotecig-2026-para-titulo-de-especialista-em-cirurgia-geral/",
       "officialUrl": "",
       "scrapedAt": "2026-05-25T15:09:50+00:00",
-      "publishedAt": "2026-05-22",
-      "updatedAt": "2026-05-22",
+      "publishedAt": "2026-05-29",
+      "updatedAt": "2026-05-29",
       "timeline": [
         {
           "label": "Inscrições Prova Teórica",
@@ -602,6 +672,51 @@
       ],
       "warningNote": "Atenção! É essencial que o candidato acompanhe atentamente a página oficial da banca organizadora para verificar possíveis retificações ou atualizações do edital. Alterações podem ocorrer a qualquer momento, sendo necessário estar ciente de eventuais mudanças em prazos, requisitos ou outras informações relevantes para não comprometer sua participação no processo.",
       "revisions": []
+    },
+    {
+      "id": "associacao-brasileira-de-medicina-de-emergencia-divulga-edital-para-titulo-de-especialista-2026",
+      "source": {
+        "name": "ABRAMEDE — Medicina de Emergência",
+        "shortName": "ABRAMEDE",
+        "accentColor": "#f59e0b"
+      },
+      "originalTitle": "Associação Brasileira de Medicina de Emergência divulga edital para Título de Especialista 2026",
+      "rewrittenTitle": "ABRAMEDE divulga edital para Título de Especialista 2026",
+      "examYear": 2026,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/associacao-brasileira-de-medicina-de-emergencia-divulga-edital-para-titulo-de-especialista-2026/",
+      "officialUrl": "https://portal.abramede.com.br/?menu=pagina&CODPAGINA=492",
+      "publishedAt": "2026-05-29",
+      "updatedAt": "2026-05-29",
+      "timeline": [
+        {
+          "label": "Inscrições",
+          "date": "18/05 a 14/06/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova 1ª Etapa",
+          "date": "02/08/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito",
+          "date": "02/08/2026",
+          "isRange": false
+        },
+        {
+          "label": "Prova 2ª Etapa",
+          "date": "27/09/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado final",
+          "date": "13/10/2026",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção! É essencial que o candidato acompanhe atentamente a página oficial da banca organizadora para verificar possíveis retificações ou atualizações do edital. Alterações podem ocorrer a qualquer momento, sendo necessário estar ciente de eventuais mudanças em prazos, requisitos ou outras informações relevantes para não comprometer sua participação no processo.",
+      "revisions": [],
+      "scrapedAt": "2026-05-22T20:09:02+00:00"
     },
     {
       "id": "hospital-de-amor-amazonia-edital-residencia-medica-2-semestre-2026",
@@ -998,6 +1113,14 @@
           "title": "PSU-MG 2027: AREMG confirma data da prova e previsão de edital",
           "timeline": [],
           "warningNote": null
+        },
+        {
+          "capturedAt": "2026-05-22",
+          "source": "retificação",
+          "url": "https://med.estrategia.com/portal/noticias/psu-mg-2027-aremg-confirma-data-da-prova-e-previsao-de-edital/",
+          "title": "PSU-MG 2027: AREMG confirma data da prova e previsão de edital",
+          "timeline": [],
+          "warningNote": null
         }
       ]
     },
@@ -1019,51 +1142,6 @@
       "timeline": [],
       "warningNote": null,
       "revisions": []
-    },
-    {
-      "id": "associacao-brasileira-de-medicina-de-emergencia-divulga-edital-para-titulo-de-especialista-2026",
-      "source": {
-        "name": "ABRAMEDE — Medicina de Emergência",
-        "shortName": "ABRAMEDE",
-        "accentColor": "#f59e0b"
-      },
-      "originalTitle": "Associação Brasileira de Medicina de Emergência divulga edital para Título de Especialista 2026",
-      "rewrittenTitle": "ABRAMEDE divulga edital para Título de Especialista 2026",
-      "examYear": 2026,
-      "originalUrl": "https://med.estrategia.com/portal/noticias/associacao-brasileira-de-medicina-de-emergencia-divulga-edital-para-titulo-de-especialista-2026/",
-      "officialUrl": "https://portal.abramede.com.br/?menu=pagina&CODPAGINA=492",
-      "publishedAt": "2026-04-29",
-      "updatedAt": "2026-04-29",
-      "timeline": [
-        {
-          "label": "Inscrições",
-          "date": "18/05 a 14/06/2026",
-          "isRange": true
-        },
-        {
-          "label": "Prova 1ª Etapa",
-          "date": "02/08/2026",
-          "isRange": false
-        },
-        {
-          "label": "Gabarito",
-          "date": "02/08/2026",
-          "isRange": false
-        },
-        {
-          "label": "Prova 2ª Etapa",
-          "date": "27/09/2026",
-          "isRange": false
-        },
-        {
-          "label": "Resultado final",
-          "date": "13/10/2026",
-          "isRange": false
-        }
-      ],
-      "warningNote": "Atenção! É essencial que o candidato acompanhe atentamente a página oficial da banca organizadora para verificar possíveis retificações ou atualizações do edital. Alterações podem ocorrer a qualquer momento, sendo necessário estar ciente de eventuais mudanças em prazos, requisitos ou outras informações relevantes para não comprometer sua participação no processo.",
-      "revisions": [],
-      "scrapedAt": "2026-05-22T20:09:02+00:00"
     },
     {
       "id": "abn-divulga-edital-para-titulo-de-especialista-em-neurologia-2026",
