@@ -19,6 +19,32 @@ DATE_TOKEN = re.compile(
     r"(?:\d{1,2}/\d{1,2}(?:/\d{2,4})?|\d{1,2}\s+a\s+\d{1,2}/\d{1,2}(?:/\d{2,4})?)"
 )
 
+# Rótulos que NUNCA devem aparecer em cronogramas de processos seletivos reais
+# (detectam agendas promocionais de cursinhos e eventos institucionais)
+_CONTAMINATION_LABELS = re.compile(
+    r"hora\s+da\s+verdade"
+    r"|premon[iíi][çc][ãa]o"
+    r"|estrat[eé]gia\s+med"
+    r"|med\s+estrat[eé]gia"
+    r"|revis[ãa]o\s+de\s+v[eé]spera",
+    re.I,
+)
+
+# Palavras-âncora de processo seletivo real: ≥2 entradas devem conter ao menos uma
+_EXAM_ANCHORS = re.compile(
+    r"inscri[çc][õo]"
+    r"|\bprova\b"
+    r"|gabarito"
+    r"|resultado"
+    r"|divulga[çc][ãa]"
+    r"|vagas?"
+    r"|homologa[çc][ãa]"
+    r"|convoca[çc][ãa]"
+    r"|matr[ií]cula"
+    r"|\bedital\b",
+    re.I,
+)
+
 
 @dataclass
 class TimelineEntry:
@@ -195,6 +221,38 @@ def _extract_timeline_from_list(items: Iterable[Tag]) -> list[TimelineEntry]:
     return out
 
 
+def _is_valid_exam_timeline(entries: list[TimelineEntry]) -> bool:
+    """
+    Retorna True se as entradas representam um cronograma de processo seletivo real.
+
+    Rejeita se qualquer rótulo contiver palavras de contaminação (agendas
+    promocionais de cursinhos, eventos institucionais, etc.) ou se menos de
+    dois rótulos contiverem palavras-âncora de processo seletivo.
+    """
+    anchors_found = 0
+    for entry in entries:
+        label = entry.label.lower()
+        if _CONTAMINATION_LABELS.search(label):
+            return False
+        if _EXAM_ANCHORS.search(label):
+            anchors_found += 1
+    return anchors_found >= 2
+
+
+_WARNING_CONTAMINATION = re.compile(
+    r"[^.!?\n]*(?:estrat[eé]gia\s+med|med\s+estrat[eé]gia)[^.!?\n]*[.!?\n]?",
+    re.I,
+)
+
+
+def _sanitize_warning(text: str | None) -> str | None:
+    """Remove frases que mencionam o Estratégia MED do aviso de atenção."""
+    if not text:
+        return text
+    cleaned = _WARNING_CONTAMINATION.sub("", text).strip()
+    return cleaned or None
+
+
 def _find_warning_block(soup: BeautifulSoup) -> Tag | None:
     for p in soup.select("p.wp-block-verse"):
         return p
@@ -231,13 +289,13 @@ def parse_article(html: str, url: str) -> ArticleData:
     timeline: list[TimelineEntry] = []
     for table in content.select("table"):
         candidate = _extract_timeline_from_table(table)
-        if len(candidate) >= 3:
+        if len(candidate) >= 3 and _is_valid_exam_timeline(candidate):
             timeline = candidate
             break
     if not timeline:
         for ul in content.select("ul"):
             candidate = _extract_timeline_from_list(ul.find_all("li", recursive=False))
-            if len(candidate) >= 3:
+            if len(candidate) >= 3 and _is_valid_exam_timeline(candidate):
                 timeline = candidate
                 break
 
@@ -247,6 +305,7 @@ def parse_article(html: str, url: str) -> ArticleData:
     if warning:
         warning_note = warning.get_text(" ", strip=True)
         warning_note = re.sub(r"^[⚠\s​️]+", "", warning_note).strip()
+        warning_note = _sanitize_warning(warning_note)
         for a in warning.find_all("a"):
             href = a.get("href", "")
             if _is_official_candidate(href):

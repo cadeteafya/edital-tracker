@@ -74,6 +74,14 @@ def run(*, no_cache: bool = False, limit: int | None = None) -> int:
             print(f"  [skip] {item.title[:80]} — {result.reason}")
             continue
 
+        # Artigo já no banco com cronograma e não é retificação → pula para não
+        # re-disparar alertas no sistema de monitoramento externo
+        if result.kind != "update":
+            rec_id = store.slug_from_url(item.url)
+            if rec_id in db and db[rec_id].get("timeline"):
+                skipped += 1
+                continue
+
         print(f"  [{result.kind}] {item.title[:80]}")
         try:
             article_html = fetch.fetch(item.url, use_cache=not no_cache)

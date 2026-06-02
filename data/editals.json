@@ -164,73 +164,58 @@
       "updatedAt": "2026-06-01",
       "timeline": [
         {
-          "label": "Premonição ENAMED 2026",
-          "date": "30/08/2026",
-          "isRange": false
+          "label": "Preenchimento do cadastro e indicação do local de prova",
+          "date": "08 a 22/06/2026",
+          "isRange": true
         },
         {
-          "label": "Hora da Verdade – Ginecologia",
-          "date": "31/08/2026",
-          "isRange": false
+          "label": "1º período para Preenchimento do Questionário do Estudante",
+          "date": "08 a 22/06/2026",
+          "isRange": true
         },
         {
-          "label": "Hora da Verdade – Pediatria I",
-          "date": "01/09/2026",
-          "isRange": false
+          "label": "2º período para Preenchimento do Questionário do Estudante",
+          "date": "08/07 a 12/09/2026",
+          "isRange": true
         },
         {
-          "label": "Hora da Verdade – Cirurgia I",
-          "date": "02/09/2026",
-          "isRange": false
-        },
-        {
-          "label": "Hora da Verdade – Clínica Médica I",
-          "date": "03/09/2026",
-          "isRange": false
-        },
-        {
-          "label": "Hora da Verdade – Medicina Preventiva I",
+          "label": "Divulgação dos locais de prova",
           "date": "04/09/2026",
           "isRange": false
         },
         {
-          "label": "Simulado Final ENAMED 2026",
-          "date": "06/09/2026",
-          "isRange": false
-        },
-        {
-          "label": "Hora da Verdade – Obstetrícia",
-          "date": "07/09/2026",
-          "isRange": false
-        },
-        {
-          "label": "Hora da Verdade – Pediatria II",
-          "date": "08/09/2026",
-          "isRange": false
-        },
-        {
-          "label": "Hora da Verdade – Cirurgia II",
-          "date": "09/09/2026",
-          "isRange": false
-        },
-        {
-          "label": "Hora da Verdade – Clínica Médica II",
-          "date": "10/09/2026",
-          "isRange": false
-        },
-        {
-          "label": "Hora da Verdade – Medicina Preventiva II",
-          "date": "11/09/2026",
-          "isRange": false
-        },
-        {
-          "label": "Revisão de Véspera",
-          "date": "12/09/2026",
-          "isRange": false
-        },
-        {
-          "label": "Gabarito ENAMED 2026",
+          "label": "Aplicação da prova",
           "date": "13/09/2026",
+          "isRange": false
+        },
+        {
+          "label": "Divulgação do gabarito preliminar",
+          "date": "15/09/2026",
+          "isRange": false
+        },
+        {
+          "label": "Interposição de recursos contra o gabarito preliminar",
+          "date": "15 e 16/09/2026",
+          "isRange": false
+        },
+        {
+          "label": "Divulgação do gabarito definitivo",
+          "date": "04/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Divulgação do resultado individual",
+          "date": "04/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Divulgação dos resultados",
+          "date": "Conceito Enade e Microdados: a partir de 14/12/2026",
+          "isRange": true
+        },
+        {
+          "label": "Divulgação do Boletim de Desempenho no Enade / resultados dos estudantes do quarto ano",
+          "date": "a partir de 12/01/2027",
           "isRange": false
         }
       ],
