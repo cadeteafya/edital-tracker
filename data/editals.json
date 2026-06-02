@@ -1,6 +1,153 @@
 {
-  "lastSyncedAt": "2026-06-02T15:30:38+00:00",
+  "lastSyncedAt": "2026-06-02T16:00:41+00:00",
   "editals": [
+    {
+      "id": "enare-edital-residencia-medica-2026-2027",
+      "source": {
+        "name": "ENARE",
+        "shortName": "ENARE",
+        "accentColor": "#0d9488"
+      },
+      "originalTitle": "ENARE 2026/2027 tem edital publicado e reaproveitamento de notas confirmado; confira detalhes",
+      "rewrittenTitle": "ENARE 2026/2027 tem edital publicado e reaproveitamento de notas confirmado",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/enare-edital-residencia-medica-2026-2027/",
+      "officialUrl": "https://enare2026.conhecimento.fgv.br/",
+      "scrapedAt": "2026-05-30T08:00:31+00:00",
+      "publishedAt": "2026-06-02",
+      "updatedAt": "2026-06-02",
+      "timeline": [
+        {
+          "label": "Premonição ENAMED 2026",
+          "date": "30/08/2026",
+          "isRange": false
+        },
+        {
+          "label": "Hora da Verdade – Ginecologia",
+          "date": "31/08/2026",
+          "isRange": false
+        },
+        {
+          "label": "Hora da Verdade – Pediatria I",
+          "date": "01/09/2026",
+          "isRange": false
+        },
+        {
+          "label": "Hora da Verdade – Cirurgia I",
+          "date": "02/09/2026",
+          "isRange": false
+        },
+        {
+          "label": "Hora da Verdade – Clínica Médica I",
+          "date": "03/09/2026",
+          "isRange": false
+        },
+        {
+          "label": "Hora da Verdade – Medicina Preventiva I",
+          "date": "04/09/2026",
+          "isRange": false
+        },
+        {
+          "label": "Simulado Final ENAMED 2026",
+          "date": "06/09/2026",
+          "isRange": false
+        },
+        {
+          "label": "Hora da Verdade – Obstetrícia",
+          "date": "07/09/2026",
+          "isRange": false
+        },
+        {
+          "label": "Hora da Verdade – Pediatria II",
+          "date": "08/09/2026",
+          "isRange": false
+        },
+        {
+          "label": "Hora da Verdade – Cirurgia II",
+          "date": "09/09/2026",
+          "isRange": false
+        },
+        {
+          "label": "Hora da Verdade – Clínica Médica II",
+          "date": "10/09/2026",
+          "isRange": false
+        },
+        {
+          "label": "Hora da Verdade – Medicina Preventiva II",
+          "date": "11/09/2026",
+          "isRange": false
+        },
+        {
+          "label": "Revisão de Véspera",
+          "date": "12/09/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito ENAMED 2026",
+          "date": "13/09/2026",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Candidatos aos programas de Acesso Direto devem se inscrever previamente, de forma gratuita, no ENAMED. ⚠️",
+      "revisions": [
+        {
+          "capturedAt": "2026-05-30",
+          "timeline": [
+            {
+              "label": "Período de Inscrições – Acesso Direto",
+              "date": "15 a 29/06/2026",
+              "isRange": true
+            },
+            {
+              "label": "Período de Inscrições – R+",
+              "date": "15/06 a 17/07/2026",
+              "isRange": true
+            },
+            {
+              "label": "Data da prova",
+              "date": "13/09/2026",
+              "isRange": false
+            },
+            {
+              "label": "Gabarito Preliminar -R+",
+              "date": "14/09/2026",
+              "isRange": false
+            },
+            {
+              "label": "Gabarito Preliminar – Acesso Direto",
+              "date": "15/09/2026",
+              "isRange": false
+            },
+            {
+              "label": "Resultado Definitivo da Prova – R+",
+              "date": "29/10/2026",
+              "isRange": false
+            },
+            {
+              "label": "Resultado Definitivo da Prova – Acesso Direto",
+              "date": "04/12/2026",
+              "isRange": false
+            },
+            {
+              "label": "Resultado Definitivo da Nota Final",
+              "date": "18/01/2027",
+              "isRange": false
+            },
+            {
+              "label": "Período da 1ª Escolha de Vagas",
+              "date": "11/01 e 12/01/2027",
+              "isRange": false
+            },
+            {
+              "label": "Resultado da 1ª Escolha de Vagas",
+              "date": "15/01/2027",
+              "isRange": false
+            }
+          ],
+          "warningNote": "Candidatos aos programas de Acesso Direto devem se inscrever previamente, de forma gratuita, no ENAMED. ⚠️"
+        }
+      ]
+    },
     {
       "id": "inep-libera-cronograma-do-enamed-2026-junto-ao-edital-do-enade",
       "source": {
@@ -453,6 +600,14 @@
           "title": "Revalida INEP 2025.2 sofre nova retificação no cronograma; confira",
           "timeline": [],
           "warningNote": null
+        },
+        {
+          "capturedAt": "2026-06-01",
+          "source": "retificação",
+          "url": "https://med.estrategia.com/portal/noticias/revalida-inep-2025-2-edital-e-retificado-e-cronograma-da-2a-etapa-sofre-alteracoes/",
+          "title": "Revalida INEP 2025.2 sofre nova retificação no cronograma; confira",
+          "timeline": [],
+          "warningNote": null
         }
       ],
       "scrapedAt": "2026-05-22T20:09:03+00:00"
@@ -475,153 +630,6 @@
       "timeline": [],
       "warningNote": "Conforme previsto no edital, é de responsabilidade do candidato acompanhar eventuais retificações, atos e comunicados publicados ao longo do processo seletivo.",
       "revisions": []
-    },
-    {
-      "id": "enare-edital-residencia-medica-2026-2027",
-      "source": {
-        "name": "ENARE",
-        "shortName": "ENARE",
-        "accentColor": "#0d9488"
-      },
-      "originalTitle": "ENARE 2026/2027 tem edital publicado e reaproveitamento de notas confirmado; confira detalhes",
-      "rewrittenTitle": "ENARE 2026/2027 tem edital publicado e reaproveitamento de notas confirmado",
-      "examYear": 2027,
-      "originalUrl": "https://med.estrategia.com/portal/noticias/enare-edital-residencia-medica-2026-2027/",
-      "officialUrl": "https://enare2026.conhecimento.fgv.br/",
-      "scrapedAt": "2026-05-30T08:00:31+00:00",
-      "publishedAt": "2026-05-30",
-      "updatedAt": "2026-05-30",
-      "timeline": [
-        {
-          "label": "Premonição ENAMED 2026",
-          "date": "30/08/2026",
-          "isRange": false
-        },
-        {
-          "label": "Hora da Verdade – Ginecologia",
-          "date": "31/08/2026",
-          "isRange": false
-        },
-        {
-          "label": "Hora da Verdade – Pediatria I",
-          "date": "01/09/2026",
-          "isRange": false
-        },
-        {
-          "label": "Hora da Verdade – Cirurgia I",
-          "date": "02/09/2026",
-          "isRange": false
-        },
-        {
-          "label": "Hora da Verdade – Clínica Médica I",
-          "date": "03/09/2026",
-          "isRange": false
-        },
-        {
-          "label": "Hora da Verdade – Medicina Preventiva I",
-          "date": "04/09/2026",
-          "isRange": false
-        },
-        {
-          "label": "Simulado Final ENAMED 2026",
-          "date": "06/09/2026",
-          "isRange": false
-        },
-        {
-          "label": "Hora da Verdade – Obstetrícia",
-          "date": "07/09/2026",
-          "isRange": false
-        },
-        {
-          "label": "Hora da Verdade – Pediatria II",
-          "date": "08/09/2026",
-          "isRange": false
-        },
-        {
-          "label": "Hora da Verdade – Cirurgia II",
-          "date": "09/09/2026",
-          "isRange": false
-        },
-        {
-          "label": "Hora da Verdade – Clínica Médica II",
-          "date": "10/09/2026",
-          "isRange": false
-        },
-        {
-          "label": "Hora da Verdade – Medicina Preventiva II",
-          "date": "11/09/2026",
-          "isRange": false
-        },
-        {
-          "label": "Revisão de Véspera",
-          "date": "12/09/2026",
-          "isRange": false
-        },
-        {
-          "label": "Gabarito ENAMED 2026",
-          "date": "13/09/2026",
-          "isRange": false
-        }
-      ],
-      "warningNote": "Candidatos aos programas de Acesso Direto devem se inscrever previamente, de forma gratuita, no ENAMED. ⚠️",
-      "revisions": [
-        {
-          "capturedAt": "2026-05-30",
-          "timeline": [
-            {
-              "label": "Período de Inscrições – Acesso Direto",
-              "date": "15 a 29/06/2026",
-              "isRange": true
-            },
-            {
-              "label": "Período de Inscrições – R+",
-              "date": "15/06 a 17/07/2026",
-              "isRange": true
-            },
-            {
-              "label": "Data da prova",
-              "date": "13/09/2026",
-              "isRange": false
-            },
-            {
-              "label": "Gabarito Preliminar -R+",
-              "date": "14/09/2026",
-              "isRange": false
-            },
-            {
-              "label": "Gabarito Preliminar – Acesso Direto",
-              "date": "15/09/2026",
-              "isRange": false
-            },
-            {
-              "label": "Resultado Definitivo da Prova – R+",
-              "date": "29/10/2026",
-              "isRange": false
-            },
-            {
-              "label": "Resultado Definitivo da Prova – Acesso Direto",
-              "date": "04/12/2026",
-              "isRange": false
-            },
-            {
-              "label": "Resultado Definitivo da Nota Final",
-              "date": "18/01/2027",
-              "isRange": false
-            },
-            {
-              "label": "Período da 1ª Escolha de Vagas",
-              "date": "11/01 e 12/01/2027",
-              "isRange": false
-            },
-            {
-              "label": "Resultado da 1ª Escolha de Vagas",
-              "date": "15/01/2027",
-              "isRange": false
-            }
-          ],
-          "warningNote": "Candidatos aos programas de Acesso Direto devem se inscrever previamente, de forma gratuita, no ENAMED. ⚠️"
-        }
-      ]
     },
     {
       "id": "enamed-2026-edital-divulgado",
@@ -1162,6 +1170,14 @@
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar a publicação de todos os atos, editais, retificações e comunicados referentes a este processo de seleção, os quais serão disponibilizados no site oficial da CONSESP .",
       "revisions": [
+        {
+          "capturedAt": "2026-05-22",
+          "source": "retificação",
+          "url": "https://med.estrategia.com/portal/noticias/psu-mg-2027-aremg-confirma-data-da-prova-e-previsao-de-edital/",
+          "title": "PSU-MG 2027: AREMG confirma data da prova e previsão de edital",
+          "timeline": [],
+          "warningNote": null
+        },
         {
           "capturedAt": "2026-05-22",
           "source": "retificação",
