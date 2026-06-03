@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter, usePathname } from "next/navigation";
-import { useRef, useTransition } from "react";
+import { useRef, useTransition, useState } from "react";
 
 type Props = {
   defaultValue?: string;
@@ -12,26 +12,31 @@ export function SearchBar({ defaultValue = "" }: Props) {
   const pathname = usePathname();
   const [isPending, startTransition] = useTransition();
   const timer = useRef<ReturnType<typeof setTimeout>>(null);
+  // Estado local controla o input — evita re-mount ao mudar a URL
+  const [value, setValue] = useState(defaultValue);
+  const inputRef = useRef<HTMLInputElement>(null);
 
-  const navigate = (value: string) => {
+  const navigate = (val: string) => {
     startTransition(() => {
       const params = new URLSearchParams();
-      if (value.trim()) params.set("q", value.trim());
-      // sempre volta para a página 1 numa nova busca
+      if (val.trim()) params.set("q", val.trim());
       const qs = params.toString();
       router.push(qs ? `${pathname}?${qs}` : pathname);
     });
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const newValue = e.target.value;
+    setValue(newValue);
     if (timer.current) clearTimeout(timer.current);
-    const value = e.target.value;
-    timer.current = setTimeout(() => navigate(value), 350);
+    timer.current = setTimeout(() => navigate(newValue), 350);
   };
 
   const handleClear = () => {
     if (timer.current) clearTimeout(timer.current);
+    setValue("");
     navigate("");
+    inputRef.current?.focus();
   };
 
   return (
@@ -52,9 +57,9 @@ export function SearchBar({ defaultValue = "" }: Props) {
       </svg>
 
       <input
-        key={defaultValue}          /* força re-mount ao navegar de volta */
+        ref={inputRef}
         type="search"
-        defaultValue={defaultValue}
+        value={value}
         onChange={handleChange}
         placeholder="Buscar por instituição ou especialidade…"
         className="w-full rounded-xl border border-[var(--border)] bg-[var(--surface)]/80 py-2.5 pl-10 pr-10 text-sm text-[var(--foreground)] placeholder:text-[var(--muted)] outline-none ring-0 transition focus:border-[var(--border-strong)] focus:ring-2 focus:ring-[var(--accent)]/20 backdrop-blur-sm"
@@ -76,7 +81,7 @@ export function SearchBar({ defaultValue = "" }: Props) {
               d="M12 3a9 9 0 1 0 9 9"
             />
           </svg>
-        ) : defaultValue ? (
+        ) : value ? (
           <button
             type="button"
             onClick={handleClear}
