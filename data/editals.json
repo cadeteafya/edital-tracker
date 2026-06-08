@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-06-08T15:00:47+00:00",
+  "lastSyncedAt": "2026-06-08T15:30:38+00:00",
   "editals": [
     {
       "id": "enare-edital-residencia-medica-2026-2027",
@@ -1199,6 +1199,14 @@
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar a publicação de todos os atos, editais, retificações e comunicados referentes a este processo de seleção, os quais serão disponibilizados no site oficial da CONSESP .",
       "revisions": [
+        {
+          "capturedAt": "2026-05-22",
+          "source": "retificação",
+          "url": "https://med.estrategia.com/portal/noticias/psu-mg-2027-aremg-confirma-data-da-prova-e-previsao-de-edital/",
+          "title": "PSU-MG 2027: AREMG confirma data da prova e previsão de edital",
+          "timeline": [],
+          "warningNote": null
+        },
         {
           "capturedAt": "2026-05-22",
           "source": "retificação",
