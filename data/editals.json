@@ -1,96 +1,6 @@
 {
-  "lastSyncedAt": "2026-06-15T08:30:46+00:00",
+  "lastSyncedAt": "2026-06-15T09:00:40+00:00",
   "editals": [
-    {
-      "id": "revalida-inep-2026-2-primeira-etapa-edital-divulgado",
-      "source": {
-        "name": "Edital",
-        "shortName": "Edital",
-        "accentColor": "#7c3aed"
-      },
-      "originalTitle": "Edital da 1º etapa do Revalida INEP 2026.2 é divulgado; veja as datas",
-      "rewrittenTitle": "Edital da 1º etapa do Revalida INEP 2026.2 é divulgado; veja as datas",
-      "examYear": 2026,
-      "originalUrl": "https://med.estrategia.com/portal/noticias/revalida-inep-2026-2-primeira-etapa-edital-divulgado/",
-      "officialUrl": "https://revalida.inep.gov.br/revalida/",
-      "scrapedAt": "2026-06-15T08:30:42+00:00",
-      "publishedAt": "2026-06-15",
-      "updatedAt": "2026-06-15",
-      "timeline": [
-        {
-          "label": "Inscrição",
-          "date": "16/06/2026 a 23/06/2026",
-          "isRange": true
-        },
-        {
-          "label": "Solicitação de atendimento especializado",
-          "date": "16/06/2026 a 23/06/2026",
-          "isRange": true
-        },
-        {
-          "label": "Pagamento da taxa de inscrição",
-          "date": "Até 26/06/2026",
-          "isRange": false
-        },
-        {
-          "label": "Divulgação da nota de corte da 1ª Etapa",
-          "date": "15/06/2026",
-          "isRange": false
-        },
-        {
-          "label": "Divulgação do cartão de confirmação de inscrição",
-          "date": "17/08/2026",
-          "isRange": false
-        },
-        {
-          "label": "Aplicação",
-          "date": "13/09/2026",
-          "isRange": false
-        },
-        {
-          "label": "Envio da Documentação comprobatória de conclusão de curso (Diploma, Certificado ou Declaração)",
-          "date": ".14/09/2026 a 19/09/2026",
-          "isRange": true
-        },
-        {
-          "label": "Resultado da Documentação comprobatória de conclusão de curso",
-          "date": ".09/10/2026",
-          "isRange": false
-        },
-        {
-          "label": "Recurso contra Resultado",
-          "date": ".14/10/2026 a 16/10/2026",
-          "isRange": true
-        },
-        {
-          "label": "Resultado do Recurso",
-          "date": "09/11/2026",
-          "isRange": false
-        },
-        {
-          "label": "Gabarito preliminar da prova objetiva objetiva",
-          "date": "15/09/2026",
-          "isRange": false
-        },
-        {
-          "label": "Recurso ao gabarito preliminar",
-          "date": "15/09/2026 a 22/09/2026",
-          "isRange": true
-        },
-        {
-          "label": "Resultados do recurso e gabarito definitivo",
-          "date": "04/12/2026",
-          "isRange": false
-        },
-        {
-          "label": "Resultado Definitivo",
-          "date": "04/12/2026",
-          "isRange": false
-        }
-      ],
-      "warningNote": null,
-      "revisions": []
-    },
     {
       "id": "hospital-asmigo-publica-edital-para-residencia-medica-2026-2-semestre",
       "source": {
@@ -1304,6 +1214,105 @@
       "warningNote": "Atenção! É essencial que o candidato acompanhe atentamente a página oficial da banca organizadora para verificar possíveis retificações ou atualizações do edital. Alterações podem ocorrer a qualquer momento, sendo necessário estar ciente de eventuais mudanças em prazos, requisitos ou outras informações relevantes para não comprometer sua participação no processo.",
       "revisions": [],
       "scrapedAt": "2026-05-22T20:09:02+00:00"
+    },
+    {
+      "id": "revalida-inep-2026-2-primeira-etapa-edital-divulgado",
+      "source": {
+        "name": "Edital",
+        "shortName": "Edital",
+        "accentColor": "#7c3aed"
+      },
+      "originalTitle": "Edital da 1º etapa do Revalida INEP 2026.2 é divulgado; veja as datas",
+      "rewrittenTitle": "Edital da 1º etapa do Revalida INEP 2026.2 é divulgado; veja as datas",
+      "examYear": 2026,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/revalida-inep-2026-2-primeira-etapa-edital-divulgado/",
+      "officialUrl": "https://revalida.inep.gov.br/revalida/",
+      "scrapedAt": "2026-06-15T08:30:42+00:00",
+      "publishedAt": "2026-06-15",
+      "updatedAt": "2026-05-22",
+      "timeline": [
+        {
+          "label": "Inscrição",
+          "date": "16/06/2026 a 23/06/2026",
+          "isRange": true
+        },
+        {
+          "label": "Solicitação de atendimento especializado",
+          "date": "16/06/2026 a 23/06/2026",
+          "isRange": true
+        },
+        {
+          "label": "Pagamento da taxa de inscrição",
+          "date": "Até 26/06/2026",
+          "isRange": false
+        },
+        {
+          "label": "Divulgação da nota de corte da 1ª Etapa",
+          "date": "15/06/2026",
+          "isRange": false
+        },
+        {
+          "label": "Divulgação do cartão de confirmação de inscrição",
+          "date": "17/08/2026",
+          "isRange": false
+        },
+        {
+          "label": "Aplicação",
+          "date": "13/09/2026",
+          "isRange": false
+        },
+        {
+          "label": "Envio da Documentação comprobatória de conclusão de curso (Diploma, Certificado ou Declaração)",
+          "date": ".14/09/2026 a 19/09/2026",
+          "isRange": true
+        },
+        {
+          "label": "Resultado da Documentação comprobatória de conclusão de curso",
+          "date": ".09/10/2026",
+          "isRange": false
+        },
+        {
+          "label": "Recurso contra Resultado",
+          "date": ".14/10/2026 a 16/10/2026",
+          "isRange": true
+        },
+        {
+          "label": "Resultado do Recurso",
+          "date": "09/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito preliminar da prova objetiva objetiva",
+          "date": "15/09/2026",
+          "isRange": false
+        },
+        {
+          "label": "Recurso ao gabarito preliminar",
+          "date": "15/09/2026 a 22/09/2026",
+          "isRange": true
+        },
+        {
+          "label": "Resultados do recurso e gabarito definitivo",
+          "date": "04/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Definitivo",
+          "date": "04/12/2026",
+          "isRange": false
+        }
+      ],
+      "warningNote": null,
+      "revisions": [
+        {
+          "capturedAt": "2026-05-22",
+          "source": "retificação",
+          "url": "https://med.estrategia.com/portal/noticias/psu-mg-2027-aremg-confirma-data-da-prova-e-previsao-de-edital/",
+          "title": "PSU-MG 2027: AREMG confirma data da prova e previsão de edital",
+          "timeline": [],
+          "warningNote": null
+        }
+      ]
     },
     {
       "id": "hospital-de-amor-amazonia-edital-residencia-medica-2-semestre-2026",
