@@ -47,6 +47,8 @@ UPDATE_REFERS_TO_EXISTING = [
 # Concursos públicos municipais/estaduais para cargos médicos — NÃO são residência nem título
 CONCURSO_PUBLICO_PATTERNS = [
     r"concurso\s+p[uú]blico",
+    r"concurso\s+m[eé]dico\b",           # "concurso médico em X" — emprego, não residência
+    r"sal[aá]rios?\s+de\s+at[eé]",       # "salários de até R$" — sinal exclusivo de emprego
     r"\d+\s+vagas?\s+para\s+m[eé]dico",
     r"vagas?\s+(?:de\s+|para\s+)?m[eé]dico(?:s)?\b",
     r"abre\s+(?:processo\s+seletivo|concurso)\s+(?:com\s+)?\d+\s+vagas",
