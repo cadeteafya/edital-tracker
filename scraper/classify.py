@@ -19,6 +19,7 @@ LAUNCH_PATTERNS = [
     r"edital\s+(?:est[aá])?\s*divulgad",
     r"edital\s+(?:est[aá])?\s*publicad",
     r"edital\s+(?:est[aá])?\s*lan[çc]ad",
+    r"edital\b.{0,60}(?:publicad|divulgad|lan[çc]ad)",  # voz passiva: "Edital SES-PE ... é publicado"
     r"lan[çc](?:a|ou)\s+(?:o\s+)?edital",
     r"saiu\s+o\s+edital",
     r"liber(?:a|ou)\s+(?:o\s+)?edital",
