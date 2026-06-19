@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-06-19T16:30:32+00:00",
+  "lastSyncedAt": "2026-06-19T17:00:41+00:00",
   "editals": [
     {
       "id": "ses-pe-edital-residencia-medica-2-semestre-2026",
@@ -1364,6 +1364,14 @@
       ],
       "warningNote": null,
       "revisions": [
+        {
+          "capturedAt": "2026-05-22",
+          "source": "retificação",
+          "url": "https://med.estrategia.com/portal/noticias/psu-mg-2027-aremg-confirma-data-da-prova-e-previsao-de-edital/",
+          "title": "PSU-MG 2027: AREMG confirma data da prova e previsão de edital",
+          "timeline": [],
+          "warningNote": null
+        },
         {
           "capturedAt": "2026-05-22",
           "source": "retificação",
