@@ -1,6 +1,66 @@
 {
-  "lastSyncedAt": "2026-06-16T20:00:49+00:00",
+  "lastSyncedAt": "2026-06-19T15:32:41+00:00",
   "editals": [
+    {
+      "id": "ses-pe-edital-residencia-medica-2-semestre-2026",
+      "source": {
+        "name": "Edital SES-PE",
+        "shortName": "Edital SES-PE",
+        "accentColor": "#14b8a6"
+      },
+      "originalTitle": "Edital SES-PE residência médica 2026.2 é publicado",
+      "rewrittenTitle": "Edital SES-PE residência médica 2026.2 é publicado",
+      "examYear": 2026,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/ses-pe-edital-residencia-medica-2-semestre-2026/",
+      "officialUrl": "https://www.upenet.com.br/concursos/2026/26_RED_MED_II/?concurso=26_resid_MED_II",
+      "scrapedAt": "2026-06-19T15:32:37+00:00",
+      "publishedAt": "2026-06-17",
+      "updatedAt": "2026-06-17",
+      "timeline": [
+        {
+          "label": "Solicitação de isenção da taxa",
+          "date": "17/06 a 20/06/2026",
+          "isRange": true
+        },
+        {
+          "label": "Inscrições",
+          "date": "de 17/06/2026 a 05/07/2026",
+          "isRange": true
+        },
+        {
+          "label": "Envio de documentos e escolha de preferência",
+          "date": "17/06 a 05/07/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prazo máximo para pagamento da taxa",
+          "date": "06/07/2026 – R$ 600",
+          "isRange": false
+        },
+        {
+          "label": "Divulgação do gabarito definitivo",
+          "date": "12/08/2026",
+          "isRange": false
+        },
+        {
+          "label": "Publicação do resultado final",
+          "date": "até 13/08/2026",
+          "isRange": false
+        },
+        {
+          "label": "Início da pré-matrícula online",
+          "date": "a partir de 14/08/2026",
+          "isRange": false
+        },
+        {
+          "label": "Início dos programas de residência",
+          "date": "01/09/2026",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar a publicação de todos os atos referentes a esta seleção na página oficial da instituição.",
+      "revisions": []
+    },
     {
       "id": "hospital-asmigo-publica-edital-para-residencia-medica-2026-2-semestre",
       "source": {
@@ -1304,6 +1364,14 @@
       ],
       "warningNote": null,
       "revisions": [
+        {
+          "capturedAt": "2026-05-22",
+          "source": "retificação",
+          "url": "https://med.estrategia.com/portal/noticias/psu-mg-2027-aremg-confirma-data-da-prova-e-previsao-de-edital/",
+          "title": "PSU-MG 2027: AREMG confirma data da prova e previsão de edital",
+          "timeline": [],
+          "warningNote": null
+        },
         {
           "capturedAt": "2026-05-22",
           "source": "retificação",
