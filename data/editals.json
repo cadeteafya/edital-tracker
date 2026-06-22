@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-06-22T19:30:40+00:00",
+  "lastSyncedAt": "2026-06-22T20:00:42+00:00",
   "editals": [
     {
       "id": "tecm-2026-edital-para-obtencao-do-titulo-de-especialista-em-clinica-medica",
@@ -40,6 +40,56 @@
         {
           "label": "Resultado final",
           "date": "14/12/2026",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção! É essencial que o candidato acompanhe atentamente a página oficial da banca organizadora para verificar possíveis retificações ou atualizações do edital. Alterações podem ocorrer a qualquer momento, sendo necessário estar ciente de eventuais mudanças em prazos, requisitos ou outras informações relevantes para não comprometer sua participação no processo.",
+      "revisions": []
+    },
+    {
+      "id": "abmlpm-2026-edital-para-prova-de-titulo-de-especialista-em-medicina-legal-e-pericia-medica",
+      "source": {
+        "name": "ABMLPM",
+        "shortName": "ABMLPM",
+        "accentColor": "#14b8a6"
+      },
+      "originalTitle": "ABMLPM 2026: edital para Prova de Título de Especialista em Medicina Legal e Perícia Médica é publicado",
+      "rewrittenTitle": "ABMLPM 2026: edital para Prova de Título de Especialista em Medicina Legal e Perícia Médica é publicado",
+      "examYear": 2026,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/abmlpm-2026-edital-para-prova-de-titulo-de-especialista-em-medicina-legal-e-pericia-medica/",
+      "officialUrl": "https://abmlpm.org.br/prova-de-titulo/",
+      "scrapedAt": "2026-06-22T20:00:42+00:00",
+      "publishedAt": "2026-06-22",
+      "updatedAt": "2026-06-22",
+      "timeline": [
+        {
+          "label": "Abertura das inscrições",
+          "date": "01/07/2026 às 14h",
+          "isRange": false
+        },
+        {
+          "label": "Encerramento das inscrições e data limite de pagamento",
+          "date": "17/08/2026",
+          "isRange": false
+        },
+        {
+          "label": "Prazo final para realização do pré-teste online",
+          "date": "25/09/2026 às 17h",
+          "isRange": false
+        },
+        {
+          "label": "Aplicação da prova teórica (Manhã)",
+          "date": "27/09/2026 às 08h",
+          "isRange": false
+        },
+        {
+          "label": "Aplicação da prova teórico-prática (Tarde)",
+          "date": "27/09/2026 às 14h",
+          "isRange": false
+        },
+        {
+          "label": "Resultado final dos aprovados",
+          "date": "25/11/2026",
           "isRange": false
         }
       ],
