@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-06-22T18:55:04+00:00",
+  "lastSyncedAt": "2026-06-22T19:00:52+00:00",
   "editals": [
     {
       "id": "tecm-2026-edital-para-obtencao-do-titulo-de-especialista-em-clinica-medica",
@@ -1409,6 +1409,14 @@
       ],
       "warningNote": null,
       "revisions": [
+        {
+          "capturedAt": "2026-05-22",
+          "source": "retificação",
+          "url": "https://med.estrategia.com/portal/noticias/psu-mg-2027-aremg-confirma-data-da-prova-e-previsao-de-edital/",
+          "title": "PSU-MG 2027: AREMG confirma data da prova e previsão de edital",
+          "timeline": [],
+          "warningNote": null
+        },
         {
           "capturedAt": "2026-05-22",
           "source": "retificação",
