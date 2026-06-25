@@ -1,6 +1,25 @@
 {
-  "lastSyncedAt": "2026-06-25T19:30:31+00:00",
+  "lastSyncedAt": "2026-06-25T20:00:37+00:00",
   "editals": [
+    {
+      "id": "huv-edital-residencia-medica-2027",
+      "source": {
+        "name": "HUV",
+        "shortName": "HUV",
+        "accentColor": "#3b82f6"
+      },
+      "originalTitle": "HUV divulga edital de residência médica 2027 com uso do ENAMED na 1ª etapa",
+      "rewrittenTitle": "HUV divulga edital de residência médica 2027 com uso do ENAMED na 1ª etapa",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/huv-edital-residencia-medica-2027/",
+      "officialUrl": "https://huv.univassouras.edu.br/centro-de-estudos/processo-seletivo/",
+      "scrapedAt": "2026-06-25T20:00:37+00:00",
+      "publishedAt": "2026-06-25",
+      "updatedAt": "2026-06-25",
+      "timeline": [],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar a publicação de todos os atos referentes a esta seleção na página oficial da instituição .",
+      "revisions": []
+    },
     {
       "id": "casa-saude-santa-marcelina-edital-residencia-medica-2-semestre-2026",
       "source": {
