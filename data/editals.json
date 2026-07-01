@@ -1,6 +1,56 @@
 {
-  "lastSyncedAt": "2026-07-01T15:20:34+00:00",
+  "lastSyncedAt": "2026-07-01T15:30:42+00:00",
   "editals": [
+    {
+      "id": "fmj-edital-residencia-medica-2-semestre-2026",
+      "source": {
+        "name": "FMJ",
+        "shortName": "FMJ",
+        "accentColor": "#0d9488"
+      },
+      "originalTitle": "FMJ abre seleção para vagas remanescentes de Residência Médica 2026",
+      "rewrittenTitle": "FMJ abre seleção para vagas remanescentes de Residência Médica 2026",
+      "examYear": 2026,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/fmj-edital-residencia-medica-2-semestre-2026/",
+      "officialUrl": "",
+      "scrapedAt": "2026-07-01T15:30:42+00:00",
+      "publishedAt": "2026-07-01",
+      "updatedAt": "2026-07-01",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "30/06 a 23/07/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "30/07/2026, às 9h",
+          "isRange": false
+        },
+        {
+          "label": "Prova Prática",
+          "date": "30/07/2026, às 14h",
+          "isRange": false
+        },
+        {
+          "label": "Análise Curricular",
+          "date": "30/07/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito Preliminares",
+          "date": "31/07/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "07/08/2026",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar a publicação de todos os atos referentes a esta seleção na página oficial da instituição.",
+      "revisions": []
+    },
     {
       "id": "huv-edital-residencia-medica-2027",
       "source": {
