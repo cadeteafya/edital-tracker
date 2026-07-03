@@ -1,6 +1,46 @@
 {
-  "lastSyncedAt": "2026-07-03T19:30:47+00:00",
+  "lastSyncedAt": "2026-07-03T20:00:52+00:00",
   "editals": [
+    {
+      "id": "feluma-edital-residencia-medica-2027",
+      "source": {
+        "name": "FELUMA",
+        "shortName": "FELUMA",
+        "accentColor": "#f97316"
+      },
+      "originalTitle": "FELUMA lança edital de Residência Médica 2027 para atuação em Minas Gerais",
+      "rewrittenTitle": "FELUMA lança edital de Residência Médica 2027 para atuação em Minas Gerais",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/feluma-edital-residencia-medica-2027/",
+      "officialUrl": "https://www.felumaconcursos.org.br/edital/residencia-medica-2027-edital-019-2026/",
+      "scrapedAt": "2026-07-03T20:00:52+00:00",
+      "publishedAt": "2026-07-03",
+      "updatedAt": "2026-07-03",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "20/07 a 26/08/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "27/09/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito Preliminar",
+          "date": "28/09/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "18/12/2026",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de responsabilidade exclusiva do candidato acompanhar todas as publicações, retificações e convocações oficiais diretamente na página oficial da Feluma Concursos .",
+      "revisions": []
+    },
     {
       "id": "temfc-38-tem-inscricoes-abertas-confira-o-edital",
       "source": {
