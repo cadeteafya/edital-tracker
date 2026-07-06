@@ -1,6 +1,111 @@
 {
-  "lastSyncedAt": "2026-07-06T18:00:58+00:00",
+  "lastSyncedAt": "2026-07-06T18:30:58+00:00",
   "editals": [
+    {
+      "id": "sms-curitiba-edital-residencia-medica-2027",
+      "source": {
+        "name": "SMS-Curitiba",
+        "shortName": "SMS-Curitiba",
+        "accentColor": "#dc2626"
+      },
+      "originalTitle": "SMS-Curitiba 2027: edital para residência médica é divulgado!",
+      "rewrittenTitle": "SMS-Curitiba 2027: edital para residência médica é divulgado!",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/sms-curitiba-edital-residencia-medica-2027/",
+      "officialUrl": "https://feas.curitiba.pr.gov.br/programas-de-residencias/medica/processo-seletivo-2026-ingressos-2027.html",
+      "scrapedAt": "2026-07-06T18:30:58+00:00",
+      "publishedAt": "2026-07-06",
+      "updatedAt": "2026-07-06",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "21/07 a 19/08/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "20/09/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito Preliminar",
+          "date": "21/09/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado da Prova e Convocação para Análise Curricular",
+          "date": "30/10/2026",
+          "isRange": false
+        },
+        {
+          "label": "Envio dos Documentos",
+          "date": "30/10 a 08/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Análise Curricular",
+          "date": "23 a 27/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Resultado Preliminar",
+          "date": "04/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "11/12/2026",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de responsabilidade exclusiva do candidato acompanhar todas as publicações, retificações e convocações oficiais diretamente na página do processo seletivo .",
+      "revisions": []
+    },
+    {
+      "id": "edital-psu-mg-psu-go-segunda-entrada-2026",
+      "source": {
+        "name": "AREMG — PSU-MG",
+        "shortName": "PSU-MG",
+        "accentColor": "#f59e0b"
+      },
+      "originalTitle": "AREMG divulga edital para 2ª entrada na residência médica em 2026; vagas são para MG e GO",
+      "rewrittenTitle": "AREMG divulga edital para 2ª entrada na residência médica em 2026; vagas são para MG e GO",
+      "examYear": 2026,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/edital-psu-mg-psu-go-segunda-entrada-2026/",
+      "officialUrl": "https://www.aremg.org.br/processos-atuais",
+      "scrapedAt": "2026-07-06T18:30:58+00:00",
+      "publishedAt": "2026-07-06",
+      "updatedAt": "2026-07-06",
+      "timeline": [
+        {
+          "label": "Período de Inscrições e Envio do Currículo",
+          "date": "21 a 23/07/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "02/08/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Preliminar Análise Curricular",
+          "date": "17/08/2026",
+          "isRange": false
+        },
+        {
+          "label": "Nota Final com a Ordem de Preferência",
+          "date": "20/08/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final – Convocação",
+          "date": "24/08/2026",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar a publicação de todos os atos referentes a esta seleção na página oficial da instituição .",
+      "revisions": []
+    },
     {
       "id": "feluma-edital-residencia-medica-2027",
       "source": {
