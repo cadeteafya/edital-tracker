@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-07-07T19:46:09+00:00",
+  "lastSyncedAt": "2026-07-07T20:00:56+00:00",
   "editals": [
     {
       "id": "hmct-edital-residencia-medica-segunda-entrada-2026",
@@ -39,6 +39,71 @@
         }
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar a publicação de todos os atos referentes a esta seleção na página oficial da seleção .",
+      "revisions": []
+    },
+    {
+      "id": "cesupa-edital-residencia-medica-2027",
+      "source": {
+        "name": "CESUPA",
+        "shortName": "CESUPA",
+        "accentColor": "#ef4444"
+      },
+      "originalTitle": "CESUPA 2027: edital publicado para Residência Médica com 38 vagas",
+      "rewrittenTitle": "CESUPA 2027: edital publicado para Residência Médica com 38 vagas",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/cesupa-edital-residencia-medica-2027/",
+      "officialUrl": "",
+      "scrapedAt": "2026-07-07T20:00:56+00:00",
+      "publishedAt": "2026-07-07",
+      "updatedAt": "2026-07-07",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "10/07 a 30/09/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva – Acesso Direto",
+          "date": "13/09/2026 (ENAMED)",
+          "isRange": false
+        },
+        {
+          "label": "Prova Objetiva – Pré-Requisito",
+          "date": "08/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado 1ª Etapa – Pré-Requisito",
+          "date": "16/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Envio das Notas ENAMED",
+          "date": "04 a 08/12/2026",
+          "isRange": true
+        },
+        {
+          "label": "Envio dos Currículos",
+          "date": "10 e 11/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Análise Curricular",
+          "date": "14/12/2026 a 12/01/2027",
+          "isRange": true
+        },
+        {
+          "label": "Prova de Habilidades",
+          "date": "24/01/2024",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "até 15/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de responsabilidade exclusiva do candidato acompanhar todas as publicações, retificações e convocações oficiais diretamente na página do processo seletivo.",
       "revisions": []
     },
     {
