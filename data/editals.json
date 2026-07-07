@@ -1,6 +1,46 @@
 {
-  "lastSyncedAt": "2026-07-07T18:01:00+00:00",
+  "lastSyncedAt": "2026-07-07T19:31:00+00:00",
   "editals": [
+    {
+      "id": "hmct-edital-residencia-medica-segunda-entrada-2026",
+      "source": {
+        "name": "HMCT",
+        "shortName": "HMCT",
+        "accentColor": "#7c3aed"
+      },
+      "originalTitle": "HMCT abre seleção de 2ª entrada na residência médica em 2026; vagas são para Psiquiatria",
+      "rewrittenTitle": "HMCT abre seleção de 2ª entrada na residência médica em 2026; vagas são para Psiquiatria",
+      "examYear": 2026,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/hmct-edital-residencia-medica-segunda-entrada-2026/",
+      "officialUrl": "https://www.ceremgoias.org.br/processo-seletivo",
+      "scrapedAt": "2026-07-07T19:31:00+00:00",
+      "publishedAt": "2026-07-07",
+      "updatedAt": "2026-07-07",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "22 a 28/07/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "02/08/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito Preliminar",
+          "date": "03/08/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "06/08/2026",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar a publicação de todos os atos referentes a esta seleção na página oficial da seleção .",
+      "revisions": []
+    },
     {
       "id": "sms-curitiba-edital-residencia-medica-2027",
       "source": {
