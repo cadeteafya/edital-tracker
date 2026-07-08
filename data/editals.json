@@ -1,6 +1,25 @@
 {
-  "lastSyncedAt": "2026-07-08T11:43:43+00:00",
+  "lastSyncedAt": "2026-07-08T12:01:12+00:00",
   "editals": [
+    {
+      "id": "revalida-2026-2-retificacao-questoes-anuladas",
+      "source": {
+        "name": "Inep",
+        "shortName": "Inep",
+        "accentColor": "#7c3aed"
+      },
+      "originalTitle": "Inep retifica edital do Revalida 2026.2 e altera regra sobre questões anuladas",
+      "rewrittenTitle": "Inep retifica edital do Revalida 2026.2 e altera regra sobre questões anuladas",
+      "examYear": 2026,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/revalida-2026-2-retificacao-questoes-anuladas/",
+      "officialUrl": "https://www.in.gov.br/web/dou/-/retificacao-717662586",
+      "scrapedAt": "2026-07-08T12:01:10+00:00",
+      "publishedAt": "2026-07-08",
+      "updatedAt": "2026-07-08",
+      "timeline": [],
+      "warningNote": null,
+      "revisions": []
+    },
     {
       "id": "hmct-edital-residencia-medica-segunda-entrada-2026",
       "source": {
