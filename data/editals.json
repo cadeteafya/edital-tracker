@@ -1,6 +1,46 @@
 {
-  "lastSyncedAt": "2026-07-13T18:30:57+00:00",
+  "lastSyncedAt": "2026-07-13T18:55:32+00:00",
   "editals": [
+    {
+      "id": "edital-residencia-medica-cruz-vermelha-curitiba-segunda-entrada-2026",
+      "source": {
+        "name": "Hospital",
+        "shortName": "Hospital",
+        "accentColor": "#ec4899"
+      },
+      "originalTitle": "Hospital da Cruz Vermelha de Curitiba abre inscrições para 2ª entrada na Residência Médica em 2026",
+      "rewrittenTitle": "Hospital da Cruz Vermelha de Curitiba abre inscrições para 2ª entrada na Residência Médica em 2026",
+      "examYear": 2026,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/edital-residencia-medica-cruz-vermelha-curitiba-segunda-entrada-2026/",
+      "officialUrl": "https://cruzvermelhapr.com.br/ensino-e-pesquisa/editais-2026/",
+      "scrapedAt": "2026-07-13T18:55:32+00:00",
+      "publishedAt": "2026-07-13",
+      "updatedAt": "2026-07-13",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "06 a 27/07/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "05/08/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito Preliminar",
+          "date": "06/08/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "17/08/2026",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar a publicação de todos os atos referentes a esta seleção na página oficial da seleção .",
+      "revisions": []
+    },
     {
       "id": "resultado-final-revalida-2026-1-primeira-etapa",
       "source": {
