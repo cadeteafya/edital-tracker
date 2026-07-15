@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-07-15T18:30:54+00:00",
+  "lastSyncedAt": "2026-07-15T19:00:58+00:00",
   "editals": [
     {
       "id": "unimar-edital-residencia-medica-2027",
@@ -49,6 +49,51 @@
         }
       ],
       "warningNote": "Atenção: É de responsabilidade exclusiva do candidato acompanhar todas as publicações, retificações e convocações oficiais diretamente na página da instituição .",
+      "revisions": []
+    },
+    {
+      "id": "cmba-divulga-edital-para-titulo-de-especialista-em-acupuntura-2026",
+      "source": {
+        "name": "CMBA",
+        "shortName": "CMBA",
+        "accentColor": "#ec4899"
+      },
+      "originalTitle": "CMBA divulga edital para Título de Especialista em Acupuntura 2026",
+      "rewrittenTitle": "CMBA divulga edital para Título de Especialista em Acupuntura 2026",
+      "examYear": 2026,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/provas-de-titulo-noticias/cmba-divulga-edital-para-titulo-de-especialista-em-acupuntura-2026/",
+      "officialUrl": "https://cmba.org.br/titulo-de-especialista-em-acupuntura-teac/",
+      "scrapedAt": "2026-07-15T19:00:58+00:00",
+      "publishedAt": "2026-07-15",
+      "updatedAt": "2026-07-15",
+      "timeline": [
+        {
+          "label": "Inscrições",
+          "date": "20/07 a 20/10/2026",
+          "isRange": true
+        },
+        {
+          "label": "Aplicação da Prova Teórica e da Prova Teórico-Prática",
+          "date": "26/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabaritos",
+          "date": "26/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Recursos",
+          "date": "30/11 a 01/12/2026",
+          "isRange": true
+        },
+        {
+          "label": "Resultado final",
+          "date": "22/12/2026",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção! É essencial que o candidato acompanhe atentamente a página oficial da banca organizadora para verificar possíveis retificações ou atualizações do edital. Alterações podem ocorrer a qualquer momento, sendo necessário estar ciente de eventuais mudanças em prazos, requisitos ou outras informações relevantes para não comprometer sua participação no processo.",
       "revisions": []
     },
     {
