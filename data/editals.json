@@ -1,6 +1,56 @@
 {
-  "lastSyncedAt": "2026-07-15T11:31:04+00:00",
+  "lastSyncedAt": "2026-07-15T12:01:04+00:00",
   "editals": [
+    {
+      "id": "unimar-edital-residencia-medica-2027",
+      "source": {
+        "name": "UNIMAR",
+        "shortName": "UNIMAR",
+        "accentColor": "#14b8a6"
+      },
+      "originalTitle": "UNIMAR 2027: seleção de residência médica utilizará nota do Enamed e oferece 28 vagas",
+      "rewrittenTitle": "UNIMAR 2027: seleção de residência médica utilizará nota do Enamed e oferece 28 vagas",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/unimar-edital-residencia-medica-2027/",
+      "officialUrl": "https://www.hospitalunimar.com.br/",
+      "scrapedAt": "2026-07-15T12:01:04+00:00",
+      "publishedAt": "2026-07-15",
+      "updatedAt": "2026-07-15",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "17/06 a 08/12/2026",
+          "isRange": true
+        },
+        {
+          "label": "Validação da Nota ENAMED junto à Diretoria do HBU",
+          "date": "9 a 11/12/2026",
+          "isRange": true
+        },
+        {
+          "label": "Convocação para Prova Prática",
+          "date": "14/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Prova Prática (OSCE)",
+          "date": "16/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Preliminar",
+          "date": "05/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final e Homologação",
+          "date": "11/01/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de responsabilidade exclusiva do candidato acompanhar todas as publicações, retificações e convocações oficiais diretamente na página da instituição .",
+      "revisions": []
+    },
     {
       "id": "edital-residencia-medica-cruz-vermelha-curitiba-segunda-entrada-2026",
       "source": {
