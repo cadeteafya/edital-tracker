@@ -1,6 +1,25 @@
 {
-  "lastSyncedAt": "2026-07-17T19:00:40+00:00",
+  "lastSyncedAt": "2026-07-17T20:00:42+00:00",
   "editals": [
+    {
+      "id": "revalida-2026-2-retificacao-questoes-anuladas",
+      "source": {
+        "name": "Inep",
+        "shortName": "Inep",
+        "accentColor": "#7c3aed"
+      },
+      "originalTitle": "Inep retifica edital do Revalida 2026.2 e altera regra sobre questões anuladas",
+      "rewrittenTitle": "Inep retifica edital do Revalida 2026.2 e altera regra sobre questões anuladas",
+      "examYear": 2026,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/revalida-2026-2-retificacao-questoes-anuladas/",
+      "officialUrl": "https://www.in.gov.br/web/dou/-/retificacao-717662586",
+      "scrapedAt": "2026-07-08T12:01:10+00:00",
+      "publishedAt": "2026-07-17",
+      "updatedAt": "2026-07-17",
+      "timeline": [],
+      "warningNote": null,
+      "revisions": []
+    },
     {
       "id": "unimar-edital-residencia-medica-2027",
       "source": {
@@ -151,25 +170,6 @@
       "scrapedAt": "2026-07-10T13:30:58+00:00",
       "publishedAt": "2026-07-10",
       "updatedAt": "2026-07-10",
-      "timeline": [],
-      "warningNote": null,
-      "revisions": []
-    },
-    {
-      "id": "revalida-2026-2-retificacao-questoes-anuladas",
-      "source": {
-        "name": "Inep",
-        "shortName": "Inep",
-        "accentColor": "#7c3aed"
-      },
-      "originalTitle": "Inep retifica edital do Revalida 2026.2 e altera regra sobre questões anuladas",
-      "rewrittenTitle": "Inep retifica edital do Revalida 2026.2 e altera regra sobre questões anuladas",
-      "examYear": 2026,
-      "originalUrl": "https://med.estrategia.com/portal/noticias/revalida-2026-2-retificacao-questoes-anuladas/",
-      "officialUrl": "https://www.in.gov.br/web/dou/-/retificacao-717662586",
-      "scrapedAt": "2026-07-08T12:01:10+00:00",
-      "publishedAt": "2026-07-08",
-      "updatedAt": "2026-07-08",
       "timeline": [],
       "warningNote": null,
       "revisions": []
