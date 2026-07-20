@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-07-20T17:00:48+00:00",
+  "lastSyncedAt": "2026-07-20T17:30:42+00:00",
   "editals": [
     {
       "id": "residencia-medica-feluma-2027-inscricoes-abertas",
@@ -18,6 +18,51 @@
       "updatedAt": "2026-07-20",
       "timeline": [],
       "warningNote": "Atenção! É de responsabilidade do candidato acompanhar eventuais retificações, atos e comunicados publicados ao longo do processo seletivo.",
+      "revisions": []
+    },
+    {
+      "id": "edital-fbhc-residencia-medica-segunda-entrada-2026",
+      "source": {
+        "name": "FBHC",
+        "shortName": "FBHC",
+        "accentColor": "#dc2626"
+      },
+      "originalTitle": "FBHC publica edital de 2ª entrada na  Residência Médica em 2026; vagas são para Medicina Intensiva e Urologia",
+      "rewrittenTitle": "FBHC publica edital de 2ª entrada na Residência Médica em 2026; vagas são para Medicina Intensiva e Urologia",
+      "examYear": 2026,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/edital-fbhc-residencia-medica-segunda-entrada-2026/",
+      "officialUrl": "https://portal.concursos.selecting.com.br/edital/ver/41?_gl=1*1gkxkw5*_ga*NjMxMjU4MTc3LjE3ODQ1Njc0MTE.*_ga_C8WLKDKMRY*czE3ODQ1Njc0MTEkbzEkZzEkdDE3ODQ1NjgyNzUkajYwJGwwJGgw",
+      "scrapedAt": "2026-07-20T17:30:34+00:00",
+      "publishedAt": "2026-07-20",
+      "updatedAt": "2026-07-20",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "03 a 09/08/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "23/08/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito Preliminar",
+          "date": "23/08/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Preliminar",
+          "date": "28/08/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "01/09/2026",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar a publicação de todos os atos referentes a esta seleção na página oficial da seleção .",
       "revisions": []
     },
     {
