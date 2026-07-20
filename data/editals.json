@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-07-20T23:00:40+00:00",
+  "lastSyncedAt": "2026-07-20T23:30:32+00:00",
   "editals": [
     {
       "id": "residencia-medica-feluma-2027-inscricoes-abertas",
@@ -63,6 +63,51 @@
         }
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar a publicação de todos os atos referentes a esta seleção na página oficial da seleção .",
+      "revisions": []
+    },
+    {
+      "id": "uel-edital-residencia-medica-2027",
+      "source": {
+        "name": "Com",
+        "shortName": "Com",
+        "accentColor": "#7c3aed"
+      },
+      "originalTitle": "Com 107 vagas ofertadas, UEL abre seleção para residência médica 2027",
+      "rewrittenTitle": "Com 107 vagas ofertadas, UEL abre seleção para residência médica 2027",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/uel-edital-residencia-medica-2027/",
+      "officialUrl": "https://www.cops.uel.br/v2/Selecao/DetalharSelecao/Selecao/409",
+      "scrapedAt": "2026-07-20T23:30:30+00:00",
+      "publishedAt": "2026-07-20",
+      "updatedAt": "2026-07-20",
+      "timeline": [
+        {
+          "label": "Período de Inscrições (Ações Afirmativas)",
+          "date": "18/08 a 25/08/2026",
+          "isRange": true
+        },
+        {
+          "label": "Período de Inscrições (Ampla Concorrência)",
+          "date": "22/09 a 14/10/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "08/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito Preliminar",
+          "date": "08/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "18/12/2026",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: Os candidatos devem acompanhar atentamente as atualizações, editais complementares e possíveis retificações de datas diretamente na página oficial da Coordenadoria de Processos Seletivos da UEL .",
       "revisions": []
     },
     {
