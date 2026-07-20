@@ -1,6 +1,25 @@
 {
-  "lastSyncedAt": "2026-07-20T15:30:46+00:00",
+  "lastSyncedAt": "2026-07-20T16:00:45+00:00",
   "editals": [
+    {
+      "id": "residencia-medica-feluma-2027-inscricoes-abertas",
+      "source": {
+        "name": "FELUMA",
+        "shortName": "FELUMA",
+        "accentColor": "#f97316"
+      },
+      "originalTitle": "FELUMA abre inscrições para a Residência Médica 2027; veja como participar",
+      "rewrittenTitle": "FELUMA abre inscrições para a Residência Médica 2027; veja como participar",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/residencia-medica-feluma-2027-inscricoes-abertas/",
+      "officialUrl": "https://portalcandidato.felumaconcursos.org.br/portalcandidato/",
+      "scrapedAt": "2026-07-20T16:00:44+00:00",
+      "publishedAt": "2026-07-20",
+      "updatedAt": "2026-07-20",
+      "timeline": [],
+      "warningNote": "Atenção! É de responsabilidade do candidato acompanhar eventuais retificações, atos e comunicados publicados ao longo do processo seletivo.",
+      "revisions": []
+    },
     {
       "id": "revalida-2026-2-retificacao-questoes-anuladas",
       "source": {
