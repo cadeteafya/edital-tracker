@@ -1,6 +1,46 @@
 {
-  "lastSyncedAt": "2026-07-21T15:30:38+00:00",
+  "lastSyncedAt": "2026-07-21T16:30:47+00:00",
   "editals": [
+    {
+      "id": "edital-honpar-residencia-medica-segunda-entrada-2026",
+      "source": {
+        "name": "HONPAR",
+        "shortName": "HONPAR",
+        "accentColor": "#22c55e"
+      },
+      "originalTitle": "HONPAR 2026: edital para 2ª entrada na residência médica é divulgado",
+      "rewrittenTitle": "HONPAR 2026: edital para 2ª entrada na residência médica é divulgado",
+      "examYear": 2026,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/edital-honpar-residencia-medica-segunda-entrada-2026/",
+      "officialUrl": "https://coremehonpar.org.br/edital-03-2026/",
+      "scrapedAt": "2026-07-21T16:30:40+00:00",
+      "publishedAt": "2026-07-21",
+      "updatedAt": "2026-07-21",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "20 a 31/07/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "07/08/2026",
+          "isRange": false
+        },
+        {
+          "label": "Análise e Arguição Curricular",
+          "date": "07/08/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "12/08/2026",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar a publicação de todos os atos referentes a esta seleção na página oficial da seleção .",
+      "revisions": []
+    },
     {
       "id": "residencia-medica-feluma-2027-inscricoes-abertas",
       "source": {
