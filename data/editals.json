@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-07-23T17:30:30+00:00",
+  "lastSyncedAt": "2026-07-23T18:00:53+00:00",
   "editals": [
     {
       "id": "hospital-do-trabalhador-pr-edital-residencia-medica-2027",
@@ -49,6 +49,51 @@
         }
       ],
       "warningNote": "Atenção: Os candidatos devem acompanhar atentamente as atualizações, editais complementares e possíveis retificações de datas diretamente na página oficial da seleção .",
+      "revisions": []
+    },
+    {
+      "id": "anamt-edital-titulo-de-especialista-medicina-do-trabalho-2026",
+      "source": {
+        "name": "Associação Nacional",
+        "shortName": "Associação Nacional",
+        "accentColor": "#3b82f6"
+      },
+      "originalTitle": "Associação Nacional de Medicina do Trabalho divulga edital para Título de Especialista 2026",
+      "rewrittenTitle": "Associação Nacional de Medicina do Trabalho divulga edital para Título de Especialista 2026",
+      "examYear": 2026,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/provas-de-titulo-noticias/anamt-edital-titulo-de-especialista-medicina-do-trabalho-2026/",
+      "officialUrl": "",
+      "scrapedAt": "2026-07-23T18:00:48+00:00",
+      "publishedAt": "2026-07-23",
+      "updatedAt": "2026-07-23",
+      "timeline": [
+        {
+          "label": "Inscrições",
+          "date": "21/07 a 21/08/2026",
+          "isRange": true
+        },
+        {
+          "label": "Envio de documentos para Prova Curricular",
+          "date": "21/07 a 21/08/2026",
+          "isRange": true
+        },
+        {
+          "label": "Aplicação da Prova Teórica e Prova Prática",
+          "date": "01/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito",
+          "date": "03/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado final",
+          "date": "28/01/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção! É essencial que o candidato acompanhe atentamente a página oficial da banca organizadora para verificar possíveis retificações ou atualizações do edital. Alterações podem ocorrer a qualquer momento, sendo necessário estar ciente de eventuais mudanças em prazos, requisitos ou outras informações relevantes para não comprometer sua participação no processo.",
       "revisions": []
     },
     {
