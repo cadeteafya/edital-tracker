@@ -1,6 +1,56 @@
 {
-  "lastSyncedAt": "2026-07-23T16:00:51+00:00",
+  "lastSyncedAt": "2026-07-23T16:30:58+00:00",
   "editals": [
+    {
+      "id": "hospital-do-trabalhador-pr-edital-residencia-medica-2027",
+      "source": {
+        "name": "Hospital",
+        "shortName": "Hospital",
+        "accentColor": "#ec4899"
+      },
+      "originalTitle": "Hospital do Trabalhador 2027: edital para residência médica é divulgado com 34 vagas",
+      "rewrittenTitle": "Hospital do Trabalhador 2027: edital para residência médica é divulgado com 34 vagas",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/hospital-do-trabalhador-pr-edital-residencia-medica-2027/",
+      "officialUrl": "https://servicos.nc.ufpr.br/PortalNC/Concurso?concurso=COREMEHT",
+      "scrapedAt": "2026-07-23T16:30:52+00:00",
+      "publishedAt": "2026-07-23",
+      "updatedAt": "2026-07-23",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "27/07 a 24/08/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "18/10/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito Preliminar",
+          "date": "19/10/2026",
+          "isRange": false
+        },
+        {
+          "label": "Convocação Análise Curricular",
+          "date": "11/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Envio do Currículo",
+          "date": "16 a 19/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Resultado Final",
+          "date": "07/01/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: Os candidatos devem acompanhar atentamente as atualizações, editais complementares e possíveis retificações de datas diretamente na página oficial da seleção .",
+      "revisions": []
+    },
     {
       "id": "edital-honpar-residencia-medica-segunda-entrada-2026",
       "source": {
