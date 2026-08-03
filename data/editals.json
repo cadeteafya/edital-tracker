@@ -1,6 +1,61 @@
 {
-  "lastSyncedAt": "2026-08-03T15:30:42+00:00",
+  "lastSyncedAt": "2026-08-03T15:39:33+00:00",
   "editals": [
+    {
+      "id": "hiae-edital-residencia-medica-2027",
+      "source": {
+        "name": "HIAE",
+        "shortName": "HIAE",
+        "accentColor": "#3b82f6"
+      },
+      "originalTitle": "HIAE 2027: edital para residência médica é publicado",
+      "rewrittenTitle": "HIAE 2027: edital para residência médica é publicado",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/hiae-edital-residencia-medica-2027/",
+      "officialUrl": "https://www.vunesp.com.br/FEAE2603",
+      "scrapedAt": "2026-08-03T15:39:32+00:00",
+      "publishedAt": "2026-08-03",
+      "updatedAt": "2026-08-03",
+      "timeline": [
+        {
+          "label": "Período de inscrições",
+          "date": "19/08 a 21/09/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "02/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito Preliminar",
+          "date": "04/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Envio do Currículo",
+          "date": "05 a 09/12/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Prática (AD)",
+          "date": "14 e 16/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Prova Prática e Análise Curricular (R+)",
+          "date": "18/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "27/01/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar todas as publicações, retificações e convocações diretamente na página oficial da banca organizadora .",
+      "revisions": []
+    },
     {
       "id": "hos-bos-edital-residencia-medica-2027",
       "source": {
