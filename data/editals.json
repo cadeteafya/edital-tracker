@@ -1,6 +1,61 @@
 {
-  "lastSyncedAt": "2026-08-05T18:00:32+00:00",
+  "lastSyncedAt": "2026-08-05T18:30:39+00:00",
   "editals": [
+    {
+      "id": "pucpr-edital-residencia-medica-2027",
+      "source": {
+        "name": "Seleção",
+        "shortName": "Seleção",
+        "accentColor": "#dc2626"
+      },
+      "originalTitle": "Seleção para residência médica PUCPR 2027 é aberta; confira o edital",
+      "rewrittenTitle": "Seleção para residência médica PUCPR 2027 é aberta",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/pucpr-edital-residencia-medica-2027/",
+      "officialUrl": "https://www.pucpr.br/processo-seletivo-concursos/residencia-medica-hospital-universitario-cajuru-curitiba/",
+      "scrapedAt": "2026-08-05T18:30:39+00:00",
+      "publishedAt": "2026-08-05",
+      "updatedAt": "2026-08-05",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "21/08 a 21/09/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "18/10/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito Preliminar",
+          "date": "18/10/2026",
+          "isRange": false
+        },
+        {
+          "label": "Envio do Currículo",
+          "date": "07 a 10/12/2026",
+          "isRange": true
+        },
+        {
+          "label": "Resultado Preliminar da Análise Curricular",
+          "date": "16/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "22/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Matrícula (1ª Chamada)",
+          "date": "25 e 26/01/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato o acompanhamento de todos os atos e comunicados na página oficial do concurso .",
+      "revisions": []
+    },
     {
       "id": "hiae-edital-residencia-medica-2027",
       "source": {
