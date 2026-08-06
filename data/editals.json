@@ -1,6 +1,25 @@
 {
-  "lastSyncedAt": "2026-08-06T12:00:34+00:00",
+  "lastSyncedAt": "2026-08-06T12:30:36+00:00",
   "editals": [
+    {
+      "id": "edital-da-pucpr-2027-preve-nota-zero-na-analise-curricular-para-candidatos-sem-proficiencia-no-enamed",
+      "source": {
+        "name": "Edital",
+        "shortName": "Edital",
+        "accentColor": "#7c3aed"
+      },
+      "originalTitle": "Edital da PUCPR 2027 prevê nota zero na análise curricular para candidatos sem proficiência no ENAMED",
+      "rewrittenTitle": "Edital da PUCPR 2027 prevê nota zero na análise curricular para candidatos sem proficiência no ENAMED",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/edital-da-pucpr-2027-preve-nota-zero-na-analise-curricular-para-candidatos-sem-proficiencia-no-enamed/",
+      "officialUrl": "https://www.pucpr.br/processo-seletivo-concursos/residencia-medica-hospital-universitario-cajuru-curitiba/",
+      "scrapedAt": "2026-08-05T19:20:23+00:00",
+      "publishedAt": "2026-08-06",
+      "updatedAt": "2026-08-06",
+      "timeline": [],
+      "warningNote": null,
+      "revisions": []
+    },
     {
       "id": "pucpr-edital-residencia-medica-2027",
       "source": {
@@ -54,25 +73,6 @@
         }
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato o acompanhamento de todos os atos e comunicados na página oficial do concurso .",
-      "revisions": []
-    },
-    {
-      "id": "edital-da-pucpr-2027-preve-nota-zero-na-analise-curricular-para-candidatos-sem-proficiencia-no-enamed",
-      "source": {
-        "name": "Edital",
-        "shortName": "Edital",
-        "accentColor": "#7c3aed"
-      },
-      "originalTitle": "Edital da PUCPR 2027 prevê nota zero na análise curricular para candidatos sem proficiência no ENAMED",
-      "rewrittenTitle": "Edital da PUCPR 2027 prevê nota zero na análise curricular para candidatos sem proficiência no ENAMED",
-      "examYear": 2027,
-      "originalUrl": "https://med.estrategia.com/portal/noticias/edital-da-pucpr-2027-preve-nota-zero-na-analise-curricular-para-candidatos-sem-proficiencia-no-enamed/",
-      "officialUrl": "https://www.pucpr.br/processo-seletivo-concursos/residencia-medica-hospital-universitario-cajuru-curitiba/",
-      "scrapedAt": "2026-08-05T19:20:23+00:00",
-      "publishedAt": "2026-08-05",
-      "updatedAt": "2026-08-05",
-      "timeline": [],
-      "warningNote": null,
       "revisions": []
     },
     {
