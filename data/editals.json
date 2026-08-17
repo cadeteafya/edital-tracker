@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-08-17T11:48:26+00:00",
+  "lastSyncedAt": "2026-08-17T12:00:32+00:00",
   "editals": [
     {
       "id": "revalida-2026-2-alteracao-cronograma",
@@ -33,8 +33,8 @@
       "originalUrl": "https://med.estrategia.com/portal/noticias/inep-republica-edital-enade-2026-altera-regras-enamed/",
       "officialUrl": "https://www.gov.br/inep/pt-br/centrais-de-conteudo/noticias/enamed/inep-atualiza-regras-do-enade-de-medicina-e-adequa-o-enamed-ao-regime-semestral",
       "scrapedAt": "2026-08-10T12:00:44+00:00",
-      "publishedAt": "2026-08-13",
-      "updatedAt": "2026-08-13",
+      "publishedAt": "2026-08-17",
+      "updatedAt": "2026-08-17",
       "timeline": [],
       "warningNote": "Atualização! Em nota publicada no dia 13 de agosto de 2026 , o Inep confirmou que haverá uma exceção para quem estiver no 11º semestre e já tiver pago a taxa do Enare 2026/2027. Nestes casos, a inscrição será convertida para a modalidade \"graduado\", com boletim completo, nota, proficiência e validade de três anos. Essa regra ainda será formalizada em retificação específica do edital pelo Inep.",
       "revisions": [
@@ -3503,6 +3503,50 @@
         },
         {
           "capturedAt": "2026-08-07",
+          "source": "retificação",
+          "url": "https://med.estrategia.com/portal/noticias/pucpr-edital-residencia-medica-2027/",
+          "title": "Seleção para residência médica PUCPR 2027 é aberta; confira o edital retificado",
+          "timeline": [
+            {
+              "label": "Período de Inscrições",
+              "date": "21/08 a 21/09/2026",
+              "isRange": true
+            },
+            {
+              "label": "Prova Objetiva",
+              "date": "13/10/2026",
+              "isRange": false
+            },
+            {
+              "label": "Gabarito Preliminar",
+              "date": "13/10/2026",
+              "isRange": false
+            },
+            {
+              "label": "Envio do Currículo",
+              "date": "07 a 10/12/2026",
+              "isRange": true
+            },
+            {
+              "label": "Resultado Preliminar da Análise Curricular",
+              "date": "16/12/2026",
+              "isRange": false
+            },
+            {
+              "label": "Resultado Final",
+              "date": "22/12/2026",
+              "isRange": false
+            },
+            {
+              "label": "Matrícula (1ª Chamada)",
+              "date": "25 e 26/01/2027",
+              "isRange": false
+            }
+          ],
+          "warningNote": "Veja também: Edital da PUCPR 2027 prevê nota zero na análise curricular para candidatos sem proficiência no ENAMED"
+        },
+        {
+          "capturedAt": "2026-08-10",
           "source": "retificação",
           "url": "https://med.estrategia.com/portal/noticias/pucpr-edital-residencia-medica-2027/",
           "title": "Seleção para residência médica PUCPR 2027 é aberta; confira o edital retificado",
