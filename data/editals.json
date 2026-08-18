@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-08-18T21:30:34+00:00",
+  "lastSyncedAt": "2026-08-18T21:45:22+00:00",
   "editals": [
     {
       "id": "amp-edital-residencia-medica-2027",
@@ -3607,6 +3607,50 @@
         },
         {
           "capturedAt": "2026-08-07",
+          "source": "retificação",
+          "url": "https://med.estrategia.com/portal/noticias/pucpr-edital-residencia-medica-2027/",
+          "title": "Seleção para residência médica PUCPR 2027 é aberta; confira o edital retificado",
+          "timeline": [
+            {
+              "label": "Período de Inscrições",
+              "date": "21/08 a 21/09/2026",
+              "isRange": true
+            },
+            {
+              "label": "Prova Objetiva",
+              "date": "13/10/2026",
+              "isRange": false
+            },
+            {
+              "label": "Gabarito Preliminar",
+              "date": "13/10/2026",
+              "isRange": false
+            },
+            {
+              "label": "Envio do Currículo",
+              "date": "07 a 10/12/2026",
+              "isRange": true
+            },
+            {
+              "label": "Resultado Preliminar da Análise Curricular",
+              "date": "16/12/2026",
+              "isRange": false
+            },
+            {
+              "label": "Resultado Final",
+              "date": "22/12/2026",
+              "isRange": false
+            },
+            {
+              "label": "Matrícula (1ª Chamada)",
+              "date": "25 e 26/01/2027",
+              "isRange": false
+            }
+          ],
+          "warningNote": "Veja também: Edital da PUCPR 2027 prevê nota zero na análise curricular para candidatos sem proficiência no ENAMED"
+        },
+        {
+          "capturedAt": "2026-08-10",
           "source": "retificação",
           "url": "https://med.estrategia.com/portal/noticias/pucpr-edital-residencia-medica-2027/",
           "title": "Seleção para residência médica PUCPR 2027 é aberta; confira o edital retificado",
