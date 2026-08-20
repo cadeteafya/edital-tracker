@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-08-20T20:00:24+00:00",
+  "lastSyncedAt": "2026-08-20T20:30:35+00:00",
   "editals": [
     {
       "id": "santa-casa-adamantina-edital-residencia-medica-2027",
@@ -39,6 +39,61 @@
         }
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar todas as publicações, retificações e convocações diretamente na página oficial da banca organizadora .",
+      "revisions": []
+    },
+    {
+      "id": "prova-nacional-oftalmologia-2027-edital",
+      "source": {
+        "name": "CBO",
+        "shortName": "CBO",
+        "accentColor": "#f59e0b"
+      },
+      "originalTitle": "CBO divulga edital da Prova Nacional de Oftalmologia 2027",
+      "rewrittenTitle": "CBO divulga edital da Prova Nacional de Oftalmologia 2027",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/provas-de-titulo-noticias/prova-nacional-oftalmologia-2027-edital/",
+      "officialUrl": "https://cbo.net.br/pno",
+      "scrapedAt": "2026-08-20T20:30:31+00:00",
+      "publishedAt": "2026-08-20",
+      "updatedAt": "2026-08-20",
+      "timeline": [
+        {
+          "label": "Inscrições e envio dos documentos",
+          "date": "13 a 30/10/2026",
+          "isRange": true
+        },
+        {
+          "label": "Pré-teste obrigatório",
+          "date": "2 a 18/12/2026 ou 7 a 13/01/2027",
+          "isRange": true
+        },
+        {
+          "label": "Provas Teórica I, Teórico-Prática e Teórica II",
+          "date": "17/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Gabaritos preliminares",
+          "date": "17/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Gabaritos finais e convocação para a Prova Prática",
+          "date": "02/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Prova Prática",
+          "date": "22 a 26/02/2027; e",
+          "isRange": true
+        },
+        {
+          "label": "Resultado final",
+          "date": "12/04/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção! É essencial que o candidato acompanhe atentamente a página oficial da banca organizadora para verificar possíveis retificações ou atualizações do edital. Alterações podem ocorrer a qualquer momento, sendo necessário estar ciente de eventuais mudanças em prazos, requisitos ou outras informações relevantes para não comprometer sua participação no processo.",
       "revisions": []
     },
     {
@@ -3647,6 +3702,50 @@
         },
         {
           "capturedAt": "2026-08-07",
+          "source": "retificação",
+          "url": "https://med.estrategia.com/portal/noticias/pucpr-edital-residencia-medica-2027/",
+          "title": "Seleção para residência médica PUCPR 2027 é aberta; confira o edital retificado",
+          "timeline": [
+            {
+              "label": "Período de Inscrições",
+              "date": "21/08 a 21/09/2026",
+              "isRange": true
+            },
+            {
+              "label": "Prova Objetiva",
+              "date": "13/10/2026",
+              "isRange": false
+            },
+            {
+              "label": "Gabarito Preliminar",
+              "date": "13/10/2026",
+              "isRange": false
+            },
+            {
+              "label": "Envio do Currículo",
+              "date": "07 a 10/12/2026",
+              "isRange": true
+            },
+            {
+              "label": "Resultado Preliminar da Análise Curricular",
+              "date": "16/12/2026",
+              "isRange": false
+            },
+            {
+              "label": "Resultado Final",
+              "date": "22/12/2026",
+              "isRange": false
+            },
+            {
+              "label": "Matrícula (1ª Chamada)",
+              "date": "25 e 26/01/2027",
+              "isRange": false
+            }
+          ],
+          "warningNote": "Veja também: Edital da PUCPR 2027 prevê nota zero na análise curricular para candidatos sem proficiência no ENAMED"
+        },
+        {
+          "capturedAt": "2026-08-10",
           "source": "retificação",
           "url": "https://med.estrategia.com/portal/noticias/pucpr-edital-residencia-medica-2027/",
           "title": "Seleção para residência médica PUCPR 2027 é aberta; confira o edital retificado",
