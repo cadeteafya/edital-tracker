@@ -1,6 +1,100 @@
 {
-  "lastSyncedAt": "2026-08-21T08:00:34+00:00",
+  "lastSyncedAt": "2026-08-21T08:30:37+00:00",
   "editals": [
+    {
+      "id": "inep-republica-edital-enade-2026-altera-regras-enamed",
+      "source": {
+        "name": "Inep",
+        "shortName": "Inep",
+        "accentColor": "#7c3aed"
+      },
+      "originalTitle": "Inep republica edital do Enade 2026 e altera regras do Enamed",
+      "rewrittenTitle": "Inep republica edital do Enade 2026 e altera regras do Enamed",
+      "examYear": 2026,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/inep-republica-edital-enade-2026-altera-regras-enamed/",
+      "officialUrl": "https://www.in.gov.br/web/dou/-/edital-n-49-de-24-de-abril-de-2026-*-724453033",
+      "scrapedAt": "2026-08-10T12:00:44+00:00",
+      "publishedAt": "2026-08-21",
+      "updatedAt": "2026-08-21",
+      "timeline": [],
+      "warningNote": null,
+      "revisions": [
+        {
+          "capturedAt": "2026-08-10",
+          "timeline": [],
+          "warningNote": null
+        },
+        {
+          "capturedAt": "2026-08-17",
+          "timeline": [],
+          "warningNote": "Atualização! Em nota publicada no dia 13 de agosto de 2026 , o Inep confirmou que haverá uma exceção para quem estiver no 11º semestre e já tiver pago a taxa do Enare 2026/2027. Nestes casos, a inscrição será convertida para a modalidade \"graduado\", com boletim completo, nota, proficiência e validade de três anos. Essa regra ainda será formalizada em retificação específica do edital pelo Inep."
+        }
+      ]
+    },
+    {
+      "id": "enamed-2026-edital-divulgado",
+      "source": {
+        "name": "ENAMED",
+        "shortName": "ENAMED",
+        "accentColor": "#ec4899"
+      },
+      "originalTitle": "ENAMED 2026: edital divulgado!",
+      "rewrittenTitle": "ENAMED 2026: edital divulgado!",
+      "examYear": 2026,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/enamed-2026-edital-divulgado/",
+      "officialUrl": "https://enamed.inep.gov.br/enamed/",
+      "scrapedAt": "2026-05-29T11:40:49+00:00",
+      "publishedAt": "2026-05-29",
+      "updatedAt": "2026-08-21",
+      "timeline": [
+        {
+          "label": "Inscrição e indicação do local de prova",
+          "date": "15 a 29/06/2026",
+          "isRange": true
+        },
+        {
+          "label": "Divulgação dos Locais de Prova",
+          "date": "04/09/2026",
+          "isRange": false
+        },
+        {
+          "label": "Aplicação da Prova",
+          "date": "13/09/2026",
+          "isRange": false
+        },
+        {
+          "label": "Reaplicação *",
+          "date": "18/10/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito Preliminar",
+          "date": "15/09/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito Definitivo e Resultado Individual do estudante concluinte",
+          "date": "04/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado dos estudantes do quarto ano",
+          "date": "a partir de 12/01/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Observação: De acordo com o item 1.10, o participante graduado que desejar utilizar os resultados do Enamed para fins de participação em processos seletivos de outros programas de residência de acesso direto deverá se inscrever no Enamed e pagar a taxa de inscrição cobrada pela HU Brasil , conforme regulamento definido no edital do ENARE, além de se inscrever diretamente no processo seletivo do programa de seu interesse.",
+      "revisions": [
+        {
+          "capturedAt": "2026-08-21",
+          "source": "retificação",
+          "url": "https://med.estrategia.com/portal/noticias/enamed-2026-alunos-11-semestre-residencia/",
+          "title": "Enamed 2026: retificação traz regras para alunos do 11º semestre",
+          "timeline": [],
+          "warningNote": null
+        }
+      ]
+    },
     {
       "id": "santa-casa-adamantina-edital-residencia-medica-2027",
       "source": {
@@ -199,31 +293,6 @@
       "timeline": [],
       "warningNote": null,
       "revisions": []
-    },
-    {
-      "id": "inep-republica-edital-enade-2026-altera-regras-enamed",
-      "source": {
-        "name": "Inep",
-        "shortName": "Inep",
-        "accentColor": "#7c3aed"
-      },
-      "originalTitle": "Inep republica edital do Enade 2026 e altera regras do Enamed",
-      "rewrittenTitle": "Inep republica edital do Enade 2026 e altera regras do Enamed",
-      "examYear": 2026,
-      "originalUrl": "https://med.estrategia.com/portal/noticias/inep-republica-edital-enade-2026-altera-regras-enamed/",
-      "officialUrl": "https://www.gov.br/inep/pt-br/centrais-de-conteudo/noticias/enamed/inep-atualiza-regras-do-enade-de-medicina-e-adequa-o-enamed-ao-regime-semestral",
-      "scrapedAt": "2026-08-10T12:00:44+00:00",
-      "publishedAt": "2026-08-17",
-      "updatedAt": "2026-08-17",
-      "timeline": [],
-      "warningNote": "Atualização! Em nota publicada no dia 13 de agosto de 2026 , o Inep confirmou que haverá uma exceção para quem estiver no 11º semestre e já tiver pago a taxa do Enare 2026/2027. Nestes casos, a inscrição será convertida para a modalidade \"graduado\", com boletim completo, nota, proficiência e validade de três anos. Essa regra ainda será formalizada em retificação específica do edital pelo Inep.",
-      "revisions": [
-        {
-          "capturedAt": "2026-08-10",
-          "timeline": [],
-          "warningNote": null
-        }
-      ]
     },
     {
       "id": "residencia-medica-hos-bos-2027-inscricoes-abertas",
@@ -23763,6 +23832,50 @@
             }
           ],
           "warningNote": "Veja também: Edital da PUCPR 2027 prevê nota zero na análise curricular para candidatos sem proficiência no ENAMED"
+        },
+        {
+          "capturedAt": "2026-08-10",
+          "source": "retificação",
+          "url": "https://med.estrategia.com/portal/noticias/pucpr-edital-residencia-medica-2027/",
+          "title": "Seleção para residência médica PUCPR 2027 é aberta; confira o edital retificado",
+          "timeline": [
+            {
+              "label": "Período de Inscrições",
+              "date": "21/08 a 21/09/2026",
+              "isRange": true
+            },
+            {
+              "label": "Prova Objetiva",
+              "date": "13/10/2026",
+              "isRange": false
+            },
+            {
+              "label": "Gabarito Preliminar",
+              "date": "13/10/2026",
+              "isRange": false
+            },
+            {
+              "label": "Envio do Currículo",
+              "date": "07 a 10/12/2026",
+              "isRange": true
+            },
+            {
+              "label": "Resultado Preliminar da Análise Curricular",
+              "date": "16/12/2026",
+              "isRange": false
+            },
+            {
+              "label": "Resultado Final",
+              "date": "22/12/2026",
+              "isRange": false
+            },
+            {
+              "label": "Matrícula (1ª Chamada)",
+              "date": "25 e 26/01/2027",
+              "isRange": false
+            }
+          ],
+          "warningNote": "Veja também: Edital da PUCPR 2027 prevê nota zero na análise curricular para candidatos sem proficiência no ENAMED"
         }
       ]
     },
@@ -25624,61 +25737,6 @@
       "updatedAt": "2026-06-01",
       "timeline": [],
       "warningNote": "Conforme previsto no edital, é de responsabilidade do candidato acompanhar eventuais retificações, atos e comunicados publicados ao longo do processo seletivo.",
-      "revisions": []
-    },
-    {
-      "id": "enamed-2026-edital-divulgado",
-      "source": {
-        "name": "ENAMED",
-        "shortName": "ENAMED",
-        "accentColor": "#ec4899"
-      },
-      "originalTitle": "ENAMED 2026: edital divulgado!",
-      "rewrittenTitle": "ENAMED 2026: edital divulgado!",
-      "examYear": 2026,
-      "originalUrl": "https://med.estrategia.com/portal/noticias/enamed-2026-edital-divulgado/",
-      "officialUrl": "https://enamed.inep.gov.br/enamed/",
-      "scrapedAt": "2026-05-29T11:40:49+00:00",
-      "publishedAt": "2026-05-29",
-      "updatedAt": "2026-05-29",
-      "timeline": [
-        {
-          "label": "Inscrição e indicação do local de prova",
-          "date": "15 a 29/06/2026",
-          "isRange": true
-        },
-        {
-          "label": "Divulgação dos Locais de Prova",
-          "date": "04/09/2026",
-          "isRange": false
-        },
-        {
-          "label": "Aplicação da Prova",
-          "date": "13/09/2026",
-          "isRange": false
-        },
-        {
-          "label": "Reaplicação *",
-          "date": "18/10/2026",
-          "isRange": false
-        },
-        {
-          "label": "Gabarito Preliminar",
-          "date": "15/09/2026",
-          "isRange": false
-        },
-        {
-          "label": "Gabarito Definitivo e Resultado Individual do estudante concluinte",
-          "date": "04/12/2026",
-          "isRange": false
-        },
-        {
-          "label": "Resultado dos estudantes do quarto ano",
-          "date": "a partir de 12/01/2027",
-          "isRange": false
-        }
-      ],
-      "warningNote": "Observação: De acordo com o item 1.10, o participante graduado que desejar utilizar os resultados do Enamed para fins de participação em processos seletivos de outros programas de residência de acesso direto deverá se inscrever no Enamed e pagar a taxa de inscrição cobrada pela HU Brasil , conforme regulamento definido no edital do ENARE, além de se inscrever diretamente no processo seletivo do programa de seu interesse.",
       "revisions": []
     },
     {
