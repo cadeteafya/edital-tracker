@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-08-22T11:30:36+00:00",
+  "lastSyncedAt": "2026-08-22T12:00:33+00:00",
   "editals": [
     {
       "id": "inep-republica-edital-enade-2026-altera-regras-enamed",
@@ -85,6 +85,14 @@
       ],
       "warningNote": "Observação: De acordo com o item 1.10, o participante graduado que desejar utilizar os resultados do Enamed para fins de participação em processos seletivos de outros programas de residência de acesso direto deverá se inscrever no Enamed e pagar a taxa de inscrição cobrada pela HU Brasil , conforme regulamento definido no edital do ENARE, além de se inscrever diretamente no processo seletivo do programa de seu interesse.",
       "revisions": [
+        {
+          "capturedAt": "2026-08-21",
+          "source": "retificação",
+          "url": "https://med.estrategia.com/portal/noticias/enamed-2026-alunos-11-semestre-residencia/",
+          "title": "Enamed 2026: retificação traz regras para alunos do 11º semestre",
+          "timeline": [],
+          "warningNote": null
+        },
         {
           "capturedAt": "2026-08-21",
           "source": "retificação",
