@@ -1,6 +1,25 @@
 {
-  "lastSyncedAt": "2026-08-23T20:30:28+00:00",
+  "lastSyncedAt": "2026-08-23T21:00:36+00:00",
   "editals": [
+    {
+      "id": "inscricoes-abertas-residencia-medica-pucpr-2027",
+      "source": {
+        "name": "PUCPR",
+        "shortName": "PUCPR",
+        "accentColor": "#f59e0b"
+      },
+      "originalTitle": "PUCPR abre inscrições para Residência Médica 2027; veja como participar",
+      "rewrittenTitle": "PUCPR abre inscrições para Residência Médica 2027; veja como participar",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/inscricoes-abertas-residencia-medica-pucpr-2027/",
+      "officialUrl": "https://www.pucpr.br/processo-seletivo-concursos/residencia-medica-hospital-universitario-cajuru-curitiba/",
+      "scrapedAt": "2026-08-21T23:00:27+00:00",
+      "publishedAt": "2026-08-23",
+      "updatedAt": "2026-08-23",
+      "timeline": [],
+      "warningNote": "Atenção! É de responsabilidade do candidato acompanhar eventuais retificações, atos e comunicados publicados ao longo do processo seletivo.",
+      "revisions": []
+    },
     {
       "id": "inep-republica-edital-enade-2026-altera-regras-enamed",
       "source": {
@@ -924,6 +943,14 @@
           "title": "Enamed 2026: retificação traz regras para alunos do 11º semestre",
           "timeline": [],
           "warningNote": null
+        },
+        {
+          "capturedAt": "2026-08-21",
+          "source": "retificação",
+          "url": "https://med.estrategia.com/portal/noticias/enamed-2026-alunos-11-semestre-residencia/",
+          "title": "Enamed 2026: retificação traz regras para alunos do 11º semestre",
+          "timeline": [],
+          "warningNote": null
         }
       ]
     },
@@ -989,25 +1016,6 @@
       "updatedAt": "2026-08-21",
       "timeline": [],
       "warningNote": null,
-      "revisions": []
-    },
-    {
-      "id": "inscricoes-abertas-residencia-medica-pucpr-2027",
-      "source": {
-        "name": "PUCPR",
-        "shortName": "PUCPR",
-        "accentColor": "#f59e0b"
-      },
-      "originalTitle": "PUCPR abre inscrições para Residência Médica 2027; veja como participar",
-      "rewrittenTitle": "PUCPR abre inscrições para Residência Médica 2027; veja como participar",
-      "examYear": 2027,
-      "originalUrl": "https://med.estrategia.com/portal/noticias/inscricoes-abertas-residencia-medica-pucpr-2027/",
-      "officialUrl": "https://www.pucpr.br/processo-seletivo-concursos/residencia-medica-hospital-universitario-cajuru-curitiba/",
-      "scrapedAt": "2026-08-21T23:00:27+00:00",
-      "publishedAt": "2026-08-21",
-      "updatedAt": "2026-08-21",
-      "timeline": [],
-      "warningNote": "Atenção! É de responsabilidade do candidato acompanhar eventuais retificações, atos e comunicados publicados ao longo do processo seletivo.",
       "revisions": []
     },
     {
