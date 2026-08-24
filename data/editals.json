@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-08-24T21:30:37+00:00",
+  "lastSyncedAt": "2026-08-24T21:52:43+00:00",
   "editals": [
     {
       "id": "scmrp-edital-residencia-medica-2027",
@@ -97,55 +97,6 @@
       "revisions": []
     },
     {
-      "id": "inscricoes-abertas-residencia-medica-pucpr-2027",
-      "source": {
-        "name": "PUCPR",
-        "shortName": "PUCPR",
-        "accentColor": "#f59e0b"
-      },
-      "originalTitle": "PUCPR abre inscrições para Residência Médica 2027; veja como participar",
-      "rewrittenTitle": "PUCPR abre inscrições para Residência Médica 2027; veja como participar",
-      "examYear": 2027,
-      "originalUrl": "https://med.estrategia.com/portal/noticias/inscricoes-abertas-residencia-medica-pucpr-2027/",
-      "officialUrl": "https://www.pucpr.br/processo-seletivo-concursos/residencia-medica-hospital-universitario-cajuru-curitiba/",
-      "scrapedAt": "2026-08-21T23:00:27+00:00",
-      "publishedAt": "2026-08-23",
-      "updatedAt": "2026-08-23",
-      "timeline": [],
-      "warningNote": "Atenção! É de responsabilidade do candidato acompanhar eventuais retificações, atos e comunicados publicados ao longo do processo seletivo.",
-      "revisions": []
-    },
-    {
-      "id": "inep-republica-edital-enade-2026-altera-regras-enamed",
-      "source": {
-        "name": "Inep",
-        "shortName": "Inep",
-        "accentColor": "#7c3aed"
-      },
-      "originalTitle": "Inep republica edital do Enade 2026 e altera regras do Enamed",
-      "rewrittenTitle": "Inep republica edital do Enade 2026 e altera regras do Enamed",
-      "examYear": 2026,
-      "originalUrl": "https://med.estrategia.com/portal/noticias/inep-republica-edital-enade-2026-altera-regras-enamed/",
-      "officialUrl": "https://www.in.gov.br/web/dou/-/edital-n-49-de-24-de-abril-de-2026-*-724453033",
-      "scrapedAt": "2026-08-10T12:00:44+00:00",
-      "publishedAt": "2026-08-21",
-      "updatedAt": "2026-08-21",
-      "timeline": [],
-      "warningNote": null,
-      "revisions": [
-        {
-          "capturedAt": "2026-08-10",
-          "timeline": [],
-          "warningNote": null
-        },
-        {
-          "capturedAt": "2026-08-17",
-          "timeline": [],
-          "warningNote": "Atualização! Em nota publicada no dia 13 de agosto de 2026 , o Inep confirmou que haverá uma exceção para quem estiver no 11º semestre e já tiver pago a taxa do Enare 2026/2027. Nestes casos, a inscrição será convertida para a modalidade \"graduado\", com boletim completo, nota, proficiência e validade de três anos. Essa regra ainda será formalizada em retificação específica do edital pelo Inep."
-        }
-      ]
-    },
-    {
       "id": "enamed-2026-edital-divulgado",
       "source": {
         "name": "ENAMED",
@@ -159,7 +110,7 @@
       "officialUrl": "https://enamed.inep.gov.br/enamed/",
       "scrapedAt": "2026-05-29T11:40:49+00:00",
       "publishedAt": "2026-05-29",
-      "updatedAt": "2026-08-21",
+      "updatedAt": "2026-08-24",
       "timeline": [
         {
           "label": "Inscrição e indicação do local de prova",
@@ -1422,6 +1373,63 @@
           "title": "Enamed 2026: retificação traz regras para alunos do 11º semestre",
           "timeline": [],
           "warningNote": null
+        },
+        {
+          "capturedAt": "2026-08-24",
+          "source": "retificação",
+          "url": "https://med.estrategia.com/portal/noticias/enamed-2026-alunos-11-semestre-residencia/",
+          "title": "Enamed 2026: retificação traz regras para alunos do 11º semestre",
+          "timeline": [],
+          "warningNote": null
+        }
+      ]
+    },
+    {
+      "id": "inscricoes-abertas-residencia-medica-pucpr-2027",
+      "source": {
+        "name": "PUCPR",
+        "shortName": "PUCPR",
+        "accentColor": "#f59e0b"
+      },
+      "originalTitle": "PUCPR abre inscrições para Residência Médica 2027; veja como participar",
+      "rewrittenTitle": "PUCPR abre inscrições para Residência Médica 2027; veja como participar",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/inscricoes-abertas-residencia-medica-pucpr-2027/",
+      "officialUrl": "https://www.pucpr.br/processo-seletivo-concursos/residencia-medica-hospital-universitario-cajuru-curitiba/",
+      "scrapedAt": "2026-08-21T23:00:27+00:00",
+      "publishedAt": "2026-08-23",
+      "updatedAt": "2026-08-23",
+      "timeline": [],
+      "warningNote": "Atenção! É de responsabilidade do candidato acompanhar eventuais retificações, atos e comunicados publicados ao longo do processo seletivo.",
+      "revisions": []
+    },
+    {
+      "id": "inep-republica-edital-enade-2026-altera-regras-enamed",
+      "source": {
+        "name": "Inep",
+        "shortName": "Inep",
+        "accentColor": "#7c3aed"
+      },
+      "originalTitle": "Inep republica edital do Enade 2026 e altera regras do Enamed",
+      "rewrittenTitle": "Inep republica edital do Enade 2026 e altera regras do Enamed",
+      "examYear": 2026,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/inep-republica-edital-enade-2026-altera-regras-enamed/",
+      "officialUrl": "https://www.in.gov.br/web/dou/-/edital-n-49-de-24-de-abril-de-2026-*-724453033",
+      "scrapedAt": "2026-08-10T12:00:44+00:00",
+      "publishedAt": "2026-08-21",
+      "updatedAt": "2026-08-21",
+      "timeline": [],
+      "warningNote": null,
+      "revisions": [
+        {
+          "capturedAt": "2026-08-10",
+          "timeline": [],
+          "warningNote": null
+        },
+        {
+          "capturedAt": "2026-08-17",
+          "timeline": [],
+          "warningNote": "Atualização! Em nota publicada no dia 13 de agosto de 2026 , o Inep confirmou que haverá uma exceção para quem estiver no 11º semestre e já tiver pago a taxa do Enare 2026/2027. Nestes casos, a inscrição será convertida para a modalidade \"graduado\", com boletim completo, nota, proficiência e validade de três anos. Essa regra ainda será formalizada em retificação específica do edital pelo Inep."
         }
       ]
     },
