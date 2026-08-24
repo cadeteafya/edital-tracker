@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-08-24T20:30:29+00:00",
+  "lastSyncedAt": "2026-08-24T20:56:46+00:00",
   "editals": [
     {
       "id": "scmrp-edital-residencia-medica-2027",
@@ -44,6 +44,56 @@
         }
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da instituição ou da banca organizadora Fundação Vunesp.",
+      "revisions": []
+    },
+    {
+      "id": "fmj-edital-residencia-medica-2027",
+      "source": {
+        "name": "FMJ",
+        "shortName": "FMJ",
+        "accentColor": "#0d9488"
+      },
+      "originalTitle": "FMJ divulga edital de Residência Médica 2027 com 90 vagas",
+      "rewrittenTitle": "FMJ divulga edital de Residência Médica 2027 com 90 vagas",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/fmj-edital-residencia-medica-2027/",
+      "officialUrl": "https://www.vunesp.com.br/FMJU2602",
+      "scrapedAt": "2026-08-24T20:56:43+00:00",
+      "publishedAt": "2026-08-24",
+      "updatedAt": "2026-08-24",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "08/09 a 08/10/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "20/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Prova Prática",
+          "date": "21/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito Preliminar",
+          "date": "24/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Envio do Currículo",
+          "date": "27/11 a 04/12/2026",
+          "isRange": true
+        },
+        {
+          "label": "Resultado Final",
+          "date": "11/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: Recomenda-se que os candidatos acompanhem regularmente a página oficial do processo seletivo para verificar possíveis retificações, atualizações no cronograma ou comunicados adicionais.",
       "revisions": []
     },
     {
@@ -149,6 +199,14 @@
       ],
       "warningNote": "Observação: De acordo com o item 1.10, o participante graduado que desejar utilizar os resultados do Enamed para fins de participação em processos seletivos de outros programas de residência de acesso direto deverá se inscrever no Enamed e pagar a taxa de inscrição cobrada pela HU Brasil , conforme regulamento definido no edital do ENARE, além de se inscrever diretamente no processo seletivo do programa de seu interesse.",
       "revisions": [
+        {
+          "capturedAt": "2026-08-21",
+          "source": "retificação",
+          "url": "https://med.estrategia.com/portal/noticias/enamed-2026-alunos-11-semestre-residencia/",
+          "title": "Enamed 2026: retificação traz regras para alunos do 11º semestre",
+          "timeline": [],
+          "warningNote": null
+        },
         {
           "capturedAt": "2026-08-21",
           "source": "retificação",
