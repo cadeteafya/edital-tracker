@@ -1,6 +1,46 @@
 {
-  "lastSyncedAt": "2026-08-28T15:00:30+00:00",
+  "lastSyncedAt": "2026-08-28T15:30:35+00:00",
   "editals": [
+    {
+      "id": "hospital-igesp-edital-residencia-medica-2027",
+      "source": {
+        "name": "IGESP",
+        "shortName": "IGESP",
+        "accentColor": "#ec4899"
+      },
+      "originalTitle": "IGESP abre inscrições em setembro para Residência Médica 2027; confira o edital",
+      "rewrittenTitle": "IGESP abre inscrições em setembro para Residência Médica 2027",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/hospital-igesp-edital-residencia-medica-2027/",
+      "officialUrl": "https://sis.consesp.com.br/site/index.php?pg=concursos/info&codigo=4933",
+      "scrapedAt": "2026-08-28T15:30:31+00:00",
+      "publishedAt": "2026-08-28",
+      "updatedAt": "2026-08-28",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "13/09 a 27/12/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "09 e 10/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Convocação Avaliação Curricular",
+          "date": "22/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "17/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato o acompanhamento de todas as publicações oficiais na página destinada ao processo seletivo .",
+      "revisions": []
+    },
     {
       "id": "hsrc-edital-residencia-medica-2027",
       "source": {
@@ -1413,6 +1453,14 @@
         },
         {
           "capturedAt": "2026-08-21",
+          "source": "retificação",
+          "url": "https://med.estrategia.com/portal/noticias/enamed-2026-alunos-11-semestre-residencia/",
+          "title": "Enamed 2026: retificação traz regras para alunos do 11º semestre",
+          "timeline": [],
+          "warningNote": null
+        },
+        {
+          "capturedAt": "2026-08-24",
           "source": "retificação",
           "url": "https://med.estrategia.com/portal/noticias/enamed-2026-alunos-11-semestre-residencia/",
           "title": "Enamed 2026: retificação traz regras para alunos do 11º semestre",
