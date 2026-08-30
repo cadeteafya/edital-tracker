@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-08-30T10:00:30+00:00",
+  "lastSyncedAt": "2026-08-30T10:30:37+00:00",
   "editals": [
     {
       "id": "hospital-igesp-edital-residencia-medica-2027",
@@ -1453,6 +1453,14 @@
         },
         {
           "capturedAt": "2026-08-21",
+          "source": "retificação",
+          "url": "https://med.estrategia.com/portal/noticias/enamed-2026-alunos-11-semestre-residencia/",
+          "title": "Enamed 2026: retificação traz regras para alunos do 11º semestre",
+          "timeline": [],
+          "warningNote": null
+        },
+        {
+          "capturedAt": "2026-08-24",
           "source": "retificação",
           "url": "https://med.estrategia.com/portal/noticias/enamed-2026-alunos-11-semestre-residencia/",
           "title": "Enamed 2026: retificação traz regras para alunos do 11º semestre",
