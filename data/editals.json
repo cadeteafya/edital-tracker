@@ -1,6 +1,51 @@
 {
-  "lastSyncedAt": "2026-08-31T21:30:43+00:00",
+  "lastSyncedAt": "2026-08-31T21:58:25+00:00",
   "editals": [
+    {
+      "id": "hospital-angelina-caron-edital-residencia-medica-2027",
+      "source": {
+        "name": "Hospital Angelina Caron",
+        "shortName": "Hospital Angelina Caron",
+        "accentColor": "#14b8a6"
+      },
+      "originalTitle": "Hospital Angelina Caron divulga edital de Residência Médica 2027; prova acontece em dezembro",
+      "rewrittenTitle": "Hospital Angelina Caron divulga edital de Residência Médica 2027; prova acontece em dezembro",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/hospital-angelina-caron-edital-residencia-medica-2027/",
+      "officialUrl": "https://residencia.angelinacaron.com.br/curso.asp?id=19",
+      "scrapedAt": "2026-08-31T21:58:24+00:00",
+      "publishedAt": "2026-08-31",
+      "updatedAt": "2026-08-31",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "04/09 a 03/12/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "19/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito Preliminar",
+          "date": "19/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Recursos",
+          "date": "até 21/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito Definitivo e Resultado",
+          "date": "22/01/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato o acompanhamento de todas as publicações oficiais na página destinada ao processo seletivo .",
+      "revisions": []
+    },
     {
       "id": "hospital-igesp-edital-residencia-medica-2027",
       "source": {
@@ -1453,6 +1498,14 @@
         },
         {
           "capturedAt": "2026-08-21",
+          "source": "retificação",
+          "url": "https://med.estrategia.com/portal/noticias/enamed-2026-alunos-11-semestre-residencia/",
+          "title": "Enamed 2026: retificação traz regras para alunos do 11º semestre",
+          "timeline": [],
+          "warningNote": null
+        },
+        {
+          "capturedAt": "2026-08-24",
           "source": "retificação",
           "url": "https://med.estrategia.com/portal/noticias/enamed-2026-alunos-11-semestre-residencia/",
           "title": "Enamed 2026: retificação traz regras para alunos do 11º semestre",
