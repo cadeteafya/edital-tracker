@@ -1,6 +1,61 @@
 {
-  "lastSyncedAt": "2026-09-01T12:00:38+00:00",
+  "lastSyncedAt": "2026-09-01T12:30:34+00:00",
   "editals": [
+    {
+      "id": "teot-2027-edital-titulo-especialista-ortopedia",
+      "source": {
+        "name": "TEOT",
+        "shortName": "TEOT",
+        "accentColor": "#f97316"
+      },
+      "originalTitle": "TEOT 2027: edital para a prova de Título é divulgado!",
+      "rewrittenTitle": "TEOT 2027: edital para a prova de Título é divulgado!",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/provas-de-titulo-noticias/teot-2027-edital-titulo-especialista-ortopedia/",
+      "officialUrl": "",
+      "scrapedAt": "2026-09-01T12:30:31+00:00",
+      "publishedAt": "2026-09-01",
+      "updatedAt": "2026-09-01",
+      "timeline": [
+        {
+          "label": "Inscrições",
+          "date": "1º a 30/09/2026",
+          "isRange": true
+        },
+        {
+          "label": "Pré-teste obrigatório",
+          "date": "18/11 a 18/12/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova teórica on-line",
+          "date": "10/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado dos candidatos aptos à segunda etapa",
+          "date": "25/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Provas presenciais",
+          "date": "26 e 27/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado preliminar",
+          "date": "15/03/2027; e",
+          "isRange": false
+        },
+        {
+          "label": "Resultado final",
+          "date": "30/04/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": null,
+      "revisions": []
+    },
     {
       "id": "hospital-angelina-caron-edital-residencia-medica-2027",
       "source": {
