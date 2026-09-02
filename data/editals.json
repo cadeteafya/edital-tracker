@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-09-02T17:48:54+00:00",
+  "lastSyncedAt": "2026-09-02T18:00:34+00:00",
   "editals": [
     {
       "id": "uerj-inscricoes-residencia-medica-2027",
@@ -19,6 +19,126 @@
       "timeline": [],
       "warningNote": "Atenção! É de responsabilidade do candidato acompanhar eventuais retificações, atos e comunicados publicados ao longo do processo seletivo.",
       "revisions": []
+    },
+    {
+      "id": "fmj-edital-residencia-medica-2027",
+      "source": {
+        "name": "FMJ",
+        "shortName": "FMJ",
+        "accentColor": "#0d9488"
+      },
+      "originalTitle": "FMJ divulga edital de Residência Médica 2027 com 90 vagas",
+      "rewrittenTitle": "FMJ divulga edital de Residência Médica 2027 com 90 vagas",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/fmj-edital-residencia-medica-2027/",
+      "officialUrl": "https://www.vunesp.com.br/FMJU2602",
+      "scrapedAt": "2026-08-24T20:56:43+00:00",
+      "publishedAt": "2026-08-24",
+      "updatedAt": "2026-09-02",
+      "timeline": [
+        {
+          "label": "Prova objetiva",
+          "date": "28/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Prova prática – Acesso Direto",
+          "date": "02/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Divulgação do gabarito",
+          "date": "02/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Recursos contra o gabarito",
+          "date": "03 e 04/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Envio dos documentos para análise curricular",
+          "date": "11 a 18/12/2026",
+          "isRange": true
+        },
+        {
+          "label": "Resultado dos recursos contra o gabarito e nota da prova objetiva",
+          "date": "23/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Divulgação das notas das etapas e classificação prévia",
+          "date": "22/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Recursos contra prova prática, análise curricular e classificação prévia",
+          "date": "26 e 27/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Classificação final e convocação para matrícula",
+          "date": "19/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: Recomenda-se que os candidatos acompanhem regularmente a página oficial do processo seletivo para verificar possíveis retificações, atualizações no cronograma ou comunicados adicionais.",
+      "revisions": [
+        {
+          "capturedAt": "2026-09-02",
+          "source": "retificação",
+          "url": "https://med.estrategia.com/portal/noticias/fmj-altera-datas-das-provas-de-residencia-medica-2027/",
+          "title": "FMJ altera datas das provas de Residência Médica 2027",
+          "timeline": [
+            {
+              "label": "Prova objetiva",
+              "date": "28/11/2026",
+              "isRange": false
+            },
+            {
+              "label": "Prova prática – Acesso Direto",
+              "date": "02/12/2026",
+              "isRange": false
+            },
+            {
+              "label": "Divulgação do gabarito",
+              "date": "02/12/2026",
+              "isRange": false
+            },
+            {
+              "label": "Recursos contra o gabarito",
+              "date": "03 e 04/12/2026",
+              "isRange": false
+            },
+            {
+              "label": "Envio dos documentos para análise curricular",
+              "date": "11 a 18/12/2026",
+              "isRange": true
+            },
+            {
+              "label": "Resultado dos recursos contra o gabarito e nota da prova objetiva",
+              "date": "23/12/2026",
+              "isRange": false
+            },
+            {
+              "label": "Divulgação das notas das etapas e classificação prévia",
+              "date": "22/01/2027",
+              "isRange": false
+            },
+            {
+              "label": "Recursos contra prova prática, análise curricular e classificação prévia",
+              "date": "26 e 27/01/2027",
+              "isRange": false
+            },
+            {
+              "label": "Classificação final e convocação para matrícula",
+              "date": "19/02/2027",
+              "isRange": false
+            }
+          ],
+          "warningNote": null
+        }
+      ]
     },
     {
       "id": "teot-2027-edital-titulo-especialista-ortopedia",
@@ -248,56 +368,6 @@
         }
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da instituição ou da banca organizadora Fundação Vunesp.",
-      "revisions": []
-    },
-    {
-      "id": "fmj-edital-residencia-medica-2027",
-      "source": {
-        "name": "FMJ",
-        "shortName": "FMJ",
-        "accentColor": "#0d9488"
-      },
-      "originalTitle": "FMJ divulga edital de Residência Médica 2027 com 90 vagas",
-      "rewrittenTitle": "FMJ divulga edital de Residência Médica 2027 com 90 vagas",
-      "examYear": 2027,
-      "originalUrl": "https://med.estrategia.com/portal/noticias/fmj-edital-residencia-medica-2027/",
-      "officialUrl": "https://www.vunesp.com.br/FMJU2602",
-      "scrapedAt": "2026-08-24T20:56:43+00:00",
-      "publishedAt": "2026-08-24",
-      "updatedAt": "2026-08-24",
-      "timeline": [
-        {
-          "label": "Período de Inscrições",
-          "date": "08/09 a 08/10/2026",
-          "isRange": true
-        },
-        {
-          "label": "Prova Objetiva",
-          "date": "20/11/2026",
-          "isRange": false
-        },
-        {
-          "label": "Prova Prática",
-          "date": "21/11/2026",
-          "isRange": false
-        },
-        {
-          "label": "Gabarito Preliminar",
-          "date": "24/11/2026",
-          "isRange": false
-        },
-        {
-          "label": "Envio do Currículo",
-          "date": "27/11 a 04/12/2026",
-          "isRange": true
-        },
-        {
-          "label": "Resultado Final",
-          "date": "11/02/2027",
-          "isRange": false
-        }
-      ],
-      "warningNote": "Atenção: Recomenda-se que os candidatos acompanhem regularmente a página oficial do processo seletivo para verificar possíveis retificações, atualizações no cronograma ou comunicados adicionais.",
       "revisions": []
     },
     {
