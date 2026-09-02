@@ -1,6 +1,25 @@
 {
-  "lastSyncedAt": "2026-09-02T12:30:28+00:00",
+  "lastSyncedAt": "2026-09-02T13:00:45+00:00",
   "editals": [
+    {
+      "id": "uerj-inscricoes-residencia-medica-2027",
+      "source": {
+        "name": "UERJ",
+        "shortName": "UERJ",
+        "accentColor": "#ec4899"
+      },
+      "originalTitle": "UERJ abre inscrições para Residência Médica 2027; veja como participar",
+      "rewrittenTitle": "UERJ abre inscrições para Residência Médica 2027; veja como participar",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/uerj-inscricoes-residencia-medica-2027/",
+      "officialUrl": "https://www.cepuerj.uerj.br/concursos2.php?concurso=S04597&ano=2027",
+      "scrapedAt": "2026-09-02T13:00:45+00:00",
+      "publishedAt": "2026-09-02",
+      "updatedAt": "2026-09-02",
+      "timeline": [],
+      "warningNote": "Atenção! É de responsabilidade do candidato acompanhar eventuais retificações, atos e comunicados publicados ao longo do processo seletivo.",
+      "revisions": []
+    },
     {
       "id": "teot-2027-edital-titulo-especialista-ortopedia",
       "source": {
