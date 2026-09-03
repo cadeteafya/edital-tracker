@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-09-03T22:43:25+00:00",
+  "lastSyncedAt": "2026-09-03T23:00:35+00:00",
   "editals": [
     {
       "id": "fmj-edital-residencia-medica-2027",
@@ -2656,6 +2656,60 @@
             }
           ],
           "warningNote": null
+        },
+        {
+          "capturedAt": "2026-09-03",
+          "source": "retificação",
+          "url": "https://med.estrategia.com/portal/noticias/fmj-altera-datas-das-provas-de-residencia-medica-2027/",
+          "title": "FMJ altera datas das provas de Residência Médica 2027",
+          "timeline": [
+            {
+              "label": "Prova objetiva",
+              "date": "28/11/2026",
+              "isRange": false
+            },
+            {
+              "label": "Prova prática – Acesso Direto",
+              "date": "02/12/2026",
+              "isRange": false
+            },
+            {
+              "label": "Divulgação do gabarito",
+              "date": "02/12/2026",
+              "isRange": false
+            },
+            {
+              "label": "Recursos contra o gabarito",
+              "date": "03 e 04/12/2026",
+              "isRange": false
+            },
+            {
+              "label": "Envio dos documentos para análise curricular",
+              "date": "11 a 18/12/2026",
+              "isRange": true
+            },
+            {
+              "label": "Resultado dos recursos contra o gabarito e nota da prova objetiva",
+              "date": "23/12/2026",
+              "isRange": false
+            },
+            {
+              "label": "Divulgação das notas das etapas e classificação prévia",
+              "date": "22/01/2027",
+              "isRange": false
+            },
+            {
+              "label": "Recursos contra prova prática, análise curricular e classificação prévia",
+              "date": "26 e 27/01/2027",
+              "isRange": false
+            },
+            {
+              "label": "Classificação final e convocação para matrícula",
+              "date": "19/02/2027",
+              "isRange": false
+            }
+          ],
+          "warningNote": null
         }
       ]
     },
@@ -2697,6 +2751,61 @@
         }
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "revisions": []
+    },
+    {
+      "id": "amrigs-edital-residencia-medica-2027",
+      "source": {
+        "name": "AMRIGS",
+        "shortName": "AMRIGS",
+        "accentColor": "#ef4444"
+      },
+      "originalTitle": "AMRIGS divulga edital de seleção unificada para residência médica em 2027",
+      "rewrittenTitle": "AMRIGS divulga edital de seleção unificada para residência médica em 2027",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/amrigs-edital-residencia-medica-2027/",
+      "officialUrl": "https://www.amrigs.org.br/prova/",
+      "scrapedAt": "2026-09-03T23:00:33+00:00",
+      "publishedAt": "2026-09-03",
+      "updatedAt": "2026-09-03",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "09/09 a 19/10/2026",
+          "isRange": true
+        },
+        {
+          "label": "Envio do Currículo",
+          "date": "09/09 a 27/10/2026",
+          "isRange": true
+        },
+        {
+          "label": "Aplicação da Prova Objetiva",
+          "date": "22/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Divulgação do Gabarito Preliminar",
+          "date": "23/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Período de Recursos (Gabarito)",
+          "date": "25/11 a 27/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Divulgação do Gabarito Definitivo",
+          "date": "07/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final (Exame AMRIGS)",
+          "date": "18/12/2026",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: Os candidatos devem acompanhar regularmente a página oficial do exame para possíveis retificações, bem como convocações específicas de cada instituição.",
       "revisions": []
     },
     {
