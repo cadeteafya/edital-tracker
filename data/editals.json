@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-09-03T15:00:43+00:00",
+  "lastSyncedAt": "2026-09-03T15:30:35+00:00",
   "editals": [
     {
       "id": "fmj-edital-residencia-medica-2027",
@@ -1363,6 +1363,60 @@
         },
         {
           "capturedAt": "2026-09-02",
+          "source": "retificação",
+          "url": "https://med.estrategia.com/portal/noticias/fmj-altera-datas-das-provas-de-residencia-medica-2027/",
+          "title": "FMJ altera datas das provas de Residência Médica 2027",
+          "timeline": [
+            {
+              "label": "Prova objetiva",
+              "date": "28/11/2026",
+              "isRange": false
+            },
+            {
+              "label": "Prova prática – Acesso Direto",
+              "date": "02/12/2026",
+              "isRange": false
+            },
+            {
+              "label": "Divulgação do gabarito",
+              "date": "02/12/2026",
+              "isRange": false
+            },
+            {
+              "label": "Recursos contra o gabarito",
+              "date": "03 e 04/12/2026",
+              "isRange": false
+            },
+            {
+              "label": "Envio dos documentos para análise curricular",
+              "date": "11 a 18/12/2026",
+              "isRange": true
+            },
+            {
+              "label": "Resultado dos recursos contra o gabarito e nota da prova objetiva",
+              "date": "23/12/2026",
+              "isRange": false
+            },
+            {
+              "label": "Divulgação das notas das etapas e classificação prévia",
+              "date": "22/01/2027",
+              "isRange": false
+            },
+            {
+              "label": "Recursos contra prova prática, análise curricular e classificação prévia",
+              "date": "26 e 27/01/2027",
+              "isRange": false
+            },
+            {
+              "label": "Classificação final e convocação para matrícula",
+              "date": "19/02/2027",
+              "isRange": false
+            }
+          ],
+          "warningNote": null
+        },
+        {
+          "capturedAt": "2026-09-03",
           "source": "retificação",
           "url": "https://med.estrategia.com/portal/noticias/fmj-altera-datas-das-provas-de-residencia-medica-2027/",
           "title": "FMJ altera datas das provas de Residência Médica 2027",
