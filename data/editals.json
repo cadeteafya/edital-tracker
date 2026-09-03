@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-09-03T19:30:31+00:00",
+  "lastSyncedAt": "2026-09-03T20:00:31+00:00",
   "editals": [
     {
       "id": "fmj-edital-residencia-medica-2027",
@@ -2224,8 +2224,102 @@
             }
           ],
           "warningNote": null
+        },
+        {
+          "capturedAt": "2026-09-03",
+          "source": "retificação",
+          "url": "https://med.estrategia.com/portal/noticias/fmj-altera-datas-das-provas-de-residencia-medica-2027/",
+          "title": "FMJ altera datas das provas de Residência Médica 2027",
+          "timeline": [
+            {
+              "label": "Prova objetiva",
+              "date": "28/11/2026",
+              "isRange": false
+            },
+            {
+              "label": "Prova prática – Acesso Direto",
+              "date": "02/12/2026",
+              "isRange": false
+            },
+            {
+              "label": "Divulgação do gabarito",
+              "date": "02/12/2026",
+              "isRange": false
+            },
+            {
+              "label": "Recursos contra o gabarito",
+              "date": "03 e 04/12/2026",
+              "isRange": false
+            },
+            {
+              "label": "Envio dos documentos para análise curricular",
+              "date": "11 a 18/12/2026",
+              "isRange": true
+            },
+            {
+              "label": "Resultado dos recursos contra o gabarito e nota da prova objetiva",
+              "date": "23/12/2026",
+              "isRange": false
+            },
+            {
+              "label": "Divulgação das notas das etapas e classificação prévia",
+              "date": "22/01/2027",
+              "isRange": false
+            },
+            {
+              "label": "Recursos contra prova prática, análise curricular e classificação prévia",
+              "date": "26 e 27/01/2027",
+              "isRange": false
+            },
+            {
+              "label": "Classificação final e convocação para matrícula",
+              "date": "19/02/2027",
+              "isRange": false
+            }
+          ],
+          "warningNote": null
         }
       ]
+    },
+    {
+      "id": "centro-medico-campinas-edital-residencia-medica-2027",
+      "source": {
+        "name": "Centro Médico",
+        "shortName": "Centro Médico",
+        "accentColor": "#14b8a6"
+      },
+      "originalTitle": "Centro Médico de Campinas abre 23 vagas para Residência Médica 2027; confira o edital",
+      "rewrittenTitle": "Centro Médico de Campinas abre 23 vagas para Residência Médica 2027",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/centro-medico-campinas-edital-residencia-medica-2027/",
+      "officialUrl": "https://sis.consesp.com.br/site/index.php?pg=concursos/info&codigo=4938",
+      "scrapedAt": "2026-09-03T20:00:31+00:00",
+      "publishedAt": "2026-09-03",
+      "updatedAt": "2026-09-03",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "19/09 a 29/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "14/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Convocação 2ª fase",
+          "date": "29/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "05/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "revisions": []
     },
     {
       "id": "uerj-inscricoes-residencia-medica-2027",
