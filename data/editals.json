@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-09-04T21:00:36+00:00",
+  "lastSyncedAt": "2026-09-04T21:30:26+00:00",
   "editals": [
     {
       "id": "inep-republica-edital-enade-2026-altera-regras-enamed",
@@ -28,6 +28,14 @@
           "capturedAt": "2026-08-17",
           "timeline": [],
           "warningNote": "Atualização! Em nota publicada no dia 13 de agosto de 2026 , o Inep confirmou que haverá uma exceção para quem estiver no 11º semestre e já tiver pago a taxa do Enare 2026/2027. Nestes casos, a inscrição será convertida para a modalidade \"graduado\", com boletim completo, nota, proficiência e validade de três anos. Essa regra ainda será formalizada em retificação específica do edital pelo Inep."
+        },
+        {
+          "capturedAt": "2026-09-04",
+          "source": "retificação",
+          "url": "https://med.estrategia.com/portal/noticias/inep-reduz-nota-de-corte-da-2a-etapa-do-revalida-inep-2025-2/",
+          "title": "Inep reduz nota de corte da 2ª etapa do Revalida INEP 2025.2",
+          "timeline": [],
+          "warningNote": null
         },
         {
           "capturedAt": "2026-09-04",
