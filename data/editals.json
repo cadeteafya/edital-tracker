@@ -1,6 +1,71 @@
 {
-  "lastSyncedAt": "2026-09-10T23:30:30+00:00",
+  "lastSyncedAt": "2026-09-11T08:00:37+00:00",
   "editals": [
+    {
+      "id": "reaplicacao-enamed-2026-edital",
+      "source": {
+        "name": "Enamed",
+        "shortName": "Enamed",
+        "accentColor": "#ec4899"
+      },
+      "originalTitle": "Enamed 2026: Inep divulga edital para reaplicação da prova em 18/10",
+      "rewrittenTitle": "Enamed 2026: Inep divulga edital para reaplicação da prova em 18/10",
+      "examYear": 2026,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/reaplicacao-enamed-2026-edital/",
+      "officialUrl": "",
+      "scrapedAt": "2026-09-11T08:00:36+00:00",
+      "publishedAt": "2026-09-11",
+      "updatedAt": "2026-09-11",
+      "timeline": [
+        {
+          "label": "Solicitação da reaplicação",
+          "date": "14 e 15/09/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado das solicitações",
+          "date": "30/09/2026",
+          "isRange": false
+        },
+        {
+          "label": "Cartão de Confirmação",
+          "date": "13/10/2026",
+          "isRange": false
+        },
+        {
+          "label": "Reaplicação do Enamed",
+          "date": "18/10/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito preliminar",
+          "date": "20/10/2026",
+          "isRange": false
+        },
+        {
+          "label": "Recursos contra o gabarito",
+          "date": "20 a 22/10/2026",
+          "isRange": true
+        },
+        {
+          "label": "Resultado dos recursos",
+          "date": "04/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito definitivo",
+          "date": "04/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado final",
+          "date": "04/12/2026",
+          "isRange": false
+        }
+      ],
+      "warningNote": null,
+      "revisions": []
+    },
     {
       "id": "amrigs-inscricoes-abertas-residencia-medica-2027",
       "source": {
@@ -192,6 +257,14 @@
           "capturedAt": "2026-08-17",
           "timeline": [],
           "warningNote": "Atualização! Em nota publicada no dia 13 de agosto de 2026 , o Inep confirmou que haverá uma exceção para quem estiver no 11º semestre e já tiver pago a taxa do Enare 2026/2027. Nestes casos, a inscrição será convertida para a modalidade \"graduado\", com boletim completo, nota, proficiência e validade de três anos. Essa regra ainda será formalizada em retificação específica do edital pelo Inep."
+        },
+        {
+          "capturedAt": "2026-09-04",
+          "source": "retificação",
+          "url": "https://med.estrategia.com/portal/noticias/inep-reduz-nota-de-corte-da-2a-etapa-do-revalida-inep-2025-2/",
+          "title": "Inep reduz nota de corte da 2ª etapa do Revalida INEP 2025.2",
+          "timeline": [],
+          "warningNote": null
         },
         {
           "capturedAt": "2026-09-04",
