@@ -1,6 +1,51 @@
 {
-  "lastSyncedAt": "2026-09-14T14:00:38+00:00",
+  "lastSyncedAt": "2026-09-14T14:30:29+00:00",
   "editals": [
+    {
+      "id": "hospital-pequeno-principe-edital-residencia-medica-2027",
+      "source": {
+        "name": "Hospital Pequeno Príncipe",
+        "shortName": "Hospital Pequeno Príncipe",
+        "accentColor": "#0ea5e9"
+      },
+      "originalTitle": "Hospital Pequeno Príncipe divulga edital para Residência Médica 2027",
+      "rewrittenTitle": "Hospital Pequeno Príncipe divulga edital para Residência Médica 2027",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/hospital-pequeno-principe-edital-residencia-medica-2027/",
+      "officialUrl": "https://fpp.edu.br/residencia-medica/",
+      "scrapedAt": "2026-09-14T14:30:29+00:00",
+      "publishedAt": "2026-09-14",
+      "updatedAt": "2026-09-14",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "01/10 a 09/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva (Acesso Direto)",
+          "date": "29/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Convocação p/ Análise Curricular",
+          "date": "11/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Análise Curricular",
+          "date": "14 a 16/12/2026",
+          "isRange": true
+        },
+        {
+          "label": "Resultado Final",
+          "date": "22/12/2026",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da instituição .",
+      "revisions": []
+    },
     {
       "id": "reaplicacao-enamed-2026-edital",
       "source": {
