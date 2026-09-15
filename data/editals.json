@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-09-15T13:30:32+00:00",
+  "lastSyncedAt": "2026-09-15T14:00:33+00:00",
   "editals": [
     {
       "id": "unip-edital-residencia-medica-2027",
@@ -133,8 +133,97 @@
             }
           ],
           "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar todas as publicações, retificações e convocações oficiais diretamente na página oficial da seleção e da SCMBH."
+        },
+        {
+          "capturedAt": "2026-09-15",
+          "source": "retificação",
+          "url": "https://med.estrategia.com/portal/noticias/scmbh-edital-residencia-medica-2027/",
+          "title": "SCMBH retifica edital para residência médica 2027; inscrições começam em 21/09",
+          "timeline": [
+            {
+              "label": "Período de Inscrições",
+              "date": "21/09 a 04/11/2026",
+              "isRange": true
+            },
+            {
+              "label": "Prova Objetiva",
+              "date": "21/11/2026",
+              "isRange": false
+            },
+            {
+              "label": "Gabarito Preliminar",
+              "date": "22/11/2026",
+              "isRange": false
+            },
+            {
+              "label": "Gabarito Definitivo",
+              "date": "10/12/2026",
+              "isRange": false
+            },
+            {
+              "label": "Classificação Preliminar",
+              "date": "08/01/2027",
+              "isRange": false
+            },
+            {
+              "label": "Resultado Final",
+              "date": "12/01/2027",
+              "isRange": false
+            }
+          ],
+          "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar todas as publicações, retificações e convocações oficiais diretamente na página oficial da seleção e da SCMBH."
         }
       ]
+    },
+    {
+      "id": "grupo-viv-edital-residencia-medica-2027",
+      "source": {
+        "name": "Grupo VIV",
+        "shortName": "Grupo VIV",
+        "accentColor": "#f97316"
+      },
+      "originalTitle": "Grupo VIV 2027: edital de Residência Médica oferta 17 vagas em Psiquiatria",
+      "rewrittenTitle": "Grupo VIV 2027: edital de Residência Médica oferta 17 vagas em Psiquiatria",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/grupo-viv-edital-residencia-medica-2027/",
+      "officialUrl": "https://portal.concursos.selecting.com.br/edital/ver/45?_gl=1*tw5o4j*_ga*MTM5MzMxODUwOC4xNzg4Mjg4NDA0*_ga_C8WLKDKMRY*czE3ODk0Nzg4NDkkbzckZzEkdDE3ODk0Nzg4OTgkajExJGwwJGgw",
+      "scrapedAt": "2026-09-15T14:00:32+00:00",
+      "publishedAt": "2026-09-15",
+      "updatedAt": "2026-09-15",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "30/09 a 08/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "13/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Convocação para 2ª fase",
+          "date": "08/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Envio do Currículo",
+          "date": "09/01 a 10/01/2027",
+          "isRange": true
+        },
+        {
+          "label": "Análise Curricular",
+          "date": "11/01 a 18/01/2027",
+          "isRange": true
+        },
+        {
+          "label": "Resultado Final",
+          "date": "02/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "revisions": []
     },
     {
       "id": "hospital-pequeno-principe-edital-residencia-medica-2027",
