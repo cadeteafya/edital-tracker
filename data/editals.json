@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-09-15T13:00:40+00:00",
+  "lastSyncedAt": "2026-09-15T13:30:32+00:00",
   "editals": [
     {
       "id": "unip-edital-residencia-medica-2027",
@@ -45,6 +45,96 @@
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
       "revisions": []
+    },
+    {
+      "id": "scmbh-edital-residencia-medica-2027",
+      "source": {
+        "name": "SCMBH",
+        "shortName": "SCMBH",
+        "accentColor": "#f97316"
+      },
+      "originalTitle": "SCMBH divulga edital para residência médica 2027; inscrições começam em 16/09",
+      "rewrittenTitle": "SCMBH divulga edital para residência médica 2027; inscrições começam em 16/09",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/scmbh-edital-residencia-medica-2027/",
+      "officialUrl": "https://novo.ibgpconcursos.com.br/concurso.jsp?cod=777",
+      "scrapedAt": "2026-09-10T08:00:35+00:00",
+      "publishedAt": "2026-09-09",
+      "updatedAt": "2026-09-15",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "21/09 a 04/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "21/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito Preliminar",
+          "date": "22/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito Definitivo",
+          "date": "10/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Classificação Preliminar",
+          "date": "08/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "12/01/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar todas as publicações, retificações e convocações oficiais diretamente na página oficial da seleção e da SCMBH.",
+      "revisions": [
+        {
+          "capturedAt": "2026-09-15",
+          "source": "retificação",
+          "url": "https://med.estrategia.com/portal/noticias/scmbh-edital-residencia-medica-2027/",
+          "title": "SCMBH retifica edital para residência médica 2027; inscrições começam em 21/09",
+          "timeline": [
+            {
+              "label": "Período de Inscrições",
+              "date": "21/09 a 04/11/2026",
+              "isRange": true
+            },
+            {
+              "label": "Prova Objetiva",
+              "date": "21/11/2026",
+              "isRange": false
+            },
+            {
+              "label": "Gabarito Preliminar",
+              "date": "22/11/2026",
+              "isRange": false
+            },
+            {
+              "label": "Gabarito Definitivo",
+              "date": "10/12/2026",
+              "isRange": false
+            },
+            {
+              "label": "Classificação Preliminar",
+              "date": "08/01/2027",
+              "isRange": false
+            },
+            {
+              "label": "Resultado Final",
+              "date": "12/01/2027",
+              "isRange": false
+            }
+          ],
+          "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar todas as publicações, retificações e convocações oficiais diretamente na página oficial da seleção e da SCMBH."
+        }
+      ]
     },
     {
       "id": "hospital-pequeno-principe-edital-residencia-medica-2027",
@@ -173,56 +263,6 @@
       "updatedAt": "2026-09-09",
       "timeline": [],
       "warningNote": "Atenção! É de responsabilidade do candidato acompanhar eventuais retificações, atos e comunicados publicados ao longo do processo seletivo.",
-      "revisions": []
-    },
-    {
-      "id": "scmbh-edital-residencia-medica-2027",
-      "source": {
-        "name": "SCMBH",
-        "shortName": "SCMBH",
-        "accentColor": "#f97316"
-      },
-      "originalTitle": "SCMBH divulga edital para residência médica 2027; inscrições começam em 16/09",
-      "rewrittenTitle": "SCMBH divulga edital para residência médica 2027; inscrições começam em 16/09",
-      "examYear": 2027,
-      "originalUrl": "https://med.estrategia.com/portal/noticias/scmbh-edital-residencia-medica-2027/",
-      "officialUrl": "https://novo.ibgpconcursos.com.br/concurso.jsp?cod=777",
-      "scrapedAt": "2026-09-10T08:00:35+00:00",
-      "publishedAt": "2026-09-09",
-      "updatedAt": "2026-09-09",
-      "timeline": [
-        {
-          "label": "Período de Inscrições",
-          "date": "16/09 a 03/11/2026",
-          "isRange": true
-        },
-        {
-          "label": "Prova Objetiva",
-          "date": "21/11/2026",
-          "isRange": false
-        },
-        {
-          "label": "Gabarito Preliminar",
-          "date": "22/11/2026",
-          "isRange": false
-        },
-        {
-          "label": "Gabarito Definitivo",
-          "date": "10/12/2026",
-          "isRange": false
-        },
-        {
-          "label": "Classificação Preliminar",
-          "date": "08/01/2027",
-          "isRange": false
-        },
-        {
-          "label": "Resultado Final",
-          "date": "12/01/2027",
-          "isRange": false
-        }
-      ],
-      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar todas as publicações, retificações e convocações oficiais diretamente na página oficial da seleção e da SCMBH.",
       "revisions": []
     },
     {
