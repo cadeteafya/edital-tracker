@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-09-15T14:30:32+00:00",
+  "lastSyncedAt": "2026-09-15T14:34:59+00:00",
   "editals": [
     {
       "id": "unip-edital-residencia-medica-2027",
@@ -211,6 +211,45 @@
             }
           ],
           "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar todas as publicações, retificações e convocações oficiais diretamente na página oficial da seleção e da SCMBH."
+        },
+        {
+          "capturedAt": "2026-09-15",
+          "source": "retificação",
+          "url": "https://med.estrategia.com/portal/noticias/scmbh-edital-residencia-medica-2027/",
+          "title": "SCMBH retifica edital para residência médica 2027; inscrições começam em 21/09",
+          "timeline": [
+            {
+              "label": "Período de Inscrições",
+              "date": "21/09 a 04/11/2026",
+              "isRange": true
+            },
+            {
+              "label": "Prova Objetiva",
+              "date": "21/11/2026",
+              "isRange": false
+            },
+            {
+              "label": "Gabarito Preliminar",
+              "date": "22/11/2026",
+              "isRange": false
+            },
+            {
+              "label": "Gabarito Definitivo",
+              "date": "10/12/2026",
+              "isRange": false
+            },
+            {
+              "label": "Classificação Preliminar",
+              "date": "08/01/2027",
+              "isRange": false
+            },
+            {
+              "label": "Resultado Final",
+              "date": "12/01/2027",
+              "isRange": false
+            }
+          ],
+          "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar todas as publicações, retificações e convocações oficiais diretamente na página oficial da seleção e da SCMBH."
         }
       ]
     },
@@ -253,6 +292,46 @@
         {
           "label": "Análise Curricular",
           "date": "11/01 a 18/01/2027",
+          "isRange": true
+        },
+        {
+          "label": "Resultado Final",
+          "date": "02/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "revisions": []
+    },
+    {
+      "id": "puc-campinas-edital-residencia-medica-2027",
+      "source": {
+        "name": "PUC-Campinas",
+        "shortName": "PUC-Campinas",
+        "accentColor": "#f59e0b"
+      },
+      "originalTitle": "PUC-Campinas 2027: seleção para Residência Médica tem edital divulgado",
+      "rewrittenTitle": "PUC-Campinas 2027: seleção para Residência Médica tem edital divulgado",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/puc-campinas-edital-residencia-medica-2027/",
+      "officialUrl": "https://www.tekyou.com.br/puccampinas/selecao2027/",
+      "scrapedAt": "2026-09-15T14:34:59+00:00",
+      "publishedAt": "2026-09-15",
+      "updatedAt": "2026-09-15",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "01/10 a 10/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva e Dissertativa",
+          "date": "08/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Envio do Currículo e Avaliação Curricular",
+          "date": "17 a 23/12/2026",
           "isRange": true
         },
         {
