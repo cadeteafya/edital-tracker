@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-09-16T21:00:35+00:00",
+  "lastSyncedAt": "2026-09-16T21:30:35+00:00",
   "editals": [
     {
       "id": "santa-casa-de-maringa-edital-residencia-medica-2027",
@@ -44,6 +44,51 @@
         }
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da instituição .",
+      "revisions": []
+    },
+    {
+      "id": "sms-jp-edital-residencia-medica-2027",
+      "source": {
+        "name": "SMS-JP",
+        "shortName": "SMS-JP",
+        "accentColor": "#a855f7"
+      },
+      "originalTitle": "SMS-JP 2027: edital de Residência Médica oferece 52 vagas",
+      "rewrittenTitle": "SMS-JP 2027: edital de Residência Médica oferece 52 vagas",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/sms-jp-edital-residencia-medica-2027/",
+      "officialUrl": "https://transparencia.joaopessoa.pb.gov.br/#/editais",
+      "scrapedAt": "2026-09-16T21:30:35+00:00",
+      "publishedAt": "2026-09-16",
+      "updatedAt": "2026-09-16",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "13 a 27/10/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "22/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito",
+          "date": "22/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Prelimnar",
+          "date": "12/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "20/12/2026",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente no Portal da Transparência da Secretaria .",
       "revisions": []
     },
     {
@@ -140,6 +185,45 @@
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar todas as publicações, retificações e convocações oficiais diretamente na página oficial da seleção e da SCMBH.",
       "revisions": [
+        {
+          "capturedAt": "2026-09-15",
+          "source": "retificação",
+          "url": "https://med.estrategia.com/portal/noticias/scmbh-edital-residencia-medica-2027/",
+          "title": "SCMBH retifica edital para residência médica 2027; inscrições começam em 21/09",
+          "timeline": [
+            {
+              "label": "Período de Inscrições",
+              "date": "21/09 a 04/11/2026",
+              "isRange": true
+            },
+            {
+              "label": "Prova Objetiva",
+              "date": "21/11/2026",
+              "isRange": false
+            },
+            {
+              "label": "Gabarito Preliminar",
+              "date": "22/11/2026",
+              "isRange": false
+            },
+            {
+              "label": "Gabarito Definitivo",
+              "date": "10/12/2026",
+              "isRange": false
+            },
+            {
+              "label": "Classificação Preliminar",
+              "date": "08/01/2027",
+              "isRange": false
+            },
+            {
+              "label": "Resultado Final",
+              "date": "12/01/2027",
+              "isRange": false
+            }
+          ],
+          "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar todas as publicações, retificações e convocações oficiais diretamente na página oficial da seleção e da SCMBH."
+        },
         {
           "capturedAt": "2026-09-15",
           "source": "retificação",
