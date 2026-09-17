@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-09-17T17:00:27+00:00",
+  "lastSyncedAt": "2026-09-17T18:00:34+00:00",
   "editals": [
     {
       "id": "famene-edital-residencia-medica-2027",
@@ -39,6 +39,46 @@
         }
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da instituição .",
+      "revisions": []
+    },
+    {
+      "id": "santa-casa-de-sao-carlos-edital-residencia-medica-2027",
+      "source": {
+        "name": "Santa Casa",
+        "shortName": "Santa Casa",
+        "accentColor": "#ef4444"
+      },
+      "originalTitle": "Santa Casa de São Carlos 2027 terá prova em janeiro; confira o edital para Residência Médica",
+      "rewrittenTitle": "Santa Casa de São Carlos 2027 terá prova em janeiro; para Residência Médica",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/santa-casa-de-sao-carlos-edital-residencia-medica-2027/",
+      "officialUrl": "https://sis.consesp.com.br/site/index.php?pg=concursos/info&codigo=4949",
+      "scrapedAt": "2026-09-17T18:00:34+00:00",
+      "publishedAt": "2026-09-17",
+      "updatedAt": "2026-09-17",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "03/10 a 27/12/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "12/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Convocação 2ª fase",
+          "date": "22/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "18/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
       "revisions": []
     },
     {
