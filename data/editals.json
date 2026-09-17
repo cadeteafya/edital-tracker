@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-09-17T11:30:28+00:00",
+  "lastSyncedAt": "2026-09-17T12:00:38+00:00",
   "editals": [
     {
       "id": "santa-casa-de-maringa-edital-residencia-medica-2027",
@@ -185,6 +185,45 @@
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar todas as publicações, retificações e convocações oficiais diretamente na página oficial da seleção e da SCMBH.",
       "revisions": [
+        {
+          "capturedAt": "2026-09-15",
+          "source": "retificação",
+          "url": "https://med.estrategia.com/portal/noticias/scmbh-edital-residencia-medica-2027/",
+          "title": "SCMBH retifica edital para residência médica 2027; inscrições começam em 21/09",
+          "timeline": [
+            {
+              "label": "Período de Inscrições",
+              "date": "21/09 a 04/11/2026",
+              "isRange": true
+            },
+            {
+              "label": "Prova Objetiva",
+              "date": "21/11/2026",
+              "isRange": false
+            },
+            {
+              "label": "Gabarito Preliminar",
+              "date": "22/11/2026",
+              "isRange": false
+            },
+            {
+              "label": "Gabarito Definitivo",
+              "date": "10/12/2026",
+              "isRange": false
+            },
+            {
+              "label": "Classificação Preliminar",
+              "date": "08/01/2027",
+              "isRange": false
+            },
+            {
+              "label": "Resultado Final",
+              "date": "12/01/2027",
+              "isRange": false
+            }
+          ],
+          "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar todas as publicações, retificações e convocações oficiais diretamente na página oficial da seleção e da SCMBH."
+        },
         {
           "capturedAt": "2026-09-15",
           "source": "retificação",
