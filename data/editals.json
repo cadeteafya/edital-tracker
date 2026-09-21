@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-09-21T20:30:26+00:00",
+  "lastSyncedAt": "2026-09-21T21:00:43+00:00",
   "editals": [
     {
       "id": "hcor-edital-residencia-medica-2027",
@@ -63,6 +63,51 @@
       "updatedAt": "2026-09-21",
       "timeline": [],
       "warningNote": "Atenção! É de responsabilidade do candidato acompanhar eventuais retificações, atos e comunicados publicados ao longo do processo seletivo.",
+      "revisions": []
+    },
+    {
+      "id": "scmsp-edital-residencia-medica-2027",
+      "source": {
+        "name": "Edital SCMSP",
+        "shortName": "Edital SCMSP",
+        "accentColor": "#22c55e"
+      },
+      "originalTitle": "Edital SCMSP 2027 divulgado; confira as vagas para residência médica",
+      "rewrittenTitle": "Edital SCMSP 2027 divulgado",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/scmsp-edital-residencia-medica-2027/",
+      "officialUrl": "https://www.concursosfcc.com.br/concursos/scmsp126/index.html",
+      "scrapedAt": "2026-09-21T21:00:42+00:00",
+      "publishedAt": "2026-09-21",
+      "updatedAt": "2026-09-21",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "05/10 a 04/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "05/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito Preliminar",
+          "date": "07/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Envio do Currículo",
+          "date": "13/01 a 14/01/2027",
+          "isRange": true
+        },
+        {
+          "label": "Resultado Final",
+          "date": "17/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: Recomenda-se que os candidatos acompanhem regularmente a página oficial do processo seletivo para verificar possíveis retificações, atualizações no cronograma ou comunicados adicionais.",
       "revisions": []
     },
     {
