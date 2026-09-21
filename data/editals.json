@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-09-21T13:30:25+00:00",
+  "lastSyncedAt": "2026-09-21T14:00:32+00:00",
   "editals": [
     {
       "id": "hcor-edital-residencia-medica-2027",
@@ -44,6 +44,25 @@
         }
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "revisions": []
+    },
+    {
+      "id": "scmbh-inscricoes-abertas-residencia-medica-2027",
+      "source": {
+        "name": "SCMBH",
+        "shortName": "SCMBH",
+        "accentColor": "#f97316"
+      },
+      "originalTitle": "SCMBH abre inscrições para Residência Médica 2027",
+      "rewrittenTitle": "SCMBH abre inscrições para Residência Médica 2027",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/scmbh-inscricoes-abertas-residencia-medica-2027/",
+      "officialUrl": "https://novo.ibgpconcursos.com.br/concurso.jsp?cod=777",
+      "scrapedAt": "2026-09-21T14:00:32+00:00",
+      "publishedAt": "2026-09-21",
+      "updatedAt": "2026-09-21",
+      "timeline": [],
+      "warningNote": "Atenção! É de responsabilidade do candidato acompanhar eventuais retificações, atos e comunicados publicados ao longo do processo seletivo.",
       "revisions": []
     },
     {
