@@ -28,6 +28,10 @@ LAUNCH_PATTERNS = [
     r"recebe\s+inscri[çc][õo]es",
     r"edital\s+(?:do|da|de|para)\b",
     r"edital\s+\d{4}",
+    r"publicou\b.{0,60}\bedital",                                    # "publicou ... o seu novo edital" (SES-DF)
+    r"vagas?\s+(?:de\s+|para\s+)?resid[eê]ncia\s+m[eé]dica",       # "oferece vagas para residência médica"
+    r"inscri[çc][õo]es?\s+(?:abertas?|come[çc]am|iniciam|abrem)",   # "inscrições abertas/começam/iniciam"
+    r"prazo\s+(?:de\s+|das?\s+)?inscri[çc][õo]es?",                 # "prazo de inscrições" (PUC-SP)
 ]
 
 UPDATE_PATTERNS = [

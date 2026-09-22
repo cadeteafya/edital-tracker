@@ -63,6 +63,23 @@ class ListingItem:
     categories: list[str]
 
 
+_FEE_PATTERN = re.compile(
+    r"taxa\b.{0,80}?(R\$\s*[\d.,]+)"    # taxa antes do valor: "taxa de R$ 800"
+    r"|"
+    r"(R\$\s*[\d.,]+).{0,40}?\btaxa\b", # valor antes de taxa: "R$ 800 de taxa"
+    re.I,
+)
+
+
+def _extract_fee(content: Tag) -> str | None:
+    text = content.get_text(" ", strip=True)
+    m = _FEE_PATTERN.search(text)
+    if not m:
+        return None
+    raw = (m.group(1) or m.group(2)).strip()
+    return re.sub(r"\s+", " ", raw)
+
+
 @dataclass
 class ArticleData:
     title: str
@@ -71,6 +88,7 @@ class ArticleData:
     timeline: list[TimelineEntry] = field(default_factory=list)
     official_url: str | None = None
     warning_note: str | None = None
+    fee: str | None = None
 
 
 def _classes_for_article(article: Tag) -> list[str]:
@@ -350,6 +368,7 @@ def parse_article(html: str, url: str) -> ArticleData:
         timeline=timeline,
         official_url=official_url,
         warning_note=warning_note,
+        fee=_extract_fee(content),
     )
 
 

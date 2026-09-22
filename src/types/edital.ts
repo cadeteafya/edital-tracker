@@ -22,4 +22,5 @@ export type Edital = {
   updatedAt: string;
   timeline: TimelineEntry[];
   warningNote?: string | null;
+  fee?: string | null;
 };

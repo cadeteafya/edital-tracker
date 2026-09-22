@@ -86,6 +86,15 @@ export function EditalCard({ edital, isNew }: Props) {
           </div>
         )}
 
+        <div className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--surface-muted)] px-3.5 py-2">
+          <span className="text-[10px] uppercase tracking-wider text-[var(--muted)] font-semibold">
+            Taxa
+          </span>
+          <span className={`text-xs font-mono font-medium ${edital.fee ? "text-[var(--foreground)]" : "text-[var(--muted)]"}`}>
+            {edital.fee ?? "Confirmar"}
+          </span>
+        </div>
+
         {edital.timeline.length > 0 ? (
           <div>
             <p className="text-[10px] uppercase tracking-wider text-[var(--muted)] font-semibold mb-2">

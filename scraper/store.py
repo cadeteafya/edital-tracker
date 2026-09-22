@@ -34,6 +34,7 @@ class Edital:
     updatedAt: str
     timeline: list[dict[str, Any]]
     warningNote: str | None = None
+    fee: str | None = None
     revisions: list[dict[str, Any]] = field(default_factory=list)
 
 
@@ -107,6 +108,7 @@ def build_record(
         updatedAt=article.published_iso or now,
         timeline=_serialize_timeline(article.timeline),
         warningNote=article.warning_note,
+        fee=article.fee,
     )
     payload = asdict(rec)
     if revision_of:
