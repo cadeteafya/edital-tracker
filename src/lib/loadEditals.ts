@@ -52,6 +52,7 @@ export async function loadEditalsSnapshot(): Promise<{
       isRange: t.isRange,
     })),
     warningNote: e.warningNote,
+    fee: e.fee,
   }));
 
   return { lastSyncedAt: raw.lastSyncedAt, editals };
