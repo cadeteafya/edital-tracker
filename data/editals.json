@@ -1,6 +1,25 @@
 {
-  "lastSyncedAt": "2026-09-22T10:30:30+00:00",
+  "lastSyncedAt": "2026-09-22T11:00:42+00:00",
   "editals": [
+    {
+      "id": "inscricoes-ampla-concorrencia-residencia-uel-2027",
+      "source": {
+        "name": "UEL",
+        "shortName": "UEL",
+        "accentColor": "#7c3aed"
+      },
+      "originalTitle": "UEL abre inscrições da ampla concorrência para Residência Médica 2027",
+      "rewrittenTitle": "UEL abre inscrições da ampla concorrência para Residência Médica 2027",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/inscricoes-ampla-concorrencia-residencia-uel-2027/",
+      "officialUrl": "https://www.cops.uel.br/v2/Selecao/DetalharSelecao/Selecao/409",
+      "scrapedAt": "2026-09-22T11:00:41+00:00",
+      "publishedAt": "2026-09-22",
+      "updatedAt": "2026-09-22",
+      "timeline": [],
+      "warningNote": "Atenção! É de responsabilidade do candidato acompanhar eventuais retificações, atos e comunicados publicados ao longo do processo seletivo.",
+      "revisions": []
+    },
     {
       "id": "hcor-edital-residencia-medica-2027",
       "source": {
