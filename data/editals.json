@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-09-22T17:30:29+00:00",
+  "lastSyncedAt": "2026-09-22T18:00:44+00:00",
   "editals": [
     {
       "id": "inscricoes-ampla-concorrencia-residencia-uel-2027",
@@ -65,6 +65,52 @@
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
       "fee": "R$ 300",
+      "revisions": []
+    },
+    {
+      "id": "hrpp-edital-residencia-medica-2027",
+      "source": {
+        "name": "HRPP",
+        "shortName": "HRPP",
+        "accentColor": "#10b981"
+      },
+      "originalTitle": "HRPP abre seleção de Residência Médica 2027; confira o edital",
+      "rewrittenTitle": "HRPP abre seleção de Residência Médica 2027",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/hrpp-edital-residencia-medica-2027/",
+      "officialUrl": "https://www.vunesp.com.br/HRPP2602",
+      "scrapedAt": "2026-09-22T18:00:42+00:00",
+      "publishedAt": "2026-09-22",
+      "updatedAt": "2026-09-22",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "07/10 a 26/10/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "05/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito Preliminar",
+          "date": "08/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Classificação Prévia",
+          "date": "26/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "16/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato o acompanhamento de todas as publicações, editais de convocação e eventuais retificações na página oficial do processo seletivo .",
+      "fee": "R$ 800,00",
       "revisions": []
     },
     {
