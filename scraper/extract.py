@@ -77,7 +77,8 @@ def _extract_fee(content: Tag) -> str | None:
     if not m:
         return None
     raw = (m.group(1) or m.group(2)).strip()
-    return re.sub(r"\s+", " ", raw)
+    raw = re.sub(r"\s+", " ", raw)
+    return re.sub(r"[.,]+$", "", raw)  # remove ponto/vírgula final de frase
 
 
 @dataclass
