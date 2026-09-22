@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-09-22T13:30:36+00:00",
+  "lastSyncedAt": "2026-09-22T14:00:39+00:00",
   "editals": [
     {
       "id": "inscricoes-ampla-concorrencia-residencia-uel-2027",
@@ -20,6 +20,52 @@
       "warningNote": "Atenção! É de responsabilidade do candidato acompanhar eventuais retificações, atos e comunicados publicados ao longo do processo seletivo.",
       "revisions": [],
       "fee": "R$ 692"
+    },
+    {
+      "id": "hospital-santa-lucia-edital-residencia-medica-2027",
+      "source": {
+        "name": "Hospital Santa Lúcia",
+        "shortName": "Hospital Santa Lúcia",
+        "accentColor": "#0d9488"
+      },
+      "originalTitle": "Hospital Santa Lúcia reúne vagas para Residência Médica 2027; veja o edital",
+      "rewrittenTitle": "Hospital Santa Lúcia reúne vagas para Residência Médica 2027; veja o edital",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/hospital-santa-lucia-edital-residencia-medica-2027/",
+      "officialUrl": "https://www.institutoibest.org.br/concurso/69-hospital-santa-lucia-processo-seletivo-publico-para",
+      "scrapedAt": "2026-09-22T14:00:36+00:00",
+      "publishedAt": "2026-09-22",
+      "updatedAt": "2026-09-22",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "06/10 a 09/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "29/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado da Prova + Convocação Análise Curricular",
+          "date": "21/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Envio do Currículo",
+          "date": "28 e 29/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "03/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 300",
+      "revisions": []
     },
     {
       "id": "hcor-edital-residencia-medica-2027",
