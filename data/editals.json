@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-09-23T12:30:36+00:00",
+  "lastSyncedAt": "2026-09-23T13:00:43+00:00",
   "editals": [
     {
       "id": "uel-2027-distribuicao-vagas-residencia-medica",
@@ -19,6 +19,47 @@
       "timeline": [],
       "warningNote": "Atenção: o quadro de vagas poderá sofrer alterações ao longo do processo seletivo. Por isso, os candidatos devem acompanhar as próximas publicações e eventuais retificações divulgadas pela UEL para conferir possíveis mudanças na oferta e na distribuição das vagas.",
       "fee": "R$ 692",
+      "revisions": []
+    },
+    {
+      "id": "hifa-edital-residencia-medica-2027",
+      "source": {
+        "name": "HIFA",
+        "shortName": "HIFA",
+        "accentColor": "#f59e0b"
+      },
+      "originalTitle": "HIFA integra PSU-ES/Sul 2027 com 32 vagas de Residência Médica; acesse o edital",
+      "rewrittenTitle": "HIFA integra PSU-ES/Sul 2027 com 32 vagas de Residência Médica; acesse o edital",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/hifa-edital-residencia-medica-2027/",
+      "officialUrl": "https://novo.ibgpconcursos.com.br/concurso.jsp?cod=787",
+      "scrapedAt": "2026-09-23T13:00:37+00:00",
+      "publishedAt": "2026-09-23",
+      "updatedAt": "2026-09-23",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "05 a 19/10/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "02/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Classificação preliminar",
+          "date": "15/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "18/12/2026",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$500",
       "revisions": []
     },
     {
