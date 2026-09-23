@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-09-23T15:30:35+00:00",
+  "lastSyncedAt": "2026-09-23T16:00:43+00:00",
   "editals": [
     {
       "id": "uel-2027-distribuicao-vagas-residencia-medica",
@@ -60,6 +60,67 @@
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
       "fee": "R$500",
+      "revisions": []
+    },
+    {
+      "id": "unifesp-edital-residencia-medica-2027",
+      "source": {
+        "name": "UNIFESP",
+        "shortName": "UNIFESP",
+        "accentColor": "#10b981"
+      },
+      "originalTitle": "Edital UNIFESP 2027 é divulgado; inscrições para residência médica começam em 07/10",
+      "rewrittenTitle": "Edital UNIFESP 2027 é divulgado; inscrições para residência médica começam em 07/10",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/unifesp-edital-residencia-medica-2027/",
+      "officialUrl": "",
+      "scrapedAt": "2026-09-23T16:00:38+00:00",
+      "publishedAt": "2026-09-23",
+      "updatedAt": "2026-09-23",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "07 a 30/10/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "29/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito Preliminar",
+          "date": "29/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado 1ª Fase",
+          "date": "15/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Prova Prática – Acesso Direto",
+          "date": "08/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Prova Prática – R+",
+          "date": "09/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Análise Curricular",
+          "date": "04 a 21/01/2027",
+          "isRange": true
+        },
+        {
+          "label": "Resultado Final",
+          "date": "04/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de responsabilidade exclusiva do candidato acompanhar todas as publicações, retificações, emendas e comunicados oficiais na página oficial da seleção.",
+      "fee": "R$ 726,00",
       "revisions": []
     },
     {
