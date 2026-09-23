@@ -1,6 +1,26 @@
 {
-  "lastSyncedAt": "2026-09-23T12:00:51+00:00",
+  "lastSyncedAt": "2026-09-23T12:30:36+00:00",
   "editals": [
+    {
+      "id": "uel-2027-distribuicao-vagas-residencia-medica",
+      "source": {
+        "name": "UEL",
+        "shortName": "UEL",
+        "accentColor": "#7c3aed"
+      },
+      "originalTitle": "UEL 2027: distribuição das vagas após cálculo das cotas é divulgada",
+      "rewrittenTitle": "UEL 2027: distribuição das vagas após cálculo das cotas é divulgada",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/uel-2027-distribuicao-vagas-residencia-medica/",
+      "officialUrl": "https://www.cops.uel.br/v2/download.php?Acesso=YzlmNzU2YTBiMWIzYTM4MDZiM2RmN2FiYWEzZDdkMWE3ZjI2Zjg0N2JmMzc0OTMyODE4M2VmMTNjZDJkYjZjNjkxYjEwNzZjYmY1NGNiNTYyMWYwNzY4NGM2MjcyMWUzNDIxNGI0MmZiMWUzNzM0OGNiZjVlOTI1NDdiNzVlMWY2Y2JlMTM0NDVjOTM0MTRkYjg0YjE4OGE3MzcwNTI3YWUxYmE0ZDY4MzU5OTIzNDU3YTMxNDQyNjk2N2ZkYWNk",
+      "scrapedAt": "2026-09-22T12:52:32+00:00",
+      "publishedAt": "2026-09-23",
+      "updatedAt": "2026-09-23",
+      "timeline": [],
+      "warningNote": "Atenção: o quadro de vagas poderá sofrer alterações ao longo do processo seletivo. Por isso, os candidatos devem acompanhar as próximas publicações e eventuais retificações divulgadas pela UEL para conferir possíveis mudanças na oferta e na distribuição das vagas.",
+      "fee": "R$ 692",
+      "revisions": []
+    },
     {
       "id": "inscricoes-ampla-concorrencia-residencia-uel-2027",
       "source": {
@@ -318,26 +338,6 @@
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
       "fee": "R$ 600",
-      "revisions": []
-    },
-    {
-      "id": "uel-2027-distribuicao-vagas-residencia-medica",
-      "source": {
-        "name": "UEL",
-        "shortName": "UEL",
-        "accentColor": "#7c3aed"
-      },
-      "originalTitle": "UEL 2027: distribuição das vagas após cálculo das cotas é divulgada",
-      "rewrittenTitle": "UEL 2027: distribuição das vagas após cálculo das cotas é divulgada",
-      "examYear": 2027,
-      "originalUrl": "https://med.estrategia.com/portal/noticias/uel-2027-distribuicao-vagas-residencia-medica/",
-      "officialUrl": "https://www.cops.uel.br/v2/download.php?Acesso=YzlmNzU2YTBiMWIzYTM4MDZiM2RmN2FiYWEzZDdkMWE3ZjI2Zjg0N2JmMzc0OTMyODE4M2VmMTNjZDJkYjZjNjkxYjEwNzZjYmY1NGNiNTYyMWYwNzY4NGM2MjcyMWUzNDIxNGI0MmZiMWUzNzM0OGNiZjVlOTI1NDdiNzVlMWY2Y2JlMTM0NDVjOTM0MTRkYjg0YjE4OGE3MzcwNTI3YWUxYmE0ZDY4MzU5OTIzNDU3YTMxNDQyNjk2N2ZkYWNk",
-      "scrapedAt": "2026-09-22T12:52:32+00:00",
-      "publishedAt": "2026-09-21",
-      "updatedAt": "2026-09-21",
-      "timeline": [],
-      "warningNote": "Atenção: o quadro de vagas poderá sofrer alterações ao longo do processo seletivo. Por isso, os candidatos devem acompanhar as próximas publicações e eventuais retificações divulgadas pela UEL para conferir possíveis mudanças na oferta e na distribuição das vagas.",
-      "fee": "R$ 692",
       "revisions": []
     },
     {
