@@ -1,8 +1,8 @@
 # Edital Tracker — Documentação Técnica
 
-> Última atualização: 2026-05-25  
-> Versão: 0.3  
-> Repositório: monorepo local — frontend Next.js + scraper Python
+> Última atualização: 2026-09-22  
+> Versão: 0.5  
+> Repositório: `cadeteafya/edital-tracker` — frontend Next.js + scraper Python
 
 ---
 
@@ -16,11 +16,12 @@
 6. [Scraper Python](#6-scraper-python)
 7. [Frontend Next.js](#7-frontend-nextjs)
 8. [Fluxo de dados completo](#8-fluxo-de-dados-completo)
-9. [Configuração e variáveis de ambiente](#9-configuração-e-variáveis-de-ambiente)
-10. [Como rodar localmente](#10-como-rodar-localmente)
-11. [Plano de deploy (Vercel + GitHub Actions)](#11-plano-de-deploy-vercel--github-actions)
-12. [Decisões de design e trade-offs](#12-decisões-de-design-e-trade-offs)
-13. [Limitações conhecidas e próximos passos](#13-limitações-conhecidas-e-próximos-passos)
+9. [Notificações Microsoft Teams](#9-notificações-microsoft-teams)
+10. [Configuração e variáveis de ambiente](#10-configuração-e-variáveis-de-ambiente)
+11. [Como rodar localmente](#11-como-rodar-localmente)
+12. [Deploy (Vercel + GitHub Actions)](#12-deploy-vercel--github-actions)
+13. [Decisões de design e trade-offs](#13-decisões-de-design-e-trade-offs)
+14. [Limitações conhecidas e próximos passos](#14-limitações-conhecidas-e-próximos-passos)
 
 ---
 
@@ -28,21 +29,22 @@
 
 O **Edital Tracker** monitora continuamente o portal [med.estrategia.com](https://med.estrategia.com/portal/?s=edital) em busca de lançamentos de editais de **residência médica** e **provas de título**. Para cada edital detectado, o sistema:
 
-1. Extrai o cronograma estruturado (tabela de datas).
+1. Extrai o cronograma estruturado (tabela de datas) e a taxa de inscrição.
 2. Detecta o link para o site oficial do processo seletivo.
 3. Reescreve o título de forma mais objetiva (via Claude API ou heurística).
-4. Persiste tudo num banco JSON local (`data/editals.json`).
+4. Persiste tudo em `data/editals.json`, commitado no repositório.
 5. Exibe os dados em uma página web moderna com busca e paginação.
+6. Aciona o sistema `alerta-editais` (repo separado) que envia cartões estruturados ao Microsoft Teams.
 
 **O que é monitorado:**
-- Notícias com padrão de lançamento de edital: "divulga edital", "publica edital", "abre inscrições", etc.
-- Categorias WordPress: `category-noticias` e `category-provas-de-titulo-noticias`.
+- Notícias com padrão de lançamento de edital: "divulga edital", "publica edital", "abre inscrições", "vagas para residência médica", etc.
+- Duas fontes simultâneas: busca HTML (`?s=edital`) + feed RSS (`/category/noticias/feed/`).
 - Retificações/atualizações de editais já no banco (atualizam o registro existente).
 
 **O que é excluído:**
-- `category-concursos` — concursos públicos municipais/estaduais para cargos médicos (prefeituras, autarquias).
-- Artigos classificados como `concurso_publico` pelo regex classifier (ex.: "X vagas para médicos", "Prefeitura de Y").
-- Artigos sem padrão reconhecível que não se encaixam em nenhuma categoria.
+- `category-concursos` — concursos públicos municipais/estaduais para cargos médicos.
+- Artigos classificados como `concurso_publico` pelo regex classifier (ex.: "vagas para médicos", "Prefeitura de X", "perito médico").
+- Artigos sem padrão reconhecível de lançamento de edital.
 
 ---
 
@@ -51,30 +53,31 @@ O **Edital Tracker** monitora continuamente o portal [med.estrategia.com](https:
 ```
 ┌─────────────────────────────────────────┐
 │           med.estrategia.com            │
-│   WordPress — listagem + artigos        │
-└──────────────────┬──────────────────────┘
-                   │ HTTP (httpx + cache 30min)
-                   ▼
+│   WordPress — listagem HTML + RSS feed  │
+└───────────────┬─────────────────────────┘
+                │ HTTP (httpx + cache 30min)
+                ▼
 ┌─────────────────────────────────────────┐
 │           scraper/  (Python)            │
 │  fetch → classify → extract →           │
 │  identify → rewrite → store             │
-└──────────────────┬──────────────────────┘
-                   │ grava
-                   ▼
+└───────────────┬─────────────────────────┘
+                │ grava
+                ▼
 ┌─────────────────────────────────────────┐
 │         data/editals.json               │
 │   { lastSyncedAt, editals: [...] }      │
-└──────────────────┬──────────────────────┘
-                   │ leitura em build/request
-                   ▼
-┌─────────────────────────────────────────┐
-│      Next.js 16 (App Router, SSR)       │
-│   page.tsx → loadEditals → cards        │
-└─────────────────────────────────────────┘
+└───────────────┬─────────────────────────┘
+                │ git commit + push
+                ▼
+┌─────────────────────────────────────────┐   ┌──────────────────────────────┐
+│      Vercel (edital-tracker-woad)       │   │   alerta-editais (repo sep.) │
+│   Next.js SSR force-dynamic             │◄──│   monitora o site publicado  │
+│   page.tsx → loadEditals → EditalCards  │   │   envia cartão ao Teams      │
+└─────────────────────────────────────────┘   └──────────────────────────────┘
 ```
 
-A comunicação entre o scraper e o frontend é **desacoplada via arquivo JSON** — não há banco de dados, não há API. Isso simplifica o deploy (arquivo commitado no repo → Vercel redeploya automaticamente).
+A comunicação entre scraper e frontend é **desacoplada via arquivo JSON** — não há banco de dados, não há API. O arquivo é commitado no repo e dispara o redeploy da Vercel automaticamente.
 
 ---
 
@@ -99,7 +102,6 @@ A comunicação entre o scraper e o frontend é **desacoplada via arquivo JSON**
 | httpx | >=0.27 | HTTP client com suporte a redirects e timeout |
 | BeautifulSoup4 | >=4.12 | Parse HTML dos artigos |
 | anthropic SDK | >=0.40 | Reescrita de títulos via Claude Haiku (opcional) |
-| python-slugify | >=8.0 | Geração de IDs (presente em requirements, não usado ativamente no momento) |
 
 ---
 
@@ -116,7 +118,7 @@ edital-tracker/
 │   ├── __main__.py           # Orquestrador principal (entry point)
 │   ├── fetch.py              # HTTP client com cache em disco (30 min TTL)
 │   ├── classify.py           # Classifica artigos: edital_launch / update / concurso / skip
-│   ├── extract.py            # Parseia HTML do artigo → timeline, URL oficial, data
+│   ├── extract.py            # Parseia HTML do artigo → timeline, URL oficial, taxa, data
 │   ├── identify.py           # Detecta fonte (instituição) e ano do exame
 │   ├── rewrite.py            # Reescreve título via Claude API ou heurística regex
 │   ├── store.py              # Estrutura Edital, merge, load/save JSON
@@ -130,7 +132,7 @@ edital-tracker/
 │   │   └── globals.css       # CSS global: variáveis de tema, body com gradients
 │   │
 │   ├── components/
-│   │   ├── EditalCard.tsx    # Card individual — banner, cronograma, próximo marco, CTA
+│   │   ├── EditalCard.tsx    # Card individual — banner, taxa, cronograma, CTA
 │   │   ├── SiteHeader.tsx    # Header sticky com logo, contador, última sincronização
 │   │   ├── PageIntro.tsx     # Seção hero com título e contagem de editais
 │   │   ├── SearchBar.tsx     # Input de busca (client component) com URL params debounced
@@ -143,12 +145,13 @@ edital-tracker/
 │   └── types/
 │       └── edital.ts         # Tipos TypeScript: Edital, TimelineEntry
 │
-├── .claude/
-│   └── launch.json           # Config do preview server (npm run dev, porta 3000)
+├── .github/
+│   └── workflows/
+│       └── scrape.yml        # Cron GitHub Actions — roda o scraper automaticamente
 │
 ├── .gitignore
 ├── documentation.md          # Este arquivo
-├── CLAUDE.md → AGENTS.md     # Instrução para agentes de IA
+├── CLAUDE.md → AGENTS.md
 ├── next.config.ts
 ├── tsconfig.json
 └── package.json
@@ -183,38 +186,42 @@ type Edital = {
   publishedAt: string;           // ISO date — data de publicação do artigo
   updatedAt: string;             // ISO date — data da última atualização
   timeline: TimelineEntry[];     // Cronograma. Pode ser [] se não extraível.
-  warningNote?: string | null;   // Nota de atenção (obsoleto no card, mantido no JSON)
+  warningNote?: string | null;   // Nota de atenção (mantida no JSON, não exibida no card)
+  fee?: string | null;           // Taxa de inscrição ex.: "R$ 800" — null/ausente = "Confirmar"
 };
 ```
+
+> **`fee` ausente vs. `null`**: ambos renderizam "Confirmar" no card. O scraper grava `null` quando não encontra o valor; registros anteriores à adição do campo simplesmente não têm a chave.
 
 ### `data/editals.json` (schema)
 
 ```json
 {
-  "lastSyncedAt": "2026-05-22T20:26:54+00:00",
+  "lastSyncedAt": "2026-09-22T14:00:00+00:00",
   "editals": [
     {
       "id": "string (slug)",
       "source": { "name": "", "shortName": "", "accentColor": "#hex" },
       "originalTitle": "",
       "rewrittenTitle": "",
-      "examYear": 2026,
+      "examYear": 2027,
       "originalUrl": "https://med.estrategia.com/...",
       "officialUrl": "https://...",
-      "scrapedAt": "2026-05-22T20:26:00+00:00",
-      "publishedAt": "2026-05-20",
-      "updatedAt": "2026-05-20",
+      "scrapedAt": "2026-09-22T14:00:00+00:00",
+      "publishedAt": "2026-09-22",
+      "updatedAt": "2026-09-22",
       "timeline": [
         { "label": "", "date": "", "isRange": false }
       ],
       "warningNote": null,
+      "fee": "R$ 800",
       "revisions": []
     }
   ]
 }
 ```
 
-> **`scrapedAt` é imutável** — gravado na primeira inserção pelo `store.merge()` e nunca sobrescrito em rodadas subsequentes. Usado para calcular se o badge "SAIU O EDITAL" deve aparecer (expira em 2 dias).
+> **`scrapedAt` é imutável** — gravado na primeira inserção pelo `store.merge()` e nunca sobrescrito. Usado para calcular se o badge "SAIU O EDITAL" deve aparecer (expira em 2 dias).
 
 ---
 
@@ -225,68 +232,90 @@ type Edital = {
 ```bash
 python -m scraper              # usa cache (30 min TTL)
 python -m scraper --no-cache   # força re-fetch de todas as páginas
-python -m scraper --limit 5    # processa apenas os 5 primeiros cards da listagem
+python -m scraper --limit 5    # processa apenas os 5 primeiros itens
 ```
+
+### Fontes de dados (dupla)
+
+O scraper consulta duas fontes em paralelo e deduplica por URL:
+
+| Fonte | URL | Característica |
+|---|---|---|
+| Busca HTML | `?s=edital` | Cobertura ampla, sujeita a cache de horas no servidor |
+| RSS feed | `/category/noticias/feed/` | Sem cache — detecta artigos recém-publicados imediatamente |
 
 ### Pipeline de execução (`__main__.py`)
 
 ```
-1. fetch(LISTING_URL)
+1. fetch(?s=edital) + fetch(RSS feed)
+       ↓ deduplica por URL
+2. parse_listing() + parse_rss_listing() → list[ListingItem]
        ↓
-2. parse_listing() → list[ListingItem]
+3. [purge] Remove do banco registros que o classificador atual rejeitaria
        ↓
-3. Para cada ListingItem:
+4. Para cada ListingItem:
    a. classify(title, excerpt, categories) → Classification
       ├── "concurso"      → skip
       ├── "skip"          → skip
-      ├── "edital_launch" → processar artigo (passo 4)
-      └── "update"        → processar artigo (passo 4) → aplicar como retificação
+      ├── "edital_launch" → processar artigo (passo 5)
+      └── "update"        → processar artigo (passo 5) → aplicar como retificação
+   b. Se já no banco com timeline e não é "update" → skip (não re-dispara alertas)
        ↓
-4. fetch(item.url)
+5. fetch(item.url)
        ↓
-5. parse_article() → ArticleData
+6. parse_article() → ArticleData
    ├── extrai timeline (table > ul > fallback vazio)
    ├── extrai officialUrl (_is_official_candidate())
+   ├── extrai fee (_extract_fee())
    └── extrai publishedAt (meta OG > li.meta-date)
        ↓
-6. rewrite_title() → str
+7. rewrite_title() → str
    ├── Se ANTHROPIC_API_KEY: chama Claude Haiku
    └── Senão: aplica regex heurísticos
        ↓
-7. detect_source(), detect_exam_year()
+8. detect_source(), detect_exam_year()
        ↓
-8. store.build_record() + store.merge(db, record)
+9. store.build_record() + store.merge(db, record)
        ↓
-9. store.save(db) → data/editals.json
-
-10. [purge] Remove do banco registros que o classificador atual rejeitaria
+10. store.save(db) → data/editals.json
 ```
 
 ### Classificação (`classify.py`)
 
-Ordem de avaliação (primeira regra que bate vence):
+Quatro passes em ordem — primeira regra que bate vence:
 
-| Prioridade | Tipo | Exemplos de padrões |
+| Passe | Tipo | Exemplos de padrões |
 |---|---|---|
 | 1 | `concurso` | categoria `category-concursos` sem `category-noticias` |
-| 2 | `concurso_publico` | "concurso público", "X vagas para médicos", "prefeitura de X", "perito médico", "auditor médico" |
-| 3 | `update` | "retificação do edital", "edital retificado" |
-| 4 | `edital_launch` | "divulga edital", "publica edital", "saiu o edital", "abre inscrições", "edital do/da/para 2026" |
-| 5 | `update` (genérico) | "atualização", "adiamento", "confirma data", "previsão de edital" |
-| 6 | `skip` | nenhum padrão reconhecido |
+| 2 | `concurso_publico` | "concurso público", "vagas para médicos", "prefeitura", "perito médico", "auditor médico", "processo seletivo simplificado" |
+| 3 | `edital_launch` | "divulga edital", "publica edital", "saiu o edital", "abre inscrições", "edital publicado", "vagas para residência médica", "prazo de inscrições", "inscrições abertas/começam" |
+| 4 | `update` (retificação) | "retificação do edital", "edital retificado", "adiamento", "confirma data" |
+| 5 | `skip` | nenhum padrão reconhecido |
 
-> **Importante:** `concurso_publico` foi adicionado para excluir concursos de prefeituras/autarquias que tinham `category-noticias` e passavam pelo classificador anterior.
+> **Segurança:** os padrões `concurso_publico` (passe 2) rodam **antes** dos padrões de lançamento (passe 3), garantindo que concursos municipais/estaduais nunca sejam capturados mesmo que o título contenha palavras como "residência".
+
+### Extração de taxa (`extract.py — _extract_fee`)
+
+```python
+_FEE_PATTERN = re.compile(
+    r"taxa\b.{0,80}?(R\$\s*[\d.,]+)"   # "taxa de R$ 800"
+    r"|"
+    r"(R\$\s*[\d.,]+).{0,40}?\btaxa\b", # "R$ 800 de taxa"
+    re.I,
+)
+```
+
+- Busca no texto completo do `div.entry-content`.
+- Remove pontuação final de frase (ex.: "R$ 600." → "R$ 600").
+- Retorna `None` se não encontrado; o frontend exibe "Confirmar".
 
 ### Extração de URL oficial (`extract.py — _is_official_candidate`)
 
-Rejeita automaticamente:
-- Domínios próprios: qualquer URL com "estrategia" no netloc
-- Redes sociais: facebook.com, t.me, twitter.com, x.com, linkedin.com, instagram.com, etc.
-- Padrões de path: `politica-de-privacidade`, `unsubscribe`, `sharer`, `shareArticle`
+Rejeita automaticamente domínios da Estratégia, redes sociais (facebook, instagram, telegram, etc.) e paths de política/privacidade.
 
 Prioriza (ordem):
-1. Link no bloco "atenção" (`_find_warning_block`) com `_is_official_candidate`
-2. Link em qualquer `<a>` com texto-âncora indicativo: "inscrição", "acesse", "edital", "portal", "candidato"
+1. Link no bloco "atenção" com `_is_official_candidate`
+2. `<a>` com texto-âncora indicativo: "inscrição", "acesse", "edital", "portal", "candidato"
 3. Primeiro link externo genérico válido no `entry-content`
 4. PDF (`wp-content/uploads/*.pdf`) como último recurso
 
@@ -295,23 +324,14 @@ Prioriza (ordem):
 Tenta em ordem:
 1. `<table>` com ≥ 3 linhas contendo tokens de data → `TimelineEntry[]`
 2. `<ul><li>` com formato "Label: data" e ≥ 3 itens
-3. Retorna `[]` — artigo é aceito mesmo sem cronograma (card mostra aviso)
-
-### Detecção de fonte (`identify.py`)
-
-Testa 15 instituições conhecidas por regex (ex.: `r"s[íi]rio[- ]liban[êe]s"`). Se nenhuma bater, extrai o primeiro bloco de palavras em maiúscula do título como `shortName`.
-
-### Reescrita de título (`rewrite.py`)
-
-- **Com `ANTHROPIC_API_KEY`**: chama `claude-haiku-4-5` com system prompt de reescrita objetiva (máx. 110 chars). Fallback para heurística se a chamada falhar.
-- **Sem chave**: aplica regex sequencialmente — remove "confira o edital", "confira o documento", expande acrônimos comuns, limpa pontuação residual.
+3. Retorna `[]` — artigo é aceito mesmo sem cronograma (card exibe aviso)
 
 ### Merge e retificações (`store.py`)
 
 - **Nova inserção**: `scrapedAt` = agora (UTC ISO). Nunca mais alterado.
-- **Atualização** (`merge`): se `timeline` ou `warningNote` mudarem, o estado anterior é arquivado em `revisions[]`. `scrapedAt` do registro original é **preservado**.
-- **Retificação** (`apply_revision`): artigos classificados como `update` tentam encontrar um registro pai pelo `shortName` da fonte no título. Se encontrado, atualiza `timeline`, `warningNote`, `officialUrl` e arquiva o estado anterior em `revisions`.
-- **Purga**: ao fim de cada execução, registros que o classificador atual rejeitaria (agora que `concurso_publico` existe) são removidos do banco.
+- **Atualização** (`merge`): se `timeline` ou `warningNote` mudarem, o estado anterior vai para `revisions[]`. `scrapedAt` é **preservado**.
+- **Retificação** (`apply_revision`): artigos classificados como `update` buscam o registro pai pelo `shortName`. Se encontrado, atualiza `timeline`, `warningNote`, `officialUrl` e arquiva em `revisions`.
+- **Purga retroativa**: ao fim de cada execução, registros que o classificador atual rejeitaria são removidos do banco.
 
 ---
 
@@ -319,9 +339,8 @@ Testa 15 instituições conhecidas por regex (ex.: `r"s[íi]rio[- ]liban[êe]s"`
 
 ### `src/app/page.tsx` — Página principal
 
-Server Component com `export const dynamic = "force-dynamic"` (re-renderiza a cada request para refletir o JSON atualizado sem rebuild).
+Server Component com `export const dynamic = "force-dynamic"` (re-renderiza a cada request, sempre reflete o JSON mais recente sem rebuild).
 
-Fluxo de dados:
 ```
 await searchParams → query + page
 loadEditalsSnapshot() → Edital[]
@@ -329,67 +348,62 @@ filter(query) → sort(updatedAt desc) → paginate(PAGE_SIZE=9)
 render: SiteHeader + PageIntro + SearchBar + grid[EditalCard] + Pagination
 ```
 
+### `src/lib/loadEditals.ts`
+
+Lê `data/editals.json` e mapeia campo a campo para o tipo TypeScript `Edital`. **Importante:** cada novo campo do JSON deve ser adicionado explicitamente ao mapeamento aqui — campos ausentes são silenciosamente descartados.
+
+```typescript
+const editals: Edital[] = raw.editals.map((e) => ({
+  id: e.id,
+  // ... outros campos ...
+  warningNote: e.warningNote,
+  fee: e.fee,   // ← obrigatório para o campo chegar ao EditalCard
+}));
+```
+
 ### `src/components/EditalCard.tsx`
 
 Props: `{ edital: Edital; isNew: boolean }`
 
-Seções do card:
-- **Banner** (altura 112px): gradiente `accentColor → accentColor + #0f172a`. Badges: "SAIU O EDITAL" (apenas se `isNew=true`) + nome curto + ano.
-- **Título reescrito** + metadados (`source.name` · data publicação).
-- **Próximo marco**: calculado por `findNextMilestone(timeline)` — próxima data futura na timeline. Exibe label, data e contagem relativa ("em 10 dias", "em 2 meses").
-- **Cronograma**: `<ol>` com linhas zebradas. A linha do próximo marco recebe `bg` na cor do card (10% opacity). Se `timeline=[]`, exibe aviso com ícone de info.
-- **CTA**: botão "Site oficial" (fullwidth, abre em nova aba). Se `officialUrl` for `null/""`, o botão ainda aparece com `href=""` — **limitação conhecida, ver seção 13**.
+Seções do card (de cima para baixo):
+1. **Banner** (112px): gradiente `accentColor → accentColor + #0f172a`. Badges: "SAIU O EDITAL" (se `isNew`) + `shortName` + `examYear`.
+2. **Título reescrito** + metadados (`source.name` · data de publicação).
+3. **Próximo marco**: próxima data futura na timeline. Exibe label, data e contagem relativa.
+4. **Taxa**: linha com label "TAXA" e valor `fee` (ou "Confirmar" se `fee` for null/undefined).
+5. **Cronograma**: `<ol>` com linhas. A linha do próximo marco recebe destaque na cor do card. Se `timeline=[]`, exibe aviso.
+6. **CTA**: botão "Site oficial" linkando para `officialUrl`.
 
 ### `src/components/SearchBar.tsx` (Client Component)
 
 - `useTransition` + `useRouter.push` — atualiza URL params sem bloquear a UI.
-- Debounce: 300ms via `setTimeout`/`clearTimeout`.
-- Ao digitar, reseta `page` para 1 no URL param.
+- Debounce de 300ms.
 - Busca por: `source.name`, `source.shortName`, `rewrittenTitle`, `originalTitle`.
-
-### `src/components/Pagination.tsx`
-
-Renderiza `<Link>` (Server Component-friendly). Mantém `q` no URL ao paginar. Exibe "anterior / próximo" + números. Não exibe se `totalPages = 1`.
 
 ### `src/lib/dates.ts`
 
 | Função | Descrição |
 |---|---|
-| `findNextMilestone(timeline, today?)` | Retorna o próximo `TimelineEntry` com data futura e `daysUntil` |
-| `isNewEdital(scrapedAt?, publishedAt?, days=2)` | `true` se `scrapedAt` (ou fallback `publishedAt`) ≤ 2 dias atrás |
+| `findNextMilestone(timeline)` | Retorna o próximo `TimelineEntry` com data futura e `daysUntil` |
+| `isNewEdital(scrapedAt?, publishedAt?, days=2)` | `true` se `scrapedAt` ≤ 2 dias atrás |
 | `formatRelativeDays(days)` | "hoje", "amanhã", "em N dias", "em N meses", "em mais de 1 ano" |
-
-### `src/app/globals.css`
-
-Tailwind v4 (CSS-first). Variáveis definidas em `:root` e `@theme inline`:
-
-| Variável | Light | Dark |
-|---|---|---|
-| `--background` | `#f8fafc` | `#050912` |
-| `--surface` | `#ffffff` | `#0c1322` |
-| `--border` | `#e2e8f0` | `#1f2a44` |
-| `--muted` | `#64748b` | `#94a3b8` |
-| `--accent` | `#0ea5e9` | `#38bdf8` |
-
-O `body` aplica dois gradientes radiais sutis (azul e teal no canto superior) para dar profundidade ao fundo.
 
 ---
 
 ## 8. Fluxo de dados completo
 
 ```
-[Cron / manual]
+[GitHub Actions cron — a cada 30min, Seg-Sex 07h-18h30 BRT]
       │
       ▼
 python -m scraper --no-cache
       │
-      ├── GET med.estrategia.com/portal/?s=edital
-      │         (15 cards por página)
+      ├── GET ?s=edital (HTML) + GET /category/noticias/feed/ (RSS)
+      │   deduplica por URL → lista unificada
       │
-      ├── Para cada card:
+      ├── Para cada item:
       │   ├── classify() → skip? continua.
       │   ├── GET {article_url}
-      │   ├── parse_article() → timeline[], officialUrl, publishedAt
+      │   ├── parse_article() → timeline[], officialUrl, fee, publishedAt
       │   ├── rewrite_title() → Claude Haiku ou regex
       │   ├── detect_source() / detect_exam_year()
       │   └── store.merge() → atualiza ou insere
@@ -397,54 +411,108 @@ python -m scraper --no-cache
       └── store.save() → data/editals.json
                 │
                 ▼
-          [git commit + push]  ←── GitHub Actions (futuro)
+          git commit + push (se editals.json mudou)
                 │
                 ▼
-          Vercel auto-deploy
+          Vercel auto-deploy (trigger via push)
                 │
                 ▼
-     Next.js page.tsx (SSR force-dynamic)
+     Next.js (SSR force-dynamic) — edital-tracker-woad.vercel.app
           │
-          ├── loadEditalsSnapshot() → lê data/editals.json
-          ├── filter(searchParams.q)
-          ├── sort(updatedAt desc)
-          ├── paginate(PAGE_SIZE=9)
-          └── render EditalCard[]
+          └── EditalCards com timeline, taxa, próximo marco
+                │
+                ▼
+     alerta-editais (cron independente — ver seção 9)
+          └── Cartão Adaptive Card no Microsoft Teams
 ```
 
 ---
 
-## 9. Configuração e variáveis de ambiente
+## 9. Notificações Microsoft Teams
+
+As notificações são gerenciadas pelo repositório **`cadeteafya/alerta-editais`** — um sistema independente que monitora o Edital Tracker publicado e envia cartões ao Teams via Power Automate.
+
+### Funcionamento
+
+1. GitHub Actions do `alerta-editais` roda em cron (mesmo horário que o scraper).
+2. `scraper.py` faz GET na homepage do Edital Tracker e extrai todos os `<article>` via XPath.
+3. Compara com `data/last_seen.json` (chave: `"Título | Data de Publicação"`).
+4. Para cada edital novo, `notifier.py` envia um Adaptive Card via webhook.
+5. O estado é commitado de volta ao repo do `alerta-editais`.
+
+### Campos extraídos do HTML do Edital Tracker
+
+| Campo | XPath (resumido) |
+|---|---|
+| Título | `//h3/text()` |
+| Instituição | Span no div com `linear-gradient` |
+| Ano | Span com classes `font-mono text-white` |
+| Tag de status | Span com `tracking-wider` |
+| Data de publicação | `//header/p/span//text()` |
+| Próximo Marco | Div `bg-[var(--surface-muted)]` — label + data + tempo restante |
+| Cronograma | `//ol/li` — cada linha tem etapa + data |
+| Link oficial | `//a[contains(text(), 'Site oficial')]/@href` |
+| **Taxa** | `//span[normalize-space(text())='Taxa']/following-sibling::span[1]/text()` |
+
+### Estrutura do cartão Teams (Adaptive Card v1.4)
+
+```
+┌─────────────────────────────────────────┐
+│  🚨 NOVO EDITAL: {SIGLA} {ANO}         │  ← Container "Attention" (vermelho)
+├─────────────────────────────────────────┤
+│  {Título reescrito do edital}           │
+├─────────────────────────────────────────┤
+│  🏥 Instituição    │ {nome}             │  ← FactSet
+│  📅 Publicado em  │ {data}             │
+│  💰 Taxa          │ {valor ou Confirmar}│
+├─────────────────────────────────────────┤
+│  🚀 PRÓXIMO MARCO EM DESTAQUE          │  ← Container "accent" (azul)
+│  {Etapa}    │ {Data} ({tempo restante}) │
+├─────────────────────────────────────────┤
+│  📅 Cronograma - Principais datas:     │
+│  {Etapa 1}  │ {Data 1}                 │  ← FactSet (máx. 10 linhas)
+│  ...                                    │
+├─────────────────────────────────────────┤
+│  [ 🌐 ACESSAR SITE OFICIAL ]           │  ← Botões de ação
+│  [ 📋 VER NO EDITAL TRACKER ]          │
+└─────────────────────────────────────────┘
+```
+
+### Regra de deduplicação
+
+**Chave única = `"Título do Edital | Data de Publicação"`**
+
+| Mudança no edital | Comportamento |
+|---|---|
+| `timeline`, `warningNote`, `officialUrl`, `fee`, `updatedAt` | Não dispara novo alerta |
+| `originalTitle` (título) **ou** `publishedAt` (data de publicação) | Dispara novo alerta |
+
+> Isso significa que atualizações de cronograma ou taxa não geram re-notificação. Apenas novos editais ou retificações formais (que mudam o título/data) disparam.
+
+---
+
+## 10. Configuração e variáveis de ambiente
+
+### `edital-tracker`
 
 | Variável | Obrigatória | Descrição |
 |---|---|---|
 | `ANTHROPIC_API_KEY` | Não | Habilita reescrita de título via Claude Haiku. Sem ela, usa heurística regex. |
 
-Arquivo `.env.local` na raiz do projeto (não commitado):
-```bash
-ANTHROPIC_API_KEY=sk-ant-...
-```
+### `alerta-editais` (repo separado)
 
-O scraper lê via `os.environ.get("ANTHROPIC_API_KEY")`. O Next.js não precisa desta variável (o frontend não chama a API Claude diretamente).
-
-### Cache do scraper
-
-`scraper/.cache/` — arquivos HTML nomeados por SHA1 da URL. TTL: 30 minutos. Excluído do git via `.gitignore`.
-
-Para limpar o cache manualmente:
-```bash
-rm -rf scraper/.cache/
-```
+| Secret GitHub | Obrigatório | Descrição |
+|---|---|---|
+| `TEAMS_WEBHOOK_URL` | Sim | URL do webhook gerado pelo Power Automate no Teams |
 
 ---
 
-## 10. Como rodar localmente
+## 11. Como rodar localmente
 
 ### Pré-requisitos
 
 - Node.js ≥ 20
 - Python ≥ 3.13
-- `pip` (ou `pip3`)
 
 ### Setup inicial
 
@@ -462,131 +530,93 @@ echo "ANTHROPIC_API_KEY=sk-ant-..." > .env.local
 ### Rodar o scraper
 
 ```bash
-# Popula / atualiza data/editals.json
-python -m scraper
-
-# Forçar re-fetch (ignora cache)
-python -m scraper --no-cache
-
-# Testar com poucos cards
-python -m scraper --limit 3
+python -m scraper              # popula/atualiza data/editals.json
+python -m scraper --no-cache   # força re-fetch
+python -m scraper --limit 3    # testa com poucos itens
 ```
 
 ### Rodar o frontend
 
 ```bash
-npm run dev
-# Abre em http://localhost:3000
-```
-
-### Build de produção
-
-```bash
-npm run build
-npm start
+npm run dev   # http://localhost:3000
 ```
 
 ---
 
-## 11. Plano de deploy (Vercel + GitHub Actions)
+## 12. Deploy (Vercel + GitHub Actions)
 
-> **Status atual:** ainda não implementado. A seguir o plano definido.
+### Vercel (frontend) — ativo
 
-### Vercel (frontend)
+- Repositório `cadeteafya/edital-tracker` conectado ao Vercel.
+- URL de produção: `https://edital-tracker-woad.vercel.app/`
+- Cada push para `master` redeploya automaticamente.
+- `ANTHROPIC_API_KEY` configurada como secret do Vercel (para reescrita de títulos em CI — não necessária no runtime do Next.js).
 
-1. Conectar o repositório ao Vercel.
-2. Framework: Next.js (detectado automaticamente).
-3. `ANTHROPIC_API_KEY` não é necessária no ambiente Vercel (o scraper não roda lá).
-4. Cada push para `master` redeploya automaticamente.
+### GitHub Actions (scraper automático) — ativo
 
-### GitHub Actions (scraper automático)
+Arquivo: `.github/workflows/scrape.yml`
 
-Workflow sugerido (`.github/workflows/scrape.yml`):
+| Janela | Frequência |
+|---|---|
+| Seg–Sex, 07h–18h30 BRT | A cada 30 minutos |
+| Sábado | Uma vez às 12h BRT |
+| Domingo | Uma vez às 23h BRT |
 
-```yaml
-name: Scrape editals
-on:
-  schedule:
-    - cron: "0 8,20 * * *"   # 2x por dia: 08h e 20h UTC
-  workflow_dispatch:           # trigger manual
+O workflow roda `python -m scraper --no-cache`, commita `data/editals.json` se houver mudanças e faz push. Esse push dispara o redeploy da Vercel.
 
-jobs:
-  scrape:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with: { python-version: "3.13" }
-      - run: pip install -r scraper/requirements.txt
-      - run: python -m scraper --no-cache
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-      - uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore(data): scrape editals"
-          file_pattern: data/editals.json
-```
+### Autenticação Git no GitHub Actions
 
-O commit do `editals.json` dispara o redeploy da Vercel automaticamente.
+O scraper usa a identidade `github-actions[bot]` para commits. O push usa o token padrão `GITHUB_TOKEN` com permissão `contents: write` configurada no workflow.
 
 ---
 
-## 12. Decisões de design e trade-offs
+## 13. Decisões de design e trade-offs
 
 ### JSON em vez de banco de dados
 
-**Decisão:** usar `data/editals.json` como única fonte de verdade.
+**Decisão:** `data/editals.json` como única fonte de verdade.
 
-**Razão:** o volume de dados é pequeno (dezenas de editais por vez), o acesso é somente leitura no frontend, e o arquivo pode ser commitado no repositório — eliminando a necessidade de banco externo para o deploy inicial na Vercel.
+**Razão:** volume pequeno (dezenas de editais), acesso somente leitura no frontend, arquivo commitável — elimina banco externo no deploy inicial.
 
-**Trade-off:** em escala (milhares de editais, múltiplos scrapers concorrentes) seria necessário migrar para SQLite ou PostgreSQL.
+**Trade-off:** em escala precisaria migrar para SQLite ou PostgreSQL.
 
 ### SSR `force-dynamic` em vez de ISR
 
 **Decisão:** `export const dynamic = "force-dynamic"` na página principal.
 
-**Razão:** como o JSON pode ser atualizado a qualquer momento pelo scraper, ISR (Incremental Static Regeneration) introduziria staleness. Com `force-dynamic`, a página sempre reflete o estado atual do arquivo.
+**Razão:** o JSON pode ser atualizado a qualquer momento pelo scraper. ISR introduziria staleness.
 
-**Trade-off:** sem cache de página no CDN. Para mitigar em produção, pode-se combinar com `revalidate` quando o ciclo de atualização for mais previsível.
-
-### Separação scraper/frontend via arquivo
-
-O scraper não tem acesso à API do Next.js, e o frontend não executa código Python. A comunicação é feita pelo arquivo `data/editals.json`. Isso permite desenvolver e testar cada parte independentemente.
+**Trade-off:** sem cache de página no CDN.
 
 ### `scrapedAt` imutável
 
-**Decisão:** gravar `scrapedAt` apenas na primeira inserção e nunca atualizá-lo.
+**Decisão:** gravar `scrapedAt` apenas na primeira inserção.
 
-**Razão:** o badge "SAIU O EDITAL" deve refletir quando *nós* vimos o edital pela primeira vez (entrada no nosso sistema), não quando a Estratégia publicou o artigo. `publishedAt` pode ser dias antes do scraper ter detectado.
+**Razão:** o badge "SAIU O EDITAL" deve refletir quando *nós* vimos o edital pela primeira vez, não quando a Estratégia publicou.
 
 ### Classificação por regex (sem LLM)
 
 **Decisão:** classificar artigos com regex puro, não com LLM.
 
-**Razão:** a classificação roda para cada card da listagem (15+/página) a cada execução. Usar LLM aqui seria lento e custoso. Regex são determinísticos, auditáveis e rápidos.
+**Razão:** a classificação roda para 15+ artigos a cada execução. Regex são determinísticos e rápidos. LLM é usado apenas para reescrita de título (uma vez por artigo novo).
 
-**LLM é usado apenas** para reescrever o título — uma operação por artigo novo, não repetida em re-execuções (o título já está no banco).
+### `loadEditals.ts` com mapeamento explícito
+
+**Decisão:** mapear campo a campo no `loadEditals.ts`, não usar spread (`...e`).
+
+**Razão:** força que cada novo campo seja adicionado conscientemente, impedindo que dados sensíveis ou inesperados do JSON vazem para o frontend. **Consequência:** ao adicionar um campo novo no scraper, é obrigatório também adicioná-lo no mapeamento de `loadEditals.ts`.
 
 ---
 
-## 13. Limitações conhecidas e próximos passos
+## 14. Limitações conhecidas e próximos passos
 
 ### Limitações atuais
 
 | # | Limitação | Impacto | Solução sugerida |
 |---|---|---|---|
-| L1 | Botão "Site oficial" aparece mesmo quando `officialUrl` é `null/""` | UX — botão leva a lugar nenhum | Ocultar ou desabilitar o botão quando `!officialUrl` |
-| L2 | Scraper não pagina a listagem (só pega os 15 cards da página 1) | Editais antigos na página 2+ não são capturados | Implementar paginação: `?s=edital&paged=2` |
-| L3 | Cronograma de artigos sem tabela HTML é `[]` | Artigos como TPI-GO mostram aviso genérico | Extrair datas do corpo textual com regex |
-| L4 | `accentColor` é gerado por hash do shortName | Cor pode não ter contraste adequado ou ser pouco representativa | Manter tabela manual de cores por instituição em `identify.py` |
-| L5 | Sem testes automatizados | Regressões silenciosas | Adicionar pytest para `classify.py` e `extract.py` com fixtures HTML |
-| L6 | Sem paginação no scraper | Editais históricos inacessíveis | Iterar `?paged=N` até não encontrar novos cards |
-
-### Próximos passos planejados
-
-1. **GitHub Actions cron** (ver seção 11) — automação do scraper 2× ao dia.
-2. **Deploy Vercel** — conectar repositório.
-3. **Ocultar botão "Site oficial"** quando URL ausente (L1).
-4. **Paginação do scraper** para capturar histórico completo (L2).
-5. **Ativar `ANTHROPIC_API_KEY`** para reescrita de títulos de qualidade.
-6. **Notificações** — webhook/e-mail quando novo edital entrar no banco.
+| L1 | Scraper não pagina a listagem (só 15 cards da página 1) | Editais antigos na página 2+ não são capturados | Implementar paginação: `?s=edital&paged=2` |
+| L2 | Cronograma de artigos sem tabela HTML é `[]` | Card exibe aviso genérico | Extrair datas do corpo textual com regex |
+| L3 | `accentColor` gerado por hash do shortName | Cor pode ter baixo contraste | Tabela manual de cores por instituição em `identify.py` |
+| L4 | Sem testes automatizados | Regressões silenciosas | Adicionar pytest para `classify.py` e `extract.py` |
+| L5 | Taxa não re-notificada no Teams se atualizada | Mudança de valor não chega ao Teams | Recapturar manualmente deletando o registro do JSON |
+| L6 | Padrões de skip pendentes | Alguns artigos de "confira o edital", "abre seleção" ainda passam pelo classify | Adicionar novos SKIP_PATTERNS em `classify.py` |
