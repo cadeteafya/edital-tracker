@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-09-24T23:00:32+00:00",
+  "lastSyncedAt": "2026-09-24T23:30:28+00:00",
   "editals": [
     {
       "id": "huem-edital-residencia-medica-2027",
@@ -35,6 +35,52 @@
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
       "fee": null,
+      "revisions": []
+    },
+    {
+      "id": "famema-edital-residencia-medica-2027",
+      "source": {
+        "name": "FAMEMA",
+        "shortName": "FAMEMA",
+        "accentColor": "#10b981"
+      },
+      "originalTitle": "FAMEMA divulga edital para Residência Médica 2027; prova é confirmada para 08/12",
+      "rewrittenTitle": "FAMEMA divulga edital para Residência Médica 2027; prova é confirmada para 08/12",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/famema-edital-residencia-medica-2027/",
+      "officialUrl": "https://www.vunesp.com.br/FMMA2602",
+      "scrapedAt": "2026-09-24T23:30:28+00:00",
+      "publishedAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "09 a 27/10/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "08/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito Preliminar",
+          "date": "09/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Classificação Prévia",
+          "date": "11/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "27/01/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 600,00",
       "revisions": []
     },
     {
