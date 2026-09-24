@@ -1,6 +1,42 @@
 {
-  "lastSyncedAt": "2026-09-24T12:30:28+00:00",
+  "lastSyncedAt": "2026-09-24T13:00:37+00:00",
   "editals": [
+    {
+      "id": "huem-edital-residencia-medica-2027",
+      "source": {
+        "name": "FGV",
+        "shortName": "FGV",
+        "accentColor": "#f59e0b"
+      },
+      "originalTitle": "FGV organiza seleção do HUEM com 102 vagas de Residência Médica 2027; edital divulgado",
+      "rewrittenTitle": "FGV organiza seleção do HUEM com 102 vagas de Residência Médica 2027; edital divulgado",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/huem-edital-residencia-medica-2027/",
+      "officialUrl": "https://conhecimento.fgv.br/reshuem26",
+      "scrapedAt": "2026-09-24T13:00:33+00:00",
+      "publishedAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "07/10 a 05/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "20/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "05/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": null,
+      "revisions": []
+    },
     {
       "id": "uel-2027-distribuicao-vagas-residencia-medica",
       "source": {
