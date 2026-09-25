@@ -31,7 +31,7 @@ O **Edital Tracker** monitora continuamente o portal [med.estrategia.com](https:
 
 1. Extrai o cronograma estruturado (tabela de datas) e a taxa de inscrição.
 2. Detecta o link para o site oficial do processo seletivo.
-3. Reescreve o título de forma mais objetiva (via Claude API ou heurística).
+3. Limpa o título com regras fixas de texto (ex.: remove "confira o edital"). Não há IA no projeto.
 4. Persiste tudo em `data/editals.json`, commitado no repositório.
 5. Exibe os dados em uma página web moderna com busca e paginação.
 6. Aciona o sistema `alerta-editais` (repo separado) que envia cartões estruturados ao Microsoft Teams.
@@ -101,7 +101,8 @@ A comunicação entre scraper e frontend é **desacoplada via arquivo JSON** —
 | Python | 3.13+ | Runtime do scraper |
 | httpx | >=0.27 | HTTP client com suporte a redirects e timeout |
 | BeautifulSoup4 | >=4.12 | Parse HTML dos artigos |
-| anthropic SDK | >=0.40 | Reescrita de títulos via Claude Haiku (opcional) |
+| PyMuPDF | >=1.24 | Leitura do PDF do edital (fallback da taxa) |
+| anthropic SDK | >=0.40 | Instalado, mas **não usado** (ver seção 13 — "Título sem IA") |
 
 ---
 
@@ -121,7 +122,7 @@ edital-tracker/
 │   ├── extract.py            # Parseia HTML do artigo → timeline, URL oficial, taxa, data
 │   ├── pdf_fee.py            # Fallback: taxa lida do PDF do edital (em memória, PyMuPDF)
 │   ├── identify.py           # Detecta fonte (instituição) e ano do exame
-│   ├── rewrite.py            # Reescreve título via Claude API ou heurística regex
+│   ├── rewrite.py            # Limpa o título com regras fixas (regex)
 │   ├── store.py              # Estrutura Edital, merge, load/save JSON
 │   ├── requirements.txt
 │   └── .gitignore            # Exclui .cache/ do versionamento
@@ -179,7 +180,7 @@ type Edital = {
     accentColor: string;         // Hex — cor do banner do card
   };
   originalTitle: string;         // Título original do artigo na Estratégia MED
-  rewrittenTitle: string;        // Título reescrito (LLM ou heurística)
+  rewrittenTitle: string;        // Título limpo por regras fixas — faz parte da chave de dedup do Teams
   examYear: number;              // Ano do processo (extraído do título)
   originalUrl: string;           // URL do artigo na Estratégia MED
   officialUrl?: string | null;   // URL do site oficial do processo seletivo
@@ -273,9 +274,7 @@ O scraper consulta duas fontes em paralelo e deduplica por URL:
        ↓
 6b. Sem fee + edital novo no banco + 1 edital → pdf_fee.fee_from_pdf()
        ↓
-7. rewrite_title() → str
-   ├── Se ANTHROPIC_API_KEY: chama Claude Haiku
-   └── Senão: aplica regex heurísticos
+7. rewrite_title() → str (regras fixas; mesmo título original = mesmo resultado)
        ↓
 8. detect_source(), detect_exam_year()
        ↓
@@ -439,7 +438,7 @@ python -m scraper --no-cache
       │   ├── classify() → skip? continua.
       │   ├── GET {article_url}
       │   ├── parse_article() → timeline[], officialUrl, fee, publishedAt
-      │   ├── rewrite_title() → Claude Haiku ou regex
+      │   ├── rewrite_title() → regras fixas (regex)
       │   ├── detect_source() / detect_exam_year()
       │   └── store.merge() → atualiza ou insere
       │
@@ -495,7 +494,7 @@ As notificações são gerenciadas pelo repositório **`cadeteafya/alerta-editai
 ┌─────────────────────────────────────────┐
 │  🚨 NOVO EDITAL: {SIGLA} {ANO}         │  ← Container "Attention" (vermelho)
 ├─────────────────────────────────────────┤
-│  {Título reescrito do edital}           │
+│  {Título do edital (rewrittenTitle)}    │
 ├─────────────────────────────────────────┤
 │  🏥 Instituição    │ {nome}             │  ← FactSet
 │  📅 Publicado em  │ {data}             │
@@ -520,7 +519,7 @@ As notificações são gerenciadas pelo repositório **`cadeteafya/alerta-editai
 | Mudança no edital | Comportamento |
 |---|---|
 | `timeline`, `warningNote`, `officialUrl`, `fee`, `updatedAt` | Não dispara novo alerta |
-| `originalTitle` (título) **ou** `publishedAt` (data de publicação) | Dispara novo alerta |
+| `rewrittenTitle` (título exibido no card) **ou** `publishedAt` (data de publicação) | Dispara novo alerta |
 
 > Isso significa que atualizações de cronograma ou taxa não geram re-notificação. Apenas novos editais ou retificações formais (que mudam o título/data) disparam.
 
@@ -530,9 +529,7 @@ As notificações são gerenciadas pelo repositório **`cadeteafya/alerta-editai
 
 ### `edital-tracker`
 
-| Variável | Obrigatória | Descrição |
-|---|---|---|
-| `ANTHROPIC_API_KEY` | Não | Habilita reescrita de título via Claude Haiku. Sem ela, usa heurística regex. |
+Nenhuma variável necessária. `ANTHROPIC_API_KEY` **não está configurada e não deve ser configurada** sem antes ler a seção 13 ("Título sem IA").
 
 ### `alerta-editais` (repo separado)
 
@@ -557,9 +554,6 @@ npm install
 
 # 2. Instalar dependências Python
 pip install -r scraper/requirements.txt
-
-# 3. (Opcional) Configurar API key para reescrita com LLM
-echo "ANTHROPIC_API_KEY=sk-ant-..." > .env.local
 ```
 
 ### Rodar o scraper
@@ -585,7 +579,7 @@ npm run dev   # http://localhost:3000
 - Repositório `cadeteafya/edital-tracker` conectado ao Vercel.
 - URL de produção: `https://edital-tracker-woad.vercel.app/`
 - Cada push para `master` redeploya automaticamente.
-- `ANTHROPIC_API_KEY` configurada como secret do Vercel (para reescrita de títulos em CI — não necessária no runtime do Next.js).
+- Plano Hobby (gratuito). O scraper e a leitura de PDFs rodam no GitHub Actions, não na Vercel.
 
 ### GitHub Actions (scraper automático) — ativo
 
@@ -598,6 +592,8 @@ Arquivo: `.github/workflows/scrape.yml`
 | Domingo | Uma vez às 23h BRT |
 
 O workflow roda `python -m scraper --no-cache`, commita `data/editals.json` se houver mudanças e faz push. Esse push dispara o redeploy da Vercel.
+
+Repositório público → minutos do GitHub Actions ilimitados e gratuitos. Duração típica: ~20–60 s por execução (+2–3 s por PDF lido, só em editais novos).
 
 ### Autenticação Git no GitHub Actions
 
@@ -629,11 +625,25 @@ O scraper usa a identidade `github-actions[bot]` para commits. O push usa o toke
 
 **Razão:** o badge "SAIU O EDITAL" deve refletir quando *nós* vimos o edital pela primeira vez, não quando a Estratégia publicou.
 
-### Classificação por regex (sem LLM)
+### Classificação por regex (sem IA)
 
-**Decisão:** classificar artigos com regex puro, não com LLM.
+**Decisão:** classificar artigos com regex puro.
 
-**Razão:** a classificação roda para 15+ artigos a cada execução. Regex são determinísticos e rápidos. LLM é usado apenas para reescrita de título (uma vez por artigo novo).
+**Razão:** a classificação roda para 15+ artigos a cada execução. Regex são determinísticos e rápidos.
+
+### Título sem IA
+
+**Situação:** não há IA no projeto. `rewrite.py` contém uma chamada ao Claude que só seria ativada se `ANTHROPIC_API_KEY` existisse — ela não existe, então sempre roda a limpeza por regex.
+
+**Por que importa:** o título (`rewrittenTitle`) faz parte da chave de dedup do Teams. Editais sem cronograma são reprocessados a cada execução; com regex, o título sai sempre igual e nada é reenviado.
+
+**Se um dia ativar IA:** antes, travar o título na primeira gravação (não reescrever registros existentes). Caso contrário, títulos diferentes a cada execução gerariam alertas repetidos no Teams.
+
+### Taxa via PDF só para editais novos
+
+**Decisão:** o fallback de taxa pelo PDF roda apenas na inserção de um edital novo.
+
+**Razão:** evita baixar PDFs a cada execução e garante que registros já notificados nunca mudem.
 
 ### `loadEditals.ts` com mapeamento explícito
 
@@ -655,3 +665,6 @@ O scraper usa a identidade `github-actions[bot]` para commits. O push usa o toke
 | L4 | Sem testes automatizados | Regressões silenciosas | Adicionar pytest para `classify.py` e `extract.py` |
 | L5 | Taxa não re-notificada no Teams se atualizada | Mudança de valor não chega ao Teams | Recapturar manualmente deletando o registro do JSON |
 | L6 | Padrões de skip pendentes | Alguns artigos de "confira o edital", "abre seleção" ainda passam pelo classify | Adicionar novos SKIP_PATTERNS em `classify.py` |
+| L7 | PDF escaneado (imagem) não é lido | Taxa fica "Confirmar" | Preencher manualmente (OCR não compensa) |
+| L8 | Editais anteriores a v0.6 não passaram pelo fallback de PDF | Alguns antigos seguem "Confirmar" | Preencher manualmente, se necessário |
+| L9 | `rewrite.py` e `anthropic` no requirements sem uso | Código morto | Remover, ou travar o título antes de ativar IA (seção 13) |
