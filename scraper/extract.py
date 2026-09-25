@@ -9,6 +9,8 @@ from urllib.parse import urlparse
 
 from bs4 import BeautifulSoup, Tag
 
+from .pdf_fee import REJECT_CTX, find_edital_pdf
+
 MONTHS_PT = {
     "janeiro": 1, "fevereiro": 2, "março": 3, "marco": 3, "abril": 4,
     "maio": 5, "junho": 6, "julho": 7, "agosto": 8, "setembro": 9,
@@ -73,12 +75,14 @@ _FEE_PATTERN = re.compile(
 
 def _extract_fee(content: Tag) -> str | None:
     text = content.get_text(" ", strip=True)
-    m = _FEE_PATTERN.search(text)
-    if not m:
-        return None
-    raw = (m.group(1) or m.group(2)).strip()
-    raw = re.sub(r"\s+", " ", raw)
-    return re.sub(r"[.,]+$", "", raw)  # remove ponto/vírgula final de frase
+    for m in _FEE_PATTERN.finditer(text):
+        # Ignora taxas que não são a de inscrição principal (treineiro, recurso...)
+        if REJECT_CTX.search(text[max(0, m.start() - 40): m.end()]):
+            continue
+        raw = (m.group(1) or m.group(2)).strip()
+        raw = re.sub(r"\s+", " ", raw)
+        return re.sub(r"[.,]+$", "", raw)  # remove ponto/vírgula final de frase
+    return None
 
 
 @dataclass
@@ -90,6 +94,7 @@ class ArticleData:
     official_url: str | None = None
     warning_note: str | None = None
     fee: str | None = None
+    edital_pdf_url: str | None = None  # PDF do edital (só quando há exatamente um)
 
 
 def _classes_for_article(article: Tag) -> list[str]:
@@ -370,6 +375,7 @@ def parse_article(html: str, url: str) -> ArticleData:
         official_url=official_url,
         warning_note=warning_note,
         fee=_extract_fee(content),
+        edital_pdf_url=find_edital_pdf(content),
     )
 
 

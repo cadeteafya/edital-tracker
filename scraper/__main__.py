@@ -3,7 +3,7 @@ from __future__ import annotations
 import argparse
 import sys
 
-from . import classify, fetch, store
+from . import classify, fetch, pdf_fee, store
 from .extract import parse_article, parse_listing, parse_rss_listing
 from .identify import detect_exam_year, detect_source
 from .rewrite import rewrite_title
@@ -92,6 +92,17 @@ def run(*, no_cache: bool = False, limit: int | None = None) -> int:
 
         if not article.timeline:
             print("    sem timeline extraível — aceito sem cronograma")
+
+        # Taxa ausente no artigo → tenta o PDF do edital. Só para editais novos no
+        # banco: não rebaixa PDFs a cada execução nem mexe em registros já existentes.
+        if (
+            result.kind != "update"
+            and not article.fee
+            and article.edital_pdf_url
+            and store.slug_from_url(item.url) not in db
+        ):
+            article.fee, reason = pdf_fee.fee_from_pdf(article.edital_pdf_url)
+            print(f"    taxa via PDF: {article.fee or 'Confirmar'} ({reason})")
 
         if result.kind == "update":
             applied = False

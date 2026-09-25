@@ -1,7 +1,7 @@
 # Edital Tracker — Documentação Técnica
 
-> Última atualização: 2026-09-22  
-> Versão: 0.5  
+> Última atualização: 2026-09-25  
+> Versão: 0.6  
 > Repositório: `cadeteafya/edital-tracker` — frontend Next.js + scraper Python
 
 ---
@@ -119,6 +119,7 @@ edital-tracker/
 │   ├── fetch.py              # HTTP client com cache em disco (30 min TTL)
 │   ├── classify.py           # Classifica artigos: edital_launch / update / concurso / skip
 │   ├── extract.py            # Parseia HTML do artigo → timeline, URL oficial, taxa, data
+│   ├── pdf_fee.py            # Fallback: taxa lida do PDF do edital (em memória, PyMuPDF)
 │   ├── identify.py           # Detecta fonte (instituição) e ano do exame
 │   ├── rewrite.py            # Reescreve título via Claude API ou heurística regex
 │   ├── store.py              # Estrutura Edital, merge, load/save JSON
@@ -267,7 +268,10 @@ O scraper consulta duas fontes em paralelo e deduplica por URL:
    ├── extrai timeline (table > ul > fallback vazio)
    ├── extrai officialUrl (_is_official_candidate())
    ├── extrai fee (_extract_fee())
+   ├── localiza o PDF do edital (find_edital_pdf())
    └── extrai publishedAt (meta OG > li.meta-date)
+       ↓
+6b. Sem fee + edital novo no banco + 1 edital → pdf_fee.fee_from_pdf()
        ↓
 7. rewrite_title() → str
    ├── Se ANTHROPIC_API_KEY: chama Claude Haiku
@@ -306,8 +310,39 @@ _FEE_PATTERN = re.compile(
 ```
 
 - Busca no texto completo do `div.entry-content`.
+- Ignora ocorrências cujo contexto indica outra taxa (treineiro, recurso, desconto, cotista, bolsa, emissão de título…) — `REJECT_CTX` de `pdf_fee.py`.
 - Remove pontuação final de frase (ex.: "R$ 600." → "R$ 600").
-- Retorna `None` se não encontrado; o frontend exibe "Confirmar".
+- Retorna `None` se não encontrado → entra o fallback via PDF (abaixo); se ainda assim `None`, o frontend exibe "Confirmar".
+
+### Fallback da taxa via PDF do edital (`pdf_fee.py`)
+
+Quando o artigo não informa a taxa, o scraper lê o PDF do edital linkado no botão do artigo.
+
+**Quando roda** (`__main__.py`) — todas as condições:
+- artigo **sem** taxa no texto;
+- edital **novo** no banco (registros existentes nunca são alterados por este fallback — não há retroativo);
+- não é retificação (`kind != "update"`);
+- a página tem **exatamente um** botão de edital (`find_edital_pdf`).
+
+**Botão de edital** = `a.wp-block-button__link` apontando para `.pdf` cujo texto contém "edital". Botões de retificação, errata, cronograma, comunicado, quadro de vagas, resultado e gabarito são ignorados. **Dois ou mais editais** (ex.: acesso direto + R+) → não busca, fica "Confirmar".
+
+**Leitura:** PDF baixado e lido **somente em memória** com PyMuPDF (nada é gravado em disco), primeiras 30 páginas, limite de 25 MB, timeout 45 s. Qualquer falha → `None`.
+
+**Busca, em níveis** (usa o mais forte que encontrar):
+
+| Nível | Padrões |
+|---|---|
+| forte | "taxa de inscrição … R$ X", "inscrição … no valor de R$ X", "valor da inscrição R$ X" |
+| tabela | cabeçalho "Taxa de Insc." + valores `600,00 03 anos` (padrão CONSESP) |
+| fraco | "taxa … R$ X", "R$ X … taxa" |
+
+**Regras conservadoras — na dúvida, `None` ("Confirmar"):**
+- valores diferentes no mesmo nível (ex.: R$ 650 e R$ 900 por programa);
+- outro valor logo em seguida ("1. R$ 500 para X; 2. R$ 750 para Y"), exceto detalhamento do total ("sendo um depósito de R$ 612");
+- menção a sócio / associado / membro (taxas por categoria em provas de título);
+- PDF sem texto (escaneado).
+
+Validação (set/2026, 66 PDFs da base): 38 acertos, 0 valores errados, 11 taxas novas preenchidas onde o artigo não tinha.
 
 ### Extração de URL oficial (`extract.py — _is_official_candidate`)
 
