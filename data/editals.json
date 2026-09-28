@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-09-28T20:30:36+00:00",
+  "lastSyncedAt": "2026-09-28T21:00:37+00:00",
   "editals": [
     {
       "id": "hospital-primavera-edital-residencia-medica-2027",
@@ -157,6 +157,52 @@
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
       "fee": "R$600,00",
+      "revisions": []
+    },
+    {
+      "id": "ses-go-edital-residencia-medica-2027",
+      "source": {
+        "name": "SES-GO",
+        "shortName": "SES-GO",
+        "accentColor": "#14b8a6"
+      },
+      "originalTitle": "SES-GO 2027 oferta 219 vagas para Residência Médica; edital divulgado",
+      "rewrittenTitle": "SES-GO 2027 oferta 219 vagas para Residência Médica; edital divulgado",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/ses-go-edital-residencia-medica-2027/",
+      "officialUrl": "https://sistemas.institutoverbena.ufg.br/2027/coreme-ses/",
+      "scrapedAt": "2026-09-28T21:00:37+00:00",
+      "publishedAt": "2026-09-28",
+      "updatedAt": "2026-09-28",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "05/10 a 03/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "06/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Convocação para Envio do Currículo",
+          "date": "28/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Envio do Currículo",
+          "date": "30/12/2026 a 05/01/2027",
+          "isRange": true
+        },
+        {
+          "label": "Resultado Final",
+          "date": "17/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": null,
       "revisions": []
     },
     {
