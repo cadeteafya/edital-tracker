@@ -1,6 +1,52 @@
 {
-  "lastSyncedAt": "2026-09-28T13:00:38+00:00",
+  "lastSyncedAt": "2026-09-28T13:30:34+00:00",
   "editals": [
+    {
+      "id": "hospital-primavera-edital-residencia-medica-2027",
+      "source": {
+        "name": "Residência Médica",
+        "shortName": "Residência Médica",
+        "accentColor": "#3b82f6"
+      },
+      "originalTitle": "Residência Médica 2027: Hospital Primavera divulga edital com três vagas",
+      "rewrittenTitle": "Residência Médica 2027: Hospital Primavera divulga edital com três vagas",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/hospital-primavera-edital-residencia-medica-2027/",
+      "officialUrl": "https://portal.concursos.selecting.com.br/edital/ver/46",
+      "scrapedAt": "2026-09-28T13:30:34+00:00",
+      "publishedAt": "2026-09-28",
+      "updatedAt": "2026-09-28",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "09/10 a 01/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "21/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Envio do Currículo",
+          "date": "11/12 a 12/12/2026",
+          "isRange": true
+        },
+        {
+          "label": "Análise Curricular",
+          "date": "13/12 a 18/12/2026",
+          "isRange": true
+        },
+        {
+          "label": "Resultado Final",
+          "date": "05/01/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 450,00",
+      "revisions": []
+    },
     {
       "id": "heci-edital-residencia-medica-2027",
       "source": {
