@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-09-28T19:00:37+00:00",
+  "lastSyncedAt": "2026-09-28T19:30:35+00:00",
   "editals": [
     {
       "id": "hospital-primavera-edital-residencia-medica-2027",
@@ -65,6 +65,47 @@
       "timeline": [],
       "warningNote": "Atenção! É de responsabilidade do candidato acompanhar eventuais retificações, atos e comunicados publicados ao longo do processo seletivo.",
       "fee": "R$ 310",
+      "revisions": []
+    },
+    {
+      "id": "hospital-sao-jose-do-avai-edital-residencia-medica-2027",
+      "source": {
+        "name": "HSJA",
+        "shortName": "HSJA",
+        "accentColor": "#a855f7"
+      },
+      "originalTitle": "HSJA abre seleção com duas fases para Residência Médica 2027; inscrições abertas",
+      "rewrittenTitle": "HSJA abre seleção com duas fases para Residência Médica 2027; inscrições abertas",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/hospital-sao-jose-do-avai-edital-residencia-medica-2027/",
+      "officialUrl": "https://www.hsja.com.br/residencia/views/",
+      "scrapedAt": "2026-09-28T19:30:35+00:00",
+      "publishedAt": "2026-09-28",
+      "updatedAt": "2026-09-28",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "28/09 a 23/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "27/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Prova Discursiva + Avaliação Curricular e Entrevista",
+          "date": "28/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "04/12/2026",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 400,00",
       "revisions": []
     },
     {
