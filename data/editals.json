@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-09-28T18:00:38+00:00",
+  "lastSyncedAt": "2026-09-28T18:30:37+00:00",
   "editals": [
     {
       "id": "hospital-primavera-edital-residencia-medica-2027",
@@ -45,6 +45,26 @@
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
       "fee": "R$ 450,00",
+      "revisions": []
+    },
+    {
+      "id": "ipsemg-inscricoes-residencia-medica-2027",
+      "source": {
+        "name": "IPSEMG",
+        "shortName": "IPSEMG",
+        "accentColor": "#14b8a6"
+      },
+      "originalTitle": "IPSEMG abre inscrições para Residência Médica 2027; veja como participar",
+      "rewrittenTitle": "IPSEMG abre inscrições para Residência Médica 2027; veja como participar",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/ipsemg-inscricoes-residencia-medica-2027/",
+      "officialUrl": "https://concursos.access.org.br/informacoes/175/",
+      "scrapedAt": "2026-09-28T18:30:37+00:00",
+      "publishedAt": "2026-09-28",
+      "updatedAt": "2026-09-28",
+      "timeline": [],
+      "warningNote": "Atenção! É de responsabilidade do candidato acompanhar eventuais retificações, atos e comunicados publicados ao longo do processo seletivo.",
+      "fee": "R$ 310",
       "revisions": []
     },
     {
