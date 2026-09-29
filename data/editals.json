@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-09-29T20:00:33+00:00",
+  "lastSyncedAt": "2026-09-29T20:30:28+00:00",
   "editals": [
     {
       "id": "fundhacre-edital-residencia-medica-2027",
@@ -91,6 +91,47 @@
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
       "fee": "R$ 600",
+      "revisions": []
+    },
+    {
+      "id": "hospital-olhos-parana-edital-residencia-medica-2027",
+      "source": {
+        "name": "ENARE",
+        "shortName": "ENARE",
+        "accentColor": "#0d9488"
+      },
+      "originalTitle": "Hospital de Olhos do Paraná usará nota do Enare na seleção de 2027; confira o edital de Residência Médica",
+      "rewrittenTitle": "Hospital de Olhos do Paraná usará nota do Enare na seleção de 2027; de Residência Médica",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/hospital-olhos-parana-edital-residencia-medica-2027/",
+      "officialUrl": "https://institutoprofessormoreira.com.br/cursos/residencia-em-oftalmologia-mec-2027/",
+      "scrapedAt": "2026-09-29T20:30:28+00:00",
+      "publishedAt": "2026-09-29",
+      "updatedAt": "2026-09-29",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "28/09 a 20/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Específica de Oftalmologia",
+          "date": "18/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Entrevista com Arguição Curricular",
+          "date": "03/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "04/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 3",
       "revisions": []
     },
     {
