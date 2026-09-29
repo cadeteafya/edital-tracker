@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-09-29T16:30:32+00:00",
+  "lastSyncedAt": "2026-09-29T16:40:56+00:00",
   "editals": [
     {
       "id": "fundhacre-edital-residencia-medica-2027",
@@ -50,6 +50,47 @@
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
       "fee": "R$ 250",
+      "revisions": []
+    },
+    {
+      "id": "hospital-evangelico-vila-velha-edital-residencia-medica-2027",
+      "source": {
+        "name": "HEVV",
+        "shortName": "HEVV",
+        "accentColor": "#f97316"
+      },
+      "originalTitle": "HEVV reúne 40 vagas em seleção de Residência Médica 2027",
+      "rewrittenTitle": "HEVV reúne 40 vagas em seleção de Residência Médica 2027",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/hospital-evangelico-vila-velha-edital-residencia-medica-2027/",
+      "officialUrl": "https://novo.ibgpconcursos.com.br/concurso.jsp?cod=789",
+      "scrapedAt": "2026-09-29T16:26:16+00:00",
+      "publishedAt": "2026-09-29",
+      "updatedAt": "2026-09-29",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "01 a 30/10/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "28/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado da Prova e Classificação Preliminar",
+          "date": "16/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "18/12/2026",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 600",
       "revisions": []
     },
     {
@@ -257,6 +298,267 @@
       "revisions": []
     },
     {
+      "id": "santa-casa-ituverava-edital-residencia-medica-2027",
+      "source": {
+        "name": "Santa Casa",
+        "shortName": "Santa Casa",
+        "accentColor": "#ef4444"
+      },
+      "originalTitle": "Santa Casa de Ituverava define seleção para Residência Médica 2027; veja o edital",
+      "rewrittenTitle": "Santa Casa de Ituverava define seleção para Residência Médica 2027; veja o edital",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/santa-casa-ituverava-edital-residencia-medica-2027/",
+      "officialUrl": "https://institutopensato.org.br/residencia-medica/santa-casa-de-misericordia-de-ituverava-2027-edital-001",
+      "scrapedAt": "2026-09-29T16:21:09+00:00",
+      "publishedAt": "2026-09-28",
+      "updatedAt": "2026-09-28",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "26/09 a 01/12/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "17/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Classificação Preliminar",
+          "date": "29/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "06/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: os processos seletivos de residência médica 2027 realizados pelo Instituto Pensato integram a sistemática de prova unificada, com aplicação em 17 de janeiro de 2027 . O candidato inscrito em mais de uma dessas seleções realizará uma única prova , e a nota obtida será considerada individualmente para a classificação em cada processo seletivo, conforme as regras do respectivo edital.",
+      "fee": "R$ 750,00",
+      "revisions": []
+    },
+    {
+      "id": "hospital-sao-lucas-mt-edital-residencia-medica-2027",
+      "source": {
+        "name": "Hospital São Lucas",
+        "shortName": "Hospital São Lucas",
+        "accentColor": "#0d9488"
+      },
+      "originalTitle": "Hospital São Lucas (MT) terá bolsa e incentivos de até R$ 9,1 mil na Residência Médica 2027; confira o edital",
+      "rewrittenTitle": "Hospital São Lucas (MT) terá bolsa e incentivos de até R$ 9,1 mil na Residência Médica 2027",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/hospital-sao-lucas-mt-edital-residencia-medica-2027/",
+      "officialUrl": "https://institutopensato.org.br/residencia-medica/fundacao-luverdense-de-saude-hospital-sao-lucas-2027-edital-001",
+      "scrapedAt": "2026-09-29T16:21:56+00:00",
+      "publishedAt": "2026-09-28",
+      "updatedAt": "2026-09-28",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "24/09 a 01/12/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "17/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Classificação preliminar",
+          "date": "29/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "06/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: os processos seletivos de residência médica 2027 realizados pelo Instituto Pensato integram a sistemática de prova unificada, com aplicação em 17 de janeiro de 2027 . O candidato inscrito em mais de uma dessas seleções realizará uma única prova , e a nota obtida será considerada individualmente para a classificação em cada processo seletivo, conforme as regras do respectivo edital.",
+      "fee": "R$ 750,00",
+      "revisions": []
+    },
+    {
+      "id": "fmabc-edital-residencia-medica-2027",
+      "source": {
+        "name": "Inscrições",
+        "shortName": "Inscrições",
+        "accentColor": "#ec4899"
+      },
+      "originalTitle": "Inscrições para a Residência Médica da FMABC 2027 começam em 07/10; acesse o edital",
+      "rewrittenTitle": "Inscrições para a Residência Médica da FMABC 2027 começam em 07/10; acesse o edital",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/fmabc-edital-residencia-medica-2027/",
+      "officialUrl": "https://www.avalia.org.br/concursos/640",
+      "scrapedAt": "2026-09-29T16:22:39+00:00",
+      "publishedAt": "2026-09-28",
+      "updatedAt": "2026-09-28",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "07/10 a 03/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Envio do Currículo",
+          "date": "07/10 a 04/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "22/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Candidatos habilitados para Análise Curricular",
+          "date": "30/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "12/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar todas as publicações oficiais, convocações e possíveis retificações diretamente na página da seleção .",
+      "fee": "R$ 700,00",
+      "revisions": []
+    },
+    {
+      "id": "complexo-hospitalar-jardim-cuiaba-edital-residencia-medica-2027",
+      "source": {
+        "name": "Jardim Cuiabá",
+        "shortName": "Jardim Cuiabá",
+        "accentColor": "#ec4899"
+      },
+      "originalTitle": "Jardim Cuiabá define seleção para Residência Médica 2027",
+      "rewrittenTitle": "Jardim Cuiabá define seleção para Residência Médica 2027",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/complexo-hospitalar-jardim-cuiaba-edital-residencia-medica-2027/",
+      "officialUrl": "https://chjc.com.br/?pages=editais",
+      "scrapedAt": "2026-09-29T16:24:06+00:00",
+      "publishedAt": "2026-09-28",
+      "updatedAt": "2026-09-28",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "01/10 a 30/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Envio do Currículo",
+          "date": "até 30/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "08/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Análise Curricular",
+          "date": "16/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "22/12/2026",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 400",
+      "revisions": []
+    },
+    {
+      "id": "cvv-edital-residencia-medica-2027",
+      "source": {
+        "name": "Residência Médica",
+        "shortName": "Residência Médica",
+        "accentColor": "#3b82f6"
+      },
+      "originalTitle": "Residência Médica em Psiquiatria: CVV oferta cinco vagas para 2027",
+      "rewrittenTitle": "Residência Médica em Psiquiatria: CVV oferta cinco vagas para 2027",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/cvv-edital-residencia-medica-2027/",
+      "officialUrl": "https://institutopensato.org.br/residencia-medica/centro-de-valorizacao-da-vida-francisca-julia-2027-edital-001",
+      "scrapedAt": "2026-09-29T16:25:33+00:00",
+      "publishedAt": "2026-09-28",
+      "updatedAt": "2026-09-28",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "26/09 a 01/12/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "17/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Convocação Análise Curricular",
+          "date": "06/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "20/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: os processos seletivos de residência médica 2027 realizados pelo Instituto Pensato integram a sistemática de prova unificada, com aplicação em 17 de janeiro de 2027 . O candidato inscrito em mais de uma dessas seleções realizará uma única prova , e a nota obtida será considerada individualmente para a classificação em cada processo seletivo, conforme as regras do respectivo edital.",
+      "fee": "R$ 750,00",
+      "revisions": []
+    },
+    {
+      "id": "hospital-vera-cruz-edital-residencia-medica-2027",
+      "source": {
+        "name": "Hospital Vera Cruz",
+        "shortName": "Hospital Vera Cruz",
+        "accentColor": "#14b8a6"
+      },
+      "originalTitle": "Hospital Vera Cruz terá seleção em três etapas para Residência Médica 2027",
+      "rewrittenTitle": "Hospital Vera Cruz terá seleção em três etapas para Residência Médica 2027",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/hospital-vera-cruz-edital-residencia-medica-2027/",
+      "officialUrl": "https://www.tekyou.com.br/hvc/selecao2027/residencia_medica/",
+      "scrapedAt": "2026-09-29T16:27:45+00:00",
+      "publishedAt": "2026-09-28",
+      "updatedAt": "2026-09-28",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "11/10 a 13/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "27/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Envio do Currículo",
+          "date": "09/12/2026 a 20/01/2027",
+          "isRange": true
+        },
+        {
+          "label": "Prova Prática",
+          "date": "22/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "12/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 650,00",
+      "revisions": []
+    },
+    {
       "id": "heci-edital-residencia-medica-2027",
       "source": {
         "name": "PSU-ES/Sul",
@@ -375,6 +677,52 @@
       "revisions": []
     },
     {
+      "id": "ceoq-edital-residencia-medica-2027",
+      "source": {
+        "name": "CEOQ",
+        "shortName": "CEOQ",
+        "accentColor": "#dc2626"
+      },
+      "originalTitle": "CEOQ 2027: seleção para Residênca Médica oferta vagas em Oftalmologia",
+      "rewrittenTitle": "CEOQ 2027: seleção para Residênca Médica oferta vagas em Oftalmologia",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/ceoq-edital-residencia-medica-2027/",
+      "officialUrl": "https://sis.consesp.com.br/site/index.php?pg=concursos/info&codigo=4960",
+      "scrapedAt": "2026-09-29T16:28:32+00:00",
+      "publishedAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "11/10/2026 a 03/01/2027",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "24/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Convocação 2ª etapa",
+          "date": "24/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Avaliação Curricular",
+          "date": "27/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "12/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 750,00",
+      "revisions": []
+    },
+    {
       "id": "huem-edital-residencia-medica-2027",
       "source": {
         "name": "FGV",
@@ -454,6 +802,57 @@
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
       "fee": "R$ 600,00",
+      "revisions": []
+    },
+    {
+      "id": "psu-mg-edital-residencia-medica-2027",
+      "source": {
+        "name": "AREMG — PSU-MG",
+        "shortName": "PSU-MG",
+        "accentColor": "#f59e0b"
+      },
+      "originalTitle": "PSU-MG 2027: editais divulgados!",
+      "rewrittenTitle": "PSU-MG 2027: editais divulgados!",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/psu-mg-edital-residencia-medica-2027/",
+      "officialUrl": "https://www.aremg.org.br/processos-atuais",
+      "scrapedAt": "2026-09-29T16:40:09+00:00",
+      "publishedAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "timeline": [
+        {
+          "label": "Inscrições e Envio do Currículo",
+          "date": "06/10 a 15/10/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva e Divulgação do Gabarito",
+          "date": "22/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado da Prova",
+          "date": "10/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado da Análise Curricular",
+          "date": "21/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Nota final com a Ordem de Preferência",
+          "date": "26/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final – Convocação",
+          "date": "28/01/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção! É essencial que o candidato acompanhe atentamente a página oficial da banca organizadora para verificar possíveis retificações ou atualizações do edital. Alterações podem ocorrer a qualquer momento, sendo necessário estar ciente de eventuais mudanças em prazos, requisitos ou outras informações relevantes para não comprometer sua participação no processo.",
+      "fee": "R$ 300,00",
       "revisions": []
     },
     {
@@ -747,6 +1146,52 @@
       "revisions": []
     },
     {
+      "id": "dante-pazzanese-edital-residencia-medica-2027",
+      "source": {
+        "name": "Dante Pazzanese",
+        "shortName": "Dante Pazzanese",
+        "accentColor": "#dc2626"
+      },
+      "originalTitle": "Dante Pazzanese 2027: confira os editais para ingresso na Residência Médica",
+      "rewrittenTitle": "Dante Pazzanese 2027: confira os editais para ingresso na Residência Médica",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/dante-pazzanese-edital-residencia-medica-2027/",
+      "officialUrl": "https://www.edudata.com.br/dantepazzanese27/dantepazzanese27_portal.asp",
+      "scrapedAt": "2026-09-29T16:32:44+00:00",
+      "publishedAt": "2026-09-22",
+      "updatedAt": "2026-09-22",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "05/10 a 11/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "29/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Convocação 2ª Fase",
+          "date": "08/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "2ª Fase – Avaliação Curricular",
+          "date": "08 a 10/12/2026",
+          "isRange": true
+        },
+        {
+          "label": "Resultado Final",
+          "date": "16/12/2026",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: Recomenda-se que os candidatos acompanhem regularmente a página oficial do processo seletivo para verificar possíveis retificações, atualizações no cronograma ou comunicados adicionais.",
+      "fee": "R$ 600,00",
+      "revisions": []
+    },
+    {
       "id": "hcor-edital-residencia-medica-2027",
       "source": {
         "name": "Hcor",
@@ -979,6 +1424,88 @@
       "revisions": []
     },
     {
+      "id": "unicamp-edital-residencia-medica-2027",
+      "source": {
+        "name": "UNICAMP",
+        "shortName": "UNICAMP",
+        "accentColor": "#7c3aed"
+      },
+      "originalTitle": "UNICAMP 2027: editais para residência médica divulgados!",
+      "rewrittenTitle": "UNICAMP 2027: editais para residência médica divulgados!",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/unicamp-edital-residencia-medica-2027/",
+      "officialUrl": "https://portal.fcm.unicamp.br/residencias-em-saude/residencia-medica/processo-seletivo-2027/",
+      "scrapedAt": "2026-09-29T16:32:01+00:00",
+      "publishedAt": "2026-09-21",
+      "updatedAt": "2026-09-21",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "01/10/2026 a 15/10/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "15/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Classificados 2ª fase",
+          "date": "02/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Envio do Currículo",
+          "date": "04/12/2026 a 08/12/2026",
+          "isRange": true
+        },
+        {
+          "label": "Resultado Final",
+          "date": "25/01/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: Recomenda-se que os candidatos acompanhem regularmente a p ágina oficial do processo seletivo para verificar possíveis retificações, atualizações no cronograma ou comunicados adicionais. ⚠️",
+      "fee": null,
+      "revisions": []
+    },
+    {
+      "id": "sus-ba-edital-residencia-medica-2027",
+      "source": {
+        "name": "SUS-BA",
+        "shortName": "SUS-BA",
+        "accentColor": "#14b8a6"
+      },
+      "originalTitle": "SUS-BA 2027: confira o edital resumido da edição",
+      "rewrittenTitle": "SUS-BA 2027: resumido da edição",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/sus-ba-edital-residencia-medica-2027/",
+      "officialUrl": "https://strixeducacao.com.br/evento/abaem-processo-seletivo-unificado-de-residencia-medica-bahia-2027-1/",
+      "scrapedAt": "2026-09-29T16:35:45+00:00",
+      "publishedAt": "2026-09-21",
+      "updatedAt": "2026-09-21",
+      "timeline": [
+        {
+          "label": "Divulgação do Edital",
+          "date": "30/09/2026",
+          "isRange": false
+        },
+        {
+          "label": "Período de Inscrições",
+          "date": "30/09 a 26/10/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "29/11/2026",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato o acompanhamento de todas as publicações oficiais na página destinada ao processo seletivo .",
+      "fee": "R$ 755,60",
+      "revisions": []
+    },
+    {
       "id": "usp-sp-edital-residencia-medica-2027",
       "source": {
         "name": "USP-SP",
@@ -1036,6 +1563,165 @@
         }
       ],
       "warningNote": "Atenção: Fica recomendado que os candidatos acompanhem regularmente a página oficial do processo seletivo no site da Fuvest para verificar possíveis retificações, atualizações no cronograma ou comunicados adicionais.",
+      "revisions": []
+    },
+    {
+      "id": "hospital-bezerra-de-menezes-edital-residencia-medica-2027",
+      "source": {
+        "name": "Hospital Bezerra",
+        "shortName": "Hospital Bezerra",
+        "accentColor": "#ef4444"
+      },
+      "originalTitle": "Hospital Bezerra de Menezes abre seleção para residência médica de Psiquiatria em 2027",
+      "rewrittenTitle": "Hospital Bezerra de Menezes abre seleção para residência médica de Psiquiatria em 2027",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/hospital-bezerra-de-menezes-edital-residencia-medica-2027/",
+      "officialUrl": "https://www.bezerra.org.br/COREME/processos-seletivos.html",
+      "scrapedAt": "2026-09-29T16:33:27+00:00",
+      "publishedAt": "2026-09-18",
+      "updatedAt": "2026-09-18",
+      "timeline": [
+        {
+          "label": "Solicitação de Isenção ou Redução da Taxa",
+          "date": "19/09 e 20/09/2026",
+          "isRange": false
+        },
+        {
+          "label": "Período de Inscrições",
+          "date": "21/10 a 09/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "26/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "13/01/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 600",
+      "revisions": []
+    },
+    {
+      "id": "hospital-santo-amaro-edital-residencia-medica-2027",
+      "source": {
+        "name": "Hospital Santo Amaro",
+        "shortName": "Hospital Santo Amaro",
+        "accentColor": "#a855f7"
+      },
+      "originalTitle": "Hospital Santo Amaro define seleção para Residência Médica 2027; acesse o edital",
+      "rewrittenTitle": "Hospital Santo Amaro define seleção para Residência Médica 2027; acesse o edital",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/hospital-santo-amaro-edital-residencia-medica-2027/",
+      "officialUrl": "https://sis.consesp.com.br/site/index.php?pg=concursos/info&codigo=4954",
+      "scrapedAt": "2026-09-29T16:34:14+00:00",
+      "publishedAt": "2026-09-18",
+      "updatedAt": "2026-09-18",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "05/10/2026 a 17/01/2027",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "30/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "23/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 700,00",
+      "revisions": []
+    },
+    {
+      "id": "santa-casa-de-birigui-edital-residencia-medica-2027",
+      "source": {
+        "name": "Santa Casa",
+        "shortName": "Santa Casa",
+        "accentColor": "#ef4444"
+      },
+      "originalTitle": "Residência Médica em Birigui: Santa Casa oferece 6 vagas para 2027",
+      "rewrittenTitle": "Residência Médica em Birigui: Santa Casa oferece 6 vagas para 2027",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/santa-casa-de-birigui-edital-residencia-medica-2027/",
+      "officialUrl": "https://sis.consesp.com.br/site/index.php?pg=concursos/info&codigo=4952",
+      "scrapedAt": "2026-09-29T16:35:01+00:00",
+      "publishedAt": "2026-09-18",
+      "updatedAt": "2026-09-18",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "03/10 a 27/12/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva e Entrega do Currículo",
+          "date": "09/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "17/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 600,00",
+      "revisions": []
+    },
+    {
+      "id": "hospital-cemil-edital-residencia-medica-2027",
+      "source": {
+        "name": "Hospital Cemil",
+        "shortName": "Hospital Cemil",
+        "accentColor": "#22c55e"
+      },
+      "originalTitle": "Hospital Cemil 2027: seleção para Residência Médica terá três fases; confira o edital",
+      "rewrittenTitle": "Hospital Cemil 2027: seleção para Residência Médica terá três fases",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/hospital-cemil-edital-residencia-medica-2027/",
+      "officialUrl": "https://hospitalcemil.com.br/ensino-pesquisa",
+      "scrapedAt": "2026-09-29T16:36:29+00:00",
+      "publishedAt": "2026-09-18",
+      "updatedAt": "2026-09-18",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "01/10 a 01/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "05/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Prova Prática",
+          "date": "05/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Análise Curricular",
+          "date": "05/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "até 18/12/2026",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da instituição .",
+      "fee": "R$ 500",
       "revisions": []
     },
     {
@@ -1116,6 +1802,47 @@
         }
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "revisions": []
+    },
+    {
+      "id": "prmmt-2027-reune-sete-instituicoes-na-selecao-de-residencia-medica-acesse-o-edital-unificado",
+      "source": {
+        "name": "PRMMT",
+        "shortName": "PRMMT",
+        "accentColor": "#dc2626"
+      },
+      "originalTitle": "PRMMT 2027 reúne sete instituições em seleção de Residência Médica; acesse o edital unificado",
+      "rewrittenTitle": "PRMMT 2027 reúne sete instituições em seleção de Residência Médica; acesse o edital unificado",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/prmmt-2027-reune-sete-instituicoes-na-selecao-de-residencia-medica-acesse-o-edital-unificado/",
+      "officialUrl": "https://prmmt.com.br/",
+      "scrapedAt": "2026-09-29T16:38:40+00:00",
+      "publishedAt": "2026-09-17",
+      "updatedAt": "2026-09-17",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "28/09 a 30/10/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "22/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Classificação Preliminar",
+          "date": "09/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "16/12/2026",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": null,
       "revisions": []
     },
     {
@@ -1246,6 +1973,52 @@
         }
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 600",
+      "revisions": []
+    },
+    {
+      "id": "hospital-sao-domingos-edital-residencia-medica-2027",
+      "source": {
+        "name": "Residência Médica",
+        "shortName": "Residência Médica",
+        "accentColor": "#3b82f6"
+      },
+      "originalTitle": "Residência Médica 2027: Hospital São Domingos abre vagas em Radiologia",
+      "rewrittenTitle": "Residência Médica 2027: Hospital São Domingos abre vagas em Radiologia",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/hospital-sao-domingos-edital-residencia-medica-2027/",
+      "officialUrl": "https://sis.consesp.com.br/site/index.php?pg=concursos/info&codigo=4945",
+      "scrapedAt": "2026-09-29T16:37:12+00:00",
+      "publishedAt": "2026-09-16",
+      "updatedAt": "2026-09-16",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "02/10 a 17/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "06/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Convocação 2ª e 3ª fase",
+          "date": "22/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Prova Prática e Avaliação Curricular",
+          "date": "13/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "28/01/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da instituição .",
       "fee": "R$ 600",
       "revisions": []
     },
@@ -4241,6 +5014,52 @@
         }
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "revisions": []
+    },
+    {
+      "id": "uem-edital-residencia-medica-2027",
+      "source": {
+        "name": "UEM",
+        "shortName": "UEM",
+        "accentColor": "#0ea5e9"
+      },
+      "originalTitle": "UEM terá provas em dezembro para Residência Médica 2027; confira o edital",
+      "rewrittenTitle": "UEM terá provas em dezembro para Residência Médica 2027",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/uem-edital-residencia-medica-2027/",
+      "officialUrl": "https://coreme.uem.br/",
+      "scrapedAt": "2026-09-29T16:39:24+00:00",
+      "publishedAt": "2026-09-15",
+      "updatedAt": "2026-09-15",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "28/09 a 30/10/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "08/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Entrega do Currículo",
+          "date": "08/12/2026 (R+) 09/12/2026 (AD)",
+          "isRange": false
+        },
+        {
+          "label": "Prova Prática (Acesso Direto)",
+          "date": "09/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "16/12/2026",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 700,00",
       "revisions": []
     },
     {
@@ -22147,6 +22966,26 @@
         }
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato o acompanhamento de todas as publicações oficiais na página destinada ao processo seletivo .",
+      "revisions": []
+    },
+    {
+      "id": "hcpa-2027-inscricoes-abertas-para-selecao-de-residencia-medica",
+      "source": {
+        "name": "HCPA",
+        "shortName": "HCPA",
+        "accentColor": "#ef4444"
+      },
+      "originalTitle": "HCPA 2027: inscrições abertas para seleção de Residência Médica!",
+      "rewrittenTitle": "HCPA 2027: inscrições abertas para seleção de Residência Médica!",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/hcpa-2027-inscricoes-abertas-para-selecao-de-residencia-medica/",
+      "officialUrl": "https://fundmed.org.br/evento/residencia-medica-hcpa-2027/",
+      "scrapedAt": "2026-09-29T16:31:16+00:00",
+      "publishedAt": "2026-08-28",
+      "updatedAt": "2026-08-28",
+      "timeline": [],
+      "warningNote": "Atenção! É de responsabilidade do candidato acompanhar eventuais retificações, atos e comunicados publicados ao longo do processo seletivo.",
+      "fee": "R$ 770,00",
       "revisions": []
     },
     {

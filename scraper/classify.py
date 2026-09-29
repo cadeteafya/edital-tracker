@@ -14,15 +14,16 @@ class Classification:
 
 
 LAUNCH_PATTERNS = [
-    r"divulg(?:a|ou|ada|ado)\s+(?:o\s+)?edital",
-    r"public(?:a|ou|ado|ada)\s+(?:o\s+)?edital",
-    r"edital\s+(?:est[aá])?\s*divulgad",
-    r"edital\s+(?:est[aá])?\s*publicad",
-    r"edital\s+(?:est[aá])?\s*lan[çc]ad",
-    r"edital\b.{0,60}(?:publicad|divulgad|lan[çc]ad)",  # voz passiva: "Edital SES-PE ... é publicado"
-    r"lan[çc](?:a|ou)\s+(?:o\s+)?edital",
+    # "edita(?:l|is)": aceita o plural — "UNICAMP 2027: editais ... divulgados"
+    r"divulg(?:a|ou|ada|ado)\s+(?:os?\s+)?edita(?:l|is)",
+    r"public(?:a|ou|ado|ada)\s+(?:os?\s+)?edita(?:l|is)",
+    r"edita(?:l|is)\s+(?:est[aã]o|est[aá])?\s*divulgad",
+    r"edita(?:l|is)\s+(?:est[aã]o|est[aá])?\s*publicad",
+    r"edita(?:l|is)\s+(?:est[aã]o|est[aá])?\s*lan[çc]ad",
+    r"edita(?:l|is)\b.{0,60}(?:publicad|divulgad|lan[çc]ad)",  # voz passiva: "Edital SES-PE ... é publicado"
+    r"lan[çc](?:a|ou)\s+(?:os?\s+)?edita(?:l|is)",
     r"saiu\s+o\s+edital",
-    r"liber(?:a|ou)\s+(?:o\s+)?edital",
+    r"liber(?:a|ou)\s+(?:os?\s+)?edita(?:l|is)",
     r"abre\s+inscri[çc][õo]es",
     r"abertas\s+as\s+inscri[çc][õo]es",
     r"recebe\s+inscri[çc][õo]es",
@@ -63,6 +64,26 @@ CONCURSO_PUBLICO_PATTERNS = [
     r"\bauditor\s+m[eé]dico\b",
     r"cargo\s+(?:de\s+)?m[eé]dico",
 ]
+
+
+# Candidato a edital: título que não bate nos padrões acima, mas fala de seleção
+# de residência/título. Só é aceito com evidência na página (botão de edital +
+# cronograma) — ver __main__.py. Ex.: "Jardim Cuiabá define seleção para RM 2027".
+CANDIDATE_TOPIC = re.compile(
+    r"resid[eê]nc?i?a\s+m[eé]dica|t[íi]tulo\s+de\s+especialista|prova\s+de\s+t[íi]tulo"
+    r"|\bedita(?:l|is)\b|sele[çc][ãa]o|\bvagas?\b"
+)
+# Notícias posteriores ao edital (prova, gabarito, resultado...) — nunca candidatas
+NOT_LAUNCH_NEWS = re.compile(
+    r"gabarito|corre[çc][ãa]o|resultado|aprovad|classifica[çc]|recurso|nota\s+de\s+corte"
+    r"|convoca|matr[íi]cula|\blista\b|local\s+de\s+prova|cart[ãa]o\s+de\s+confirma"
+    r"|ranking|reaplica"
+)
+
+
+def is_candidate(title: str) -> bool:
+    blob = _normalize(title)
+    return bool(CANDIDATE_TOPIC.search(blob)) and not NOT_LAUNCH_NEWS.search(blob)
 
 
 def _normalize(text: str) -> str:

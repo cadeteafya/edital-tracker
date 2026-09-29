@@ -9,7 +9,7 @@ from urllib.parse import urlparse
 
 from bs4 import BeautifulSoup, Tag
 
-from .pdf_fee import REJECT_CTX, find_edital_pdf
+from .pdf_fee import REJECT_CTX, edital_buttons
 
 MONTHS_PT = {
     "janeiro": 1, "fevereiro": 2, "março": 3, "marco": 3, "abril": 4,
@@ -95,6 +95,7 @@ class ArticleData:
     warning_note: str | None = None
     fee: str | None = None
     edital_pdf_url: str | None = None  # PDF do edital (só quando há exatamente um)
+    edital_pdf_count: int = 0          # nº de botões de edital com PDF na página
 
 
 def _classes_for_article(article: Tag) -> list[str]:
@@ -367,6 +368,7 @@ def parse_article(html: str, url: str) -> ArticleData:
         if not official_url and fallback_pdf:
             official_url = fallback_pdf
 
+    editais = edital_buttons(content)
     return ArticleData(
         title=title,
         url=url,
@@ -375,7 +377,8 @@ def parse_article(html: str, url: str) -> ArticleData:
         official_url=official_url,
         warning_note=warning_note,
         fee=_extract_fee(content),
-        edital_pdf_url=find_edital_pdf(content),
+        edital_pdf_url=editais[0] if len(editais) == 1 else None,
+        edital_pdf_count=len(editais),
     )
 
 

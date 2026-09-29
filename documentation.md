@@ -1,7 +1,7 @@
 # Edital Tracker — Documentação Técnica
 
-> Última atualização: 2026-09-25  
-> Versão: 0.6  
+> Última atualização: 2026-09-29  
+> Versão: 0.7  
 > Repositório: `cadeteafya/edital-tracker` — frontend Next.js + scraper Python
 
 ---
@@ -235,16 +235,21 @@ type Edital = {
 python -m scraper              # usa cache (30 min TTL)
 python -m scraper --no-cache   # força re-fetch de todas as páginas
 python -m scraper --limit 5    # processa apenas os 5 primeiros itens
+python -m scraper --url <URL> --url <URL>   # recupera artigos específicos (fora da janela)
 ```
+
+**`--url`**: processa só as URLs informadas, como edital novo, sem classificação e sem ler a listagem. Não altera registros que já estão no banco com cronograma. Uso: recuperar editais que saíram da janela das fontes.
 
 ### Fontes de dados (dupla)
 
-O scraper consulta duas fontes em paralelo e deduplica por URL:
+O scraper consulta duas fontes e deduplica por URL:
 
 | Fonte | URL | Característica |
 |---|---|---|
-| Busca HTML | `?s=edital` | Cobertura ampla, sujeita a cache de horas no servidor |
-| RSS feed | `/category/noticias/feed/` | Sem cache — detecta artigos recém-publicados imediatamente |
+| Busca HTML | `?s=edital` | 15 itens. Cobertura ampla, sujeita a cache de horas no servidor |
+| RSS feed | `/category/noticias/feed/` + `?paged=2` | 30 itens. Sem cache — detecta artigos recém-publicados |
+
+> **Janela:** só artigos presentes nessas fontes no momento da execução são vistos. Um edital rejeitado enquanto estava na janela não é revisto depois — use `--url`.
 
 ### Pipeline de execução (`__main__.py`)
 
@@ -258,7 +263,7 @@ O scraper consulta duas fontes em paralelo e deduplica por URL:
 4. Para cada ListingItem:
    a. classify(title, excerpt, categories) → Classification
       ├── "concurso"      → skip
-      ├── "skip"          → skip
+      ├── "skip"          → skip, exceto candidato (is_candidate + fora do banco) → passo 5 e 6c
       ├── "edital_launch" → processar artigo (passo 5)
       └── "update"        → processar artigo (passo 5) → aplicar como retificação
    b. Se já no banco com timeline e não é "update" → skip (não re-dispara alertas)
@@ -273,6 +278,8 @@ O scraper consulta duas fontes em paralelo e deduplica por URL:
    └── extrai publishedAt (meta OG > li.meta-date)
        ↓
 6b. Sem fee + edital novo no banco + 1 edital → pdf_fee.fee_from_pdf()
+       ↓
+6c. Candidato: aceito só se ≥1 botão de edital com PDF E cronograma ≥3 datas; senão skip
        ↓
 7. rewrite_title() → str (regras fixas; mesmo título original = mesmo resultado)
        ↓
@@ -291,11 +298,21 @@ Quatro passes em ordem — primeira regra que bate vence:
 |---|---|---|
 | 1 | `concurso` | categoria `category-concursos` sem `category-noticias` |
 | 2 | `concurso_publico` | "concurso público", "vagas para médicos", "prefeitura", "perito médico", "auditor médico", "processo seletivo simplificado" |
-| 3 | `edital_launch` | "divulga edital", "publica edital", "saiu o edital", "abre inscrições", "edital publicado", "vagas para residência médica", "prazo de inscrições", "inscrições abertas/começam" |
+| 3 | `edital_launch` | "divulga edital", "publica edital", "saiu o edital", "abre inscrições", "edital publicado", "vagas para residência médica", "prazo de inscrições", "inscrições abertas/começam". Aceita o plural: "editais … divulgados" |
 | 4 | `update` (retificação) | "retificação do edital", "edital retificado", "adiamento", "confirma data" |
 | 5 | `skip` | nenhum padrão reconhecido |
 
 > **Segurança:** os padrões `concurso_publico` (passe 2) rodam **antes** dos padrões de lançamento (passe 3), garantindo que concursos municipais/estaduais nunca sejam capturados mesmo que o título contenha palavras como "residência".
+
+#### Candidato por evidência (skip que pode virar edital)
+
+Títulos com redação livre ("define seleção", "oferta 5 vagas", "terá seleção em três etapas") não batem nos padrões. Para não perdê-los sem arriscar falso alerta:
+
+1. `is_candidate(title)`: o título fala de residência médica / seleção / vagas / edital / título de especialista **e** não é notícia posterior ao edital (gabarito, correção, resultado, aprovados, classificação, recurso, nota de corte, convocação, matrícula, lista, local de prova, cartão de confirmação, ranking, reaplicação).
+2. O artigo é baixado e só é aceito se tiver **≥1 botão de edital com PDF** (`edital_buttons()`, mesma regra da taxa) **e** **cronograma com ≥3 datas**.
+3. Só para artigos fora do banco. Concursos nunca são candidatos.
+
+Validação (set/2026, 90 artigos): 18 aceitos, todos editais reais; 6 barrados, todos notícias (banca, instruções de prova, concorrência) — exceto PSU-GO, edital sem botão de PDF (perda conservadora).
 
 ### Extração de taxa (`extract.py — _extract_fee`)
 
@@ -378,7 +395,7 @@ Server Component com `export const dynamic = "force-dynamic"` (re-renderiza a ca
 ```
 await searchParams → query + page
 loadEditalsSnapshot() → Edital[]
-filter(query) → sort(updatedAt desc) → paginate(PAGE_SIZE=9)
+filter(query) → sort(scrapedAt desc) → paginate(PAGE_SIZE=9)
 render: SiteHeader + PageIntro + SearchBar + grid[EditalCard] + Pagination
 ```
 
@@ -469,7 +486,7 @@ As notificações são gerenciadas pelo repositório **`cadeteafya/alerta-editai
 ### Funcionamento
 
 1. GitHub Actions do `alerta-editais` roda em cron (mesmo horário que o scraper).
-2. `scraper.py` faz GET na homepage do Edital Tracker e extrai todos os `<article>` via XPath.
+2. `scraper.py` lê as **páginas 1 a 3** do Edital Tracker (9 cards cada) e extrai os `<article>` via XPath. Página 1: todos os cards. Páginas 2–3: só cards com selo "Saiu o edital" (capturados há ≤2 dias) — cobre até 27 editais novos de uma vez sem reativar registros antigos.
 3. Compara com `data/last_seen.json` (chave: `"Título | Data de Publicação"`).
 4. Para cada edital novo, `notifier.py` envia um Adaptive Card via webhook.
 5. O estado é commitado de volta ao repo do `alerta-editais`.
@@ -659,12 +676,12 @@ O scraper usa a identidade `github-actions[bot]` para commits. O push usa o toke
 
 | # | Limitação | Impacto | Solução sugerida |
 |---|---|---|---|
-| L1 | Scraper não pagina a listagem (só 15 cards da página 1) | Editais antigos na página 2+ não são capturados | Implementar paginação: `?s=edital&paged=2` |
+| L1 | Janela limitada (busca 15 + RSS 30 itens) | Edital rejeitado enquanto estava na janela não é revisto | Recuperar com `--url` |
 | L2 | Cronograma de artigos sem tabela HTML é `[]` | Card exibe aviso genérico | Extrair datas do corpo textual com regex |
 | L3 | `accentColor` gerado por hash do shortName | Cor pode ter baixo contraste | Tabela manual de cores por instituição em `identify.py` |
 | L4 | Sem testes automatizados | Regressões silenciosas | Adicionar pytest para `classify.py` e `extract.py` |
 | L5 | Taxa não re-notificada no Teams se atualizada | Mudança de valor não chega ao Teams | Recapturar manualmente deletando o registro do JSON |
-| L6 | Padrões de skip pendentes | Alguns artigos de "confira o edital", "abre seleção" ainda passam pelo classify | Adicionar novos SKIP_PATTERNS em `classify.py` |
+| L6 | Edital sem botão de PDF e com título fora dos padrões | Não é capturado (ex.: PSU-GO 2027) | Recuperar com `--url` |
 | L7 | PDF escaneado (imagem) não é lido | Taxa fica "Confirmar" | Preencher manualmente (OCR não compensa) |
 | L8 | Editais anteriores a v0.6 não passaram pelo fallback de PDF | Alguns antigos seguem "Confirmar" | Preencher manualmente, se necessário |
 | L9 | `rewrite.py` e `anthropic` no requirements sem uso | Código morto | Remover, ou travar o título antes de ativar IA (seção 13) |

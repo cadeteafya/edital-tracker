@@ -43,6 +43,12 @@ def _is_pdf(href: str) -> bool:
 
 def find_edital_pdf(content: Tag) -> str | None:
     """URL do PDF do edital, se houver exatamente um botão de edital no artigo."""
+    editais = edital_buttons(content)
+    return editais[0] if len(editais) == 1 else None
+
+
+def edital_buttons(content: Tag) -> list[str]:
+    """PDFs (sem duplicatas) linkados por botões de edital no corpo do artigo."""
     editais: list[str] = []
     for a in content.select("a.wp-block-button__link[href]"):
         href = a["href"].strip()
@@ -53,7 +59,7 @@ def find_edital_pdf(content: Tag) -> str | None:
             continue
         if href not in editais:
             editais.append(href)
-    return editais[0] if len(editais) == 1 else None
+    return editais
 
 
 # ---------------------------------------------------------------------------

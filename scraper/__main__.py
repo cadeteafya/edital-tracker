@@ -4,28 +4,47 @@ import argparse
 import sys
 
 from . import classify, fetch, pdf_fee, store
-from .extract import parse_article, parse_listing, parse_rss_listing
+from .extract import ListingItem, parse_article, parse_listing, parse_rss_listing
 from .identify import detect_exam_year, detect_source
 from .rewrite import rewrite_title
 
 LISTING_URL = "https://med.estrategia.com/portal/?s=edital"
 RSS_URL = "https://med.estrategia.com/portal/category/noticias/feed/"
+RSS_PAGES = 2  # 15 itens por página; 2 páginas cobrem fins de semana e dias cheios
 
 
-def run(*, no_cache: bool = False, limit: int | None = None) -> int:
+def _fetch_sources(no_cache: bool) -> tuple[list[ListingItem], list[ListingItem]]:
     # Fonte 1 — busca HTML (cobertura ampla, mas sujeita a cache de horas no servidor)
     print(f"[fetch] listagem: {LISTING_URL}")
     listing_html = fetch.fetch(LISTING_URL, use_cache=not no_cache)
     items_search = parse_listing(listing_html)
 
     # Fonte 2 — RSS feed (sem cache, detecta artigos recém-publicados imediatamente)
-    print(f"[fetch] feed RSS: {RSS_URL}")
-    try:
-        rss_xml = fetch.fetch(RSS_URL, use_cache=not no_cache)
-        items_rss = parse_rss_listing(rss_xml)
-    except Exception as exc:  # noqa: BLE001
-        print(f"    RSS fetch falhou: {exc!r} — continuando só com busca")
-        items_rss = []
+    items_rss: list[ListingItem] = []
+    for page in range(1, RSS_PAGES + 1):
+        url = RSS_URL if page == 1 else f"{RSS_URL}?paged={page}"
+        print(f"[fetch] feed RSS: {url}")
+        try:
+            items_rss += parse_rss_listing(fetch.fetch(url, use_cache=not no_cache))
+        except Exception as exc:  # noqa: BLE001
+            print(f"    RSS fetch falhou: {exc!r} — continuando sem esta página")
+    return items_search, items_rss
+
+
+def run(
+    *, no_cache: bool = False, limit: int | None = None, urls: list[str] | None = None
+) -> int:
+    # --url: processa só as URLs informadas como edital novo (recupera artigos
+    # que saíram da janela da busca/RSS). Não lê a listagem.
+    forced_urls = set(urls or [])
+    if forced_urls:
+        items_search = [
+            ListingItem(title=u, url=u, excerpt="", image_url=None, published_label="", categories=[])
+            for u in urls
+        ]
+        items_rss: list[ListingItem] = []
+    else:
+        items_search, items_rss = _fetch_sources(no_cache)
 
     # Mescla e deduplica por URL (busca tem precedência para preservar categories)
     seen_urls: set[str] = {i.url for i in items_search}
@@ -64,12 +83,22 @@ def run(*, no_cache: bool = False, limit: int | None = None) -> int:
     iterable = items if limit is None else items[:limit]
 
     for item in iterable:
-        result = classify.classify(
-            title=item.title,
-            excerpt=item.excerpt,
-            categories=item.categories,
+        if item.url in forced_urls:
+            result = classify.Classification("edital_launch", "URL informada manualmente (--url)")
+        else:
+            result = classify.classify(
+                title=item.title,
+                excerpt=item.excerpt,
+                categories=item.categories,
+            )
+        # "skip" com título de seleção e fora do banco vira candidato: decide pela
+        # evidência na página (abaixo). Concursos nunca são candidatos.
+        candidate = (
+            result.kind == "skip"
+            and classify.is_candidate(item.title)
+            and store.slug_from_url(item.url) not in db
         )
-        if result.kind == "skip" or result.kind == "concurso":
+        if result.kind == "concurso" or (result.kind == "skip" and not candidate):
             skipped += 1
             print(f"  [skip] {item.title[:80]} — {result.reason}")
             continue
@@ -82,13 +111,24 @@ def run(*, no_cache: bool = False, limit: int | None = None) -> int:
                 skipped += 1
                 continue
 
-        print(f"  [{result.kind}] {item.title[:80]}")
+        print(f"  [{'candidato' if candidate else result.kind}] {item.title[:80]}")
         try:
             article_html = fetch.fetch(item.url, use_cache=not no_cache)
         except Exception as exc:  # noqa: BLE001
             print(f"    fetch falhou: {exc!r}")
             continue
         article = parse_article(article_html, item.url)
+
+        if candidate:
+            if article.edital_pdf_count >= 1 and len(article.timeline) >= 3:
+                result = classify.Classification(
+                    "edital_launch", "evidência na página: botão de edital + cronograma"
+                )
+                print(f"    aceito por evidência ({article.edital_pdf_count} edital(is), {len(article.timeline)} datas)")
+            else:
+                skipped += 1
+                print("    [skip-evidência] sem botão de edital com PDF ou sem cronograma")
+                continue
 
         if not article.timeline:
             print("    sem timeline extraível — aceito sem cronograma")
@@ -145,8 +185,12 @@ def main() -> None:
     parser = argparse.ArgumentParser(prog="scraper")
     parser.add_argument("--no-cache", action="store_true")
     parser.add_argument("--limit", type=int, default=None)
+    parser.add_argument(
+        "--url", action="append", dest="urls", metavar="URL",
+        help="processa esta URL como edital novo (repetível); ignora a listagem",
+    )
     args = parser.parse_args()
-    sys.exit(run(no_cache=args.no_cache, limit=args.limit))
+    sys.exit(run(no_cache=args.no_cache, limit=args.limit, urls=args.urls))
 
 
 if __name__ == "__main__":
