@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-09-30T17:30:39+00:00",
+  "lastSyncedAt": "2026-09-30T18:00:34+00:00",
   "editals": [
     {
       "id": "sms-ivaipora-edital-residencia-medica-2027",
@@ -40,6 +40,47 @@
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
       "fee": "R$ 550,00",
+      "revisions": []
+    },
+    {
+      "id": "sms-vitoria-edital-residencia-medica-2027",
+      "source": {
+        "name": "SMS-Vitória",
+        "shortName": "SMS-Vitória",
+        "accentColor": "#3b82f6"
+      },
+      "originalTitle": "SMS-Vitória abre seleção para residência médica em Medicina de Família",
+      "rewrittenTitle": "SMS-Vitória abre seleção para residência médica em Medicina de Família",
+      "examYear": 2026,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/sms-vitoria-edital-residencia-medica-2027/",
+      "officialUrl": "https://vitoria.es.gov.br/prefeitura/concurso-publico",
+      "scrapedAt": "2026-09-30T18:00:34+00:00",
+      "publishedAt": "2026-09-30",
+      "updatedAt": "2026-09-30",
+      "timeline": [
+        {
+          "label": "Período de Inscrições e Envio do Currículo",
+          "date": "26/10 a 18/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "23/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Preliminar",
+          "date": "30/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "08/12/2026",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": null,
       "revisions": []
     },
     {
