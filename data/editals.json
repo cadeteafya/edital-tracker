@@ -1,6 +1,47 @@
 {
-  "lastSyncedAt": "2026-09-30T17:00:34+00:00",
+  "lastSyncedAt": "2026-09-30T17:30:39+00:00",
   "editals": [
+    {
+      "id": "sms-ivaipora-edital-residencia-medica-2027",
+      "source": {
+        "name": "SMS-Ivaiporã",
+        "shortName": "SMS-Ivaiporã",
+        "accentColor": "#f97316"
+      },
+      "originalTitle": "SMS-Ivaiporã terá bolsa complementar de R$ 6 mil na Residência Médica 2027; veja o edital",
+      "rewrittenTitle": "SMS-Ivaiporã terá bolsa complementar de R$ 6 mil na Residência Médica 2027; veja o edital",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/sms-ivaipora-edital-residencia-medica-2027/",
+      "officialUrl": "https://aietec.com.br/concurso/processo_seletivo/pmipa-selecao-publica-de-residencia-medica-edital-012026",
+      "scrapedAt": "2026-09-30T17:30:37+00:00",
+      "publishedAt": "2026-09-30",
+      "updatedAt": "2026-09-30",
+      "timeline": [
+        {
+          "label": "Período de Inscrições e Envio do Currículo",
+          "date": "23/09 a 19/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "13/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Preliminar",
+          "date": "18/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "03/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 550,00",
+      "revisions": []
+    },
     {
       "id": "fundhacre-edital-residencia-medica-2027",
       "source": {
