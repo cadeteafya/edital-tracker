@@ -1,6 +1,52 @@
 {
-  "lastSyncedAt": "2026-10-01T00:18:17+00:00",
+  "lastSyncedAt": "2026-10-01T08:00:43+00:00",
   "editals": [
+    {
+      "id": "sus-sp-edital-residencia-medica-2027",
+      "source": {
+        "name": "SUS-SP",
+        "shortName": "SUS-SP",
+        "accentColor": "#7c3aed"
+      },
+      "originalTitle": "Edital do SUS-SP 2027 é divulgado com mais de 1,3 mil vagas de residência médica",
+      "rewrittenTitle": "Edital do SUS-SP 2027 é divulgado com mais de 1,3 mil vagas de residência médica",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/sus-sp-edital-residencia-medica-2027/",
+      "officialUrl": "",
+      "scrapedAt": "2026-10-01T08:00:41+00:00",
+      "publishedAt": "2026-10-01",
+      "updatedAt": "2026-10-01",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "20/10 a 05/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "13/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito Preliminar",
+          "date": "15/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Classificação Final",
+          "date": "12/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Divulgação de aprovados após 1ª escolha",
+          "date": "22/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: Recomenda-se que os candidatos acompanhem regularmente a página oficial do processo seletivo para verificar possíveis retificações, atualizações no cronograma ou comunicados adicionais.",
+      "fee": "R$ 120,00",
+      "revisions": []
+    },
     {
       "id": "sms-ivaipora-edital-residencia-medica-2027",
       "source": {
