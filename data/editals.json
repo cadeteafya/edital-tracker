@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-10-01T13:00:40+00:00",
+  "lastSyncedAt": "2026-10-01T13:30:32+00:00",
   "editals": [
     {
       "id": "sus-sp-edital-residencia-medica-2027",
@@ -45,6 +45,26 @@
       ],
       "warningNote": "Atenção: Recomenda-se que os candidatos acompanhem regularmente a página oficial do processo seletivo para verificar possíveis retificações, atualizações no cronograma ou comunicados adicionais.",
       "fee": "R$ 120,00",
+      "revisions": []
+    },
+    {
+      "id": "ses-df-inscricoes-residencia-medica-2027",
+      "source": {
+        "name": "SES-DF",
+        "shortName": "SES-DF",
+        "accentColor": "#ef4444"
+      },
+      "originalTitle": "SES-DF abre inscrições para Residência Médica 2027; veja como participar",
+      "rewrittenTitle": "SES-DF abre inscrições para Residência Médica 2027; veja como participar",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/ses-df-inscricoes-residencia-medica-2027/",
+      "officialUrl": "https://www.iades.com.br/inscricao/ProcessoSeletivo.aspx?id=f76de971e3",
+      "scrapedAt": "2026-10-01T13:30:30+00:00",
+      "publishedAt": "2026-10-01",
+      "updatedAt": "2026-10-01",
+      "timeline": [],
+      "warningNote": "Atenção! É de responsabilidade do candidato acompanhar eventuais retificações, atos e comunicados publicados ao longo do processo seletivo.",
+      "fee": "R$ 120",
       "revisions": []
     },
     {
