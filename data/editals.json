@@ -1,6 +1,47 @@
 {
-  "lastSyncedAt": "2026-10-02T12:30:40+00:00",
+  "lastSyncedAt": "2026-10-02T13:00:39+00:00",
   "editals": [
+    {
+      "id": "santa-marcelina-edital-residencia-medica-2027",
+      "source": {
+        "name": "Santa Marcelina",
+        "shortName": "Santa Marcelina",
+        "accentColor": "#14b8a6"
+      },
+      "originalTitle": "Santa Marcelina terá prova virtual para Residência Médica 2027; edital divulgado",
+      "rewrittenTitle": "Santa Marcelina terá prova virtual para Residência Médica 2027; edital divulgado",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/santa-marcelina-edital-residencia-medica-2027/",
+      "officialUrl": "https://sis.consesp.com.br/site/index.php?pg=concursos/info&codigo=4962",
+      "scrapedAt": "2026-10-02T13:00:39+00:00",
+      "publishedAt": "2026-10-02",
+      "updatedAt": "2026-10-02",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "18/10 a 29/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "10/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Preliminar",
+          "date": "22/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "21/01/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 500,00",
+      "revisions": []
+    },
     {
       "id": "sus-sp-edital-residencia-medica-2027",
       "source": {
