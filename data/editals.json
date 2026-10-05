@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-10-05T20:41:07+00:00",
+  "lastSyncedAt": "2026-10-05T21:00:57+00:00",
   "editals": [
     {
       "id": "iamspe-edital-residencia-medica-2027",
@@ -177,6 +177,57 @@
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da instituição .",
       "fee": null,
+      "revisions": []
+    },
+    {
+      "id": "fai-adamantina-edital-residencia-medica-2027",
+      "source": {
+        "name": "FAI Adamantina",
+        "shortName": "FAI Adamantina",
+        "accentColor": "#0d9488"
+      },
+      "originalTitle": "FAI Adamantina oferta vagas de Residência Médica em MFC para 2027; confira o edital",
+      "rewrittenTitle": "FAI Adamantina oferta vagas de Residência Médica em MFC para 2027",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/fai-adamantina-edital-residencia-medica-2027/",
+      "officialUrl": "https://sis.consesp.com.br/site/index.php?pg=concursos/info&codigo=4965",
+      "scrapedAt": "2026-10-05T21:00:55+00:00",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-05",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "20/10/2026 a 03/01/2027",
+          "isRange": true
+        },
+        {
+          "label": "Período do Pré-Teste",
+          "date": "12 e 13/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "14/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Convocação Análise Curricular",
+          "date": "22/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Envio do Currículo",
+          "date": "22 a 29/01/2027",
+          "isRange": true
+        },
+        {
+          "label": "Resultado Final",
+          "date": "18/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 600,00",
       "revisions": []
     },
     {
