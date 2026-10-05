@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-10-05T12:00:33+00:00",
+  "lastSyncedAt": "2026-10-05T12:30:29+00:00",
   "editals": [
     {
       "id": "iamspe-edital-residencia-medica-2027",
@@ -45,6 +45,47 @@
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
       "fee": "R$ 550,00",
+      "revisions": []
+    },
+    {
+      "id": "uscs-edital-residencia-medica-2027",
+      "source": {
+        "name": "USCS",
+        "shortName": "USCS",
+        "accentColor": "#f97316"
+      },
+      "originalTitle": "USCS reúne 58 vagas em seleção unificada de Residência Médica 2027; edital publicado",
+      "rewrittenTitle": "USCS reúne 58 vagas em seleção unificada de Residência Médica 2027; edital publicado",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/uscs-edital-residencia-medica-2027/",
+      "officialUrl": "https://fauscs.selecao.net.br/informacoes/30/",
+      "scrapedAt": "2026-10-05T12:30:28+00:00",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-05",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "19/10 a 06/12/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "10/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Preliminar",
+          "date": "18/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "20/01/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 490,00",
       "revisions": []
     },
     {
