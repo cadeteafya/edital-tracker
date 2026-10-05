@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-10-05T20:11:04+00:00",
+  "lastSyncedAt": "2026-10-05T20:41:07+00:00",
   "editals": [
     {
       "id": "iamspe-edital-residencia-medica-2027",
@@ -126,6 +126,57 @@
       "timeline": [],
       "warningNote": "Atenção! É de responsabilidade do candidato acompanhar eventuais retificações, atos e comunicados publicados ao longo do processo seletivo.",
       "fee": "R$ 500",
+      "revisions": []
+    },
+    {
+      "id": "hospital-de-olhos-yano-edital-residencia-medica-2027",
+      "source": {
+        "name": "Residência Médica",
+        "shortName": "Residência Médica",
+        "accentColor": "#3b82f6"
+      },
+      "originalTitle": "Residência Médica 2027: Hospital de Olhos Yano define seleção para Oftalmologia",
+      "rewrittenTitle": "Residência Médica 2027: Hospital de Olhos Yano define seleção para Oftalmologia",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/hospital-de-olhos-yano-edital-residencia-medica-2027/",
+      "officialUrl": "https://hospitalyano.com.br/hospital/",
+      "scrapedAt": "2026-10-05T20:41:07+00:00",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-05",
+      "timeline": [
+        {
+          "label": "Inscrições",
+          "date": "05/10/2026 a 12/01/2027",
+          "isRange": true
+        },
+        {
+          "label": "Pedido de isenção",
+          "date": "05 a 10/10/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova objetiva",
+          "date": "24/01/2027, das 8h às 11h",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito",
+          "date": "24/01/2027, após as 13h",
+          "isRange": false
+        },
+        {
+          "label": "Recurso da prova",
+          "date": "25/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado final",
+          "date": "05/02/2027, após as 17h",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da instituição .",
+      "fee": null,
       "revisions": []
     },
     {
