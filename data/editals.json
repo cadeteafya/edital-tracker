@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-10-05T19:00:42+00:00",
+  "lastSyncedAt": "2026-10-05T20:11:04+00:00",
   "editals": [
     {
       "id": "iamspe-edital-residencia-medica-2027",
@@ -106,6 +106,26 @@
       "timeline": [],
       "warningNote": "Atenção! É de responsabilidade do candidato acompanhar eventuais retificações, atos e comunicados publicados ao longo do processo seletivo.",
       "fee": "R$ 680",
+      "revisions": []
+    },
+    {
+      "id": "ses-go-inscricoes-residencia-medica-2027",
+      "source": {
+        "name": "SES-GO",
+        "shortName": "SES-GO",
+        "accentColor": "#14b8a6"
+      },
+      "originalTitle": "SES-GO 2027: inscrições abertas para Residência Médica!",
+      "rewrittenTitle": "SES-GO 2027: inscrições abertas para Residência Médica!",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/ses-go-inscricoes-residencia-medica-2027/",
+      "officialUrl": "https://sistemas.institutoverbena.ufg.br/2027/coreme-ses/",
+      "scrapedAt": "2026-10-05T20:10:58+00:00",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-05",
+      "timeline": [],
+      "warningNote": "Atenção! É de responsabilidade do candidato acompanhar eventuais retificações, atos e comunicados publicados ao longo do processo seletivo.",
+      "fee": "R$ 500",
       "revisions": []
     },
     {
