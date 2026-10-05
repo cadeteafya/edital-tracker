@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-10-05T12:30:29+00:00",
+  "lastSyncedAt": "2026-10-05T13:00:34+00:00",
   "editals": [
     {
       "id": "iamspe-edital-residencia-medica-2027",
@@ -86,6 +86,26 @@
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
       "fee": "R$ 490,00",
+      "revisions": []
+    },
+    {
+      "id": "inscricoes-residencia-medica-santa-casa-sp-2027",
+      "source": {
+        "name": "Santa Casa",
+        "shortName": "Santa Casa",
+        "accentColor": "#ef4444"
+      },
+      "originalTitle": "Santa Casa de São Paulo abre inscrições para Residência Médica 2027 nesta segunda (5)",
+      "rewrittenTitle": "Santa Casa de São Paulo abre inscrições para Residência Médica 2027 nesta segunda (5)",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/inscricoes-residencia-medica-santa-casa-sp-2027/",
+      "officialUrl": "https://www.concursosfcc.com.br/concursos/scmsp126/index.html",
+      "scrapedAt": "2026-10-05T13:00:34+00:00",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-05",
+      "timeline": [],
+      "warningNote": "Atenção! É de responsabilidade do candidato acompanhar eventuais retificações, atos e comunicados publicados ao longo do processo seletivo.",
+      "fee": "R$ 680",
       "revisions": []
     },
     {
