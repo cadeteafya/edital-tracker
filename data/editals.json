@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-10-06T20:00:39+00:00",
+  "lastSyncedAt": "2026-10-06T20:30:33+00:00",
   "editals": [
     {
       "id": "unesp-edital-residencia-medica-2027",
@@ -80,6 +80,47 @@
       "timeline": [],
       "warningNote": "Atenção! É de responsabilidade do candidato acompanhar eventuais retificações, atos e comunicados publicados ao longo do processo seletivo.",
       "fee": "R$ 300",
+      "revisions": []
+    },
+    {
+      "id": "amil-rede-total-care-edital-residencia-medica-2027",
+      "source": {
+        "name": "Amil",
+        "shortName": "Amil",
+        "accentColor": "#10b981"
+      },
+      "originalTitle": "Amil – Rede Total Care reúne 23 vagas de Residência Médica para 2027",
+      "rewrittenTitle": "Amil – Rede Total Care reúne 23 vagas de Residência Médica para 2027",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/amil-rede-total-care-edital-residencia-medica-2027/",
+      "officialUrl": "https://www.aremg.org.br/processos-atuais",
+      "scrapedAt": "2026-10-06T20:30:32+00:00",
+      "publishedAt": "2026-10-06",
+      "updatedAt": "2026-10-06",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "19/10 a 05/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "22/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Preliminar",
+          "date": "21/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "28/01/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 500,00",
       "revisions": []
     },
     {
