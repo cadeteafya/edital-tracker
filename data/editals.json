@@ -1,6 +1,67 @@
 {
-  "lastSyncedAt": "2026-10-05T23:30:30+00:00",
+  "lastSyncedAt": "2026-10-06T08:00:42+00:00",
   "editals": [
+    {
+      "id": "unesp-edital-residencia-medica-2027",
+      "source": {
+        "name": "Residência Médica UNESP",
+        "shortName": "Residência Médica UNESP",
+        "accentColor": "#14b8a6"
+      },
+      "originalTitle": "Residência Médica UNESP 2027: editais publicados com mais de 200 vagas",
+      "rewrittenTitle": "Residência Médica UNESP 2027: editais publicados com mais de 200 vagas",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/unesp-edital-residencia-medica-2027/",
+      "officialUrl": "",
+      "scrapedAt": "2026-10-06T08:00:39+00:00",
+      "publishedAt": "2026-10-06",
+      "updatedAt": "2026-10-06",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "20/10 a 06/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "12/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito Preliminar",
+          "date": "14/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Recursos",
+          "date": "15 e 16/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Convocação 2ª etapa",
+          "date": "21/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Envio do Currículo",
+          "date": "22 e 23/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Avaliação Curricular *",
+          "date": "14 a 20/01/2027",
+          "isRange": true
+        },
+        {
+          "label": "Resultado Final",
+          "date": "02/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É recomendado que os candidatos acompanhem regularmente a página oficial do processo seletivo no site da Fundação Vunesp para verificar possíveis retificações, atualizações no cronograma ou comunicados adicionais.",
+      "fee": "R$ 648,00",
+      "revisions": []
+    },
     {
       "id": "iamspe-edital-residencia-medica-2027",
       "source": {
