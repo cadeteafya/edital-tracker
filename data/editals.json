@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-10-06T13:00:47+00:00",
+  "lastSyncedAt": "2026-10-06T13:30:36+00:00",
   "editals": [
     {
       "id": "unesp-edital-residencia-medica-2027",
@@ -60,6 +60,26 @@
       ],
       "warningNote": "Atenção: É recomendado que os candidatos acompanhem regularmente a página oficial do processo seletivo no site da Fundação Vunesp para verificar possíveis retificações, atualizações no cronograma ou comunicados adicionais.",
       "fee": "R$ 648,00",
+      "revisions": []
+    },
+    {
+      "id": "inscricoes-residencia-medica-psu-mg-2027",
+      "source": {
+        "name": "AREMG — PSU-MG",
+        "shortName": "PSU-MG",
+        "accentColor": "#f59e0b"
+      },
+      "originalTitle": "PSU-MG 2027 abre inscrições nesta terça-feira (6); veja como participar",
+      "rewrittenTitle": "PSU-MG 2027 abre inscrições nesta terça-feira (6); veja como participar",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/inscricoes-residencia-medica-psu-mg-2027/",
+      "officialUrl": "https://www.galaxcms.com.br/up_crud_comum/601/Anexo1-AvaliacaoCurricularPadronizadaEntradaDiretaPSUMG2027-20260924112431.pdf",
+      "scrapedAt": "2026-10-06T13:30:35+00:00",
+      "publishedAt": "2026-10-06",
+      "updatedAt": "2026-10-06",
+      "timeline": [],
+      "warningNote": "Atenção! É de responsabilidade do candidato acompanhar eventuais retificações, atos e comunicados publicados ao longo do processo seletivo.",
+      "fee": "R$ 300",
       "revisions": []
     },
     {
