@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-10-07T16:30:34+00:00",
+  "lastSyncedAt": "2026-10-07T17:09:11+00:00",
   "editals": [
     {
       "id": "sms-sao-jose-rio-preto-edital-residencia-medica-2027",
@@ -65,6 +65,47 @@
       "timeline": [],
       "warningNote": "Atenção! É de responsabilidade do candidato acompanhar eventuais retificações, atos e comunicados publicados ao longo do processo seletivo.",
       "fee": "R$ 700",
+      "revisions": []
+    },
+    {
+      "id": "hospital-carlos-fernando-malzoni-edital-residencia-medica-2027",
+      "source": {
+        "name": "Hospital Carlos Fernando Malzoni",
+        "shortName": "Hospital Carlos Fernando Malzoni",
+        "accentColor": "#f97316"
+      },
+      "originalTitle": "Hospital Carlos Fernando Malzoni abre seleção para Residência Médica 2027",
+      "rewrittenTitle": "Hospital Carlos Fernando Malzoni abre seleção para Residência Médica 2027",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/hospital-carlos-fernando-malzoni-edital-residencia-medica-2027/",
+      "officialUrl": "https://sis.consesp.com.br/site/index.php?pg=concursos/info&codigo=4972",
+      "scrapedAt": "2026-10-07T17:09:08+00:00",
+      "publishedAt": "2026-10-07",
+      "updatedAt": "2026-10-07",
+      "timeline": [
+        {
+          "label": "Período de Inscrições *",
+          "date": "23/10 a 27/12/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "13/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Preliminar",
+          "date": "05/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "19/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 550,00",
       "revisions": []
     },
     {
