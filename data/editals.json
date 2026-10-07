@@ -1,6 +1,52 @@
 {
-  "lastSyncedAt": "2026-10-07T12:30:31+00:00",
+  "lastSyncedAt": "2026-10-07T13:00:51+00:00",
   "editals": [
+    {
+      "id": "sms-sao-jose-rio-preto-edital-residencia-medica-2027",
+      "source": {
+        "name": "São José",
+        "shortName": "São José",
+        "accentColor": "#3b82f6"
+      },
+      "originalTitle": "São José do Rio Preto oferta 17 vagas de Residência Médica para 2027; confira o edital",
+      "rewrittenTitle": "São José do Rio Preto oferta 17 vagas de Residência Médica para 2027",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/sms-sao-jose-rio-preto-edital-residencia-medica-2027/",
+      "officialUrl": "https://saude.riopreto.sp.gov.br/portal/?page_id=7111",
+      "scrapedAt": "2026-10-07T13:00:45+00:00",
+      "publishedAt": "2026-10-07",
+      "updatedAt": "2026-10-07",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "14 a 28/10/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva e Entrega do Currículo",
+          "date": "25/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Análise Curricular",
+          "date": "11/12/2026 a 06/01/2027",
+          "isRange": true
+        },
+        {
+          "label": "Resultado Preliminar",
+          "date": "11/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "18/01/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 700,00",
+      "revisions": []
+    },
     {
       "id": "unesp-edital-residencia-medica-2027",
       "source": {
