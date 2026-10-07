@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-10-07T13:00:51+00:00",
+  "lastSyncedAt": "2026-10-07T13:30:35+00:00",
   "editals": [
     {
       "id": "sms-sao-jose-rio-preto-edital-residencia-medica-2027",
@@ -45,6 +45,26 @@
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
       "fee": "R$ 700,00",
+      "revisions": []
+    },
+    {
+      "id": "fmabc-inscricoes-residencia-medica-2027",
+      "source": {
+        "name": "FMABC",
+        "shortName": "FMABC",
+        "accentColor": "#0d9488"
+      },
+      "originalTitle": "FMABC 2027: inscrições abertas para Residência Médica!",
+      "rewrittenTitle": "FMABC 2027: inscrições abertas para Residência Médica!",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/fmabc-inscricoes-residencia-medica-2027/",
+      "officialUrl": "https://www.avalia.org.br/concursos/640",
+      "scrapedAt": "2026-10-07T13:30:35+00:00",
+      "publishedAt": "2026-10-07",
+      "updatedAt": "2026-10-07",
+      "timeline": [],
+      "warningNote": "Atenção! É de responsabilidade do candidato acompanhar eventuais retificações, atos e comunicados publicados ao longo do processo seletivo.",
+      "fee": "R$ 700",
       "revisions": []
     },
     {
