@@ -1,6 +1,52 @@
 {
-  "lastSyncedAt": "2026-10-08T14:30:36+00:00",
+  "lastSyncedAt": "2026-10-08T15:00:44+00:00",
   "editals": [
+    {
+      "id": "instituto-de-olhos-eduardo-paulino-edital-residencia-medica-2027",
+      "source": {
+        "name": "Instituto",
+        "shortName": "Instituto",
+        "accentColor": "#3b82f6"
+      },
+      "originalTitle": "Instituto de Olhos Eduardo Paulino 2027: seleção aberta para residência em Oftalmologia",
+      "rewrittenTitle": "Instituto de Olhos Eduardo Paulino 2027: seleção aberta para residência em Oftalmologia",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/instituto-de-olhos-eduardo-paulino-edital-residencia-medica-2027/",
+      "officialUrl": "https://clinicarefraktum.com.br/residencia/2027",
+      "scrapedAt": "2026-10-08T15:00:42+00:00",
+      "publishedAt": "2026-10-08",
+      "updatedAt": "2026-10-08",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "10/10/2026 a 01/02/2027",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "12/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Análise Curricular e Entrevista",
+          "date": "18/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Preliminar",
+          "date": "20/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "24/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 650,00",
+      "revisions": []
+    },
     {
       "id": "sms-sao-jose-rio-preto-edital-residencia-medica-2027",
       "source": {
