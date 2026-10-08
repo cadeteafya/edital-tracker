@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-10-08T15:00:44+00:00",
+  "lastSyncedAt": "2026-10-08T15:30:38+00:00",
   "editals": [
     {
       "id": "instituto-de-olhos-eduardo-paulino-edital-residencia-medica-2027",
@@ -45,6 +45,98 @@
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
       "fee": "R$ 650,00",
+      "revisions": []
+    },
+    {
+      "id": "hospital-adventista-silvestre-edital-residencia-medica-2027",
+      "source": {
+        "name": "Hospital Adventista Silvestre",
+        "shortName": "Hospital Adventista Silvestre",
+        "accentColor": "#0ea5e9"
+      },
+      "originalTitle": "Hospital Adventista Silvestre terá seis vagas de Residência Médica em 2027; confira o edital",
+      "rewrittenTitle": "Hospital Adventista Silvestre terá seis vagas de Residência Médica em 2027",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/hospital-adventista-silvestre-edital-residencia-medica-2027/",
+      "officialUrl": "https://redesilvestre.com/programas/residencia-medica/",
+      "scrapedAt": "2026-10-08T15:30:37+00:00",
+      "publishedAt": "2026-10-08",
+      "updatedAt": "2026-10-08",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "13/10 a 04/12/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "13/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Convocação 2ª fase",
+          "date": "05/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Análise Curricular",
+          "date": "01 a 05/02/2027",
+          "isRange": true
+        },
+        {
+          "label": "Resultado Final",
+          "date": "22/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Convocação para Matrícula",
+          "date": "24/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 350,00",
+      "revisions": []
+    },
+    {
+      "id": "santa-casa-campinas-edital-residencia-medica-2027",
+      "source": {
+        "name": "Santa Casa",
+        "shortName": "Santa Casa",
+        "accentColor": "#ef4444"
+      },
+      "originalTitle": "Residência Médica 2027: Santa Casa de Campinas divulga edital!",
+      "rewrittenTitle": "Residência Médica 2027: Santa Casa de Campinas divulga edital!",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/santa-casa-campinas-edital-residencia-medica-2027/",
+      "officialUrl": "https://santacasacampinas.com.br/edital2027/",
+      "scrapedAt": "2026-10-08T15:30:37+00:00",
+      "publishedAt": "2026-10-08",
+      "updatedAt": "2026-10-08",
+      "timeline": [
+        {
+          "label": "Inscrições",
+          "date": "19/10 a 24/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Provas",
+          "date": "26/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Divulgação do resultado",
+          "date": "03/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Matrícula",
+          "date": "09 a 13/02/2027",
+          "isRange": true
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 700",
       "revisions": []
     },
     {
