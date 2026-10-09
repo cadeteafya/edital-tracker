@@ -1,6 +1,72 @@
 {
-  "lastSyncedAt": "2026-10-09T13:30:33+00:00",
+  "lastSyncedAt": "2026-10-09T14:00:46+00:00",
   "editals": [
+    {
+      "id": "unifsm-edital-residencia-medica-2027",
+      "source": {
+        "name": "Residência Médica UNIFSM",
+        "shortName": "Residência Médica UNIFSM",
+        "accentColor": "#f59e0b"
+      },
+      "originalTitle": "Residência Médica UNIFSM 2027 terá prova em novembro; acesse o edital",
+      "rewrittenTitle": "Residência Médica UNIFSM 2027 terá prova em novembro; acesse o edital",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/unifsm-edital-residencia-medica-2027/",
+      "officialUrl": "https://posgraduacaounifsm.com.br/",
+      "scrapedAt": "2026-10-09T14:00:40+00:00",
+      "publishedAt": "2026-10-09",
+      "updatedAt": "2026-10-09",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "01/10/2026 a 31/10/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "15/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Convocação 2ª fase",
+          "date": "04/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Envio do Currículo",
+          "date": "07 a 11/12/2026",
+          "isRange": true
+        },
+        {
+          "label": "Resultado Final",
+          "date": "22/12/2026",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 500",
+      "revisions": []
+    },
+    {
+      "id": "famema-inscricoes-residencia-medica-2027",
+      "source": {
+        "name": "FAMEMA",
+        "shortName": "FAMEMA",
+        "accentColor": "#10b981"
+      },
+      "originalTitle": "FAMEMA 2027: inscrições abertas para seleção de Residência Médica!",
+      "rewrittenTitle": "FAMEMA 2027: inscrições abertas para seleção de Residência Médica!",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/famema-inscricoes-residencia-medica-2027/",
+      "officialUrl": "https://www.vunesp.com.br/FMMA2602",
+      "scrapedAt": "2026-10-09T14:00:42+00:00",
+      "publishedAt": "2026-10-09",
+      "updatedAt": "2026-10-09",
+      "timeline": [],
+      "warningNote": "Atenção! É de responsabilidade do candidato acompanhar eventuais retificações, atos e comunicados publicados ao longo do processo seletivo.",
+      "fee": "R$ 600",
+      "revisions": []
+    },
     {
       "id": "instituto-de-olhos-eduardo-paulino-edital-residencia-medica-2027",
       "source": {
