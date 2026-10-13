@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-10-13T17:30:30+00:00",
+  "lastSyncedAt": "2026-10-13T18:00:41+00:00",
   "editals": [
     {
       "id": "idor-edital-residencia-medica-2027",
@@ -86,6 +86,52 @@
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
       "fee": null,
+      "revisions": []
+    },
+    {
+      "id": "unifae-edital-residencia-medica-2027",
+      "source": {
+        "name": "Enamed",
+        "shortName": "Enamed",
+        "accentColor": "#ec4899"
+      },
+      "originalTitle": "Enamed valerá 60% na seleção de Residência Médica da UNIFAE 2027; confira o edital",
+      "rewrittenTitle": "Enamed valerá 60% na seleção de Residência Médica da UNIFAE 2027",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/unifae-edital-residencia-medica-2027/",
+      "officialUrl": "https://fae.br/novo/residencias-em-saude/",
+      "scrapedAt": "2026-10-13T18:00:41+00:00",
+      "publishedAt": "2026-10-13",
+      "updatedAt": "2026-10-13",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "26/10/2026 a 22/01/2027",
+          "isRange": true
+        },
+        {
+          "label": "Convocação para prova prática e avaliação curricular",
+          "date": "29/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Prova Prática",
+          "date": "01/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Avaliação Curricular e Arguição",
+          "date": "03/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "15/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 450",
       "revisions": []
     },
     {
