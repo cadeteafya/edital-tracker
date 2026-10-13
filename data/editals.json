@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-10-13T13:00:53+00:00",
+  "lastSyncedAt": "2026-10-13T13:30:35+00:00",
   "editals": [
     {
       "id": "idor-edital-residencia-medica-2027",
@@ -45,6 +45,47 @@
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
       "fee": "R$ 590",
+      "revisions": []
+    },
+    {
+      "id": "fms-campos-dos-goytacazes-edital-residencia-medica-2027",
+      "source": {
+        "name": "FMS Campos",
+        "shortName": "FMS Campos",
+        "accentColor": "#22c55e"
+      },
+      "originalTitle": "FMS Campos dos Goytacazes divulga seleção de Residência Médica 2027",
+      "rewrittenTitle": "FMS Campos dos Goytacazes divulga seleção de Residência Médica 2027",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/fms-campos-dos-goytacazes-edital-residencia-medica-2027/",
+      "officialUrl": "https://campos.rj.gov.br/",
+      "scrapedAt": "2026-10-13T13:30:34+00:00",
+      "publishedAt": "2026-10-13",
+      "updatedAt": "2026-10-13",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "08/10 a 01/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "08/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final 1ª Fase + Resultado Preliminar 2ª Fase",
+          "date": "18/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "08/01/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": null,
       "revisions": []
     },
     {
