@@ -1,6 +1,52 @@
 {
-  "lastSyncedAt": "2026-10-15T12:00:39+00:00",
+  "lastSyncedAt": "2026-10-15T12:30:36+00:00",
   "editals": [
+    {
+      "id": "hospital-san-julian-edital-residencia-medica-2027",
+      "source": {
+        "name": "Hospital San Julian",
+        "shortName": "Hospital San Julian",
+        "accentColor": "#0d9488"
+      },
+      "originalTitle": "Hospital San Julian divulga edital para Residência Médica em 2027",
+      "rewrittenTitle": "Hospital San Julian divulga edital para Residência Médica em 2027",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/hospital-san-julian-edital-residencia-medica-2027/",
+      "officialUrl": "https://sanjulian.org.br/residenciar4/",
+      "scrapedAt": "2026-10-15T12:30:35+00:00",
+      "publishedAt": "2026-10-15",
+      "updatedAt": "2026-10-15",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "14/10/2026 a 11/01/2027",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "12/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado 1ª Fase",
+          "date": "22/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Análise e Arguição do Currículo",
+          "date": "01 e 02/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "até 11/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": null,
+      "revisions": []
+    },
     {
       "id": "rede-mario-gatti-edital-residencia-medica-2027",
       "source": {
