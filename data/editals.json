@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-10-15T18:00:39+00:00",
+  "lastSyncedAt": "2026-10-15T18:30:40+00:00",
   "editals": [
     {
       "id": "hospital-san-julian-edital-residencia-medica-2027",
@@ -45,6 +45,47 @@
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
       "fee": null,
+      "revisions": []
+    },
+    {
+      "id": "unimed-jp-edital-residencia-medica-2027",
+      "source": {
+        "name": "Unimed-JP",
+        "shortName": "Unimed-JP",
+        "accentColor": "#7c3aed"
+      },
+      "originalTitle": "Unimed-JP está com inscrições abertas para Residência Médica 2027; veja o edital",
+      "rewrittenTitle": "Unimed-JP está com inscrições abertas para Residência Médica 2027; veja o edital",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/unimed-jp-edital-residencia-medica-2027/",
+      "officialUrl": "https://www.unimedjp.com.br/residenciamedica/",
+      "scrapedAt": "2026-10-15T18:30:40+00:00",
+      "publishedAt": "2026-10-15",
+      "updatedAt": "2026-10-15",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "16/10 a 04/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "29/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito Preliminar",
+          "date": "01/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "20/12/2026",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 500,00",
       "revisions": []
     },
     {
