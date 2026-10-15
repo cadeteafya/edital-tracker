@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-10-15T18:48:58+00:00",
+  "lastSyncedAt": "2026-10-15T19:00:41+00:00",
   "editals": [
     {
       "id": "hospital-san-julian-edital-residencia-medica-2027",
@@ -86,6 +86,52 @@
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
       "fee": "R$ 500,00",
+      "revisions": []
+    },
+    {
+      "id": "instituto-de-olhos-de-goiania-edital-residencia-medica-2027",
+      "source": {
+        "name": "IOG",
+        "shortName": "IOG",
+        "accentColor": "#3b82f6"
+      },
+      "originalTitle": "IOG divulga edital para Residência Médica 2027",
+      "rewrittenTitle": "IOG divulga edital para Residência Médica 2027",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/instituto-de-olhos-de-goiania-edital-residencia-medica-2027/",
+      "officialUrl": "https://www.ceremgoias.org.br/processo-seletivo",
+      "scrapedAt": "2026-10-15T19:00:41+00:00",
+      "publishedAt": "2026-10-15",
+      "updatedAt": "2026-10-15",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "30/10 a 22/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "28/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Convocação 2ª fase",
+          "date": "17/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Análise do Currículo",
+          "date": "18/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "04/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 600,00",
       "revisions": []
     },
     {
