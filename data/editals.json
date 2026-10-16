@@ -1,6 +1,57 @@
 {
-  "lastSyncedAt": "2026-10-16T14:30:39+00:00",
+  "lastSyncedAt": "2026-10-16T15:00:38+00:00",
   "editals": [
+    {
+      "id": "ses-ro-edital-residencia-medica-2027",
+      "source": {
+        "name": "SES-RO",
+        "shortName": "SES-RO",
+        "accentColor": "#22c55e"
+      },
+      "originalTitle": "SES-RO 2027 terá prova em dezembro; confira o edital de Residência Médica",
+      "rewrittenTitle": "SES-RO 2027 terá prova em dezembro; de Residência Médica",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/ses-ro-edital-residencia-medica-2027/",
+      "officialUrl": "https://rondonia.ro.gov.br/publicacao/edital-no-1-2026-iespro-coreme/",
+      "scrapedAt": "2026-10-16T15:00:38+00:00",
+      "publishedAt": "2026-10-16",
+      "updatedAt": "2026-10-16",
+      "timeline": [
+        {
+          "label": "Inscrições",
+          "date": "26/10 a 30/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova objetiva",
+          "date": "12/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito preliminar",
+          "date": "13/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Recursos ao gabarito",
+          "date": "14 a 16/12/2026",
+          "isRange": true
+        },
+        {
+          "label": "Gabarito definitivo e resultado preliminar",
+          "date": "21/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado final e 1ª convocação",
+          "date": "29/12/2026",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 200,00",
+      "revisions": []
+    },
     {
       "id": "hospital-san-julian-edital-residencia-medica-2027",
       "source": {
