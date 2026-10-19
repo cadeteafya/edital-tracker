@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-10-19T19:00:42+00:00",
+  "lastSyncedAt": "2026-10-19T19:30:43+00:00",
   "editals": [
     {
       "id": "rede-americas-edital-residencia-medica-2027",
@@ -142,6 +142,52 @@
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
       "fee": "R$ 4.000,00",
+      "revisions": []
+    },
+    {
+      "id": "emescam-edital-residencia-medica-2027",
+      "source": {
+        "name": "EMESCAM",
+        "shortName": "EMESCAM",
+        "accentColor": "#a855f7"
+      },
+      "originalTitle": "EMESCAM abre inscrições para Residência Médica 2027 com 76 vagas",
+      "rewrittenTitle": "EMESCAM abre inscrições para Residência Médica 2027 com 76 vagas",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/emescam-edital-residencia-medica-2027/",
+      "officialUrl": "https://emescam.br/candidato/residencia-medica/residencia-medica-editais/",
+      "scrapedAt": "2026-10-19T19:30:41+00:00",
+      "publishedAt": "2026-10-19",
+      "updatedAt": "2026-10-19",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "19/10 a 23/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "29/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado 1ª Fase",
+          "date": "03/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Prova Prática e Entrega do Currículo",
+          "date": "10/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "23/12/2026",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 650",
       "revisions": []
     },
     {
