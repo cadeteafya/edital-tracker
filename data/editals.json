@@ -1,6 +1,62 @@
 {
-  "lastSyncedAt": "2026-10-19T12:30:50+00:00",
+  "lastSyncedAt": "2026-10-19T13:00:50+00:00",
   "editals": [
+    {
+      "id": "rede-americas-edital-residencia-medica-2027",
+      "source": {
+        "name": "Rede Américas",
+        "shortName": "Rede Américas",
+        "accentColor": "#dc2626"
+      },
+      "originalTitle": "Rede Américas divulga edital de Residência Médica 2027 com 90 vagas",
+      "rewrittenTitle": "Rede Américas divulga edital de Residência Médica 2027 com 90 vagas",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/rede-americas-edital-residencia-medica-2027/",
+      "officialUrl": "https://sis.consesp.com.br/site/index.php?pg=concursos/info&codigo=4992",
+      "scrapedAt": "2026-10-19T13:00:49+00:00",
+      "publishedAt": "2026-10-19",
+      "updatedAt": "2026-10-19",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "01 a 29/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova objetiva",
+          "date": "11/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Convocação 2ª e 3ª Fases",
+          "date": "30/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Prova Prática e Avaliação Curricular (RJ)",
+          "date": "entre 11 e 17/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Prova Prática e Avaliação Curricular (Demais Regionais)",
+          "date": "entre 18 e 24/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "05/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Sessão de escolha de vagas – Regional Rio de Janeiro (programas de Clínica Médica/Medicina de Emergência/Medicina Intensiva Adulto/Cardiologia)",
+          "date": "15/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 600",
+      "revisions": []
+    },
     {
       "id": "ses-ro-edital-residencia-medica-2027",
       "source": {
