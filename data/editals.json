@@ -1,6 +1,46 @@
 {
-  "lastSyncedAt": "2026-10-20T12:30:41+00:00",
+  "lastSyncedAt": "2026-10-20T13:00:49+00:00",
   "editals": [
+    {
+      "id": "iamspe-inscricoes-residencia-medica-2027",
+      "source": {
+        "name": "IAMSPE",
+        "shortName": "IAMSPE",
+        "accentColor": "#ef4444"
+      },
+      "originalTitle": "Iamspe abre inscrições para Residência Médica 2027; saiba como participar",
+      "rewrittenTitle": "Iamspe abre inscrições para Residência Médica 2027; saiba como participar",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/iamspe-inscricoes-residencia-medica-2027/",
+      "officialUrl": "https://www.avancasp.org.br/informacoes/283/",
+      "scrapedAt": "2026-10-20T13:00:49+00:00",
+      "publishedAt": "2026-10-20",
+      "updatedAt": "2026-10-20",
+      "timeline": [],
+      "warningNote": "Atenção! É de responsabilidade do candidato acompanhar eventuais retificações, atos e comunicados publicados ao longo do processo seletivo.",
+      "fee": "R$ 550",
+      "revisions": []
+    },
+    {
+      "id": "sus-sp-inscricoes-residencia-medica-2027",
+      "source": {
+        "name": "SUS-SP",
+        "shortName": "SUS-SP",
+        "accentColor": "#7c3aed"
+      },
+      "originalTitle": "SUS-SP abre inscrições para Residência Médica 2027 nesta terça-feira (20)",
+      "rewrittenTitle": "SUS-SP abre inscrições para Residência Médica 2027 nesta terça-feira (20)",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/sus-sp-inscricoes-residencia-medica-2027/",
+      "officialUrl": "https://www.vunesp.com.br/SESA2601",
+      "scrapedAt": "2026-10-20T13:00:49+00:00",
+      "publishedAt": "2026-10-20",
+      "updatedAt": "2026-10-20",
+      "timeline": [],
+      "warningNote": "Atenção! É de responsabilidade do candidato acompanhar eventuais retificações, atos e comunicados publicados ao longo do processo seletivo.",
+      "fee": "R$ 120",
+      "revisions": []
+    },
     {
       "id": "rede-americas-edital-residencia-medica-2027",
       "source": {
