@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-10-20T20:30:45+00:00",
+  "lastSyncedAt": "2026-10-20T21:00:43+00:00",
   "editals": [
     {
       "id": "iamspe-inscricoes-residencia-medica-2027",
@@ -59,6 +59,57 @@
       "timeline": [],
       "warningNote": "Atenção! É de responsabilidade do candidato acompanhar eventuais retificações, atos e comunicados publicados ao longo do processo seletivo.",
       "fee": "R$ 648",
+      "revisions": []
+    },
+    {
+      "id": "ses-pe-edital-residencia-medica-2027",
+      "source": {
+        "name": "SES-PE",
+        "shortName": "SES-PE",
+        "accentColor": "#22c55e"
+      },
+      "originalTitle": "SES-PE 2027: edital para Residência Médica é divulgado",
+      "rewrittenTitle": "SES-PE 2027: edital para Residência Médica é divulgado",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/ses-pe-edital-residencia-medica-2027/",
+      "officialUrl": "https://www.upenet.com.br/concursos/2027/27_RED_MED/?concurso=27_resid_Med",
+      "scrapedAt": "2026-10-20T21:00:42+00:00",
+      "publishedAt": "2026-10-20",
+      "updatedAt": "2026-10-20",
+      "timeline": [
+        {
+          "label": "Período de Inscrições e Envio do Currículo",
+          "date": "21/10 a 11/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "20/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito Preliminar",
+          "date": "21/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Recursos",
+          "date": "22 a 24/12/2026",
+          "isRange": true
+        },
+        {
+          "label": "Resultado da Análise Curricular",
+          "date": "11/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "21/01/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É recomendado que os candidatos acompanhem regularmente a página oficial do processo seletivo para verificar possíveis retificações, atualizações no cronograma ou comunicados adicionais.",
+      "fee": "R$ 600,00",
       "revisions": []
     },
     {
