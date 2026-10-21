@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-10-20T23:30:55+00:00",
+  "lastSyncedAt": "2026-10-21T08:00:50+00:00",
   "editals": [
     {
       "id": "iamspe-inscricoes-residencia-medica-2027",
@@ -110,6 +110,52 @@
       ],
       "warningNote": "Atenção: É recomendado que os candidatos acompanhem regularmente a página oficial do processo seletivo para verificar possíveis retificações, atualizações no cronograma ou comunicados adicionais.",
       "fee": "R$ 600,00",
+      "revisions": []
+    },
+    {
+      "id": "ses-rj-edital-residencia-medica-2027",
+      "source": {
+        "name": "SES-RJ",
+        "shortName": "SES-RJ",
+        "accentColor": "#3b82f6"
+      },
+      "originalTitle": "SES-RJ publica edital de Residência Médica 2027 com 142 vagas",
+      "rewrittenTitle": "SES-RJ publica edital de Residência Médica 2027 com 142 vagas",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/ses-rj-edital-residencia-medica-2027/",
+      "officialUrl": "https://emescam.br/candidato/residencia-medica/residencia-medica-editais/",
+      "scrapedAt": "2026-10-21T08:00:46+00:00",
+      "publishedAt": "2026-10-20",
+      "updatedAt": "2026-10-20",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "03 a 19/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova Objetiva",
+          "date": "13/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito Preliminar",
+          "date": "15/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito Definitivo",
+          "date": "29/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "15/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 300,00",
       "revisions": []
     },
     {
