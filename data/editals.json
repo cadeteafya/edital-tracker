@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-10-22T18:00:49+00:00",
+  "lastSyncedAt": "2026-10-22T18:30:54+00:00",
   "editals": [
     {
       "id": "h-olhos-sao-goncalo-edital-residencia-medica-2027",
@@ -45,6 +45,52 @@
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
       "fee": "R$ 750,00",
+      "revisions": []
+    },
+    {
+      "id": "unilaser-edital-residencia-medica-2027",
+      "source": {
+        "name": "Residência Médica UNILASER",
+        "shortName": "Residência Médica UNILASER",
+        "accentColor": "#7c3aed"
+      },
+      "originalTitle": "Residência Médica UNILASER 2027 oferece vagas em Oftalmologia; acesse o edital",
+      "rewrittenTitle": "Residência Médica UNILASER 2027 oferece vagas em Oftalmologia; acesse o edital",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/unilaser-edital-residencia-medica-2027/",
+      "officialUrl": "https://unilaseroftalmo.com/residencias-medicas/",
+      "scrapedAt": "2026-10-22T18:30:53+00:00",
+      "publishedAt": "2026-10-22",
+      "updatedAt": "2026-10-22",
+      "timeline": [
+        {
+          "label": "Período de Inscrições",
+          "date": "26/10/2026 a 05/02/2027",
+          "isRange": true
+        },
+        {
+          "label": "Prova Teórica",
+          "date": "13/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Convocação para fases seguintes",
+          "date": "18/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Prova Prática e Entrega do Currículo",
+          "date": "20/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado Final",
+          "date": "25/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 850,00",
       "revisions": []
     },
     {
