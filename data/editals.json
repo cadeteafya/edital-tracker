@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-10-26T14:30:48+00:00",
+  "lastSyncedAt": "2026-10-26T15:00:48+00:00",
   "editals": [
     {
       "id": "sus-sp-inscricoes-residencia-medica-2027",
@@ -20,6 +20,14 @@
       "warningNote": "Atenção! É de responsabilidade do candidato acompanhar eventuais retificações, atos e comunicados publicados ao longo do processo seletivo.",
       "fee": "R$ 120",
       "revisions": [
+        {
+          "capturedAt": "2026-10-26",
+          "source": "retificação",
+          "url": "https://med.estrategia.com/portal/noticias/sus-sp-2027-retificacao-questoes-anuladas/",
+          "title": "SUS-SP 2027 muda regra para questões anuladas na prova de Residência Médica",
+          "timeline": [],
+          "warningNote": null
+        },
         {
           "capturedAt": "2026-10-26",
           "source": "retificação",
@@ -247,6 +255,62 @@
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
       "fee": "R$ 200",
+      "revisions": []
+    },
+    {
+      "id": "cermam-edital-residencia-medica-2027",
+      "source": {
+        "name": "CERMAM",
+        "shortName": "CERMAM",
+        "accentColor": "#0d9488"
+      },
+      "originalTitle": "CERMAM 2027: edital de Residência Médica é divulgado",
+      "rewrittenTitle": "CERMAM 2027: edital de Residência Médica é divulgado",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/cermam-edital-residencia-medica-2027/",
+      "officialUrl": "https://cermam.com.br/",
+      "scrapedAt": "2026-10-26T15:00:47+00:00",
+      "publishedAt": "2026-10-26",
+      "updatedAt": "2026-10-26",
+      "timeline": [
+        {
+          "label": "Inscrições",
+          "date": "10 a 30/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova objetiva e gabarito preliminar",
+          "date": "10/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito definitivo",
+          "date": "14/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado preliminar da prova",
+          "date": "15/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado definitivo da prova",
+          "date": "22/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado final / classificação definitiva",
+          "date": "18/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Homologação e 1ª convocação",
+          "date": "19/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 450",
       "revisions": []
     },
     {
