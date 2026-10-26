@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-10-26T17:30:48+00:00",
+  "lastSyncedAt": "2026-10-26T18:00:49+00:00",
   "editals": [
     {
       "id": "sus-sp-inscricoes-residencia-medica-2027",
@@ -20,6 +20,14 @@
       "warningNote": "Atenção! É de responsabilidade do candidato acompanhar eventuais retificações, atos e comunicados publicados ao longo do processo seletivo.",
       "fee": "R$ 120",
       "revisions": [
+        {
+          "capturedAt": "2026-10-26",
+          "source": "retificação",
+          "url": "https://med.estrategia.com/portal/noticias/sus-sp-2027-retificacao-questoes-anuladas/",
+          "title": "SUS-SP 2027 muda regra para questões anuladas na prova de Residência Médica",
+          "timeline": [],
+          "warningNote": null
+        },
         {
           "capturedAt": "2026-10-26",
           "source": "retificação",
@@ -359,6 +367,67 @@
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
       "fee": "R$ 450",
+      "revisions": []
+    },
+    {
+      "id": "hospital-santa-joana-edital-residencia-medica-2027",
+      "source": {
+        "name": "Hospital Santa Joana",
+        "shortName": "Hospital Santa Joana",
+        "accentColor": "#3b82f6"
+      },
+      "originalTitle": "Hospital Santa Joana divulga edital para Residência Médica em 2027",
+      "rewrittenTitle": "Hospital Santa Joana divulga edital para Residência Médica em 2027",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/hospital-santa-joana-edital-residencia-medica-2027/",
+      "officialUrl": "https://www.vunesp.com.br/FSJO2601",
+      "scrapedAt": "2026-10-26T18:00:47+00:00",
+      "publishedAt": "2026-10-26",
+      "updatedAt": "2026-10-26",
+      "timeline": [
+        {
+          "label": "Inscrições",
+          "date": "10 a 27/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova objetiva",
+          "date": "20/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito e caderno de questões",
+          "date": "21/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Recursos ao gabarito",
+          "date": "22 e 23/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Notas preliminares e convocação para currículo",
+          "date": "15/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Envio do currículo",
+          "date": "18 e 19/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Classificação prévia e resultado da análise curricular",
+          "date": "01/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Classificação final",
+          "date": "22/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 700,00",
       "revisions": []
     },
     {
