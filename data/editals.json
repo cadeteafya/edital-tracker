@@ -1,6 +1,62 @@
 {
-  "lastSyncedAt": "2026-10-27T19:30:51+00:00",
+  "lastSyncedAt": "2026-10-27T20:00:50+00:00",
   "editals": [
+    {
+      "id": "hsfa-edital-residencia-medica-2027",
+      "source": {
+        "name": "HSFA",
+        "shortName": "HSFA",
+        "accentColor": "#f97316"
+      },
+      "originalTitle": "HSFA divulga edital para Residência Médica 2027; inscrições estão abertas",
+      "rewrittenTitle": "HSFA divulga edital para Residência Médica 2027; inscrições estão abertas",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/hsfa-edital-residencia-medica-2027/",
+      "officialUrl": "https://institutopensato.org.br/residencia-medica/hospital-sao-francisco-de-assis-2027-edital-001",
+      "scrapedAt": "2026-10-27T20:00:50+00:00",
+      "publishedAt": "2026-10-27",
+      "updatedAt": "2026-10-27",
+      "timeline": [
+        {
+          "label": "Inscrições",
+          "date": "23/10 a 01/12/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova objetiva",
+          "date": "17/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito preliminar",
+          "date": "18/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Recursos contra o gabarito",
+          "date": "19 e 20/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Classificação preliminar",
+          "date": "29/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Recursos contra a classificação",
+          "date": "01 e 02/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Classificação final e convocação para matrícula",
+          "date": "06/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 750",
+      "revisions": []
+    },
     {
       "id": "sus-sp-inscricoes-residencia-medica-2027",
       "source": {
@@ -20,6 +76,14 @@
       "warningNote": "Atenção! É de responsabilidade do candidato acompanhar eventuais retificações, atos e comunicados publicados ao longo do processo seletivo.",
       "fee": "R$ 120",
       "revisions": [
+        {
+          "capturedAt": "2026-10-26",
+          "source": "retificação",
+          "url": "https://med.estrategia.com/portal/noticias/sus-sp-2027-retificacao-questoes-anuladas/",
+          "title": "SUS-SP 2027 muda regra para questões anuladas na prova de Residência Médica",
+          "timeline": [],
+          "warningNote": null
+        },
         {
           "capturedAt": "2026-10-26",
           "source": "retificação",
