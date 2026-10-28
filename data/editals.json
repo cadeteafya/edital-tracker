@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-10-28T10:00:45+00:00",
+  "lastSyncedAt": "2026-10-28T10:30:34+00:00",
   "editals": [
     {
       "id": "hsfa-edital-residencia-medica-2027",
@@ -76,6 +76,14 @@
       "warningNote": "Atenção! É de responsabilidade do candidato acompanhar eventuais retificações, atos e comunicados publicados ao longo do processo seletivo.",
       "fee": "R$ 120",
       "revisions": [
+        {
+          "capturedAt": "2026-10-26",
+          "source": "retificação",
+          "url": "https://med.estrategia.com/portal/noticias/sus-sp-2027-retificacao-questoes-anuladas/",
+          "title": "SUS-SP 2027 muda regra para questões anuladas na prova de Residência Médica",
+          "timeline": [],
+          "warningNote": null
+        },
         {
           "capturedAt": "2026-10-26",
           "source": "retificação",
