@@ -1,6 +1,123 @@
 {
-  "lastSyncedAt": "2026-10-28T12:30:43+00:00",
+  "lastSyncedAt": "2026-10-28T13:01:08+00:00",
   "editals": [
+    {
+      "id": "uniara-edital-residencia-medica-2027",
+      "source": {
+        "name": "Uniara",
+        "shortName": "Uniara",
+        "accentColor": "#0d9488"
+      },
+      "originalTitle": "Uniara divulga edital de Residência Médica 2027 com 37 vagas",
+      "rewrittenTitle": "Uniara divulga edital de Residência Médica 2027 com 37 vagas",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/uniara-edital-residencia-medica-2027/",
+      "officialUrl": "https://www.uniara.com.br/coreme/processo-seletivo/",
+      "scrapedAt": "2026-10-28T13:01:05+00:00",
+      "publishedAt": "2026-10-28",
+      "updatedAt": "2026-10-28",
+      "timeline": [
+        {
+          "label": "Inscrições",
+          "date": "21/10/2026 a 04/01/2027",
+          "isRange": true
+        },
+        {
+          "label": "Prova objetiva",
+          "date": "16/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito oficial",
+          "date": "18/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado da 1ª fase",
+          "date": "21/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Recurso da 1ª fase",
+          "date": "22/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Envio do Currículo",
+          "date": "25 e 26/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado final",
+          "date": "04/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Recurso do resultado final",
+          "date": "05/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Matrículas",
+          "date": "15 e 16/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 650,00",
+      "revisions": []
+    },
+    {
+      "id": "hospital-ruy-azeredo-edital-residencia-medica-2027",
+      "source": {
+        "name": "Hospital Ruy Azeredo",
+        "shortName": "Hospital Ruy Azeredo",
+        "accentColor": "#f97316"
+      },
+      "originalTitle": "Hospital Ruy Azeredo abre seleção de residência médica para 2027; veja o edital",
+      "rewrittenTitle": "Hospital Ruy Azeredo abre seleção de residência médica para 2027; veja o edital",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/hospital-ruy-azeredo-edital-residencia-medica-2027/",
+      "officialUrl": "https://www.hospitalruyazeredo.com/residenciamedica",
+      "scrapedAt": "2026-10-28T13:01:05+00:00",
+      "publishedAt": "2026-10-28",
+      "updatedAt": "2026-10-28",
+      "timeline": [
+        {
+          "label": "Inscrições",
+          "date": "28/10 a 23/12/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova objetiva",
+          "date": "17/01/2027, das 8h30 às 12h30",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito preliminar",
+          "date": "18/01/2027, a partir das 15h",
+          "isRange": true
+        },
+        {
+          "label": "Recursos contra o gabarito",
+          "date": "19/01, às 15h, a 21/01/2027, às 15h",
+          "isRange": true
+        },
+        {
+          "label": "Resultado após recursos",
+          "date": "22/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado final",
+          "date": "25/01/2027, após as 15h",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 330,00",
+      "revisions": []
+    },
     {
       "id": "hsfa-edital-residencia-medica-2027",
       "source": {
