@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-10-29T13:00:43+00:00",
+  "lastSyncedAt": "2026-10-29T13:31:38+00:00",
   "editals": [
     {
       "id": "residencia-medica-oftalmologia-editais-2027",
@@ -50,6 +50,62 @@
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
       "fee": "R$ 750",
+      "revisions": []
+    },
+    {
+      "id": "uepa-edital-residencia-medica-2027",
+      "source": {
+        "name": "UEPA",
+        "shortName": "UEPA",
+        "accentColor": "#0d9488"
+      },
+      "originalTitle": "UEPA divulga edital de Residência Médica 2027 com 234 vagas no Pará",
+      "rewrittenTitle": "UEPA divulga edital de Residência Médica 2027 com 234 vagas no Pará",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/uepa-edital-residencia-medica-2027/",
+      "officialUrl": "https://prosel.uepa.br/rm2027/",
+      "scrapedAt": "2026-10-29T13:31:38+00:00",
+      "publishedAt": "2026-10-29",
+      "updatedAt": "2026-10-29",
+      "timeline": [
+        {
+          "label": "Inscrições",
+          "date": "13 a 26/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova objetiva",
+          "date": "17/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito preliminar",
+          "date": "18/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Recursos ao gabarito",
+          "date": "19 e 20/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito definitivo",
+          "date": "05/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado provisório",
+          "date": "15/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado final",
+          "date": "19/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 500,00",
       "revisions": []
     },
     {
@@ -270,6 +326,14 @@
       "warningNote": "NP = Na × 100 ÷ TQV",
       "fee": "R$ 700,00",
       "revisions": [
+        {
+          "capturedAt": "2026-10-28",
+          "source": "retificação",
+          "url": "https://med.estrategia.com/portal/noticias/einstein-2027-retificacao-questoes-anuladas/",
+          "title": "Residência Médica Einstein 2027: questões anuladas deixam de valer pontos",
+          "timeline": [],
+          "warningNote": "NP = Na × 100 ÷ TQV"
+        },
         {
           "capturedAt": "2026-10-28",
           "source": "retificação",
