@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-10-29T09:00:47+00:00",
+  "lastSyncedAt": "2026-10-29T09:30:48+00:00",
   "editals": [
     {
       "id": "uniara-edital-residencia-medica-2027",
@@ -219,6 +219,14 @@
       "warningNote": "NP = Na × 100 ÷ TQV",
       "fee": "R$ 700,00",
       "revisions": [
+        {
+          "capturedAt": "2026-10-28",
+          "source": "retificação",
+          "url": "https://med.estrategia.com/portal/noticias/einstein-2027-retificacao-questoes-anuladas/",
+          "title": "Residência Médica Einstein 2027: questões anuladas deixam de valer pontos",
+          "timeline": [],
+          "warningNote": "NP = Na × 100 ÷ TQV"
+        },
         {
           "capturedAt": "2026-10-28",
           "source": "retificação",
