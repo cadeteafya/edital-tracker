@@ -1,6 +1,57 @@
 {
-  "lastSyncedAt": "2026-10-29T12:00:46+00:00",
+  "lastSyncedAt": "2026-10-29T12:30:41+00:00",
   "editals": [
+    {
+      "id": "residencia-medica-oftalmologia-editais-2027",
+      "source": {
+        "name": "Instituições",
+        "shortName": "Instituições",
+        "accentColor": "#a855f7"
+      },
+      "originalTitle": "Instituições abrem seletivos para residência médica em Oftalmologia 2027",
+      "rewrittenTitle": "Instituições abrem seletivos para residência médica em Oftalmologia 2027",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/residencia-medica-oftalmologia-editais-2027/",
+      "officialUrl": "https://oftalcam.com.br/residencia2027/",
+      "scrapedAt": "2026-10-29T12:30:40+00:00",
+      "publishedAt": "2026-10-29",
+      "updatedAt": "2026-10-29",
+      "timeline": [
+        {
+          "label": "Inscrições",
+          "date": "28/10/2026 a 08/01/2027",
+          "isRange": true
+        },
+        {
+          "label": "Prazo de postagem por Sedex",
+          "date": "04/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Entrega presencial da documentação",
+          "date": "Até 08/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Prova objetiva e avaliação curricular",
+          "date": "23/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado final",
+          "date": "11/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Matrícula",
+          "date": "15 e 16/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 750",
+      "revisions": []
+    },
     {
       "id": "uniara-edital-residencia-medica-2027",
       "source": {
@@ -219,6 +270,14 @@
       "warningNote": "NP = Na × 100 ÷ TQV",
       "fee": "R$ 700,00",
       "revisions": [
+        {
+          "capturedAt": "2026-10-28",
+          "source": "retificação",
+          "url": "https://med.estrategia.com/portal/noticias/einstein-2027-retificacao-questoes-anuladas/",
+          "title": "Residência Médica Einstein 2027: questões anuladas deixam de valer pontos",
+          "timeline": [],
+          "warningNote": "NP = Na × 100 ÷ TQV"
+        },
         {
           "capturedAt": "2026-10-28",
           "source": "retificação",
