@@ -1,6 +1,52 @@
 {
-  "lastSyncedAt": "2026-11-03T13:00:43+00:00",
+  "lastSyncedAt": "2026-11-03T13:30:37+00:00",
   "editals": [
+    {
+      "id": "huse-edital-residencia-medica-2027",
+      "source": {
+        "name": "HUSE",
+        "shortName": "HUSE",
+        "accentColor": "#0ea5e9"
+      },
+      "originalTitle": "HUSE 2027: edital de residência médica oferece 16 vagas em Sergipe",
+      "rewrittenTitle": "HUSE 2027: edital de residência médica oferece 16 vagas em Sergipe",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/huse-edital-residencia-medica-2027/",
+      "officialUrl": "https://funesadev.se.gov.br/processos-seletivos/",
+      "scrapedAt": "2026-11-03T13:30:37+00:00",
+      "publishedAt": "2026-11-03",
+      "updatedAt": "2026-11-03",
+      "timeline": [
+        {
+          "label": "Inscrições",
+          "date": "16/11 a 25/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova objetiva e gabarito preliminar",
+          "date": "07/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Recursos contra o gabarito preliminar",
+          "date": "08/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito definitivo e resultado preliminar",
+          "date": "15/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado final",
+          "date": "02/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 400,00",
+      "revisions": []
+    },
     {
       "id": "residencia-medica-oftalmologia-editais-2027",
       "source": {
