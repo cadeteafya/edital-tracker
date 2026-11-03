@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-11-03T13:30:37+00:00",
+  "lastSyncedAt": "2026-11-03T14:00:44+00:00",
   "editals": [
     {
       "id": "huse-edital-residencia-medica-2027",
@@ -45,6 +45,118 @@
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
       "fee": "R$ 400,00",
+      "revisions": []
+    },
+    {
+      "id": "instituto-cearense-de-oftalmologia-edital-residencia-medica-2027",
+      "source": {
+        "name": "Instituto Cearense",
+        "shortName": "Instituto Cearense",
+        "accentColor": "#ec4899"
+      },
+      "originalTitle": "Instituto Cearense de Oftalmologia divulga edital de residência médica 2027",
+      "rewrittenTitle": "Instituto Cearense de Oftalmologia divulga edital de residência médica 2027",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/instituto-cearense-de-oftalmologia-edital-residencia-medica-2027/",
+      "officialUrl": "https://sis.consesp.com.br/site/index.php?pg=concursos/info&codigo=5015",
+      "scrapedAt": "2026-11-03T14:00:44+00:00",
+      "publishedAt": "2026-11-03",
+      "updatedAt": "2026-11-03",
+      "timeline": [
+        {
+          "label": "Inscrições",
+          "date": "15 a 29/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova objetiva",
+          "date": "14/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito preliminar",
+          "date": "14/12/2026, após as 14h",
+          "isRange": false
+        },
+        {
+          "label": "Resultado da primeira fase",
+          "date": "29/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Segunda fase",
+          "date": "12/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado das duas fases",
+          "date": "22/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado final e convocação",
+          "date": "05/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": null,
+      "revisions": []
+    },
+    {
+      "id": "hospital-pio-xii-edital-residencia-medica-2027",
+      "source": {
+        "name": "Hospital Pio XII",
+        "shortName": "Hospital Pio XII",
+        "accentColor": "#0ea5e9"
+      },
+      "originalTitle": "Hospital Pio XII abre 8 vagas de residência médica para 2027; confira o edital",
+      "rewrittenTitle": "Hospital Pio XII abre 8 vagas de residência médica para 2027",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/hospital-pio-xii-edital-residencia-medica-2027/",
+      "officialUrl": "https://sis.consesp.com.br/site/index.php?pg=concursos/info&codigo=5014",
+      "scrapedAt": "2026-11-03T14:00:44+00:00",
+      "publishedAt": "2026-11-03",
+      "updatedAt": "2026-11-03",
+      "timeline": [
+        {
+          "label": "Inscrições",
+          "date": "16/11/2026 a 03/01/2027",
+          "isRange": true
+        },
+        {
+          "label": "Prova objetiva",
+          "date": "24/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito preliminar e caderno de questões",
+          "date": "25/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Recursos contra o gabarito",
+          "date": "25 a 27/01/2027",
+          "isRange": true
+        },
+        {
+          "label": "Resultado preliminar da prova",
+          "date": "12/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Recursos contra o resultado preliminar",
+          "date": "13 e 14/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado final e convocação para matrícula",
+          "date": "18/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 750,00",
       "revisions": []
     },
     {
