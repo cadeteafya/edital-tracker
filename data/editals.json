@@ -1,6 +1,72 @@
 {
-  "lastSyncedAt": "2026-11-04T20:30:54+00:00",
+  "lastSyncedAt": "2026-11-04T21:00:37+00:00",
   "editals": [
+    {
+      "id": "hospital-hilda-edital-residencia-medica-2027",
+      "source": {
+        "name": "Hospital Hilda",
+        "shortName": "Hospital Hilda",
+        "accentColor": "#f59e0b"
+      },
+      "originalTitle": "Hospital Hilda oferece 10 vagas de residência médica para 2027; veja edital",
+      "rewrittenTitle": "Hospital Hilda oferece 10 vagas de residência médica para 2027; veja edital",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/hospital-hilda-edital-residencia-medica-2027/",
+      "officialUrl": "https://coreme.hospitalhilda.com.br/editais/",
+      "scrapedAt": "2026-11-04T21:00:37+00:00",
+      "publishedAt": "2026-11-04",
+      "updatedAt": "2026-11-04",
+      "timeline": [
+        {
+          "label": "Inscrições",
+          "date": "18/11 a 11/12/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova objetiva",
+          "date": "10/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito preliminar",
+          "date": "10/01/2027, após as 18h",
+          "isRange": false
+        },
+        {
+          "label": "Recursos contra questões e gabarito",
+          "date": "11 e 12/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito definitivo",
+          "date": "19/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado definitivo da prova",
+          "date": "26/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Classificação preliminar",
+          "date": "28/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado definitivo da seleção",
+          "date": "03/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Primeira convocação",
+          "date": "08/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 600,00",
+      "revisions": []
+    },
     {
       "id": "huse-edital-residencia-medica-2027",
       "source": {
