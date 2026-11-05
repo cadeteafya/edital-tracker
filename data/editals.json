@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-11-05T19:00:45+00:00",
+  "lastSyncedAt": "2026-11-05T19:30:53+00:00",
   "editals": [
     {
       "id": "santa-casa-de-fernandopolis-edital-residencia-medica-2027",
@@ -101,6 +101,62 @@
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e novas retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
       "fee": "R$ 1.000,00",
+      "revisions": []
+    },
+    {
+      "id": "policlinica-dr-sergio-arouca-edital-residencia-medica-2027",
+      "source": {
+        "name": "Policlínica Dr. Sérgio Arouca",
+        "shortName": "Policlínica Dr. Sérgio Arouca",
+        "accentColor": "#dc2626"
+      },
+      "originalTitle": "Policlínica Dr. Sérgio Arouca abre seleção de residência médica 2027",
+      "rewrittenTitle": "Policlínica Dr. Sérgio Arouca abre seleção de residência médica 2027",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/policlinica-dr-sergio-arouca-edital-residencia-medica-2027/",
+      "officialUrl": "https://saude.niteroi.rj.gov.br/residencia-medica/",
+      "scrapedAt": "2026-11-05T19:30:52+00:00",
+      "publishedAt": "2026-11-05",
+      "updatedAt": "2026-11-05",
+      "timeline": [
+        {
+          "label": "Inscrições",
+          "date": "04 a 29/01/2027",
+          "isRange": true
+        },
+        {
+          "label": "Prova objetiva",
+          "date": "15/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Avaliação e arguição curricular",
+          "date": "17/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado preliminar",
+          "date": "18/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Recursos",
+          "date": "19/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado dos recursos",
+          "date": "23/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado final",
+          "date": "25/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 100",
       "revisions": []
     },
     {
