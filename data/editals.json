@@ -1,6 +1,57 @@
 {
-  "lastSyncedAt": "2026-11-05T16:30:41+00:00",
+  "lastSyncedAt": "2026-11-05T17:00:56+00:00",
   "editals": [
+    {
+      "id": "santa-casa-de-fernandopolis-edital-residencia-medica-2027",
+      "source": {
+        "name": "Santa Casa",
+        "shortName": "Santa Casa",
+        "accentColor": "#ef4444"
+      },
+      "originalTitle": "Santa Casa de Fernandópolis 2027: edital para residência médica é divulgado",
+      "rewrittenTitle": "Santa Casa de Fernandópolis 2027: edital para residência médica é divulgado",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/santa-casa-de-fernandopolis-edital-residencia-medica-2027/",
+      "officialUrl": "https://sis.consesp.com.br/site/index.php?pg=concursos/info&codigo=5021",
+      "scrapedAt": "2026-11-05T17:00:55+00:00",
+      "publishedAt": "2026-11-05",
+      "updatedAt": "2026-11-05",
+      "timeline": [
+        {
+          "label": "Inscrições",
+          "date": "20/11/2026 a 03/01/2027",
+          "isRange": true
+        },
+        {
+          "label": "Prova objetiva",
+          "date": "16/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito preliminar e caderno de questões",
+          "date": "18/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado preliminar da prova",
+          "date": "29/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Heteroidentificação",
+          "date": "11/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado final e convocação para matrícula",
+          "date": "19/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 600,00",
+      "revisions": []
+    },
     {
       "id": "hospital-hilda-edital-residencia-medica-2027",
       "source": {
