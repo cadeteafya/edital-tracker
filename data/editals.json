@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-11-05T18:30:44+00:00",
+  "lastSyncedAt": "2026-11-05T19:00:45+00:00",
   "editals": [
     {
       "id": "santa-casa-de-fernandopolis-edital-residencia-medica-2027",
@@ -50,6 +50,57 @@
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
       "fee": "R$ 600,00",
+      "revisions": []
+    },
+    {
+      "id": "hospital-ville-roy-edital-residencia-medica-2027",
+      "source": {
+        "name": "Hospital Ville Roy",
+        "shortName": "Hospital Ville Roy",
+        "accentColor": "#14b8a6"
+      },
+      "originalTitle": "Hospital Ville Roy 2027: seleção para residência médica em Medicina Intensiva é aberta",
+      "rewrittenTitle": "Hospital Ville Roy 2027: seleção para residência médica em Medicina Intensiva é aberta",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/hospital-ville-roy-edital-residencia-medica-2027/",
+      "officialUrl": "https://hospitalvilleroy.com.br/hrv-processo-seletivo-2027/",
+      "scrapedAt": "2026-11-05T19:00:44+00:00",
+      "publishedAt": "2026-11-05",
+      "updatedAt": "2026-11-05",
+      "timeline": [
+        {
+          "label": "Inscrições e envio de documentos",
+          "date": "26/10 a 13/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova objetiva",
+          "date": "06/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito preliminar",
+          "date": "07/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado da prova e convocação para 2ª etapa",
+          "date": "11/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Entrevista e análise curricular",
+          "date": "13/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado final",
+          "date": "20/01/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e novas retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 1.000,00",
       "revisions": []
     },
     {
