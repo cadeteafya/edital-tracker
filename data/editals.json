@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-11-06T23:00:39+00:00",
+  "lastSyncedAt": "2026-11-06T23:30:45+00:00",
   "editals": [
     {
       "id": "hospital-e-maternidade-oase-edital-residencia-medica-2027",
@@ -177,6 +177,62 @@
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
       "fee": "R$ 120,00",
+      "revisions": []
+    },
+    {
+      "id": "univag-edital-residencia-medica-2027",
+      "source": {
+        "name": "Residência Médica UNIVAG",
+        "shortName": "Residência Médica UNIVAG",
+        "accentColor": "#10b981"
+      },
+      "originalTitle": "Residência Médica UNIVAG 2027: edital divulgado oferece 7 vagas",
+      "rewrittenTitle": "Residência Médica UNIVAG 2027: edital divulgado oferece 7 vagas",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/univag-edital-residencia-medica-2027/",
+      "officialUrl": "https://sis.consesp.com.br/site/index.php?pg=concursos/info&codigo=5026",
+      "scrapedAt": "2026-11-06T23:30:45+00:00",
+      "publishedAt": "2026-11-06",
+      "updatedAt": "2026-11-06",
+      "timeline": [
+        {
+          "label": "Inscrições",
+          "date": "22/11/2026 a 03/01/2027",
+          "isRange": true
+        },
+        {
+          "label": "Prova objetiva e entrega dos currículos",
+          "date": "17/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito preliminar e cadernos",
+          "date": "18/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Recursos contra o gabarito",
+          "date": "18 a 20/01/2027",
+          "isRange": true
+        },
+        {
+          "label": "Resultado preliminar da 1ª fase",
+          "date": "29/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado preliminar das duas fases",
+          "date": "11/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado final e convocação para matrícula",
+          "date": "18/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 600,00",
       "revisions": []
     },
     {
