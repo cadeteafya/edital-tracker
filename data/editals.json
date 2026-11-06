@@ -1,6 +1,123 @@
 {
-  "lastSyncedAt": "2026-11-06T15:30:39+00:00",
+  "lastSyncedAt": "2026-11-06T16:00:50+00:00",
   "editals": [
+    {
+      "id": "hospital-e-maternidade-oase-edital-residencia-medica-2027",
+      "source": {
+        "name": "Hospital OASE",
+        "shortName": "Hospital OASE",
+        "accentColor": "#14b8a6"
+      },
+      "originalTitle": "Hospital OASE divulga edital de residência médica 2027 com 12 vagas",
+      "rewrittenTitle": "Hospital OASE divulga edital de residência médica 2027 com 12 vagas",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/hospital-e-maternidade-oase-edital-residencia-medica-2027/",
+      "officialUrl": "https://sis.consesp.com.br/site/index.php?pg=concursos/info&codigo=5022",
+      "scrapedAt": "2026-11-06T16:00:47+00:00",
+      "publishedAt": "2026-11-06",
+      "updatedAt": "2026-11-06",
+      "timeline": [
+        {
+          "label": "Inscrições",
+          "date": "21/11/2026 a 03/01/2027",
+          "isRange": true
+        },
+        {
+          "label": "Último dia para pagamento e envio curricular",
+          "date": "04/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Pré-teste da plataforma",
+          "date": "10 e 11/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Prova objetiva virtual",
+          "date": "12/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito preliminar",
+          "date": "12/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Recursos contra o gabarito",
+          "date": "12 a 14/01/2027",
+          "isRange": true
+        },
+        {
+          "label": "Gabarito definitivo e resultado preliminar da 1ª fase",
+          "date": "22/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado preliminar das duas fases",
+          "date": "12/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado final e convocação para matrícula",
+          "date": "18/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 580,00",
+      "revisions": []
+    },
+    {
+      "id": "hospital-asmigo-edital-residencia-medica-2027",
+      "source": {
+        "name": "Hospital Asmigo",
+        "shortName": "Hospital Asmigo",
+        "accentColor": "#0d9488"
+      },
+      "originalTitle": "Hospital Asmigo abre cinco vagas de residência médica para 2027; confira o edital",
+      "rewrittenTitle": "Hospital Asmigo abre cinco vagas de residência médica para 2027",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/hospital-asmigo-edital-residencia-medica-2027/",
+      "officialUrl": "https://www.ceremgoias.org.br/processo-seletivo",
+      "scrapedAt": "2026-11-06T16:00:48+00:00",
+      "publishedAt": "2026-11-06",
+      "updatedAt": "2026-11-06",
+      "timeline": [
+        {
+          "label": "Inscrições",
+          "date": "23 e 24/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Confirmação das inscrições",
+          "date": "25/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Prova objetiva",
+          "date": "27/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito preliminar",
+          "date": "30/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado dos recursos",
+          "date": "02/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado final",
+          "date": "03/12/2026",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 720,00",
+      "revisions": []
+    },
     {
       "id": "santa-casa-de-fernandopolis-edital-residencia-medica-2027",
       "source": {
