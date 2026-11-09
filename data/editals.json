@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-11-09T19:00:41+00:00",
+  "lastSyncedAt": "2026-11-09T19:30:45+00:00",
   "editals": [
     {
       "id": "hospital-edmundo-vasconcelos-edital-residencia-medica-2027",
@@ -55,6 +55,72 @@
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
       "fee": "R$ 750,00",
+      "revisions": []
+    },
+    {
+      "id": "grupo-med-imagem-edital-residencia-medica-2027",
+      "source": {
+        "name": "Grupo Med Imagem",
+        "shortName": "Grupo Med Imagem",
+        "accentColor": "#3b82f6"
+      },
+      "originalTitle": "Grupo Med Imagem abre seleção de Residência Médica 2027",
+      "rewrittenTitle": "Grupo Med Imagem abre seleção de Residência Médica 2027",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/grupo-med-imagem-edital-residencia-medica-2027/",
+      "officialUrl": "https://portal.concursos.selecting.com.br/edital/ver/47?_gl=1*18s31r3*_ga*MTU0MDY1OTQ5Ny4xNzkxNTg1NTk4*_ga_C8WLKDKMRY*czE3OTQyNDM2MjQkbzUwJGcxJHQxNzk0MjQzNjcwJGoxNCRsMCRoMA..",
+      "scrapedAt": "2026-11-09T19:30:45+00:00",
+      "publishedAt": "2026-11-09",
+      "updatedAt": "2026-11-09",
+      "timeline": [
+        {
+          "label": "Inscrições",
+          "date": "23/11/2026 a 10/01/2027",
+          "isRange": true
+        },
+        {
+          "label": "Prova objetiva",
+          "date": "24/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito preliminar",
+          "date": "24/01/2027, a partir das 21h",
+          "isRange": true
+        },
+        {
+          "label": "Recursos ao gabarito",
+          "date": "25/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado definitivo da prova",
+          "date": "05/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Convocação para segunda fase",
+          "date": "06/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Envio de currículos",
+          "date": "07 e 08/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Avaliação curricular e entrevistas",
+          "date": "09 a 12/02/2027",
+          "isRange": true
+        },
+        {
+          "label": "Resultado final",
+          "date": "22/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 530",
       "revisions": []
     },
     {
