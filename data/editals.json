@@ -1,6 +1,62 @@
 {
-  "lastSyncedAt": "2026-11-09T15:00:45+00:00",
+  "lastSyncedAt": "2026-11-09T15:30:43+00:00",
   "editals": [
+    {
+      "id": "hospital-edmundo-vasconcelos-edital-residencia-medica-2027",
+      "source": {
+        "name": "Hospital Edmundo Vasconcelos",
+        "shortName": "Hospital Edmundo Vasconcelos",
+        "accentColor": "#3b82f6"
+      },
+      "originalTitle": "Hospital Edmundo Vasconcelos 2027: edital oferece 12 vagas de residência médica",
+      "rewrittenTitle": "Hospital Edmundo Vasconcelos 2027: edital oferece 12 vagas de residência médica",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/hospital-edmundo-vasconcelos-edital-residencia-medica-2027/",
+      "officialUrl": "https://www.hospitaledmundovasconcelos.com.br/conteudo/residencia/residencia.aspx",
+      "scrapedAt": "2026-11-09T15:30:43+00:00",
+      "publishedAt": "2026-11-09",
+      "updatedAt": "2026-11-09",
+      "timeline": [
+        {
+          "label": "Inscrições",
+          "date": "11/11 a 04/12/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova escrita",
+          "date": "16/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Divulgação do gabarito",
+          "date": "16/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado da primeira fase",
+          "date": "23/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Envio do currículo",
+          "date": "até 06/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Provas práticas",
+          "date": "11 a 13/01/2027, conforme especialidade",
+          "isRange": true
+        },
+        {
+          "label": "Resultado final",
+          "date": "15/01/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 750,00",
+      "revisions": []
+    },
     {
       "id": "hospital-e-maternidade-oase-edital-residencia-medica-2027",
       "source": {
