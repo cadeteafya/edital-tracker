@@ -1,6 +1,118 @@
 {
-  "lastSyncedAt": "2026-11-10T13:30:40+00:00",
+  "lastSyncedAt": "2026-11-10T14:00:44+00:00",
   "editals": [
+    {
+      "id": "unipe-edital-residencia-medica-2027",
+      "source": {
+        "name": "UNIPÊ",
+        "shortName": "UNIPÊ",
+        "accentColor": "#0d9488"
+      },
+      "originalTitle": "UNIPÊ oferece 18 vagas para Residência Médica 2027; confira o edital",
+      "rewrittenTitle": "UNIPÊ oferece 18 vagas para Residência Médica 2027",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/unipe-edital-residencia-medica-2027/",
+      "officialUrl": "https://www.unipe.edu.br/detalhe-noticia/?r=residencia-medica-2027",
+      "scrapedAt": "2026-11-10T14:00:42+00:00",
+      "publishedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "timeline": [
+        {
+          "label": "Inscrições",
+          "date": "23/11 a 16/12/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova objetiva",
+          "date": "16/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito preliminar",
+          "date": "18/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Recursos ao gabarito",
+          "date": "19 e 20/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito definitivo",
+          "date": "21/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado preliminar",
+          "date": "28/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Recurso ao resultado preliminar",
+          "date": "29/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado final",
+          "date": "01/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": null,
+      "revisions": []
+    },
+    {
+      "id": "uern-edital-residencia-medica-2027",
+      "source": {
+        "name": "UERN",
+        "shortName": "UERN",
+        "accentColor": "#0d9488"
+      },
+      "originalTitle": "UERN divulga editais de residência médica 2027 com vagas de R1 e R3",
+      "rewrittenTitle": "UERN divulga editais de residência médica 2027 com vagas de R1 e R3",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/uern-edital-residencia-medica-2027/",
+      "officialUrl": "https://www.funcitern.org.br/selecaocoreme",
+      "scrapedAt": "2026-11-10T14:00:44+00:00",
+      "publishedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "timeline": [
+        {
+          "label": "Inscrições",
+          "date": "19 a 29/11/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova objetiva",
+          "date": "18/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito preliminar",
+          "date": "21/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito definitivo",
+          "date": "Até 30/12/2026",
+          "isRange": false
+        },
+        {
+          "label": "Resultado preliminar da prova objetiva",
+          "date": "6/1/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado final preliminar",
+          "date": "11/1/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": null,
+      "revisions": []
+    },
     {
       "id": "hospital-edmundo-vasconcelos-edital-residencia-medica-2027",
       "source": {
