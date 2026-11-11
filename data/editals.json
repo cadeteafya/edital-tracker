@@ -1,6 +1,42 @@
 {
-  "lastSyncedAt": "2026-11-11T22:30:41+00:00",
+  "lastSyncedAt": "2026-11-11T23:00:48+00:00",
   "editals": [
+    {
+      "id": "psu-al-2027-edital-resumido-para-residencia-medica-traz-datas-do-processo-seletivo",
+      "source": {
+        "name": "PSU-AL",
+        "shortName": "PSU-AL",
+        "accentColor": "#7c3aed"
+      },
+      "originalTitle": "PSU-AL 2027: edital resumido para Residência Médica traz datas do processo seletivo",
+      "rewrittenTitle": "PSU-AL 2027: edital resumido para Residência Médica traz datas do processo seletivo",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/psu-al-2027-edital-resumido-para-residencia-medica-traz-datas-do-processo-seletivo/",
+      "officialUrl": "",
+      "scrapedAt": "2026-11-11T23:00:48+00:00",
+      "publishedAt": "2026-11-11",
+      "updatedAt": "2026-11-11",
+      "timeline": [
+        {
+          "label": "Divulgação do edital completo",
+          "date": "26/11/2026",
+          "isRange": false
+        },
+        {
+          "label": "Período de Inscrições",
+          "date": "26/11/2026 a 06/01/2027",
+          "isRange": true
+        },
+        {
+          "label": "Aplicação Prova Objetiva",
+          "date": "24/01/2027, às 14h",
+          "isRange": false
+        }
+      ],
+      "warningNote": null,
+      "fee": "R$650",
+      "revisions": []
+    },
     {
       "id": "unipe-edital-residencia-medica-2027",
       "source": {
