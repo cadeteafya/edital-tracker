@@ -1,6 +1,62 @@
 {
-  "lastSyncedAt": "2026-11-13T12:00:48+00:00",
+  "lastSyncedAt": "2026-11-13T12:30:42+00:00",
   "editals": [
+    {
+      "id": "unimed-fortaleza-edital-residencia-medica-2027",
+      "source": {
+        "name": "Unimed Fortaleza",
+        "shortName": "Unimed Fortaleza",
+        "accentColor": "#ec4899"
+      },
+      "originalTitle": "Unimed Fortaleza abre seleção de Residência Médica 2027 com 7 vagas",
+      "rewrittenTitle": "Unimed Fortaleza abre seleção de Residência Médica 2027 com 7 vagas",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/unimed-fortaleza-edital-residencia-medica-2027/",
+      "officialUrl": "https://www.unimedfortaleza.com.br/unimed-fortaleza-abre-inscricoes-para-o-programa-de-residencia-medica-2027",
+      "scrapedAt": "2026-11-13T12:30:42+00:00",
+      "publishedAt": "2026-11-13",
+      "updatedAt": "2026-11-13",
+      "timeline": [
+        {
+          "label": "Inscrições",
+          "date": "09/11 a 14/12/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova objetiva",
+          "date": "09/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito da prova",
+          "date": "11/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Recursos da prova",
+          "date": "12/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado dos recursos",
+          "date": "15/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Análise curricular presencial",
+          "date": "18 e 19/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado final",
+          "date": "29/01/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 600,00",
+      "revisions": []
+    },
     {
       "id": "psu-al-2027-edital-resumido-para-residencia-medica-traz-datas-do-processo-seletivo",
       "source": {
