@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-11-16T20:30:56+00:00",
+  "lastSyncedAt": "2026-11-16T21:00:47+00:00",
   "editals": [
     {
       "id": "sms-maringa-edital-residencia-medica-2027",
@@ -55,6 +55,77 @@
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
       "fee": "R$ 330,00",
+      "revisions": []
+    },
+    {
+      "id": "unifip-patos-edital-residencia-medica-2027",
+      "source": {
+        "name": "UNIFIP",
+        "shortName": "UNIFIP",
+        "accentColor": "#0d9488"
+      },
+      "originalTitle": "UNIFIP e Prefeitura de Patos abrem inscrições para Residência Médica 2027; confira o edital",
+      "rewrittenTitle": "UNIFIP e Prefeitura de Patos abrem inscrições para Residência Médica 2027",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/unifip-patos-edital-residencia-medica-2027/",
+      "officialUrl": "https://unifip.com.br/",
+      "scrapedAt": "2026-11-16T21:00:45+00:00",
+      "publishedAt": "2026-11-16",
+      "updatedAt": "2026-11-16",
+      "timeline": [
+        {
+          "label": "Inscrições",
+          "date": "16/11 a 07/12/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova objetiva",
+          "date": "10/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito preliminar",
+          "date": "11/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Recursos ao gabarito",
+          "date": "12/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito definitivo e resultado da 1ª fase",
+          "date": "18/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Bancas de heteroidentificação e PcD",
+          "date": "19 e 20/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado definitivo da 1ª fase",
+          "date": "23/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Envio do Currículo",
+          "date": "23 a 25/01/2027",
+          "isRange": true
+        },
+        {
+          "label": "Resultado preliminar da análise curricular",
+          "date": "02/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado final",
+          "date": "05/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 400",
       "revisions": []
     },
     {
