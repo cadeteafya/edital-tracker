@@ -1,6 +1,62 @@
 {
-  "lastSyncedAt": "2026-11-16T17:01:09+00:00",
+  "lastSyncedAt": "2026-11-16T17:30:49+00:00",
   "editals": [
+    {
+      "id": "sms-maringa-edital-residencia-medica-2027",
+      "source": {
+        "name": "SMS Maringá",
+        "shortName": "SMS Maringá",
+        "accentColor": "#0ea5e9"
+      },
+      "originalTitle": "SMS Maringá 2027: edital para residência médica em MFC é divulgado",
+      "rewrittenTitle": "SMS Maringá 2027: edital para residência médica em MFC é divulgado",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/sms-maringa-edital-residencia-medica-2027/",
+      "officialUrl": "https://portal.institutolegalle.org.br/edital/ver/90",
+      "scrapedAt": "2026-11-16T17:30:48+00:00",
+      "publishedAt": "2026-11-16",
+      "updatedAt": "2026-11-16",
+      "timeline": [
+        {
+          "label": "Inscrições",
+          "date": "27/11 a 26/12/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova objetiva",
+          "date": "17/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito preliminar",
+          "date": "18/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Recursos contra o gabarito",
+          "date": "19 e 20/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado da prova objetiva",
+          "date": "27/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Heteroidentificação e avaliação biopsicossocial",
+          "date": "04 e 05/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado final e homologação",
+          "date": "18/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 330,00",
+      "revisions": []
+    },
     {
       "id": "unimed-fortaleza-edital-residencia-medica-2027",
       "source": {
