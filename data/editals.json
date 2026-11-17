@@ -1,6 +1,62 @@
 {
-  "lastSyncedAt": "2026-11-17T12:30:56+00:00",
+  "lastSyncedAt": "2026-11-17T13:00:48+00:00",
   "editals": [
+    {
+      "id": "santa-casa-de-sao-joaquim-da-barra-edital-residencia-medica-2027",
+      "source": {
+        "name": "Santa Casa",
+        "shortName": "Santa Casa",
+        "accentColor": "#ef4444"
+      },
+      "originalTitle": "Santa Casa de São Joaquim da Barra abre seleção para residência médica 2027",
+      "rewrittenTitle": "Santa Casa de São Joaquim da Barra abre seleção para residência médica 2027",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/santa-casa-de-sao-joaquim-da-barra-edital-residencia-medica-2027/",
+      "officialUrl": "https://institutopensato.org.br/residencia-medica/santa-casa-de-misericordia-de-sao-joaquim-da-barra-2027-edital-001",
+      "scrapedAt": "2026-11-17T13:00:46+00:00",
+      "publishedAt": "2026-11-17",
+      "updatedAt": "2026-11-17",
+      "timeline": [
+        {
+          "label": "Inscrições",
+          "date": "16/11 a 01/12/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova objetiva",
+          "date": "17/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito preliminar",
+          "date": "18/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Recursos contra o gabarito",
+          "date": "19 e 20/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Classificação preliminar",
+          "date": "29/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Recursos contra a classificação preliminar",
+          "date": "01 e 02/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Classificação final e convocação para matrícula",
+          "date": "06/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 750",
+      "revisions": []
+    },
     {
       "id": "sms-maringa-edital-residencia-medica-2027",
       "source": {
