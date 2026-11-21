@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-11-21T11:30:41+00:00",
+  "lastSyncedAt": "2026-11-21T12:00:42+00:00",
   "editals": [
     {
       "id": "hospital-olhos-parana-edital-residencia-medica-2027",
@@ -51,6 +51,45 @@
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
       "fee": "R$ 3",
       "revisions": [
+        {
+          "capturedAt": "2026-11-19",
+          "source": "retificação",
+          "url": "https://med.estrategia.com/portal/noticias/enare-2026-2027-retificacao-cronograma-escolha-vagas/",
+          "title": "HU Brasil adia escolha de vagas do ENARE 2026/2027; confira novas datas",
+          "timeline": [
+            {
+              "label": "1ª oportunidade de escolha",
+              "date": "11 e 12/01/2027",
+              "isRange": false
+            },
+            {
+              "label": "Resultado da 1ª oportunidade",
+              "date": "15/01/2027",
+              "isRange": false
+            },
+            {
+              "label": "2ª oportunidade de escolha",
+              "date": "18 e 19/01/2027",
+              "isRange": false
+            },
+            {
+              "label": "Resultado da 2ª oportunidade",
+              "date": "22/01/2027",
+              "isRange": false
+            },
+            {
+              "label": "3ª oportunidade de escolha",
+              "date": "25 e 26/01/2027",
+              "isRange": false
+            },
+            {
+              "label": "Resultado da 3ª oportunidade",
+              "date": "29/01/2027",
+              "isRange": false
+            }
+          ],
+          "warningNote": null
+        },
         {
           "capturedAt": "2026-11-19",
           "source": "retificação",
