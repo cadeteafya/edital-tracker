@@ -1,6 +1,92 @@
 {
-  "lastSyncedAt": "2026-11-24T12:00:43+00:00",
+  "lastSyncedAt": "2026-11-24T12:30:43+00:00",
   "editals": [
+    {
+      "id": "usp-bauru-edital-residencia-medica-2027",
+      "source": {
+        "name": "USP Bauru",
+        "shortName": "USP Bauru",
+        "accentColor": "#a855f7"
+      },
+      "originalTitle": "USP Bauru 2027: edital para Residência Médica é divulgado com mais de 70 vagas",
+      "rewrittenTitle": "USP Bauru 2027: edital para Residência Médica é divulgado com mais de 70 vagas",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/usp-bauru-edital-residencia-medica-2027/",
+      "officialUrl": "https://www.fuvest.br/residencia-medica-bauru/",
+      "scrapedAt": "2026-11-24T12:30:42+00:00",
+      "publishedAt": "2026-11-24",
+      "updatedAt": "2026-11-24",
+      "timeline": [
+        {
+          "label": "Inscrições e envio do currículo",
+          "date": "09/12/2026 a 15/01/2027",
+          "isRange": true
+        },
+        {
+          "label": "Locais de prova e lista de inscritos",
+          "date": "19/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Prova objetiva",
+          "date": "24/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Prova e gabarito preliminar",
+          "date": "25/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Recursos contra gabarito",
+          "date": "25 a 27/01/2027",
+          "isRange": true
+        },
+        {
+          "label": "Gabarito definitivo e notas",
+          "date": "29/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Recursos para recontagem",
+          "date": "29 a 30/01/2027",
+          "isRange": true
+        },
+        {
+          "label": "Notas finais da objetiva e convocação para 2ª fase e heteroidentificação",
+          "date": "01/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Avaliação curricular presencial",
+          "date": "04 e 05/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultados provisórios da avaliação curricular e heteroidentificação",
+          "date": "11/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Recursos",
+          "date": "11 a 12/02/2027",
+          "isRange": true
+        },
+        {
+          "label": "Análise dos recursos",
+          "date": "16/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado final e convocação para matrícula",
+          "date": "18/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 330,00",
+      "revisions": []
+    },
     {
       "id": "hospital-olhos-parana-edital-residencia-medica-2027",
       "source": {
