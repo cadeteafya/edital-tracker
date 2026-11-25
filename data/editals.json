@@ -1,6 +1,72 @@
 {
-  "lastSyncedAt": "2026-11-25T15:00:53+00:00",
+  "lastSyncedAt": "2026-11-25T15:30:44+00:00",
   "editals": [
+    {
+      "id": "sms-palmas-edital-residencia-medica-2027",
+      "source": {
+        "name": "Com",
+        "shortName": "Com",
+        "accentColor": "#7c3aed"
+      },
+      "originalTitle": "Com 20 vagas em MFC, SMS Palmas divulga edital para Residência Médica 2027",
+      "rewrittenTitle": "Com 20 vagas em MFC, SMS Palmas divulga edital para Residência Médica 2027",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/sms-palmas-edital-residencia-medica-2027/",
+      "officialUrl": "https://esp.palmas.to.gov.br/processos/seletivo-PRMFC-2026-2027",
+      "scrapedAt": "2026-11-25T15:30:42+00:00",
+      "publishedAt": "2026-11-25",
+      "updatedAt": "2026-11-25",
+      "timeline": [
+        {
+          "label": "Inscrições",
+          "date": "08/12/2026 a 04/01/2027",
+          "isRange": true
+        },
+        {
+          "label": "Resultado definitivo da isenção",
+          "date": "11/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Prova objetiva e gabarito preliminar",
+          "date": "31/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Recursos contra gabarito",
+          "date": "02 e 03/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito definitivo e resultado preliminar da prova",
+          "date": "04/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Recursos contra resultado preliminar",
+          "date": "05 e 06/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultados definitivos das reservas e da seleção",
+          "date": "19/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Recursos contra resultado definitivo",
+          "date": "20 e 21/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Classificação final após recursos",
+          "date": "22/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 350,00",
+      "revisions": []
+    },
     {
       "id": "usp-bauru-edital-residencia-medica-2027",
       "source": {
