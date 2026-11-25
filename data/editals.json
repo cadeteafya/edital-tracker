@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-11-24T23:30:47+00:00",
+  "lastSyncedAt": "2026-11-25T03:39:33+00:00",
   "editals": [
     {
       "id": "usp-bauru-edital-residencia-medica-2027",
@@ -85,6 +85,26 @@
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
       "fee": "R$ 330,00",
+      "revisions": []
+    },
+    {
+      "id": "enare-2026-2027-nova-adesao-instituicoes",
+      "source": {
+        "name": "ENARE",
+        "shortName": "ENARE",
+        "accentColor": "#0d9488"
+      },
+      "originalTitle": "Enare publica edital para adesão de novas instituições na edição 2026/2027",
+      "rewrittenTitle": "Enare publica edital para adesão de novas instituições na edição 2026/2027",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/enare-2026-2027-nova-adesao-instituicoes/",
+      "officialUrl": "",
+      "scrapedAt": "2026-11-25T03:39:32+00:00",
+      "publishedAt": "2026-11-24",
+      "updatedAt": "2026-11-24",
+      "timeline": [],
+      "warningNote": null,
+      "fee": "R$ 15",
       "revisions": []
     },
     {
