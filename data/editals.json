@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-11-26T14:30:40+00:00",
+  "lastSyncedAt": "2026-11-26T15:00:46+00:00",
   "editals": [
     {
       "id": "santa-casa-londrina-edital-residencia-medica-2027",
@@ -70,6 +70,72 @@
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
       "fee": "R$ 830,00",
+      "revisions": []
+    },
+    {
+      "id": "uespi-edital-residencia-medica-2027",
+      "source": {
+        "name": "UESPI",
+        "shortName": "UESPI",
+        "accentColor": "#3b82f6"
+      },
+      "originalTitle": "UESPI publica edital com 35 vagas para Residência Médica 2027",
+      "rewrittenTitle": "UESPI publica edital com 35 vagas para Residência Médica 2027",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/uespi-edital-residencia-medica-2027/",
+      "officialUrl": "https://nucepe.uespi.br/2026_sel_residencias_uespi_edital_hgv_hilp-2/",
+      "scrapedAt": "2026-11-26T15:00:45+00:00",
+      "publishedAt": "2026-11-26",
+      "updatedAt": "2026-11-26",
+      "timeline": [
+        {
+          "label": "Inscrições e envio do currículo",
+          "date": "07/12/2026 a 04/01/2027",
+          "isRange": true
+        },
+        {
+          "label": "Prova objetiva e gabarito preliminar",
+          "date": "17/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Recursos contra o gabarito",
+          "date": "18 e 19/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito definitivo",
+          "date": "22/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado da objetiva e convocação para 2ª etapa",
+          "date": "25/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado preliminar do currículo",
+          "date": "29/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Recursos contra análise curricular",
+          "date": "01 e 02/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado definitivo do currículo",
+          "date": "05/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado final",
+          "date": "19/02/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 300,00",
       "revisions": []
     },
     {
