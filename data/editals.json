@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-11-26T23:00:48+00:00",
+  "lastSyncedAt": "2026-11-26T23:30:41+00:00",
   "editals": [
     {
       "id": "santa-casa-londrina-edital-residencia-medica-2027",
@@ -273,6 +273,52 @@
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
       "fee": null,
+      "revisions": []
+    },
+    {
+      "id": "psu-al-edital-residencia-medica-2027",
+      "source": {
+        "name": "PSU-AL",
+        "shortName": "PSU-AL",
+        "accentColor": "#7c3aed"
+      },
+      "originalTitle": "PSU-AL divulga edital de Residência Médica 2027; inscrições estão abertas",
+      "rewrittenTitle": "PSU-AL divulga edital de Residência Médica 2027; inscrições estão abertas",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/psu-al-edital-residencia-medica-2027/",
+      "officialUrl": "https://strixeducacao.com.br/evento/alaem-processo-seletivo-unificado-de-residencia-medica-alagoas-2027/",
+      "scrapedAt": "2026-11-26T23:30:40+00:00",
+      "publishedAt": "2026-11-26",
+      "updatedAt": "2026-11-26",
+      "timeline": [
+        {
+          "label": "Inscrições",
+          "date": "26/11/2026 a 06/01/2027",
+          "isRange": true
+        },
+        {
+          "label": "Prova objetiva",
+          "date": "24/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Matrícula de residentes com reserva militar anterior",
+          "date": "15/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Primeira confirmação de interesse",
+          "date": "24 e 25/02/2027",
+          "isRange": false
+        },
+        {
+          "label": "Início das atividades",
+          "date": "01/03/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": "R$ 650,00",
       "revisions": []
     },
     {
