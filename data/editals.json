@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-11-26T17:00:44+00:00",
+  "lastSyncedAt": "2026-11-26T17:30:50+00:00",
   "editals": [
     {
       "id": "santa-casa-londrina-edital-residencia-medica-2027",
@@ -212,6 +212,67 @@
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
       "fee": "R$ 450,00",
+      "revisions": []
+    },
+    {
+      "id": "ufsj-edital-residencia-medica-2027",
+      "source": {
+        "name": "UFSJ",
+        "shortName": "UFSJ",
+        "accentColor": "#7c3aed"
+      },
+      "originalTitle": "UFSJ 2027: edital de residência médica oferta vagas em MFC",
+      "rewrittenTitle": "UFSJ 2027: edital de residência médica oferta vagas em MFC",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/ufsj-edital-residencia-medica-2027/",
+      "officialUrl": "https://ufsj.edu.br/coreme/processo_seletivo_para_medicina_de_familia_e_comunidade.php",
+      "scrapedAt": "2026-11-26T17:30:46+00:00",
+      "publishedAt": "2026-11-26",
+      "updatedAt": "2026-11-26",
+      "timeline": [
+        {
+          "label": "Inscrições",
+          "date": "09 a 23/12/2026",
+          "isRange": true
+        },
+        {
+          "label": "Prova objetiva",
+          "date": "10/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito preliminar",
+          "date": "10/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Recursos do gabarito",
+          "date": "11/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Gabarito definitivo e resultado preliminar",
+          "date": "12/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Recursos das notas",
+          "date": "13/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Notas definitivas da prova e currículo",
+          "date": "14/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Resultado final e primeira chamada",
+          "date": "22/01/2027",
+          "isRange": false
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": null,
       "revisions": []
     },
     {
