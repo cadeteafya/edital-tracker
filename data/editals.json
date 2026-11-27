@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-11-27T19:30:35+00:00",
+  "lastSyncedAt": "2026-11-27T20:00:55+00:00",
   "editals": [
     {
       "id": "hospital-escola-alvaro-alvim-edital-residencia-medica-2027",
@@ -49,6 +49,46 @@
         }
       ],
       "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": null,
+      "revisions": []
+    },
+    {
+      "id": "uel-2027-divulgado-o-resultado-da-prova-de-residencia-medica",
+      "source": {
+        "name": "UEL",
+        "shortName": "UEL",
+        "accentColor": "#7c3aed"
+      },
+      "originalTitle": "UEL 2027: divulgado o resultado da prova de residência médica",
+      "rewrittenTitle": "UEL 2027: divulgado o resultado da prova de residência médica",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/uel-2027-divulgado-o-resultado-da-prova-de-residencia-medica/",
+      "officialUrl": "https://www.cops.uel.br/v2/Selecao/DetalharSelecao/Selecao/409",
+      "scrapedAt": "2026-11-27T20:00:54+00:00",
+      "publishedAt": "2026-11-27",
+      "updatedAt": "2026-11-27",
+      "timeline": [],
+      "warningNote": null,
+      "fee": null,
+      "revisions": []
+    },
+    {
+      "id": "concorrencia-hrpp-residencia-medica-2027",
+      "source": {
+        "name": "HRPP",
+        "shortName": "HRPP",
+        "accentColor": "#10b981"
+      },
+      "originalTitle": "HRPP convoca candidatos para prova de Residência Médica 2027; veja a concorrência da edição",
+      "rewrittenTitle": "HRPP convoca candidatos para prova de Residência Médica 2027; veja a concorrência da edição",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/concorrencia-hrpp-residencia-medica-2027/",
+      "officialUrl": "https://documento.vunesp.com.br/documento/stream/ODA5NDYzMw%3d%3d",
+      "scrapedAt": "2026-11-27T20:00:54+00:00",
+      "publishedAt": "2026-11-27",
+      "updatedAt": "2026-11-27",
+      "timeline": [],
+      "warningNote": null,
       "fee": null,
       "revisions": []
     },
