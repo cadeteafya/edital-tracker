@@ -1,6 +1,57 @@
 {
-  "lastSyncedAt": "2026-11-27T16:00:40+00:00",
+  "lastSyncedAt": "2026-11-27T16:30:47+00:00",
   "editals": [
+    {
+      "id": "hospital-escola-alvaro-alvim-edital-residencia-medica-2027",
+      "source": {
+        "name": "HEAA",
+        "shortName": "HEAA",
+        "accentColor": "#7c3aed"
+      },
+      "originalTitle": "HEAA oferta 20 vagas para Residência Médica 2027; confira os editais",
+      "rewrittenTitle": "HEAA oferta 20 vagas para Residência Médica 2027",
+      "examYear": 2027,
+      "originalUrl": "https://med.estrategia.com/portal/noticias/hospital-escola-alvaro-alvim-edital-residencia-medica-2027/",
+      "officialUrl": "https://www.heaa.com.br/residencia-medica/processo-seletivo/",
+      "scrapedAt": "2026-11-27T16:30:47+00:00",
+      "publishedAt": "2026-11-27",
+      "updatedAt": "2026-11-27",
+      "timeline": [
+        {
+          "label": "Inscrições",
+          "date": "05/12/2026 a 04/01/2027",
+          "isRange": true
+        },
+        {
+          "label": "Resultado da 1ª fase",
+          "date": "até 14/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Segunda fase",
+          "date": "19/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Segunda fase extra",
+          "date": "26/01/2027, se necessária",
+          "isRange": false
+        },
+        {
+          "label": "Resultado final",
+          "date": "até 28/01/2027",
+          "isRange": false
+        },
+        {
+          "label": "Matrículas",
+          "date": "01 a 05/02/2027",
+          "isRange": true
+        }
+      ],
+      "warningNote": "Atenção: É de inteira responsabilidade do candidato acompanhar atentamente a publicação de todos os atos, editais, comunicados e retificações referentes a este processo seletivo diretamente na página oficial da seleção .",
+      "fee": null,
+      "revisions": []
+    },
     {
       "id": "santa-casa-londrina-edital-residencia-medica-2027",
       "source": {
